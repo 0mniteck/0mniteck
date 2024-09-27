@@ -5,7 +5,7 @@
 ### 🔭 As well as compiling Signal Desktop for Arm64 Debian based environments
 
 💬 Ask me about anything
-📫 You can reach me at shant@omniteck.com
+[📫 You can reach me at shant@omniteck.com](shant@omniteck.com)
 
 <!--
 **0mniteck/0mniteck** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
