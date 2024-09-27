@@ -1,5 +1,4 @@
 ## Hi there 👋
-## Im a software engineer
 
 ### 🔭 I’m currently working on compiling the U-boot bootloader on Arm64 in order to integrate TPM hardware support into open source SBC platforms
 
