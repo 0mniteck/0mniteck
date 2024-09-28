@@ -1,5 +1,12 @@
 ## Hi there 👋
 
+### Im a ...
+ - Developer
+ - Organizer
+ - Inventor
+ - Technologist
+ - Problem Solver
+
 ### 🔭 I’m currently working on compiling the [U-Boot](https://github.com/0mniteck/u-boot) bootloader on Arm64 in order to integrate TPM hardware support into open source SBC platforms
 
 ### 🔭 As well as compiling [Signal Desktop](https://github.com/0mniteck/Signal-Desktop-Mobian) for Arm64 Debian based environments
