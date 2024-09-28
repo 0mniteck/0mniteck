@@ -1,11 +1,11 @@
 ## Hi there 👋
 
-### Im a ...
- - Developer
- - Organizer
- - Inventor
- - Technologist
- - Problem Solver
+### 🌱 Im a ...
+ - Developer✨
+ - Organizer✨
+ - Inventor✨
+ - Technologist✨
+ - Problem Solver✨
 
 ### 🔭 I’m currently working on compiling the [U-Boot](https://github.com/0mniteck/u-boot) bootloader on Arm64 in order to integrate TPM hardware support into open source SBC platforms
 
@@ -21,7 +21,6 @@
 Here are some ideas to get you started:
 
 - 
-- 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - : ...
