@@ -11,6 +11,9 @@
 
 ### 🔭 As well as compiling [Signal Desktop](https://github.com/0mniteck/Signal-Desktop-Mobian) for Arm64 Debian based environments
 
+### 🔭 I’m currently taking the Google Cloud Cybersecurity Certificate {1/5}
+![image](https://github.com/user-attachments/assets/4c7542f0-1ed6-4fdf-b7cd-1fac8971cadf)
+
 
 💬 Ask me about anything
 [📫 You can reach me at shant@omniteck.com](shant@omniteck.com)
