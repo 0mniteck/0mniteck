@@ -3,7 +3,7 @@
 ### 🌱 Im a ...
  - Developer✨
  - Organizer✨
- - Inventor✨
+ - Security Researcher✨
  - Technologist✨
  - Problem Solver✨
 
