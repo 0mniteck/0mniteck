@@ -18,6 +18,9 @@
 💬 Ask me about anything
 [📫 You can reach me at shant@omniteck.com](shant@omniteck.com)
 
+
+[I Submitted a Chromium Bug Report](https://issues.chromium.org/issues/328765306)
+
 <!--
 **0mniteck/0mniteck** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
