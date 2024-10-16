@@ -15,12 +15,17 @@
 ![image](https://github.com/user-attachments/assets/dbbbf585-af99-4556-8184-32805c8bde2b)
 
 
+## ⚡ Achievements
+[I submitted a Chromium bug report](https://issues.chromium.org/issues/328765306)
+
+I have experience developing custom XSS to test web application security.
+
+### ㅤ
+## ㅤ
+
 💬 Ask me about anything
-[📫 You can reach me at shant@omniteck.com](shant@omniteck.com)
 
-
-[I Submitted a Chromium Bug Report](https://issues.chromium.org/issues/328765306)
-
+[📫](shant@omniteck.com) You can reach me at [shant@omniteck.com](shant@omniteck.com)
 <!--
 **0mniteck/0mniteck** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
