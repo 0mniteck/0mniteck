@@ -20,7 +20,8 @@ I have experience developing custom XSS to test web application security.
 
 I completed the [Google Cloud Cybersecurity Certificate](https://www.credly.com/badges/2686c0a9-9d5a-4a6b-ac08-4edf2d85db01/public_url)
 
-![Screenshot From 2024-10-15 23-39-28](https://github.com/user-attachments/assets/8b67126b-b73f-4b8c-a4a8-35a0beef1c6e)
+![google-cloud-cybersecurity-certificate](https://github.com/user-attachments/assets/ef99a59f-7a40-4057-8f5b-b27c4b296b71)
+
 
 ### ㅤ
 ## ㅤ
