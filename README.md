@@ -16,7 +16,7 @@
 
 I completed the [Google Cloud Cybersecurity Certificate](https://www.cloudskillsboost.google/public_profiles/a51ad318-156e-427d-8aeb-1ba496705f68)
 
-![image](https://github.com/user-attachments/assets/3a7cf49a-02f6-4f13-aa92-21d7dfbb1493)
+![Screenshot From 2024-10-15 23-39-28](https://github.com/user-attachments/assets/8b67126b-b73f-4b8c-a4a8-35a0beef1c6e)
 
 [I submitted a Chromium bug report](https://issues.chromium.org/issues/328765306)
 
