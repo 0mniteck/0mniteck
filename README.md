@@ -15,6 +15,7 @@
 ## ⚡ Achievements
 
 I completed the [Google Cloud Cybersecurity Certificate](https://www.cloudskillsboost.google/public_profiles/a51ad318-156e-427d-8aeb-1ba496705f68)
+
 ![image](https://github.com/user-attachments/assets/3a7cf49a-02f6-4f13-aa92-21d7dfbb1493)
 
 [I submitted a Chromium bug report](https://issues.chromium.org/issues/328765306)
