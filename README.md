@@ -18,7 +18,7 @@ I have experience developing custom XSS to test web application security.
 
 [I submitted a Chromium bug report](https://issues.chromium.org/issues/328765306)
 
-I completed the [Google Cloud Cybersecurity Certificate](https://www.cloudskillsboost.google/public_profiles/a51ad318-156e-427d-8aeb-1ba496705f68)
+I completed the [Google Cloud Cybersecurity Certificate](https://www.credly.com/badges/2686c0a9-9d5a-4a6b-ac08-4edf2d85db01/public_url)
 
 ![Screenshot From 2024-10-15 23-39-28](https://github.com/user-attachments/assets/8b67126b-b73f-4b8c-a4a8-35a0beef1c6e)
 
