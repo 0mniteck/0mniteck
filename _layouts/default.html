@@ -12,8 +12,13 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
     <style>
-      @media (width >= 915px) {
+      @media (width > 915px) {
         #cert{
+          display: block !important;
+        }
+      }
+      @media (width < 915px) {
+        #certt{
           display: block !important;
         }
       }
@@ -31,6 +36,9 @@
         <a href="https://omniteck.com" class="btn">OMNITECK.COM</a><a target=_blank href="https://github.com/0mniteck/0mniteck/blob/main/2024_Resume.pdf" class="btn">RÉSUMÉ</a></h2>
         <a href="https://u-boot.omniteck.com/" class="btn">U-Boot</a>
         <a href="https://signal-desktop-mobian.omniteck.com/" class="btn">Signal-Desktop-Builder</a>
+      <div id="certt" style="display: none;">
+            <a href="https://www.credly.com/badges/2686c0a9-9d5a-4a6b-ac08-4edf2d85db01/embedded" target="_blank" class="btn"><img src="https://github.com/user-attachments/assets/ef99a59f-7a40-4057-8f5b-b27c4b296b71" height="150px" width="150px" /></a>
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
