@@ -16,6 +16,8 @@
 
 I have experience developing custom XSS to test web application security.
 
+I can also create prompt injections & hallucinations to test AI safety.
+
 [I submitted a Chromium bug report](https://issues.chromium.org/issues/328765306)
 
 I completed the [Google Cloud Cybersecurity Certificate](https://www.credly.com/badges/2686c0a9-9d5a-4a6b-ac08-4edf2d85db01/public_url)
