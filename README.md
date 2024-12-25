@@ -16,7 +16,7 @@
 
 I have experience developing custom XSS to test web application security.
 
-I can also create prompt injections & cause hallucinations to test AI safety.
+I can also create prompt injections & cause hallucinations to test [AI safety.](https://STOPAI.INFO)
 
 [I submitted a Chromium bug report](https://issues.chromium.org/issues/328765306)
 
