@@ -20,7 +20,7 @@ I can also create prompt injections & cause hallucinations to test [AI safety.](
 
 [I submitted a Chromium bug report](https://issues.chromium.org/issues/328765306)
 
-I submitted a responsible disclosure of a vulnerability on Dec 3, 2024 to [Securitas.com](https://www.securitas.com/en/about-us/responsible-disclosure/)
+I submitted a responsible disclosure of a vulnerability on Dec 3, 2024 to [Securitas.com](https://www.securitas.com/en/about-us/responsible-disclosure/) and to [Avigilon](https://avigilon.com)
 
 I completed the [Google Cloud Cybersecurity Certificate](https://www.credly.com/badges/2686c0a9-9d5a-4a6b-ac08-4edf2d85db01/public_url)
 
