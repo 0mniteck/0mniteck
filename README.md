@@ -1,4 +1,4 @@
-## Hi there 👋
+# Hi there 👋
 
 ### 🌱 Im a ...
  - Developer✨
@@ -32,3 +32,8 @@ I completed the [Google Cloud Cybersecurity Certificate](https://www.credly.com/
 💬 Ask me about anything
 
 [📫](shant@omniteck.com) You can reach me at [shant@omniteck.com](shant@omniteck.com)
+
+### ㅤ
+## ㅤ
+
+# If you also see the dangers of a jobless economy and in the rise of a techno-authoritarian state help at https://stopai.info
