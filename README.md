@@ -7,7 +7,7 @@
  - Technologist✨
  - Problem Solver✨
 
-### 🔭 I’m currently working on compiling the [U-Boot](https://github.com/0mniteck/u-boot) bootloader on Arm64 in order to integrate TPM hardware support into open source SBC platforms
+### 🔭 I’m currently working on compiling the [U-Boot](https://github.com/0mniteck/u-boot) bootloader on Arm64 in order to integrate TPM support into open source SBC platforms and secure their boot chain.
 
 ### 🔭 As well as compiling [Signal Desktop](https://github.com/0mniteck/Signal-Desktop-Mobian) for Arm64 Debian based environments
 
@@ -32,3 +32,8 @@ I completed the [Google Cloud Cybersecurity Certificate](https://www.credly.com/
 💬 Ask me about anything
 
 [📫](shant@omniteck.com) You can reach me at [shant@omniteck.com](shant@omniteck.com)
+
+### ㅤ
+## ㅤ
+
+# If you also see the dangers of a jobless economy and in the rise of a techno-authoritarian state help at https://stopai.info
