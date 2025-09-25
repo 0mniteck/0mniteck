@@ -14,7 +14,7 @@
 
 ## ⚡ Achievements
 
-I have experience developing custom XSS to test web application security.
+I have experience developing custom XSS to test web application security and audit DLP enforcement.
 
 I can also create prompt injections & cause hallucinations to test [AI safety.](https://STOPAI.INFO)
 
