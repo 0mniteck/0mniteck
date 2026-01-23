@@ -21,7 +21,7 @@
  - Technologist✨
  - Problem Solver✨
 
-### 🔭 I’m currently working on compiling the [U-Boot](https://github.com/0mniteck/u-boot) bootloader on Arm64 in order to integrate TPM support into open source SBC platforms and [secure](https://tee.fail/) their boot chain.
+### 🔭 I’m currently working on compiling the [U-Boot](https://github.com/0mniteck/u-boot) bootloader on Arm64 in order to integrate vTPM support into open source SBC platforms and [secure](https://tee.fail/) their boot chain.
 
 ### 🔭 As well as compiling [Signal Desktop](https://github.com/0mniteck/Signal-Desktop-Mobian) for Arm64 Debian based environments
 
