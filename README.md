@@ -21,16 +21,15 @@
  - Technologist✨
  - Problem Solver✨
 
-### 🔭 Securing the software supply chain.
+### 🔭 Securing the software supply chain - Full Chain/("Full Scope") SBOMs and Attestations
 
-### 🔭 I’m currently working on compiling the [U-Boot](https://github.com/0mniteck/u-boot) bootloader on Arm64 in order to integrate vTPM support into open source SBC platforms and [secure](https://tee.fail/) their boot chain.
+### 🔭 I’m currently working on compiling the [U-Boot](https://github.com/0mniteck/U-Boot) bootloader on Arm64 in order to integrate a reference vTPM as an OP-TEE TA, to enable feature support in Trusted-Firmware-A chipsets, on fully open sourced SBC platforms to [secure](https://tee.fail/) the boot chain.
 
-### 🔭 As well as compiling [Signal Desktop](https://github.com/0mniteck/Signal-Desktop-Mobian) for Arm64 Debian based environments.
-
+### 🔭 As well as compiling [Signal Desktop](https://github.com/0mniteck/Signal-Desktop-Reproducible) for Arm64 Debian based environments (RPI 4, Mobian, etc.)
 
 ## ⚡ Achievements
 
-I have experience developing custom XSS to test web application security and audit DLP enforcement.
+I have experience developing crafted XSS and CORS requests to test web application security and audit DLP enforcement.
 
 I can also create prompt injections & cause hallucinations to test [AI safety.](https://STOPAI.INFO)
 
@@ -42,14 +41,8 @@ I completed the [Google Cloud Cybersecurity Certificate](https://www.credly.com/
 
 ![google-cloud-cybersecurity-certificate-small](https://github.com/user-attachments/assets/3db01ae6-3fac-4948-a5e4-c5626050ea75)
 
-### ㅤ
-## ㅤ
-
 💬 Ask me about anything
 
 [📫](shant@omniteck.com) You can reach me at [shant@omniteck.com](shant@omniteck.com)
 
-### ㅤ
-## ㅤ
-
-# If you also see the dangers of a jobless economy and in the rise of a techno-authoritarian state help at https://stopai.info
+# If you also see the dangers of a jobless economy and in the rise of a techno-authoritarian state help at [STOPAI.INFO](https://stopai.info)
