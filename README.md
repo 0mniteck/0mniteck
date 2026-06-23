@@ -21,20 +21,19 @@
                                              | - Problem Solver✨       |
                                              ----------------------------
 ```
-
 <div align="center">
 
-# <img src="https://raw.githubusercontent.com/corning-croak-cable/yubiOS/main/assets/logo.png" alt="yubiOS logo" width="50" style="border-radius:16px;"/> <sup>yubiOS</sup>
-### :mechanical_arm: 🚧 Work In Progress 🚧 Work In Progress 🚧 Work In Progress 🚧
+<h1><img src="https://raw.githubusercontent.com/corning-croak-cable/yubiOS/main/assets/logo.png" alt="yubiOS logo" width="50" style="border-radius:16px;"/> <sup><sup>yubiOS</sup></h1>
 
-**FIDO2-first immutable OS — YubiKey is the root of trust**
+<h3>**FIDO2-first immutable OS — YubiKey is the root of trust**</h3>
+<h3> 🦾 🚧 Work In Progress 🚧 Work In Progress 🚧 Work In Progress 🚧</h3>
 
 [![License: LGPL-2.1](https://img.shields.io/badge/license-LGPL--2.1-magenta?style=flat-square)](LICENSE)
 [![Status: Groundwork](https://img.shields.io/badge/status-groundwork-blueviolet?style=flat-square)](TODO.md)
 [![YubiKey 5](https://img.shields.io/badge/YubiKey-5%20series-ff1493?style=flat-square)](https://www.yubico.com)
 [![FIDO2](https://img.shields.io/badge/FIDO2-hidraw-purple?style=flat-square)](https://fidoalliance.org)
 
-*No TPM. No OEM. No trust anchors you don't control.*
+<p>*No TPM. No OEM. No trust anchors you don't control.*</p>
 
 </div>
 
