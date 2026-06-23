@@ -12,20 +12,20 @@
  *     ░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓████████▓▒░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
  *
  */
-                                              ----------------------------
-                                              | ### 🌱 Im a ...          |
-                                              | - Developer✨            |
-                                              | - Organizer✨            |
-                                              | - Security Researcher✨  |
-                                              | - Technologist✨         |
-                                              | - Problem Solver✨       |
-                                              ----------------------------
+                                             ----------------------------
+                                             | ### 🌱 Im a ...          |
+                                             | - Developer✨            |
+                                             | - Organizer✨            |
+                                             | - Security Researcher✨  |
+                                             | - Technologist✨         |
+                                             | - Problem Solver✨       |
+                                             ----------------------------
 ```
 
 <div align="center">
 
 # <img src="https://raw.githubusercontent.com/corning-croak-cable/yubiOS/main/assets/logo.png" alt="yubiOS logo" width="50" style="border-radius:16px;"/> <sup>yubiOS</sup>
-### :mechanical_arm: :construction: Work In Progress :construction: Work In Progress :construction: Work In Progress :construction: Work In Progress :construction:
+### :mechanical_arm: :construction: Work In Progress :construction: Work In Progress :construction: Work In Progress :construction:
 
 **FIDO2-first immutable OS — YubiKey is the root of trust**
 
