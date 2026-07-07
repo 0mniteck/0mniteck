@@ -1,0 +1,1000 @@
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: ae00000.display-subsystem: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: aec5a00.phy: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-a100-pinctrl: Device is queued (SEQNUM=3491, ACTION=add, UUID=4d21a0c4-2a0f-424a-b9e3-720dde818eef)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: af00000.clock-controller: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-a100-r-ccu: Device is queued (SEQNUM=3492, ACTION=add, UUID=c3ae6a30-8f0f-4ef5-9f01-7405ed749beb)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: b220000.interrupt-controller: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-a100-r-pinctrl: Device is queued (SEQNUM=3493, ACTION=add, UUID=94caaf82-f0a6-42ec-8ccb-bb1c73130083)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: bc0000.geniqup: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-a64-ccu: Device is queued (SEQNUM=3494, ACTION=add, UUID=21db1c7d-6d5a-45aa-9d99-5ace861a46c7)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: c271000.thermal-sensor: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: c272000.thermal-sensor: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-a64-pinctrl: Device is queued (SEQNUM=3495, ACTION=add, UUID=d386222a-8ca9-4592-9378-09a17ddeaf3c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: c273000.thermal-sensor: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-a64-r-pinctrl: Device is queued (SEQNUM=3496, ACTION=add, UUID=f0a1f4bf-fb17-4d2e-823f-d488d61374da)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: c274000.thermal-sensor: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-de2-bus: Device is queued (SEQNUM=3497, ACTION=add, UUID=0df2ae1c-bdfa-4635-8c6f-029d792605b0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: c300000.power-management: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: c3f0000.sram: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-h5-pinctrl: Device is queued (SEQNUM=3498, ACTION=add, UUID=2f7b0902-9a04-44af-bf2a-baad630f7564)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: c400000.arbiter: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-h6-ccu: Device is queued (SEQNUM=3499, ACTION=add, UUID=67f04f1e-3f09-490b-a14a-b9ee86811bf9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: f100000.pinctrl: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-h6-pinctrl: Device is queued (SEQNUM=3500, ACTION=add, UUID=b3606d2d-0804-47d9-b018-24de6db0e9fa)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: fd3000.phy: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-h6-r-ccu: Device is queued (SEQNUM=3501, ACTION=add, UUID=0b7d7f4b-a0f3-401a-afb2-f5d6b969745c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: fd5000.phy: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: fd9000.phy: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-h6-r-pinctrl: Device is queued (SEQNUM=3502, ACTION=add, UUID=74654d10-befd-4c15-8a82-0df96b9f6206)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: fda000.phy: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-h616-ccu: Device is queued (SEQNUM=3503, ACTION=add, UUID=bfaaf7f4-0b90-4c18-ba29-f400df6145a1)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: sound: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: timer: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-h616-pinctrl: Device is queued (SEQNUM=3504, ACTION=add, UUID=8db3068b-5bf4-4bad-89ee-992aa269fe57)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: wcn7850-pmu: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun50i-h616-r-pinctrl: Device is queued (SEQNUM=3505, ACTION=add, UUID=77376752-0444-4c11-9cb0-f45b74fd873a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: software: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun55i-a523-ccu: Device is queued (SEQNUM=3506, ACTION=add, UUID=aae75c15-a6ba-4a4b-9580-fb34f858c2dc)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: broadcast: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clockevent0: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun55i-a523-pinctrl: Device is queued (SEQNUM=3507, ACTION=add, UUID=602e621a-6a5f-4360-a50a-b9b17de43e69)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clockevent1: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun55i-a523-r-ccu: Device is queued (SEQNUM=3508, ACTION=add, UUID=2a4a8206-8e52-4b15-8bd5-255cff061751)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clockevent10: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun55i-a523-r-pinctrl: Device is queued (SEQNUM=3509, ACTION=add, UUID=33e9fd13-ad6d-4637-9274-7e79b8eaf03b)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clockevent11: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clockevent2: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun5i-pinctrl: Device is queued (SEQNUM=3510, ACTION=add, UUID=ab157566-3abc-4e06-a7ed-72d52bd8ec38)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clockevent3: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun6i-a31-pinctrl: Device is queued (SEQNUM=3511, ACTION=add, UUID=234e6acb-1acc-46c3-9e07-ce9b5fd342c7)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clockevent4: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clockevent5: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun6i-a31-r-pinctrl: Device is queued (SEQNUM=3512, ACTION=add, UUID=ef70f66c-efeb-4683-900d-9e9cbd53d2d8)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clockevent6: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun6i-msgbox: Device is queued (SEQNUM=3513, ACTION=add, UUID=42053067-1c82-4d7d-a8b1-8cad38a00b9a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clockevent7: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun6i-prcm: Device is queued (SEQNUM=3514, ACTION=add, UUID=2920651c-1f50-48b8-816e-4dcd142f1fe1)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clockevent8: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clockevent9: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun6i-rtc: Device is queued (SEQNUM=3515, ACTION=add, UUID=5db0126f-d35e-408e-a4e7-6c71d77173a9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clocksource0: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun8i-a23-pinctrl: Device is queued (SEQNUM=3516, ACTION=add, UUID=8c36f8e0-42a6-4bd1-95c2-28b2d2ce8ada)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpu0: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun8i-a23-r-pinctrl: Device is queued (SEQNUM=3517, ACTION=add, UUID=e03130ac-8a8a-427e-bbdc-077eb5aab03e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpu1: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun8i-a33-pinctrl: Device is queued (SEQNUM=3518, ACTION=add, UUID=50738846-70b8-4526-81c7-3e8fc8bdf110)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpu10: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun8i-a83t-pinctrl: Device is queued (SEQNUM=3519, ACTION=add, UUID=951c0e4c-85d9-410d-8f47-492d3184b8ac)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpu11: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun8i-a83t-r-pinctrl: Device is queued (SEQNUM=3520, ACTION=add, UUID=3a1dd358-6c1d-4d74-a395-d144d3ef4b8c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpu2: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpu3: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun8i-h3-ccu: Device is queued (SEQNUM=3521, ACTION=add, UUID=61aab97b-6069-4b68-8c00-f5c927945141)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpu4: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun8i-h3-pinctrl: Device is queued (SEQNUM=3522, ACTION=add, UUID=3cbe6573-d9f9-4263-967f-789aeab66192)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpu5: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun8i-h3-r-pinctrl: Device is queued (SEQNUM=3523, ACTION=add, UUID=579cdd86-418a-40ab-9f4e-f057d3210263)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpu6: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun8i-r-ccu: Device is queued (SEQNUM=3524, ACTION=add, UUID=304d0350-8e67-4bf8-af94-7d940010d833)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpu7: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun8i-v3s-pinctrl: Device is queued (SEQNUM=3525, ACTION=add, UUID=7925150b-6d49-4d8d-a211-68deed86b06b)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpu8: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun9i-a80-pinctrl: Device is queued (SEQNUM=3526, ACTION=add, UUID=71e835bd-e644-4e60-9f0e-cb5854c4eae3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpu9: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: mc: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sun9i-a80-r-pinctrl: Device is queued (SEQNUM=3527, ACTION=add, UUID=247ce5ba-4403-40f3-9807-6a527db9a919)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory16: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sunxi-de2-clks: Device is queued (SEQNUM=3528, ACTION=add, UUID=65b80d9e-5a1d-4fe9-813a-cc00319e0ddd)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory18: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: syscon-poweroff: Device is queued (SEQNUM=3529, ACTION=add, UUID=c55ae5dd-d61d-436e-932a-f90ab2942b59)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory19: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory20: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: syscon-reboot: Device is queued (SEQNUM=3530, ACTION=add, UUID=26dbc428-841c-4eeb-973c-c049c833fe13)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory21: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tc3589x-gpio: Device is queued (SEQNUM=3531, ACTION=add, UUID=1d3ed89f-6d62-4e86-a66c-97a332f78861)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory22: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-ahb: Device is queued (SEQNUM=3532, ACTION=add, UUID=405df860-03c0-46cd-96e9-28296ae20ac4)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory23: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory24: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-apbdma: Device is queued (SEQNUM=3533, ACTION=add, UUID=45753e2b-5194-414d-b4da-22838b535ebf)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory25: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-bpmp: Device is queued (SEQNUM=3534, ACTION=add, UUID=0d2259ca-be9a-4504-80ba-b93a4188b64c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory26: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-clock: Device is queued (SEQNUM=3535, ACTION=add, UUID=2b17e390-1a47-40c6-951e-169be98db1db)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory27: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory272: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-flowctrl: Device is queued (SEQNUM=3536, ACTION=add, UUID=ec919a85-a1fa-4067-a9e4-a5ae8f1cd7e0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory273: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-fuse: Device is queued (SEQNUM=3537, ACTION=add, UUID=911eb76d-0c0d-45cf-b9af-aa04b90e9d4b)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory274: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-gpio: Device is queued (SEQNUM=3538, ACTION=add, UUID=21202a02-67a8-4aa4-bf30-46d837d83808)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory275: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory276: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-hsp: Device is queued (SEQNUM=3539, ACTION=add, UUID=cf4ca9ab-dba6-478d-a7e7-d40a1ccd02af)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory277: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-mc: Device is queued (SEQNUM=3540, ACTION=add, UUID=cf4fe39f-0872-4a7b-89fe-e318f527dc00)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory278: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-pcie: Device is queued (SEQNUM=3541, ACTION=add, UUID=a4fec2ed-f280-4b40-8297-1f36fad41258)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory279: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory28: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-pmc: Device is queued (SEQNUM=3542, ACTION=add, UUID=5a085e0b-11ec-4428-8d83-ac451f90f192)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory280: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-qspi: Device is queued (SEQNUM=3543, ACTION=add, UUID=a3a9b5cd-bb36-4a7d-bb96-1164fbaf9a28)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory281: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-tcu: Device is queued (SEQNUM=3544, ACTION=add, UUID=77156ba4-be2e-4086-966b-9ede211fa23e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory282: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory283: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra-uart: Device is queued (SEQNUM=3545, ACTION=add, UUID=fc760fbc-96c5-447d-8905-636a7cf1de98)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory284: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra124-dfll: Device is queued (SEQNUM=3546, ACTION=add, UUID=925c6b53-bb1b-4f38-bf1e-76ddba5e8ab4)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory285: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra124-pinctrl: Device is queued (SEQNUM=3547, ACTION=add, UUID=fdc608b8-a087-4be2-8085-153e3188965e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory286: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory287: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra186-emc: Device is queued (SEQNUM=3548, ACTION=add, UUID=da1c7d5b-df29-4576-b2ae-cac3e253df10)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory288: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra186-gpio: Device is queued (SEQNUM=3549, ACTION=add, UUID=268d4b92-2946-4fad-a2c6-83261e6cd23f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory289: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra186-pinctrl: Device is queued (SEQNUM=3550, ACTION=add, UUID=0e69047f-8673-4371-a4e2-5d16eb62b6b3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory29: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory290: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra186-timer: Device is queued (SEQNUM=3551, ACTION=add, UUID=c076d226-fea7-47e2-831f-a3c1155ca5d3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory291: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra194-cbb: Device is queued (SEQNUM=3552, ACTION=add, UUID=1ed10c35-db3e-4dcc-b7f7-aec9f7e15f8f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory292: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory293: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra194-pinctrl: Device is queued (SEQNUM=3553, ACTION=add, UUID=526e72de-807d-4677-bac5-38e821ec1976)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory294: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra20-cpufreq: Device is queued (SEQNUM=3554, ACTION=add, UUID=74bee603-4f90-4ca7-bd96-f62157bbe875)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory295: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra210-pinctrl: Device is queued (SEQNUM=3555, ACTION=add, UUID=da188b81-93b3-400e-951a-ca13c7ba09c7)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory296: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory297: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra234-cbb: Device is queued (SEQNUM=3556, ACTION=add, UUID=69ff2bb3-70e4-4822-99e8-28c6138124a3)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tegra234-pinctrl: Device is queued (SEQNUM=3557, ACTION=add, UUID=abf6ac20-9c4c-4d4f-8c21-ca47dfabd2b1)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ti-cpufreq: Device is queued (SEQNUM=3558, ACTION=add, UUID=4a8dbd16-0537-4a0a-901f-14a57ca4e568)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory298: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ti-msgmgr: Device is queued (SEQNUM=3559, ACTION=add, UUID=b2b31f2c-dc02-4e7b-a308-c75dc0f37b58)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory299: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ti-sci: Device is queued (SEQNUM=3560, ACTION=add, UUID=488438aa-f147-4412-99da-121edc26d076)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory30: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ti-sci-inta: Device is queued (SEQNUM=3561, ACTION=add, UUID=66bf0d74-f9d6-4e31-9575-cf0db08f9d46)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory300: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ti-sci-intr: Device is queued (SEQNUM=3562, ACTION=add, UUID=5557f0ae-be67-44d5-8f62-726beb336d1f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory301: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory302: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ti-sysc: Device is queued (SEQNUM=3563, ACTION=add, UUID=8893ca6b-7bf2-45de-9ec4-e2e5391a2301)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory303: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ti-syscon-gate-clk: Device is queued (SEQNUM=3564, ACTION=add, UUID=0220a306-4424-42d9-bbd4-419b8899f01e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory304: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ti-udma: Device is queued (SEQNUM=3565, ACTION=add, UUID=4b9b6ec0-d72e-48af-927c-d867076bb0b4)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory305: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory306: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ti_opp_supply: Device is queued (SEQNUM=3566, ACTION=add, UUID=e79dd5d3-d823-4b4f-96e8-7c880d4718b0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory307: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tmpv7700-pinctrl: Device is queued (SEQNUM=3567, ACTION=add, UUID=b8bc064c-0eb9-4596-87eb-75d65b3875e6)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory308: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tpm_tis: Device is queued (SEQNUM=3568, ACTION=add, UUID=659b9ab3-2342-484f-9e95-171472c0323a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory309: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory310: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tps65086-restart: Device is queued (SEQNUM=3569, ACTION=add, UUID=f6edebca-152d-4c70-8101-56ed11a3a6d8)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory311: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tps6586x-gpio: Device is queued (SEQNUM=3570, ACTION=add, UUID=a661666e-a16d-493b-b860-6c46a8f1bbdd)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory312: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tps65910-gpio: Device is queued (SEQNUM=3571, ACTION=add, UUID=0d95b6ca-b7a9-49c8-a549-8143db5609b1)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory313: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory314: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: twl4030-audio: Device is queued (SEQNUM=3572, ACTION=add, UUID=ff76fbe8-7ddf-4b92-bfaa-edcd1a1a1ab2)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory315: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: uart-sccnxp: Device is queued (SEQNUM=3573, ACTION=add, UUID=7d68411b-ccbe-45a3-98dc-5992d84f4023)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory316: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: vexpress-osc: Device is queued (SEQNUM=3574, ACTION=add, UUID=a1ad46de-fc54-4122-892b-66cf8b89354b)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory317: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory318: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: vexpress-reset: Device is queued (SEQNUM=3575, ACTION=add, UUID=66856b67-9a4d-4d2e-b2dd-f202c2417678)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory319: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: vexpress-syscfg: Device is queued (SEQNUM=3576, ACTION=add, UUID=fc139948-0784-496f-94bb-b98877182b47)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory320: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: vexpress-sysreg: Device is queued (SEQNUM=3577, ACTION=add, UUID=d670e74a-46aa-4cea-885a-2d5adaa6af84)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory321: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory322: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: virtio-mmio: Device is queued (SEQNUM=3578, ACTION=add, UUID=69aa004b-e64b-4ff0-aa5a-9412717a1849)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory323: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: visconti-clk: Device is queued (SEQNUM=3579, ACTION=add, UUID=b0d7bea6-9e94-427e-a23a-908658068a45)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory324: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory325: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: visconti-pcie: Device is queued (SEQNUM=3580, ACTION=add, UUID=e55fe9b9-092e-4f84-9a75-9abbbaa4b1b2)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory326: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xgene-gpio: Device is queued (SEQNUM=3581, ACTION=add, UUID=550d7e19-3262-4b45-abaa-232d94296aa7)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory327: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xgene-msi: Device is queued (SEQNUM=3582, ACTION=add, UUID=27555c4d-da6e-45d5-8e83-d3bb75c66a6d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory328: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory329: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xgene-pcie: Device is queued (SEQNUM=3583, ACTION=add, UUID=ad4f7694-4286-4e25-aa2b-c89bdc5bb854)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory330: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xgene-phy: Device is queued (SEQNUM=3584, ACTION=add, UUID=81d49fbf-521b-4596-a04f-fdd7e00a5170)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory331: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xgene-pmu: Device is queued (SEQNUM=3585, ACTION=add, UUID=771cf1bc-1daf-4892-9157-6b50b7e8d6a2)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory332: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory333: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xgene-rtc: Device is queued (SEQNUM=3586, ACTION=add, UUID=a9ec36e2-bfb2-48ec-8e0e-00896b91e16a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory334: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xilinx-cpm-pcie: Device is queued (SEQNUM=3587, ACTION=add, UUID=7d03ead9-2983-4887-a2a3-ae881e72078a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory335: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory336: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xilinx-pcie: Device is queued (SEQNUM=3588, ACTION=add, UUID=e55aa9a9-a6a6-4a82-9096-328ed23b9401)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory337: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xilinx-xdma-pcie: Device is queued (SEQNUM=3589, ACTION=add, UUID=255fc9ca-843c-45e5-afbb-ae70ffd9f188)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory338: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory339: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xlnx_event_manager: Device is queued (SEQNUM=3590, ACTION=add, UUID=192ca4d8-31a8-44d3-91f6-7ca364987bea)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory340: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xuartps: Device is queued (SEQNUM=3591, ACTION=add, UUID=bb7add51-54e6-4482-a369-806382a39cf5)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory341: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory342: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: zynqmp-ipi: Device is queued (SEQNUM=3592, ACTION=add, UUID=2dc5c2e0-fcc6-46eb-9706-3cbfc85a4911)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory343: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: zynqmp-nvmem: Device is queued (SEQNUM=3593, ACTION=add, UUID=82681993-f9b8-4cb6-8873-4e0f9fee351f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory344: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: zynqmp_clock: Device is queued (SEQNUM=3594, ACTION=add, UUID=85cbb340-66a4-44a6-90ca-3fa27b1b2bca)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory345: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory346: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: zynqmp_firmware: Device is queued (SEQNUM=3595, ACTION=add, UUID=b835395a-0424-4039-8f63-3609a0a1d6c3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory347: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: zynqmp_power: Device is queued (SEQNUM=3596, ACTION=add, UUID=6de213d4-bbe9-46c6-b617-2fb96edbce6b)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory348: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: zynqmp_power_controller: Device is queued (SEQNUM=3597, ACTION=add, UUID=87775be4-6341-4bc5-9411-7f390d405530)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory349: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory350: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: pnp: Device is queued (SEQNUM=3598, ACTION=add, UUID=f7a55ccf-54e1-4338-b074-c3f5834eb97b)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory351: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial: Device is queued (SEQNUM=3599, ACTION=add, UUID=7346c362-0591-422e-829f-1758421c71a9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory352: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory353: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: system: Device is queued (SEQNUM=3600, ACTION=add, UUID=880fbb06-35fa-4460-864d-b74eb0d01fb6)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory354: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tpm_tis: Device is queued (SEQNUM=3601, ACTION=add, UUID=17bdcc14-41c4-46ab-8e53-55c8361b5886)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory355: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory356: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: pwrseq: Device is queued (SEQNUM=3602, ACTION=add, UUID=c9014f81-bcdf-4a29-8f6b-26cb94f54aad)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory357: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory358: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: rapidio: Device is queued (SEQNUM=3603, ACTION=add, UUID=dedbd0ea-6b89-4013-b7e5-3d3749d84978)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory359: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator: Device is queued (SEQNUM=3604, ACTION=add, UUID=27624ef2-c093-48b2-b89f-92010170fbc1)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory360: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-bus-drv: Device is queued (SEQNUM=3605, ACTION=add, UUID=f631c7a5-1baf-4c4a-aa08-6d349d3381f6)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory361: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: scmi_protocol: Device is queued (SEQNUM=3606, ACTION=add, UUID=e97aa663-cb82-4635-831a-6383b9e76660)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory362: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory363: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: scmi-clocks: Device is queued (SEQNUM=3607, ACTION=add, UUID=67e6017a-2de7-4504-8ae5-249ef849a89e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory364: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: scmi-imx-bbm-key: Device is queued (SEQNUM=3608, ACTION=add, UUID=e0af102e-c61f-410b-b9df-f42fd2fdddb0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory365: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: scmi-regulator: Device is queued (SEQNUM=3609, ACTION=add, UUID=d88dda1a-a3de-4656-990f-c6cb363bd345)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory366: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory367: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: scsi: Device is queued (SEQNUM=3610, ACTION=add, UUID=70b5ab37-530e-42f4-a181-d44ff513b518)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory368: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sd: Device is queued (SEQNUM=3611, ACTION=add, UUID=f7c8f0de-1e49-4881-a80b-ed3699efa9a3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory369: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sr: Device is queued (SEQNUM=3612, ACTION=add, UUID=1b1f2ea3-eeda-428f-bb3b-a2a69839e257)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory370: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory371: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sdio: Device is queued (SEQNUM=3613, ACTION=add, UUID=9b18a329-d0eb-46b1-b85f-0c9166b0d059)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory372: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial: Device is queued (SEQNUM=3614, ACTION=add, UUID=d25711f9-5a79-4dbc-99de-7503575eaff9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory373: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial-base: Device is queued (SEQNUM=3615, ACTION=add, UUID=db011fc9-904f-4076-b09b-3fc6b278f49f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory374: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ctrl: Device is queued (SEQNUM=3616, ACTION=add, UUID=72c0b932-2c35-4849-a6dc-3b265f37321d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory375: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory376: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: port: Device is queued (SEQNUM=3617, ACTION=add, UUID=82962f07-f300-43e6-a4be-2d6456dc46dc)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory377: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serio: Device is queued (SEQNUM=3618, ACTION=add, UUID=3ab73ac7-bc98-49d8-9c1b-b46c1c9b0b6f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory378: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: atkbd: Device is queued (SEQNUM=3619, ACTION=add, UUID=2a22352f-2376-4f5a-a53e-74452b2b77c4)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory379: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: soc: Device is queued (SEQNUM=3620, ACTION=add, UUID=2c3af76c-161b-46bc-b5ad-e29a5b36178e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory380: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: spi: Device is queued (SEQNUM=3621, ACTION=add, UUID=cea40688-87b7-44c0-9281-691c065497ec)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory381: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory382: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: altr_a10sr: Device is queued (SEQNUM=3622, ACTION=add, UUID=b0a6d598-35d7-41f2-a02a-0f85fdc129e3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory383: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: da9052: Device is queued (SEQNUM=3623, ACTION=add, UUID=a3441237-f33b-4251-91c8-73284f14102b)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory384: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ezx-pcap: Device is queued (SEQNUM=3624, ACTION=add, UUID=45b43a85-27d9-4b85-aae2-ea90a8dd52db)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory385: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory386: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: max310x: Device is queued (SEQNUM=3625, ACTION=add, UUID=f98e89e2-b99f-4bd7-9ce9-f1431fad8a36)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory387: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: stmpe-spi: Device is queued (SEQNUM=3626, ACTION=add, UUID=281a4dbe-4a4d-4aa7-810b-700fe9fa8b1b)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory388: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tpm_tis_spi: Device is queued (SEQNUM=3627, ACTION=add, UUID=912b6396-41a2-43c2-ae76-589ef5536608)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory389: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory390: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tps65912: Device is queued (SEQNUM=3628, ACTION=add, UUID=4ad58279-dd81-41ad-b20a-ad9360606ed8)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory391: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: wm831x: Device is queued (SEQNUM=3629, ACTION=add, UUID=63f440de-02a2-4295-bdc5-45297c97af95)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory392: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: usb: Device is queued (SEQNUM=3630, ACTION=add, UUID=6db00730-bc31-48ec-944e-35a7bc210b52)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory393: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory394: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: hub: Device is queued (SEQNUM=3631, ACTION=add, UUID=9636bfd5-5092-474f-983e-c8e77dcca3d7)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory395: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: usb: Device is queued (SEQNUM=3632, ACTION=add, UUID=0a859ed0-de63-4546-9354-09078d2d0878)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory396: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: usbfs: Device is queued (SEQNUM=3633, ACTION=add, UUID=d591c57d-3bce-4f07-b981-43b1e2f39c50)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory397: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: virtio: Device is queued (SEQNUM=3634, ACTION=add, UUID=0c79bf5e-5f2e-41c9-861d-716dccdb64f7)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory398: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: scmi-virtio: Device is queued (SEQNUM=3635, ACTION=add, UUID=7bcc18f5-2b65-4ac0-a8f5-3f5e8f5bc260)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory399: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory400: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: virtio_balloon: Device is queued (SEQNUM=3636, ACTION=add, UUID=2cee1baa-e87c-4d3d-890b-a8c283c4648b)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory401: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: virtio_blk: Device is queued (SEQNUM=3637, ACTION=add, UUID=47adb956-6e37-4676-a2ec-4094fe8f5521)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory402: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: virtio_console: Device is queued (SEQNUM=3638, ACTION=add, UUID=35dc7207-dc4a-466f-8919-75d959cbe43f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory403: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory404: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: virtio_iommu: Device is queued (SEQNUM=3639, ACTION=add, UUID=05162d49-62b0-437d-8dba-f63922505f68)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory405: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: virtio_net: Device is queued (SEQNUM=3640, ACTION=add, UUID=d43495f9-d736-4269-b5a8-e9c783647d62)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory406: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: virtio_rproc_serial: Device is queued (SEQNUM=3641, ACTION=add, UUID=08d589bf-4196-44a6-bfe5-bb91db91ab6c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory407: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory408: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: virtio_scsi: Device is queued (SEQNUM=3642, ACTION=add, UUID=571360cb-e1db-4160-873d-7d299f2e75cd)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory409: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: vme: Device is queued (SEQNUM=3643, ACTION=add, UUID=51cf50ef-b74e-4cee-95eb-3aa742021b8e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory410: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: workqueue: Device is queued (SEQNUM=3644, ACTION=add, UUID=ed9dfdc3-f120-462b-985a-7f363c7be60c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory411: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xen: Device is queued (SEQNUM=3645, ACTION=add, UUID=809e713c-f290-48d7-a88a-c9091f076e7c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory412: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: xen-backend: Device is queued (SEQNUM=3646, ACTION=add, UUID=83e4f958-3ec3-4248-8db4-e96888df7b44)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory413: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory414: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: breakpoint: Device is queued (SEQNUM=3647, ACTION=add, UUID=69a8c45c-e84d-4680-9371-d1a047ae6a0a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory415: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: reg-dummy: Device is queued (SEQNUM=3648, ACTION=add, UUID=113f7e49-768f-42c8-a8b3-02ee46008963)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory416: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory417: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.0: Device is queued (SEQNUM=3649, ACTION=add, UUID=324381a6-05db-4613-9752-8f04df85198a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory418: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory419: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cx: Device is queued (SEQNUM=3650, ACTION=add, UUID=cfb7d85c-8992-4284-b312-a7bbf3e51fe2)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory420: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory421: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cx_ao: Device is queued (SEQNUM=3651, ACTION=add, UUID=d1d7c9bc-fe59-4825-aac0-ec1a3e5251f3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory422: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory423: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ebi: Device is queued (SEQNUM=3652, ACTION=add, UUID=7acb2a3d-cdd6-4210-a996-7924e2fac227)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory424: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gfx: Device is queued (SEQNUM=3653, ACTION=add, UUID=fff35824-ef2f-4e4f-95ef-88ef59dbabbf)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory425: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory426: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gmxc: Device is queued (SEQNUM=3654, ACTION=add, UUID=f725b2f9-11f1-4eef-9315-1f24d553ad37)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory427: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: lcx: Device is queued (SEQNUM=3655, ACTION=add, UUID=aad72b23-b4e8-48a4-b96a-8aa53442a166)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory428: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory429: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: lmx: Device is queued (SEQNUM=3656, ACTION=add, UUID=e9eceac1-c3b5-48ee-aa91-0ad629570170)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory430: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: mmcx: Device is queued (SEQNUM=3657, ACTION=add, UUID=514f7e7b-c2f1-47f7-9313-b39b80576b00)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory431: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory432: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: mmcx_ao: Device is queued (SEQNUM=3658, ACTION=add, UUID=ccbafe69-1b20-447e-8a3c-52f25a72fdb8)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory433: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory434: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: mx: Device is queued (SEQNUM=3659, ACTION=add, UUID=6d95beaa-f3fb-44f0-8d34-c7e5f7a40df0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory435: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: mx_ao: Device is queued (SEQNUM=3660, ACTION=add, UUID=d8521aec-4351-4072-9d5c-32a1f2f40c36)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4352: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4353: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: mxc: Device is queued (SEQNUM=3661, ACTION=add, UUID=f9af13b1-4ca1-4e58-a778-a7a7cd015029)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4354: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: nsp: Device is queued (SEQNUM=3662, ACTION=add, UUID=05101d0b-f754-457e-9672-9154ceb9c6d5)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4355: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4356: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu-cluster0: Device is queued (SEQNUM=3663, ACTION=add, UUID=35a11acf-cff4-4fc7-be73-a98bbd44b5d0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4357: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu-cluster1: Device is queued (SEQNUM=3664, ACTION=add, UUID=60e5b070-a7cf-4df5-8130-fcab9bb32146)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4358: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4359: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu-cluster2: Device is queued (SEQNUM=3665, ACTION=add, UUID=fcc76f99-a7b7-4371-ac75-bf4283469462)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory436: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu0: Device is queued (SEQNUM=3666, ACTION=add, UUID=9d343a61-026e-47e2-acae-85e85c8c4426)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4360: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4361: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu1: Device is queued (SEQNUM=3667, ACTION=add, UUID=e7e59334-df21-4ffb-810b-29c79cbb021e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4362: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu10: Device is queued (SEQNUM=3668, ACTION=add, UUID=b8a7a80c-31e2-4a6e-97dc-2fd03d5f8c39)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4363: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4364: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu11: Device is queued (SEQNUM=3669, ACTION=add, UUID=36fc68a6-1900-46fc-9a28-66ee3a540944)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4365: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu2: Device is queued (SEQNUM=3670, ACTION=add, UUID=5392d524-8872-4b07-8877-536fb4ddbbbb)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4366: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4367: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu3: Device is queued (SEQNUM=3671, ACTION=add, UUID=5f12f62c-1d78-4e5b-ba79-4a56500582dd)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4368: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu4: Device is queued (SEQNUM=3672, ACTION=add, UUID=491b9349-f21b-41a1-83d5-23877ffa8a07)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4369: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory437: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu5: Device is queued (SEQNUM=3673, ACTION=add, UUID=cc015e71-c370-4f45-a84f-4e2fbe96b65d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4370: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu6: Device is queued (SEQNUM=3674, ACTION=add, UUID=cfdf545c-6dab-4647-aefb-69ffcdc300e3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4371: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4372: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu7: Device is queued (SEQNUM=3675, ACTION=add, UUID=81d15abe-aa1b-4911-8519-954ed486c0ec)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4373: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu8: Device is queued (SEQNUM=3676, ACTION=add, UUID=088e16de-cd69-4592-a782-69e4c1eef07d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4374: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-cpu9: Device is queued (SEQNUM=3677, ACTION=add, UUID=94eeafe8-6ebb-4215-916a-53b22aa734d4)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4375: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4376: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: power-domain-system: Device is queued (SEQNUM=3678, ACTION=add, UUID=cd5fa931-e898-4c93-b2ef-9a5aa5cc7781)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4377: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: kprobe: Device is queued (SEQNUM=3679, ACTION=add, UUID=4507003c-ea86-4464-a041-4bdaa573b33a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4378: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4379: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 81c60000.aop-cmd-db: Device is queued (SEQNUM=3680, ACTION=add, UUID=31245bff-773b-4e52-9eac-c1ab375abac3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory438: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4380: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: audio-codec: Device is queued (SEQNUM=3681, ACTION=add, UUID=6839547d-8d82-4de5-9184-12d7a2ae12d5)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4381: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4382: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: backlight: Device is queued (SEQNUM=3682, ACTION=add, UUID=83fcd515-ce6d-4e33-a1f0-be68faad1687)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4383: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: dummy-sink: Device is queued (SEQNUM=3683, ACTION=add, UUID=f164cea9-b5c6-450c-af20-40b9ec1f46d7)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4384: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4385: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ffe00000.smem: Device is queued (SEQNUM=3684, ACTION=add, UUID=ce196c3a-84a8-4d4b-9a28-f15359a36ada)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4386: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4387: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: firmware:scm: Device is queued (SEQNUM=3685, ACTION=add, UUID=4691b2e7-0007-4b81-976a-6ef8fcbc796f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4388: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: firmware:scmi: Device is queued (SEQNUM=3686, ACTION=add, UUID=5be665c3-de13-4f00-b4c8-5854ef3c0d65)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4389: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory439: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gpio-keys: Device is queued (SEQNUM=3687, ACTION=add, UUID=894cbab3-45b0-48d2-8c83-22e1e72e7f7a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4390: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4391: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: interconnect-0: Device is queued (SEQNUM=3688, ACTION=add, UUID=99bb7fc3-6006-408a-90b4-2c3428684728)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4392: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: interconnect-1: Device is queued (SEQNUM=3689, ACTION=add, UUID=6f36b270-2c30-4de7-87e9-85b2c0faac67)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4393: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4394: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: kgdboc: Device is queued (SEQNUM=3690, ACTION=add, UUID=e3cc738b-317a-41e4-92b8-14feb31a1188)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4395: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: leds: Device is queued (SEQNUM=3691, ACTION=add, UUID=454b0fb9-467b-41cc-add3-5c8b45ffd59d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4396: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4397: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: pmic-glink: Device is queued (SEQNUM=3692, ACTION=add, UUID=ea7490d2-05c9-4a4e-ac9d-bb18b02c197c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4398: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4399: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: pmu: Device is queued (SEQNUM=3693, ACTION=add, UUID=51c0eab2-76e5-41d7-9267-ec57b3bd24ab)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory440: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4400: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: armv8_pmuv3: Device is queued (SEQNUM=3694, ACTION=add, UUID=abe1ee39-7f34-4889-aff9-704abe749d80)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4401: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: psci: Device is queued (SEQNUM=3695, ACTION=add, UUID=eb39a25a-2dff-4239-a3c1-aa3a423c1f47)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4402: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4403: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-edp-3p3: Device is queued (SEQNUM=3696, ACTION=add, UUID=63fb114d-fe52-4774-a1bc-5bd2f63173a4)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4404: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4405: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-nvme: Device is queued (SEQNUM=3697, ACTION=add, UUID=19661018-92bc-4552-8b8b-f69ba83ddc53)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4406: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-rtmr0-1p15: Device is queued (SEQNUM=3698, ACTION=add, UUID=89ed3156-432e-4d7c-9152-ddd7c73b656c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4407: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4408: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-rtmr0-1p8: Device is queued (SEQNUM=3699, ACTION=add, UUID=31e001eb-3056-414f-ac02-2e39859e218f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4409: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory441: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-rtmr0-3p3: Device is queued (SEQNUM=3700, ACTION=add, UUID=a6a8f610-6e72-4f0f-bad1-6533b1de4ea2)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4410: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-rtmr1-1p15: Device is queued (SEQNUM=3701, ACTION=add, UUID=795d7a48-7fbe-4e07-a41c-cd8ef3cc7a6d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4411: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4412: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-rtmr1-1p8: Device is queued (SEQNUM=3702, ACTION=add, UUID=04a14388-197f-45d4-b7a1-663baea35212)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4413: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4414: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-rtmr1-3p3: Device is queued (SEQNUM=3703, ACTION=add, UUID=bb701d54-1ccb-4b60-8588-7c56b8a6f054)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4415: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4416: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-vph-pwr: Device is queued (SEQNUM=3704, ACTION=add, UUID=4ec588a2-7202-4b14-a089-f32d360a4a8f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4417: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-wcn-0p95: Device is queued (SEQNUM=3705, ACTION=add, UUID=76da110e-cbed-45e8-9550-901403357d6f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4418: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4419: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-wcn-1p9: Device is queued (SEQNUM=3706, ACTION=add, UUID=6c1beea6-1832-4e8a-af70-bf67fce4d406)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory442: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4420: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-wcn-3p3: Device is queued (SEQNUM=3707, ACTION=add, UUID=70eb4039-9793-4145-bf21-6f8e0a313f2d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4421: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: simple-framebuffer.0: Device is queued (SEQNUM=3708, ACTION=add, UUID=83746ad1-7b72-4788-a0da-dc13439ffa49)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4422: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4423: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: card0: Device is queued (SEQNUM=3709, ACTION=add, UUID=e3c09b3c-7e79-45de-9f5c-b18ec6ced6c7)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4424: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: card0-Unknown-1: Device is queued (SEQNUM=3710, ACTION=add, UUID=4f7bf206-47a6-49f7-b703-8b7caa422fe3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4425: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4426: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fb0: Device is queued (SEQNUM=3711, ACTION=add, UUID=d40a1eef-ca5d-4c4a-87ec-84e7209b01bb)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4427: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4428: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: smccc_trng: Device is queued (SEQNUM=3712, ACTION=add, UUID=2e6f1f60-0684-4728-bc2e-6e53dece829e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4429: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory443: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: smp2p-adsp: Device is queued (SEQNUM=3713, ACTION=add, UUID=07b8e020-4224-4bbd-9750-693196d2c36d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4430: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: smp2p-cdsp: Device is queued (SEQNUM=3714, ACTION=add, UUID=d2e1a853-ce1e-4558-8640-235dfe6faf52)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4431: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4432: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: soc@0: Device is queued (SEQNUM=3715, ACTION=add, UUID=5cd8f4fe-c97b-48ef-bef1-c8ac566cffa8)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4433: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4434: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 100000.clock-controller: Device is queued (SEQNUM=3716, ACTION=add, UUID=84d15454-f166-4d4e-be29-aa8174783f6d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4435: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4436: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 10c3000.rng: Device is queued (SEQNUM=3717, ACTION=add, UUID=75d7f33d-9339-4e6d-a22d-2beadb8c9ae5)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4437: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1500000.interconnect: Device is queued (SEQNUM=3718, ACTION=add, UUID=86128b0a-98e6-4c2e-b60e-860bf1110464)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4438: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4439: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory444: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 15000000.iommu: Device is queued (SEQNUM=3719, ACTION=add, UUID=ecc12910-951e-46c5-81b0-800f05435a6a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4440: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1600000.interconnect: Device is queued (SEQNUM=3720, ACTION=add, UUID=01a37681-346f-4d36-86af-e9be9f649bdc)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4441: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4442: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1680000.interconnect: Device is queued (SEQNUM=3721, ACTION=add, UUID=8bce04eb-e3a9-4a6a-b0bc-de170193dcc6)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4443: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4444: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 16c0000.interconnect: Device is queued (SEQNUM=3722, ACTION=add, UUID=13f0d3a6-2eda-42f0-b80c-660df0654254)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4445: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4446: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 16d0000.interconnect: Device is queued (SEQNUM=3723, ACTION=add, UUID=b19e1103-dfa8-4d31-8de2-68f7bba09748)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4447: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4448: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4449: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 16e0000.interconnect: Device is queued (SEQNUM=3724, ACTION=add, UUID=25d55744-e100-4d00-9fbb-125959c06e3d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory445: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4450: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1700000.interconnect: Device is queued (SEQNUM=3725, ACTION=add, UUID=59a0a4ef-7b74-46b0-ab47-83fca6c5c92e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4451: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4452: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1740000.interconnect: Device is queued (SEQNUM=3726, ACTION=add, UUID=cab2b5a0-3272-4b1e-8a59-15655ae82864)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4453: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4454: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17430000.mailbox: Device is queued (SEQNUM=3727, ACTION=add, UUID=990bb6eb-b98b-4947-99ea-7e6b5fbc6b3d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4455: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1750000.interconnect: Device is queued (SEQNUM=3728, ACTION=add, UUID=659de7fa-e332-43a6-b101-e4586f09d44d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4456: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4457: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc: Device is queued (SEQNUM=3729, ACTION=add, UUID=f941bff3-dee8-460b-add1-e28ccee9bcb8)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4458: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4459: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:bcm-voter: Device is queued (SEQNUM=3730, ACTION=add, UUID=dd1a1e9b-e4ad-4c74-a50f-929d26bccf48)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory446: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:clock-controller: Device is queued (SEQNUM=3731, ACTION=add, UUID=252c1f7a-5097-488d-9df1-5b1cbb2130dc)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4460: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4461: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:power-controller: Device is queued (SEQNUM=3732, ACTION=add, UUID=d02167c7-32d0-4007-af0e-d308d4438501)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4462: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4463: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-0: Device is queued (SEQNUM=3733, ACTION=add, UUID=b3f6ad3e-b598-4d7c-b326-401466455578)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4464: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4465: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-1: Device is queued (SEQNUM=3734, ACTION=add, UUID=f9f2b2ea-15e8-4d92-8628-a68b91859ff3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4466: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4467: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-2: Device is queued (SEQNUM=3735, ACTION=add, UUID=3d3dc87d-f2ef-4002-b0d3-6c5aebc99cff)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4468: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4469: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-3: Device is queued (SEQNUM=3736, ACTION=add, UUID=6ef6dc7c-3a96-46d7-a99d-100af4d724c7)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory447: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4470: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-4: Device is queued (SEQNUM=3737, ACTION=add, UUID=904a9f1a-e2a0-4954-b31c-62f3fe6b3c79)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4471: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4472: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-6: Device is queued (SEQNUM=3738, ACTION=add, UUID=c82313fe-1228-49c9-bba4-6156d3338b36)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4473: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4474: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-7: Device is queued (SEQNUM=3739, ACTION=add, UUID=4c5bb7de-e66e-4f4f-abf9-b99bcb92c93a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4475: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4476: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1760000.interconnect: Device is queued (SEQNUM=3740, ACTION=add, UUID=41fc5625-b708-4e1b-92ec-29ac0a16e103)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4477: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1770000.interconnect: Device is queued (SEQNUM=3741, ACTION=add, UUID=5f6d8233-775d-4269-a205-f9df7d72bef8)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4478: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4479: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1780000.interconnect: Device is queued (SEQNUM=3742, ACTION=add, UUID=d3e684cb-4234-4a1a-bca1-8338ac9113f9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory448: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4480: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17800000.timer: Device is queued (SEQNUM=3743, ACTION=add, UUID=caddf03d-8778-4feb-b47b-999528dc9080)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4481: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4482: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 18b4e000.sram: Device is queued (SEQNUM=3744, ACTION=add, UUID=f38a234e-fff3-42f6-b118-0734a5c91ccf)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4483: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bd0000.pcie: Device is queued (SEQNUM=3745, ACTION=add, UUID=42013f9e-49ca-4cd8-91b9-af08c8831561)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4484: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4485: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1be0000.phy: Device is queued (SEQNUM=3746, ACTION=add, UUID=86977ee6-3d24-432f-88fc-ef72801b7c06)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4486: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4487: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bf8000.pci: Device is queued (SEQNUM=3747, ACTION=add, UUID=1731b9df-add0-4644-ada4-9271288e8a69)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4488: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4489: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bfc000.phy: Device is queued (SEQNUM=3748, ACTION=add, UUID=682cd166-23c1-4a2f-838f-e2cc3111dee9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory449: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4490: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c08000.pci: Device is queued (SEQNUM=3749, ACTION=add, UUID=a52519cb-08b8-4ce7-bbb3-608ea7bd42cb)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4491: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4492: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c0e000.phy: Device is queued (SEQNUM=3750, ACTION=add, UUID=92305bfb-7799-433a-84ae-f3e6b1eac0d9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4493: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c840000.watchdog: Device is queued (SEQNUM=3751, ACTION=add, UUID=b2c7a630-545c-441c-b1e4-c83079665e66)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4494: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4495: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1dc4000.dma-controller: Device is queued (SEQNUM=3752, ACTION=add, UUID=d7f55dd3-7817-4a6a-a794-15a88b2b138a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4496: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4497: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1dfa000.crypto: Device is queued (SEQNUM=3753, ACTION=add, UUID=9c6d8d37-3c29-4708-95db-a67c3958b2b0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4498: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4499: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1f40000.hwlock: Device is queued (SEQNUM=3754, ACTION=add, UUID=a4365d31-4099-4811-9226-87c0f858821f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory450: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4500: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1fc0000.clock-controller: Device is queued (SEQNUM=3755, ACTION=add, UUID=a384ab46-6a36-47f3-8264-cb1743ff4550)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4501: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4502: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 221c8000.efuse: Device is queued (SEQNUM=3756, ACTION=add, UUID=86f3a6a6-61b8-4fc9-b29f-ba4dc9784b39)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4503: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4504: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 24091000.pmu: Device is queued (SEQNUM=3757, ACTION=add, UUID=40903d19-4312-4aab-b056-7331e468aff5)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4505: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 240b3400.pmu: Device is queued (SEQNUM=3758, ACTION=add, UUID=5e4cc2ba-5408-43a2-bb5e-91f659c81955)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4506: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4507: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 240b5400.pmu: Device is queued (SEQNUM=3759, ACTION=add, UUID=2fb42b0c-d1b0-4051-968d-17a580101db8)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4508: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4509: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 240b6400.pmu: Device is queued (SEQNUM=3760, ACTION=add, UUID=4cb8e9ae-6fd3-4afe-887a-80aeed80e436)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory451: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4510: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 25000000.system-cache-controller: Device is queued (SEQNUM=3761, ACTION=add, UUID=46cbd09a-1ea3-4558-8c5f-500e69e3a391)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4511: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4512: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 26400000.interconnect: Device is queued (SEQNUM=3762, ACTION=add, UUID=5d47fa1f-8cda-4687-a77b-81a19ea42cf5)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4513: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 320c0000.interconnect: Device is queued (SEQNUM=3763, ACTION=add, UUID=867cc68a-0648-4270-af32-afc803da3e8f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4514: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4515: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 32300000.remoteproc: Device is queued (SEQNUM=3764, ACTION=add, UUID=b192890c-5828-4e31-9b52-f37063f40a8a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4516: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4517: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 3d00000.gpu: Device is queued (SEQNUM=3765, ACTION=add, UUID=f69b8a5a-d25c-4e4b-990a-386fc7b9b60a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4518: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4519: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 3d6a000.gmu: Device is queued (SEQNUM=3766, ACTION=add, UUID=e2237c9c-f054-465e-96fd-021098f8da30)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory452: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4520: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 3d90000.clock-controller: Device is queued (SEQNUM=3767, ACTION=add, UUID=b7255fa5-be6e-4d62-a891-a0092f9e5843)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4521: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 3da0000.iommu: Device is queued (SEQNUM=3768, ACTION=add, UUID=66188e23-b2df-4d0e-b393-cf18013cb5cf)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4522: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4523: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 408000.mailbox: Device is queued (SEQNUM=3769, ACTION=add, UUID=146e1025-5fde-44e0-915a-8b6d47452efb)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4524: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4525: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6800000.remoteproc: Device is queued (SEQNUM=3770, ACTION=add, UUID=73bbefa6-2243-4e36-b1b4-59dc98968ab5)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4526: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4527: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6aa0000.codec: Device is queued (SEQNUM=3771, ACTION=add, UUID=802e6a74-5bcf-402c-ba88-f2292203872c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4528: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4529: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6ac0000.codec: Device is queued (SEQNUM=3772, ACTION=add, UUID=808b8525-bb8a-410f-b61a-7fcaf385a985)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory453: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4530: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6ad0000.soundwire: Device is queued (SEQNUM=3773, ACTION=add, UUID=fe4bea91-6e55-4ea8-aa9d-21e5c6fb9132)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4531: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4532: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6ae0000.codec: Device is queued (SEQNUM=3774, ACTION=add, UUID=5ae900ba-3f44-47c9-9919-b48e0b8cc350)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4533: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4534: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6b00000.codec: Device is queued (SEQNUM=3775, ACTION=add, UUID=922553ed-577c-4a2b-a98e-0c8a08312822)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4535: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6b10000.soundwire: Device is queued (SEQNUM=3776, ACTION=add, UUID=6788911a-e490-466b-8448-c7b14d3b9027)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4536: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4537: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6b6c000.clock-controller: Device is queued (SEQNUM=3777, ACTION=add, UUID=660f9910-0def-4414-b50e-b1d3f887393c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4538: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4539: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6d30000.soundwire: Device is queued (SEQNUM=3778, ACTION=add, UUID=6ece7765-c34c-4009-8935-dd7c43173e87)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory454: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4540: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6d44000.codec: Device is queued (SEQNUM=3779, ACTION=add, UUID=52ad63b4-6307-4498-a5e9-75725f89f600)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4541: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4542: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6e80000.pinctrl: Device is queued (SEQNUM=3780, ACTION=add, UUID=bf4e9636-c935-4183-b0a2-4632d8d4ffec)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4543: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4544: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6ea0000.clock-controller: Device is queued (SEQNUM=3781, ACTION=add, UUID=6f5e19ce-d697-4b5a-a98d-ac7625dbc1f3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4545: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 7400000.interconnect: Device is queued (SEQNUM=3782, ACTION=add, UUID=82f597cb-eee8-47d5-9777-a99f5729a5d6)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4546: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4547: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 7430000.interconnect: Device is queued (SEQNUM=3783, ACTION=add, UUID=067da04d-f3c4-440b-90e4-ca1439b71bdf)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4548: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4549: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 7e40000.interconnect: Device is queued (SEQNUM=3784, ACTION=add, UUID=2cb60f22-db80-46b0-b155-b4118f1dd392)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory455: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4550: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 88e1000.phy: Device is queued (SEQNUM=3785, ACTION=add, UUID=c26af4e5-6989-40c1-bacf-133fb56931d1)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4551: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4552: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 88e2000.phy: Device is queued (SEQNUM=3786, ACTION=add, UUID=fcfb866c-d4fa-44f7-b90f-c82acb57e615)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4553: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 88e3000.phy: Device is queued (SEQNUM=3787, ACTION=add, UUID=fa987b18-5be4-42fc-b699-94603be234a1)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4554: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4555: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 88e5000.phy: Device is queued (SEQNUM=3788, ACTION=add, UUID=d128b8bc-5472-408d-b512-d426b40e4dc4)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4556: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4557: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 8c0000.geniqup: Device is queued (SEQNUM=3789, ACTION=add, UUID=5d6e68e1-212d-4f50-8021-b97142b436c0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4558: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4559: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: a4f8800.usb: Device is queued (SEQNUM=3790, ACTION=add, UUID=a721fd34-6de0-4b40-8445-25da65d3cc43)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory456: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: a6f8800.usb: Device is queued (SEQNUM=3791, ACTION=add, UUID=446d43c5-652c-4847-bbab-51c402850426)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4560: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4561: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: a8f8800.usb: Device is queued (SEQNUM=3792, ACTION=add, UUID=6549ab6a-76d2-4983-b34d-61cc32fd6fdd)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4562: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4563: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: aaf0000.clock-controller: Device is queued (SEQNUM=3793, ACTION=add, UUID=d76ce9af-6862-496a-adad-3a1f18d83e9c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4564: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4565: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ac0000.geniqup: Device is queued (SEQNUM=3794, ACTION=add, UUID=a5460a11-d04a-4815-bcc1-927f62b9d694)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4566: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4567: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ade0000.clock-controller: Device is queued (SEQNUM=3795, ACTION=add, UUID=368eced4-f59a-4e9d-9a09-b93e6ecb3fc9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4568: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ae00000.display-subsystem: Device is queued (SEQNUM=3796, ACTION=add, UUID=52125c81-c0d7-4896-b3b6-9ed57176f0a3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4569: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory457: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: aec5a00.phy: Device is queued (SEQNUM=3797, ACTION=add, UUID=9bed6a85-652e-4d14-8850-9f8f04abe331)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4570: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4571: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: af00000.clock-controller: Device is queued (SEQNUM=3798, ACTION=add, UUID=878ddfb0-5693-41f0-9385-90ab063a37fc)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4572: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4573: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b220000.interrupt-controller: Device is queued (SEQNUM=3799, ACTION=add, UUID=8c1efcf4-95e5-4530-8c53-7a1d23d995be)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4574: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4575: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: bc0000.geniqup: Device is queued (SEQNUM=3800, ACTION=add, UUID=5d62b21f-239c-44b3-bbb5-76976742c142)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4576: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4577: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c271000.thermal-sensor: Device is queued (SEQNUM=3801, ACTION=add, UUID=57a0ef43-887d-49a5-8569-cbb0163623fe)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4578: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c272000.thermal-sensor: Device is queued (SEQNUM=3802, ACTION=add, UUID=19f9c07d-6fc2-480e-8a90-bf54ec5d17bd)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4579: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory458: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c273000.thermal-sensor: Device is queued (SEQNUM=3803, ACTION=add, UUID=aa7ece75-fcec-4e9b-a667-b8af8459122c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4580: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4581: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c274000.thermal-sensor: Device is queued (SEQNUM=3804, ACTION=add, UUID=2e2ee54b-27de-4c8c-8cbd-28611111394a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4582: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4583: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c300000.power-management: Device is queued (SEQNUM=3805, ACTION=add, UUID=465387c0-f037-497f-9ff8-3228323f6565)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4584: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4585: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c3f0000.sram: Device is queued (SEQNUM=3806, ACTION=add, UUID=2d03ecac-888f-4afc-b5f3-32f58c22f611)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4586: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4587: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c400000.arbiter: Device is queued (SEQNUM=3807, ACTION=add, UUID=5a1ae463-7983-46e3-9813-cacdde8f5588)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4588: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: f100000.pinctrl: Device is queued (SEQNUM=3808, ACTION=add, UUID=d350c24d-4759-4b39-9260-d222508deeb3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4589: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory459: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fd3000.phy: Device is queued (SEQNUM=3809, ACTION=add, UUID=7d2a03a9-88cf-486a-b219-68ce7245ea0e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4590: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4591: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fd5000.phy: Device is queued (SEQNUM=3810, ACTION=add, UUID=c47fc8ef-6599-44d1-9b32-384c99c966e6)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4592: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4593: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fd9000.phy: Device is queued (SEQNUM=3811, ACTION=add, UUID=d2d71c67-0dc8-4a45-8769-7805c0761e68)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4594: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4595: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fda000.phy: Device is queued (SEQNUM=3812, ACTION=add, UUID=203ed5d8-a4d3-4d3f-99c1-f966ef4343df)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4596: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sound: Device is queued (SEQNUM=3813, ACTION=add, UUID=fe8dceb4-88dc-4099-bcc2-fb33f7c6d4ad)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4597: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4598: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: timer: Device is queued (SEQNUM=3814, ACTION=add, UUID=7b048047-28df-4b30-8797-d8057e97164e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4599: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory460: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: wcn7850-pmu: Device is queued (SEQNUM=3815, ACTION=add, UUID=218475cf-5e04-473c-97d5-bd742a7e06d9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4600: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: software: Device is queued (SEQNUM=3816, ACTION=add, UUID=b8f80a0a-de1b-4187-90c0-adca11139f73)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4601: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: broadcast: Device is queued (SEQNUM=3817, ACTION=add, UUID=a78adc4f-6354-452f-b309-952238838b98)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4602: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4603: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent0: Device is queued (SEQNUM=3818, ACTION=add, UUID=752e29ad-e486-4037-a94e-99cae88d273a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4604: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent1: Device is queued (SEQNUM=3819, ACTION=add, UUID=cd3cb48a-b8b0-487b-9edc-7ab6cb356f47)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4605: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4606: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent10: Device is queued (SEQNUM=3820, ACTION=add, UUID=110d7bd8-43ba-4485-9ae5-e8f02cc9a0d4)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory4607: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent11: Device is queued (SEQNUM=3821, ACTION=add, UUID=8eccb563-bfd8-43c0-acbf-01227a762459)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory461: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory462: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent2: Device is queued (SEQNUM=3822, ACTION=add, UUID=b28e2e37-b2ae-4bbe-b1d4-aa4a7aa3bacc)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory463: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent3: Device is queued (SEQNUM=3823, ACTION=add, UUID=a47cd7f2-61a5-475b-90bd-727a8519c7ab)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory464: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory465: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent4: Device is queued (SEQNUM=3824, ACTION=add, UUID=310b6c30-6135-4405-b81a-e5397959c363)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory466: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent5: Device is queued (SEQNUM=3825, ACTION=add, UUID=1cbc538a-50a5-4f53-aac8-46a75a6e29cc)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory467: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory468: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent6: Device is queued (SEQNUM=3826, ACTION=add, UUID=4e7e5f0c-4a08-49ee-840d-581f626fc98c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory469: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent7: Device is queued (SEQNUM=3827, ACTION=add, UUID=0efb7b1b-3c78-489e-b489-08ca15eff65c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory470: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory471: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent8: Device is queued (SEQNUM=3828, ACTION=add, UUID=f2aeec0a-4400-4b88-b6e7-516bc5f1b2df)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory472: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent9: Device is queued (SEQNUM=3829, ACTION=add, UUID=b6eea728-a43a-4f79-8ae0-942a3024a1a5)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory473: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory474: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clocksource0: Device is queued (SEQNUM=3830, ACTION=add, UUID=22bcd3e0-3ebb-4302-a78f-cf8bf73f9837)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory475: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory476: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpu0: Device is queued (SEQNUM=3831, ACTION=add, UUID=bbf64fc5-bee9-4db7-86ce-5120306dc17a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory477: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory478: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpu1: Device is queued (SEQNUM=3832, ACTION=add, UUID=463afadb-8850-49b9-9adf-e3026f4602ff)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory479: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory480: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpu10: Device is queued (SEQNUM=3833, ACTION=add, UUID=67352d2b-b797-49d4-8942-3a248374b6ba)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory481: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory482: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpu11: Device is queued (SEQNUM=3834, ACTION=add, UUID=f086dab6-02e5-4f4a-afef-365c222e2c01)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory483: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory484: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpu2: Device is queued (SEQNUM=3835, ACTION=add, UUID=71d69657-421d-4706-8264-ae958301c9e5)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory485: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory486: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpu3: Device is queued (SEQNUM=3836, ACTION=add, UUID=51ba2e39-c3b7-412d-9273-5d96cec63a6b)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory487: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory488: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpu4: Device is queued (SEQNUM=3837, ACTION=add, UUID=21316b8a-60ef-4f3a-96f2-9ef16e2fd59d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory489: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory490: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpu5: Device is queued (SEQNUM=3838, ACTION=add, UUID=ea1bedbe-544f-4344-8905-d454b1022770)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory491: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory492: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpu6: Device is queued (SEQNUM=3839, ACTION=add, UUID=fc0151af-9ee5-4cb4-addf-62c9c519490d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory493: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory494: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpu7: Device is queued (SEQNUM=3840, ACTION=add, UUID=5db3a6fc-50eb-4aa7-9986-036c58c4bdb7)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory495: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory496: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpu8: Device is queued (SEQNUM=3841, ACTION=add, UUID=d22c02b3-522e-4e1f-aeb4-7f478b17ca81)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory497: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory498: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpu9: Device is queued (SEQNUM=3842, ACTION=add, UUID=2a559589-632d-4354-ba3f-2de87ba98409)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory499: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory500: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: mc: Device is queued (SEQNUM=3843, ACTION=add, UUID=21aa2dbe-5e7e-4d05-9434-4812861def15)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory501: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory16: Device is queued (SEQNUM=3844, ACTION=add, UUID=7522f7b7-ef91-4454-a145-43fb9279b0be)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory502: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory503: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory18: Device is queued (SEQNUM=3845, ACTION=add, UUID=fdd6d943-db08-46ea-adc8-440054f7efe9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory504: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory505: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory19: Device is queued (SEQNUM=3846, ACTION=add, UUID=72c57c5a-cbba-4a66-aad9-8c40f22ebc16)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory506: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory20: Device is queued (SEQNUM=3847, ACTION=add, UUID=bbf92d47-e2b5-4ddf-ad81-e4a8655502ee)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory507: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory508: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory21: Device is queued (SEQNUM=3848, ACTION=add, UUID=36bcdfa3-0239-42ec-814d-774d827f7a29)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory509: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory22: Device is queued (SEQNUM=3849, ACTION=add, UUID=bd34e9fe-5e74-4a33-984a-8b4e02bb209a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory510: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory23: Device is queued (SEQNUM=3850, ACTION=add, UUID=b46b7616-5898-4819-98f0-1756a9b4fdcf)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: memory511: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: node0: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory24: Device is queued (SEQNUM=3851, ACTION=add, UUID=37fd8442-ec49-46a8-a189-56db7257dcd7)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: tracepoint: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory25: Device is queued (SEQNUM=3852, ACTION=add, UUID=f348ea51-3b1c-40ea-968e-e86ecdc94df0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: uprobe: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory26: Device is queued (SEQNUM=3853, ACTION=add, UUID=5ba71f23-7d65-4a4f-bdba-3adf4efe3d56)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: 7:0: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: 7:1: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory27: Device is queued (SEQNUM=3854, ACTION=add, UUID=a21f185b-2d5c-4e44-82cd-ef7a0e11c918)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: 7:2: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory272: Device is queued (SEQNUM=3855, ACTION=add, UUID=c0949458-413e-4798-97f6-68b8607ec9ad)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: 7:3: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: 7:4: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory273: Device is queued (SEQNUM=3856, ACTION=add, UUID=d38e3002-9080-4c38-839a-1a4a17ed211a)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: 7:5: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory274: Device is queued (SEQNUM=3857, ACTION=add, UUID=118e8604-b3b5-4cd7-bb44-d491607815a9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: 7:6: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: 7:7: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory275: Device is queued (SEQNUM=3858, ACTION=add, UUID=489427bf-4039-4b8c-9589-75b8121fca2e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10002000.stm--amba:10041000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory276: Device is queued (SEQNUM=3859, ACTION=add, UUID=184dca12-8682-400d-b0cd-16f1867d5e2e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10004000.tpda--amba:1000f000.tpdm: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory277: Device is queued (SEQNUM=3860, ACTION=add, UUID=d244ee83-8213-4baa-9e6b-77c1e49c092d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10004000.tpda--amba:10041000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory278: Device is queued (SEQNUM=3861, ACTION=add, UUID=a4c8688d-0908-47ed-a9fd-52b650e32092)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:1000f000.tpdm--amba:10004000.tpda: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10041000.funnel--amba:10002000.stm: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory279: Device is queued (SEQNUM=3862, ACTION=add, UUID=8104b1c6-5862-4774-a5d3-1db43702ec2c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10041000.funnel--amba:10004000.tpda: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory28: Device is queued (SEQNUM=3863, ACTION=add, UUID=7c161230-7dae-41a9-8293-86aa34ea19de)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10041000.funnel--amba:10045000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10042000.funnel--amba:10045000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory280: Device is queued (SEQNUM=3864, ACTION=add, UUID=9bc4a387-b1ca-41b4-bfde-2e81e2938dbb)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10042000.funnel--amba:10ac5000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory281: Device is queued (SEQNUM=3865, ACTION=add, UUID=d959d652-c5ed-479f-ae94-38267fe33d40)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10042000.funnel--amba:10c2c000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory282: Device is queued (SEQNUM=3866, ACTION=add, UUID=e0aa10e0-6377-4fe6-bd97-c0b048d20d2f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10042000.funnel--amba:10cc5000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10045000.funnel--amba:10041000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory283: Device is queued (SEQNUM=3867, ACTION=add, UUID=af8d97ad-6815-4636-bcac-b71662ccdf61)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10045000.funnel--amba:10042000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory284: Device is queued (SEQNUM=3868, ACTION=add, UUID=9c75e80d-a220-4a95-b39a-3a2b7d45f5a9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10045000.funnel--amba:10b04000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10800000.tpdm--amba:10c3c000.tpda: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory285: Device is queued (SEQNUM=3869, ACTION=add, UUID=a044a22a-9fe5-4b9f-b1aa-c06b792ec462)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:1082c000.tpdm--amba:10c2b000.tpda: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory286: Device is queued (SEQNUM=3870, ACTION=add, UUID=d502ef8c-3b13-4442-acf7-2f3a0726de24)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10841000.tpdm--amba:10c2b000.tpda: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10844000.tpdm--amba:10846000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory287: Device is queued (SEQNUM=3871, ACTION=add, UUID=5a5e68ea-d5e3-48e0-9bed-828fef883ded)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10846000.funnel--amba:10844000.tpdm: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory288: Device is queued (SEQNUM=3872, ACTION=add, UUID=bc383b5b-c925-4655-9664-99ba178b83e9)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10846000.funnel--amba:10c2b000.tpda: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10ac1000.tpdm--amba:10ac4000.tpda: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory289: Device is queued (SEQNUM=3873, ACTION=add, UUID=799b20bd-dd71-4219-a671-818f194b2bd0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10ac4000.tpda--amba:10ac1000.tpdm: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory29: Device is queued (SEQNUM=3874, ACTION=add, UUID=c934b7e4-5d66-46a8-ab8b-df301cb88577)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10ac4000.tpda--amba:10ac5000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory290: Device is queued (SEQNUM=3875, ACTION=add, UUID=2edd852d-37c4-4259-b888-b713ee4741f0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10ac5000.funnel--amba:10042000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10ac5000.funnel--amba:10ac4000.tpda: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory291: Device is queued (SEQNUM=3876, ACTION=add, UUID=a8f5a2c7-eb67-47a5-a5e5-11d82318b30e)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10b04000.funnel--amba:10045000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory292: Device is queued (SEQNUM=3877, ACTION=add, UUID=313f7fba-a842-40ad-b058-645fd1a93a35)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10b04000.funnel--amba:10b05000.tmc: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10b04000.funnel--amba:10b08000.tpda: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory293: Device is queued (SEQNUM=3878, ACTION=add, UUID=f0474b47-81f3-4fee-b1d8-176a140102b5)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10b05000.tmc--amba:10b04000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory294: Device is queued (SEQNUM=3879, ACTION=add, UUID=c740187a-b519-40c5-8beb-012020b4caf3)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10b05000.tmc--amba:10b06000.replicator: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory295: Device is queued (SEQNUM=3880, ACTION=add, UUID=064f6d48-8535-44cc-ae16-a06be281a981)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10b06000.replicator--amba:10b05000.tmc: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10b06000.replicator--platform:dummy-sink: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory296: Device is queued (SEQNUM=3881, ACTION=add, UUID=c8944dfe-76e9-416f-80d1-c6ec7188389b)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10b08000.tpda--amba:10b04000.funnel: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory297: Device is queued (SEQNUM=3882, ACTION=add, UUID=8331a42b-03ef-4ce7-bf76-52a08ad94fd8)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10b08000.tpda--amba:10b09000.tpdm: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10b08000.tpda--amba:10b0a000.tpdm: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory298: Device is queued (SEQNUM=3883, ACTION=add, UUID=623a73c2-e6ae-454b-9b87-bf4138ba11b0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10b08000.tpda--amba:10b0b000.tpdm: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory299: Device is queued (SEQNUM=3884, ACTION=add, UUID=bcdda7ae-6a65-40c9-b4a7-2fd83d9bb00c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: amba:10b08000.tpda--amba:10b0c000.tpdm: Triggered device with action 'add'.

@@ -1,0 +1,1000 @@
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-1--platform:17500000.rsc:regulators-2: sd-device-monitor(manager): Passed 234 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator.15: Device processed (SEQNUM=5252, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: regulator.7.bdev: Device processed (SEQNUM=5249, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator.11: Device processed (SEQNUM=5250, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: platform:17500000.rsc:regulators-1--platform:17500000.rsc:regulators-0: Device processed (SEQNUM=5257, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-3: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator.14: Device processed (SEQNUM=5251, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: regulator.16: Device processed (SEQNUM=5253, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: platform:17500000.rsc:regulators-1--platform:17500000.rsc:regulators-2: Processing device (SEQNUM=5258, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator.15: sd-device-monitor(worker): Passed 307 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: regulator.7.bdev: sd-device-monitor(worker): Passed 268 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator.11: sd-device-monitor(worker): Passed 309 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: platform:17500000.rsc:regulators-1--platform:17500000.rsc:regulators-0: sd-device-monitor(worker): Passed 234 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: regulator.16: sd-device-monitor(worker): Passed 307 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-1--platform:17500000.rsc:regulators-6: Device ready for processing (SEQNUM=5259, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: platform:17500000.rsc:regulators-1--platform:88e5000.phy: Device processed (SEQNUM=5256, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-3: sd-device: Created database file '/run/udev/data/+platform:17500000.rsc:regulators-3' for '/devices/platform/soc@0/17500000.rsc/17500000.rsc:regulators-3'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-3: sd-device: Created database file '/run/udev/data/+platform:17500000.rsc:regulators-3' for '/devices/platform/soc@0/17500000.rsc/17500000.rsc:regulators-3'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-1--platform:17500000.rsc:regulators-6: sd-device-monitor(manager): Passed 234 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: platform:17500000.rsc:regulators-1--platform:88e5000.phy: sd-device-monitor(worker): Passed 220 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: platform:17500000.rsc:regulators-1--platform:17500000.rsc:regulators-2: Device processed (SEQNUM=5258, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-3: Device processed (SEQNUM=5247, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-1: SEQNUM=5260 blocked by SEQNUM=5253
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: platform:17500000.rsc:regulators-1--platform:17500000.rsc:regulators-6: Processing device (SEQNUM=5259, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator.14: sd-device-monitor(worker): Passed 307 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: platform:17500000.rsc:regulators-1--platform:17500000.rsc:regulators-2: sd-device-monitor(worker): Passed 234 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-3: sd-device-monitor(worker): Passed 511 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1bd0000.pcie: Device ready for processing (SEQNUM=5261, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1bd0000.pcie: sd-device-monitor(manager): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: platform:17500000.rsc:regulators-1--platform:17500000.rsc:regulators-6: Device processed (SEQNUM=5259, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: regulator:regulator.0--platform:1bd0000.pcie: Processing device (SEQNUM=5261, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1bd0000.pcie: SEQNUM=5262 blocked by SEQNUM=5261
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: platform:17500000.rsc:regulators-1--platform:17500000.rsc:regulators-6: sd-device-monitor(worker): Passed 234 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: qrtr: Device ready for processing (SEQNUM=5263, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: qrtr: sd-device-monitor(manager): Passed 150 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: regulator:regulator.0--platform:1bd0000.pcie: Device processed (SEQNUM=5261, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: drm_exec: Device ready for processing (SEQNUM=5264, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: qrtr: Processing device (SEQNUM=5263, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: regulator:regulator.0--platform:1bd0000.pcie: sd-device-monitor(worker): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: drm_exec: Processing device (SEQNUM=5264, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: drm_exec: sd-device-monitor(manager): Passed 154 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: pmic_glink.ucsi.0: Device ready for processing (SEQNUM=5265, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: qrtr: Device processed (SEQNUM=5263, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: pmic_glink.ucsi.0: sd-device-monitor(manager): Passed 395 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: drm_exec: Device processed (SEQNUM=5264, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: qrtr: sd-device-monitor(worker): Passed 150 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: drm_exec: sd-device-monitor(worker): Passed 154 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[452]: pmic_glink.ucsi.0: Processing device (SEQNUM=5265, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: pmic_glink.altmode.0: Device ready for processing (SEQNUM=5266, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[452]: pmic_glink.ucsi.0: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=auxiliary".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: pmic_glink.altmode.0: sd-device-monitor(manager): Passed 401 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[452]: pmic_glink.ucsi.0: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=auxiliary": Invalid argument
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: sm4_ce_cipher: Device ready for processing (SEQNUM=5267, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[467]: pmic_glink.altmode.0: Processing device (SEQNUM=5266, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: sm4_ce_cipher: sd-device-monitor(manager): Passed 159 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[467]: pmic_glink.altmode.0: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=auxiliary".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: pmic_glink.power-supply.0: Device ready for processing (SEQNUM=5268, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: sm4_ce_cipher: Processing device (SEQNUM=5267, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[467]: pmic_glink.altmode.0: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=auxiliary": Invalid argument
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: pmic_glink.power-supply.0: sd-device-monitor(manager): Passed 411 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:pmic-glink--platform:bc0000.geniqup: Device ready for processing (SEQNUM=5269, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[452]: pmic_glink.ucsi.0: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:pmic-glink--platform:bc0000.geniqup: sd-device-monitor(manager): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[426]: pmic_glink.power-supply.0: Processing device (SEQNUM=5268, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[452]: pmic_glink.ucsi.0: Running built-in command "kmod load"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: sm4_ce_cipher: Device processed (SEQNUM=5267, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: drm_gpuvm: Device ready for processing (SEQNUM=5270, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: platform:pmic-glink--platform:bc0000.geniqup: Processing device (SEQNUM=5269, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[452]: Loading module: auxiliary:pmic_glink.ucsi
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: drm_gpuvm: Processing device (SEQNUM=5270, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: sm4_ce_cipher: sd-device-monitor(worker): Passed 159 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: drm_gpuvm: sd-device-monitor(manager): Passed 155 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[467]: pmic_glink.altmode.0: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[426]: pmic_glink.power-supply.0: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=auxiliary".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: platform:pmic-glink--platform:bc0000.geniqup: Device processed (SEQNUM=5269, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[467]: pmic_glink.altmode.0: Running built-in command "kmod load"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: drm_gpuvm: Device processed (SEQNUM=5270, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[426]: pmic_glink.power-supply.0: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=auxiliary": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: platform:pmic-glink--platform:bc0000.geniqup: sd-device-monitor(worker): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[467]: Loading module: auxiliary:pmic_glink.altmode
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: drm_gpuvm: sd-device-monitor(worker): Passed 155 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@0:pon@1300: Device is queued (SEQNUM=5666, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--platform:c42d000.spmi:pmic@0:pon@1300: Device is queued (SEQNUM=5667, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[426]: pmic_glink.power-supply.0: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[426]: pmic_glink.power-supply.0: Running built-in command "kmod load"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[426]: Loading module: auxiliary:pmic_glink.power-supply
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@0:rtc@6100: Device is queued (SEQNUM=5668, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--platform:c42d000.spmi:pmic@0:rtc@6100: Device is queued (SEQNUM=5669, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@0:nvram@7100: Device is queued (SEQNUM=5670, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@0:nvram@7e00: Device is queued (SEQNUM=5671, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@0:gpio@8800: Device is queued (SEQNUM=5672, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@0:pwm: Device is queued (SEQNUM=5673, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c42d000.spmi:pmic@0:pwm--platform:backlight: Device is queued (SEQNUM=5674, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--spmi:0-00: Device is queued (SEQNUM=5675, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 0-00: Device is queued (SEQNUM=5676, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@1:temp-alarm@a00: Device is queued (SEQNUM=5677, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--platform:c42d000.spmi:pmic@1:temp-alarm@a00: Device is queued (SEQNUM=5678, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@1:gpio@8800: Device is queued (SEQNUM=5679, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c42d000.spmi:pmic@1:gpio@8800--platform:regulator-rtmr0-3p3: Device is queued (SEQNUM=5680, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c42d000.spmi:pmic@1:gpio@8800--platform:b8c000.i2c: Device is queued (SEQNUM=5681, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--spmi:0-01: Device is queued (SEQNUM=5682, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 0-01: Device is queued (SEQNUM=5683, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@2:temp-alarm@a00: Device is queued (SEQNUM=5684, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--platform:c42d000.spmi:pmic@2:temp-alarm@a00: Device is queued (SEQNUM=5685, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@2:gpio@8800: Device is queued (SEQNUM=5686, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--spmi:0-02: Device is queued (SEQNUM=5687, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 0-02: Device is queued (SEQNUM=5688, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@3:temp-alarm@a00: Device is queued (SEQNUM=5689, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--platform:c42d000.spmi:pmic@3:temp-alarm@a00: Device is queued (SEQNUM=5690, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: aux_hpd_bridge.aux_hpd_bridge: Device is queued (SEQNUM=5691, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: aux_hpd_bridge: Device is queued (SEQNUM=5692, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@3:gpio@8800: Device is queued (SEQNUM=5693, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c42d000.spmi:pmic@3:gpio@8800--platform:backlight: Device is queued (SEQNUM=5694, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--spmi:0-03: Device is queued (SEQNUM=5695, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 0-03: Device is queued (SEQNUM=5696, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: wakeup9: Device is queued (SEQNUM=5697, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: thermal_zone0: Device is queued (SEQNUM=5698, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: hwmon0: Device is queued (SEQNUM=5699, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@4:temp-alarm@a00: Device is queued (SEQNUM=5700, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--platform:c42d000.spmi:pmic@4:temp-alarm@a00: Device is queued (SEQNUM=5701, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: wakeup10: Device is queued (SEQNUM=5702, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: hwmon1: Device is queued (SEQNUM=5703, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: wakeup11: Device is queued (SEQNUM=5704, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: hwmon2: Device is queued (SEQNUM=5705, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: typec_ucsi: Device is queued (SEQNUM=5706, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: wakeup12: Device is queued (SEQNUM=5707, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: hwmon3: Device is queued (SEQNUM=5708, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@4:gpio@8800: Device is queued (SEQNUM=5709, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: pmic_glink.power-supply.0: Device is queued (SEQNUM=5710, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: qcom_battmgr.pmic_glink_power_supply: Device is queued (SEQNUM=5711, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: qcom_battmgr: Device is queued (SEQNUM=5712, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--spmi:0-04: Device is queued (SEQNUM=5713, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 0-04: Device is queued (SEQNUM=5714, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@5:temp-alarm@a00: Device is queued (SEQNUM=5715, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--platform:c42d000.spmi:pmic@5:temp-alarm@a00: Device is queued (SEQNUM=5716, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@5:gpio@8800: Device is queued (SEQNUM=5717, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c42d000.spmi:pmic@5:gpio@8800--platform:regulator-rtmr0-1p15: Device is queued (SEQNUM=5718, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--spmi:0-05: Device is queued (SEQNUM=5719, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 0-05: Device is queued (SEQNUM=5720, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-fd5000.phy.1--platform:ae90000.displayport-controller: Device is queued (SEQNUM=5721, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@6:temp-alarm@a00: Device is queued (SEQNUM=5722, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--platform:c42d000.spmi:pmic@6:temp-alarm@a00: Device is queued (SEQNUM=5723, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-fd5000.phy.1--platform:ae90000.displayport-controller: Device is queued (SEQNUM=5724, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@6:gpio@8800: Device is queued (SEQNUM=5725, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--spmi:0-06: Device is queued (SEQNUM=5726, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 0-06: Device is queued (SEQNUM=5727, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-fda000.phy.7--platform:ae98000.displayport-controller: Device is queued (SEQNUM=5728, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-fda000.phy.7--platform:ae98000.displayport-controller: Device is queued (SEQNUM=5729, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@8:temp-alarm@a00: Device is queued (SEQNUM=5730, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--platform:c42d000.spmi:pmic@8:temp-alarm@a00: Device is queued (SEQNUM=5731, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@8:gpio@8800: Device is queued (SEQNUM=5732, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1c08000.pci: Device is queued (SEQNUM=5733, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--spmi:0-08: Device is queued (SEQNUM=5734, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 0-08: Device is queued (SEQNUM=5735, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-1c0e000.phy.9--platform:1c08000.pci: Device is queued (SEQNUM=5736, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@9:temp-alarm@a00: Device is queued (SEQNUM=5737, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--platform:c42d000.spmi:pmic@9:temp-alarm@a00: Device is queued (SEQNUM=5738, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-1: Device ready for processing (SEQNUM=5260, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-1: sd-device-monitor(manager): Passed 423 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1bd0000.pcie: Device ready for processing (SEQNUM=5262, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1bd0000.pcie: sd-device-monitor(manager): Passed 211 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: sm4_ce: Device ready for processing (SEQNUM=5271, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: sm4_ce: sd-device-monitor(manager): Passed 152 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: ocmem: Device ready for processing (SEQNUM=5272, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: ocmem: sd-device-monitor(manager): Passed 166 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: ocmem: Device ready for processing (SEQNUM=5273, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: ocmem: sd-device-monitor(manager): Passed 151 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: typec: Device ready for processing (SEQNUM=5274, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: typec: sd-device-monitor(manager): Passed 145 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:pmic-glink--platform:a800000.usb: Device ready for processing (SEQNUM=5275, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:pmic-glink--platform:a800000.usb: sd-device-monitor(manager): Passed 205 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: typec_mux: Device ready for processing (SEQNUM=5276, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: sm4_ce: Processing device (SEQNUM=5271, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator:regulator.0--platform:1bd0000.pcie: Processing device (SEQNUM=5262, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: typec_mux: sd-device-monitor(manager): Passed 153 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: retimer: Device ready for processing (SEQNUM=5277, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-1: Processing device (SEQNUM=5260, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: ocmem: Processing device (SEQNUM=5272, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: retimer: sd-device-monitor(manager): Passed 151 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:pmic-glink--platform:a600000.usb: Device ready for processing (SEQNUM=5278, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator:regulator.0--platform:1bd0000.pcie: Device processed (SEQNUM=5262, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:pmic-glink--platform:a600000.usb: sd-device-monitor(manager): Passed 205 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: typec: Device ready for processing (SEQNUM=5279, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator:regulator.0--platform:1bd0000.pcie: sd-device-monitor(worker): Passed 211 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: typec: Processing device (SEQNUM=5274, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: typec: sd-device-monitor(manager): Passed 149 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: usb_power_delivery: Device ready for processing (SEQNUM=5280, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: usb_power_delivery: sd-device-monitor(manager): Passed 162 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: typec: Device ready for processing (SEQNUM=5281, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-1: sd-device: Created database file '/run/udev/data/+platform:17500000.rsc:regulators-1' for '/devices/platform/soc@0/17500000.rsc/17500000.rsc:regulators-1'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: typec_mux: Processing device (SEQNUM=5276, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: typec: sd-device-monitor(manager): Passed 151 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-1: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:a600000.usb--platform:pmic-glink: Device ready for processing (SEQNUM=5282, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-1: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: retimer: Processing device (SEQNUM=5277, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-1: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:a600000.usb--platform:pmic-glink: sd-device-monitor(manager): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:a800000.usb--platform:pmic-glink: Device ready for processing (SEQNUM=5283, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:a800000.usb--platform:pmic-glink: sd-device-monitor(manager): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: pmic-glink: SEQNUM=5284 blocked by SEQNUM=5268
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: slimbus: Device ready for processing (SEQNUM=5285, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: usb_power_delivery: Processing device (SEQNUM=5280, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: sm4_ce: Device processed (SEQNUM=5271, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: slimbus: sd-device-monitor(manager): Passed 147 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: platform:pmic-glink--platform:a600000.usb: Processing device (SEQNUM=5278, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: slimbus: Device ready for processing (SEQNUM=5286, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: sm4_ce: sd-device-monitor(worker): Passed 152 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: slimbus: sd-device-monitor(manager): Passed 153 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: sm4_ce_ccm: Device ready for processing (SEQNUM=5287, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: sm4_ce_ccm: sd-device-monitor(manager): Passed 156 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator.17: Device ready for processing (SEQNUM=5288, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator.17: sd-device-monitor(manager): Passed 312 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: typec: Device processed (SEQNUM=5274, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: typec: sd-device-monitor(worker): Passed 145 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: typec_mux: Device processed (SEQNUM=5276, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: typec_mux: sd-device-monitor(worker): Passed 153 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: slimbus: Processing device (SEQNUM=5285, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: retimer: Device processed (SEQNUM=5277, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: retimer: sd-device-monitor(worker): Passed 151 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: usb_power_delivery: Device processed (SEQNUM=5280, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: usb_power_delivery: sd-device-monitor(worker): Passed 162 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: platform:a600000.usb--platform:pmic-glink: Processing device (SEQNUM=5282, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: ocmem: Device processed (SEQNUM=5272, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: platform:pmic-glink--platform:a600000.usb: Device processed (SEQNUM=5278, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: ocmem: sd-device-monitor(worker): Passed 166 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: platform:pmic-glink--platform:a600000.usb: sd-device-monitor(worker): Passed 205 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: platform:a600000.usb--platform:pmic-glink: Device processed (SEQNUM=5282, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: platform:a600000.usb--platform:pmic-glink: sd-device-monitor(worker): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: sm4_ce_ccm: Processing device (SEQNUM=5287, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: slimbus: Device processed (SEQNUM=5285, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: slimbus: Processing device (SEQNUM=5286, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: slimbus: sd-device-monitor(worker): Passed 147 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c42d000.spmi:pmic@9:gpio@8800: Device is queued (SEQNUM=5739, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: typec: Processing device (SEQNUM=5279, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: platform:a800000.usb--platform:pmic-glink: Processing device (SEQNUM=5283, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: platform:a800000.usb--platform:pmic-glink: Device processed (SEQNUM=5283, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: platform:a800000.usb--platform:pmic-glink: sd-device-monitor(worker): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: ocmem: Processing device (SEQNUM=5273, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: slimbus: Device processed (SEQNUM=5286, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: slimbus: sd-device-monitor(worker): Passed 153 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: sm4_ce_ccm: Device processed (SEQNUM=5287, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: sm4_ce_ccm: sd-device-monitor(worker): Passed 156 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: platform:pmic-glink--platform:a800000.usb: Processing device (SEQNUM=5275, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: regulator.17: Processing device (SEQNUM=5288, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: typec: Device processed (SEQNUM=5279, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: typec: Processing device (SEQNUM=5281, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: typec: sd-device-monitor(worker): Passed 149 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: ocmem: Device processed (SEQNUM=5273, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: ocmem: sd-device-monitor(worker): Passed 151 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c42d000.spmi:pmic@9:gpio@8800--platform:regulator-rtmr0-1p8: Device is queued (SEQNUM=5740, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: platform:pmic-glink--platform:a800000.usb: Device processed (SEQNUM=5275, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c400000.arbiter--spmi:0-09: Device is queued (SEQNUM=5741, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: platform:pmic-glink--platform:a800000.usb: sd-device-monitor(worker): Passed 205 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: typec: Device processed (SEQNUM=5281, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: typec: sd-device-monitor(worker): Passed 151 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 0-09: Device is queued (SEQNUM=5742, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: regulator.17: Device processed (SEQNUM=5288, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: regulator.17: sd-device-monitor(worker): Passed 312 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-1: sd-device: Created database file '/run/udev/data/+platform:17500000.rsc:regulators-1' for '/devices/platform/soc@0/17500000.rsc/17500000.rsc:regulators-1'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-1: sd-device: Created database file '/run/udev/data/+platform:17500000.rsc:regulators-1' for '/devices/platform/soc@0/17500000.rsc/17500000.rsc:regulators-1'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-1: Device processed (SEQNUM=5260, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: 17500000.rsc:regulators-1: sd-device-monitor(worker): Passed 513 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c432000.spmi:pmic@7:phy@fd00: Device is queued (SEQNUM=5743, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c432000.spmi:pmic@7:phy@fd00--platform:fd3000.phy: Device is queued (SEQNUM=5744, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--platform:c432000.spmi:pmic@7:phy@fd00: Device is queued (SEQNUM=5745, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-2--platform:c432000.spmi:pmic@7:phy@fd00: Device is queued (SEQNUM=5746, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator.18: Device ready for processing (SEQNUM=5289, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator.18: sd-device-monitor(manager): Passed 315 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-rtmr1-1p8: Device ready for processing (SEQNUM=5290, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-rtmr1-1p8: sd-device-monitor(manager): Passed 370 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-rtmr1-1p15: SEQNUM=5291 blocked by SEQNUM=5289
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 6800000.remoteproc: Device ready for processing (SEQNUM=5292, ACTION=change)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 6800000.remoteproc: sd-device-monitor(manager): Passed 374 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: wakeup6: SEQNUM=5293 blocked by SEQNUM=5292
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator.19: Device ready for processing (SEQNUM=5294, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator.19: sd-device-monitor(manager): Passed 312 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-rtmr1-3p3: SEQNUM=5295 blocked by SEQNUM=5294
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator.20: Device ready for processing (SEQNUM=5296, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator.20: sd-device-monitor(manager): Passed 297 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-nvme: SEQNUM=5297 blocked by SEQNUM=5296
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: genpd:0:6800000.remoteproc: Device ready for processing (SEQNUM=5298, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: genpd:0:6800000.remoteproc: sd-device-monitor(manager): Passed 286 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: aux_bridge.aux_bridge: Device ready for processing (SEQNUM=5299, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: aux_bridge.aux_bridge: sd-device-monitor(manager): Passed 183 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: aux_bridge: Device ready for processing (SEQNUM=5300, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: regulator.18: Processing device (SEQNUM=5289, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: aux_bridge: sd-device-monitor(manager): Passed 156 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: Processing device (SEQNUM=5290, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: genpd:1:6800000.remoteproc: Device ready for processing (SEQNUM=5301, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 6800000.remoteproc: Processing device (SEQNUM=5292, ACTION=change)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: genpd:1:6800000.remoteproc: sd-device-monitor(manager): Passed 286 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: ubwc_config: Device ready for processing (SEQNUM=5302, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: ubwc_config: sd-device-monitor(manager): Passed 157 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: remoteproc0: SEQNUM=5303 blocked by SEQNUM=5292
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator.19: Processing device (SEQNUM=5294, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:6800000.remoteproc--platform:6aa0000.codec: Device ready for processing (SEQNUM=5304, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:6800000.remoteproc--platform:6aa0000.codec: sd-device-monitor(manager): Passed 215 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: genpd:0:6800000.remoteproc: Processing device (SEQNUM=5298, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:6800000.remoteproc--platform:6ac0000.codec: Device ready for processing (SEQNUM=5305, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:6800000.remoteproc--platform:6ac0000.codec: sd-device-monitor(manager): Passed 215 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: aux_bridge: Processing device (SEQNUM=5300, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:6800000.remoteproc--platform:6ae0000.codec: Device ready for processing (SEQNUM=5306, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-1p8' for '/devices/platform/regulator-rtmr1-1p8'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:6800000.remoteproc--platform:6ae0000.codec: sd-device-monitor(manager): Passed 215 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:6800000.remoteproc--platform:6b00000.codec: Device ready for processing (SEQNUM=5307, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: ubwc_config: Processing device (SEQNUM=5302, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:6800000.remoteproc--platform:6b00000.codec: sd-device-monitor(manager): Passed 215 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:6800000.remoteproc--platform:6d44000.codec: Device ready for processing (SEQNUM=5308, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:6800000.remoteproc--platform:6d44000.codec: sd-device-monitor(manager): Passed 215 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: genpd:1:6800000.remoteproc: Processing device (SEQNUM=5301, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:6800000.remoteproc--platform:6e80000.pinctrl: Device ready for processing (SEQNUM=5309, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:6800000.remoteproc--platform:6e80000.pinctrl: sd-device-monitor(manager): Passed 217 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:408000.mailbox--platform:6800000.remoteproc: Device ready for processing (SEQNUM=5310, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:408000.mailbox--platform:6800000.remoteproc: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 6800000.remoteproc: SEQNUM=5311 blocked by SEQNUM=5303
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 32300000.remoteproc: Device ready for processing (SEQNUM=5312, ACTION=change)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: regulator.20: Processing device (SEQNUM=5296, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: platform:6800000.remoteproc--platform:6ac0000.codec: Processing device (SEQNUM=5305, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 32300000.remoteproc: sd-device-monitor(manager): Passed 376 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: wakeup7: SEQNUM=5313 blocked by SEQNUM=5312
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: genpd:0:32300000.remoteproc: Device ready for processing (SEQNUM=5314, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: platform:6800000.remoteproc--platform:6aa0000.codec: Processing device (SEQNUM=5304, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: genpd:0:32300000.remoteproc: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: platform:6800000.remoteproc--platform:6b00000.codec: Processing device (SEQNUM=5307, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:6800000.remoteproc--platform:6ae0000.codec: Processing device (SEQNUM=5306, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-2--spmi:1-07: Device is queued (SEQNUM=5747, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-1p8' for '/devices/platform/regulator-rtmr1-1p8'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 6800000.remoteproc: sd-device: Created database file '/run/udev/data/+platform:6800000.remoteproc' for '/devices/platform/soc@0/6800000.remoteproc'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 6800000.remoteproc: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: platform:6800000.remoteproc--platform:6e80000.pinctrl: Processing device (SEQNUM=5309, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 6800000.remoteproc: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 6800000.remoteproc: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: platform:408000.mailbox--platform:6800000.remoteproc: Processing device (SEQNUM=5310, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: platform:6800000.remoteproc--platform:6d44000.codec: Processing device (SEQNUM=5308, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: 32300000.remoteproc: Processing device (SEQNUM=5312, ACTION=change)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: aux_bridge.aux_bridge: Processing device (SEQNUM=5299, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-1p8' for '/devices/platform/regulator-rtmr1-1p8'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: Device processed (SEQNUM=5290, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: sd-device-monitor(worker): Passed 448 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: 32300000.remoteproc: sd-device: Created database file '/run/udev/data/+platform:32300000.remoteproc' for '/devices/platform/soc@0/32300000.remoteproc'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: 32300000.remoteproc: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: 32300000.remoteproc: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: 32300000.remoteproc: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: platform:6800000.remoteproc--platform:6b00000.codec: Device processed (SEQNUM=5307, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: platform:6800000.remoteproc--platform:6b00000.codec: sd-device-monitor(worker): Passed 215 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: platform:6800000.remoteproc--platform:6e80000.pinctrl: Device processed (SEQNUM=5309, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: platform:6800000.remoteproc--platform:6e80000.pinctrl: sd-device-monitor(worker): Passed 217 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: genpd:0:6800000.remoteproc: Device processed (SEQNUM=5298, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: genpd:0:6800000.remoteproc: sd-device-monitor(worker): Passed 286 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: regulator.18: Device processed (SEQNUM=5289, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: regulator.18: sd-device-monitor(worker): Passed 315 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: genpd:1:6800000.remoteproc: Device processed (SEQNUM=5301, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: genpd:1:6800000.remoteproc: sd-device-monitor(worker): Passed 286 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: platform:408000.mailbox--platform:6800000.remoteproc: Device processed (SEQNUM=5310, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: platform:408000.mailbox--platform:6800000.remoteproc: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: platform:6800000.remoteproc--platform:6aa0000.codec: Device processed (SEQNUM=5304, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: genpd:0:32300000.remoteproc: Processing device (SEQNUM=5314, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: platform:6800000.remoteproc--platform:6aa0000.codec: sd-device-monitor(worker): Passed 215 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--spmi:1-07: Device is queued (SEQNUM=5748, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: regulator.20: Device processed (SEQNUM=5296, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: regulator.20: sd-device-monitor(worker): Passed 297 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: ubwc_config: Device processed (SEQNUM=5302, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: ubwc_config: sd-device-monitor(worker): Passed 157 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: genpd:0:32300000.remoteproc: Device processed (SEQNUM=5314, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: genpd:0:32300000.remoteproc: sd-device-monitor(worker): Passed 288 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: aux_bridge: Device processed (SEQNUM=5300, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: aux_bridge.aux_bridge: Device processed (SEQNUM=5299, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: aux_bridge: sd-device-monitor(worker): Passed 156 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: aux_bridge.aux_bridge: sd-device-monitor(worker): Passed 183 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:6800000.remoteproc--platform:6ae0000.codec: Device processed (SEQNUM=5306, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator.19: Device processed (SEQNUM=5294, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:6800000.remoteproc--platform:6ae0000.codec: sd-device-monitor(worker): Passed 215 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator.19: sd-device-monitor(worker): Passed 312 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: 32300000.remoteproc: sd-device: Created database file '/run/udev/data/+platform:32300000.remoteproc' for '/devices/platform/soc@0/32300000.remoteproc'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: 32300000.remoteproc: sd-device: Created database file '/run/udev/data/+platform:32300000.remoteproc' for '/devices/platform/soc@0/32300000.remoteproc'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: platform:6800000.remoteproc--platform:6ac0000.codec: Device processed (SEQNUM=5305, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: 32300000.remoteproc: Device processed (SEQNUM=5312, ACTION=change)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: platform:6800000.remoteproc--platform:6ac0000.codec: sd-device-monitor(worker): Passed 215 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: 32300000.remoteproc: sd-device-monitor(worker): Passed 454 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: platform:6800000.remoteproc--platform:6d44000.codec: Device processed (SEQNUM=5308, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: platform:6800000.remoteproc--platform:6d44000.codec: sd-device-monitor(worker): Passed 215 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 1-07: Device is queued (SEQNUM=5749, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 6800000.remoteproc: sd-device: Created database file '/run/udev/data/+platform:6800000.remoteproc' for '/devices/platform/soc@0/6800000.remoteproc'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 6800000.remoteproc: sd-device: Created database file '/run/udev/data/+platform:6800000.remoteproc' for '/devices/platform/soc@0/6800000.remoteproc'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 6800000.remoteproc: Device processed (SEQNUM=5292, ACTION=change)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 6800000.remoteproc: sd-device-monitor(worker): Passed 450 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c432000.spmi:pmic@a:phy@fd00: Device is queued (SEQNUM=5750, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c432000.spmi:pmic@a:phy@fd00--platform:fd9000.phy: Device is queued (SEQNUM=5751, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--platform:c432000.spmi:pmic@a:phy@fd00: Device is queued (SEQNUM=5752, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-2--platform:c432000.spmi:pmic@a:phy@fd00: Device is queued (SEQNUM=5753, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-rtmr1-1p15: Device ready for processing (SEQNUM=5291, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain kernel: qcom-pcie 1c08000.pci: supply vdda not found, using dummy regulator
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-rtmr1-1p15: sd-device-monitor(manager): Passed 374 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain kernel: qcom-pcie 1c08000.pci: supply vddpe-3v3 not found, using dummy regulator
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: wakeup6: Device ready for processing (SEQNUM=5293, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain kernel: qcom-pcie 1c08000.pci: host bridge /soc@0/pci@1c08000 ranges:
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: wakeup6: sd-device-monitor(manager): Passed 195 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain kernel: qcom-pcie 1c08000.pci:       IO 0x007c200000..0x007c2fffff -> 0x0000000000
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-rtmr1-3p3: Device ready for processing (SEQNUM=5295, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain kernel: qcom-pcie 1c08000.pci:      MEM 0x007c300000..0x007dffffff -> 0x007c300000
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-rtmr1-3p3: sd-device-monitor(manager): Passed 370 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-nvme: Device ready for processing (SEQNUM=5297, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-nvme: sd-device-monitor(manager): Passed 350 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: remoteproc0: Device ready for processing (SEQNUM=5303, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: remoteproc0: sd-device-monitor(manager): Passed 269 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: wakeup7: Device ready for processing (SEQNUM=5313, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: wakeup7: sd-device-monitor(manager): Passed 196 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: genpd:1:32300000.remoteproc: Device ready for processing (SEQNUM=5315, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: regulator-rtmr1-1p15: Processing device (SEQNUM=5291, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: genpd:1:32300000.remoteproc: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: wakeup6: Processing device (SEQNUM=5293, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: genpd:2:32300000.remoteproc: Device ready for processing (SEQNUM=5316, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: genpd:2:32300000.remoteproc: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: sm4_ce_gcm: Device ready for processing (SEQNUM=5317, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator-rtmr1-3p3: Processing device (SEQNUM=5295, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: sm4_ce_gcm: sd-device-monitor(manager): Passed 156 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator-nvme: Processing device (SEQNUM=5297, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: remoteproc1: Device ready for processing (SEQNUM=5318, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: remoteproc1: sd-device-monitor(manager): Passed 270 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: regulator-rtmr1-1p15: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-1p15' for '/devices/platform/regulator-rtmr1-1p15'.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: qcom-soundwire: Device ready for processing (SEQNUM=5319, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: regulator-rtmr1-1p15: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: qcom-soundwire: sd-device-monitor(manager): Passed 175 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: regulator-rtmr1-1p15: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: soundwire_qcom: Device ready for processing (SEQNUM=5320, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: regulator-rtmr1-1p15: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: soundwire_qcom: sd-device-monitor(manager): Passed 160 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:408000.mailbox--platform:32300000.remoteproc: Device ready for processing (SEQNUM=5321, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator-rtmr1-3p3: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-3p3' for '/devices/platform/regulator-rtmr1-3p3'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator-nvme: sd-device: Created database file '/run/udev/data/+platform:regulator-nvme' for '/devices/platform/regulator-nvme'.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:408000.mailbox--platform:32300000.remoteproc: sd-device-monitor(manager): Passed 220 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator-rtmr1-3p3: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator-rtmr1-3p3: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 32300000.remoteproc: SEQNUM=5322 blocked by SEQNUM=5318
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator-nvme: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator-rtmr1-3p3: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator-nvme: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.8--platform:fd5000.phy: Device ready for processing (SEQNUM=5323, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: sm4_ce_gcm: Processing device (SEQNUM=5317, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator-nvme: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: genpd:2:32300000.remoteproc: Processing device (SEQNUM=5316, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.8--platform:fd5000.phy: sd-device-monitor(manager): Passed 206 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.4--platform:fd5000.phy: Device ready for processing (SEQNUM=5324, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.4--platform:fd5000.phy: sd-device-monitor(manager): Passed 206 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: ghash_ce: Device ready for processing (SEQNUM=5325, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: ghash_ce: sd-device-monitor(manager): Passed 154 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: input0: Device ready for processing (SEQNUM=5326, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: input0: sd-device-monitor(manager): Passed 307 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: event0: SEQNUM=5327 blocked by SEQNUM=5326
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: gpio-keys: SEQNUM=5328 blocked by SEQNUM=5327
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: wakeup8: SEQNUM=5329 blocked by SEQNUM=5328
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: genpd:2:32300000.remoteproc: Device processed (SEQNUM=5316, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: genpd:2:32300000.remoteproc: sd-device-monitor(worker): Passed 288 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator-rtmr1-3p3: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-3p3' for '/devices/platform/regulator-rtmr1-3p3'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: sm4_ce_gcm: Device processed (SEQNUM=5317, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator-nvme: sd-device: Created database file '/run/udev/data/+platform:regulator-nvme' for '/devices/platform/regulator-nvme'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator-nvme: sd-device: Created database file '/run/udev/data/+platform:regulator-nvme' for '/devices/platform/regulator-nvme'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: regulator-rtmr1-1p15: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-1p15' for '/devices/platform/regulator-rtmr1-1p15'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: sm4_ce_gcm: sd-device-monitor(worker): Passed 156 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator-nvme: Device processed (SEQNUM=5297, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: remoteproc0: Processing device (SEQNUM=5303, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: gpio-keys: SEQNUM=5330 blocked by SEQNUM=5329
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: regulator-rtmr1-1p15: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-1p15' for '/devices/platform/regulator-rtmr1-1p15'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: ghash_ce: Processing device (SEQNUM=5325, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator-rtmr1-3p3: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-3p3' for '/devices/platform/regulator-rtmr1-3p3'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: soundwire_qcom: Processing device (SEQNUM=5320, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: genpd:1:32300000.remoteproc: Processing device (SEQNUM=5315, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: regulator:regulator.4--platform:fd5000.phy: Processing device (SEQNUM=5324, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: ghash_ce: Device processed (SEQNUM=5325, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: regulator:regulator.8--platform:fd5000.phy: Processing device (SEQNUM=5323, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: remoteproc1: Processing device (SEQNUM=5318, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: fd5000.phy-switch: Device ready for processing (SEQNUM=5331, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: regulator-rtmr1-1p15: Device processed (SEQNUM=5291, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:408000.mailbox--platform:32300000.remoteproc: Processing device (SEQNUM=5321, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: Processing device (SEQNUM=5326, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: wakeup6: Device processed (SEQNUM=5293, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator-rtmr1-3p3: Device processed (SEQNUM=5295, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: wakeup7: Processing device (SEQNUM=5313, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: fd5000.phy-switch: Processing device (SEQNUM=5331, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: ghash_ce: sd-device-monitor(worker): Passed 154 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: soundwire_qcom: Device processed (SEQNUM=5320, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: genpd:1:32300000.remoteproc: Device processed (SEQNUM=5315, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: fd5000.phy-switch: sd-device-monitor(manager): Passed 230 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: regulator-rtmr1-1p15: sd-device-monitor(worker): Passed 454 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:408000.mailbox--platform:32300000.remoteproc: Device processed (SEQNUM=5321, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=input".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: wakeup6: sd-device-monitor(worker): Passed 195 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: regulator:regulator.4--platform:fd5000.phy: Device processed (SEQNUM=5324, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator-rtmr1-3p3: sd-device-monitor(worker): Passed 448 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator-nvme: sd-device-monitor(worker): Passed 418 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: regulator:regulator.8--platform:fd5000.phy: Device processed (SEQNUM=5323, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: qcom-soundwire: Processing device (SEQNUM=5319, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: soundwire_qcom: sd-device-monitor(worker): Passed 160 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: genpd:1:32300000.remoteproc: sd-device-monitor(worker): Passed 288 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: fd5000.phy-mux: Device ready for processing (SEQNUM=5332, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: fd5000.phy-switch: Device processed (SEQNUM=5331, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=input": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: regulator:regulator.4--platform:fd5000.phy: sd-device-monitor(worker): Passed 206 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: regulator:regulator.8--platform:fd5000.phy: sd-device-monitor(worker): Passed 206 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: fd5000.phy-mux: sd-device-monitor(manager): Passed 220 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:408000.mailbox--platform:32300000.remoteproc: sd-device-monitor(worker): Passed 220 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: fd5000.phy-switch: sd-device-monitor(worker): Passed 230 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: /usr/lib/udev/rules.d/60-input-id.rules:5 IMPORT{builtin}="input_id": Importing properties from results of builtin command "input_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: fd5000.phy-mux: Processing device (SEQNUM=5332, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: qcom-soundwire: Device processed (SEQNUM=5319, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: qcom-soundwire: sd-device-monitor(worker): Passed 175 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: wakeup7: Device processed (SEQNUM=5313, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-2--spmi:1-0a: Device is queued (SEQNUM=5754, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: wakeup7: sd-device-monitor(worker): Passed 196 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--spmi:1-0a: Device is queued (SEQNUM=5755, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: capabilities/ev raw kernel attribute: 21
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: capabilities/abs raw kernel attribute: 0
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 1-0a: Device is queued (SEQNUM=5756, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: capabilities/rel raw kernel attribute: 0
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: fd5000.phy-mux: Device processed (SEQNUM=5332, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: fd5000.phy-mux: sd-device-monitor(worker): Passed 220 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: capabilities/key raw kernel attribute: 0
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: c432000.spmi:pmic@b:phy@fd00: Device is queued (SEQNUM=5757, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: properties raw kernel attribute: 0
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: test_key: no EV_KEY capability
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: /usr/lib/udev/rules.d/60-input-id.rules:6 IMPORT{builtin}="hwdb --subsystem=input --lookup-prefix=id-input:modalias:": Importing properties from results of builtin command "hwdb --subsystem=input --lookup-prefix=id-input:modalias:".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:c432000.spmi:pmic@b:phy@fd00--platform:88e1000.phy: Device is queued (SEQNUM=5758, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: /usr/lib/udev/rules.d/60-input-id.rules:6 IMPORT{builtin}="hwdb --subsystem=input --lookup-prefix=id-input:modalias:": Failed to run builtin "hwdb --subsystem=input --lookup-prefix=id-input:modalias:": Invalid argument
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--platform:c432000.spmi:pmic@b:phy@fd00: Device is queued (SEQNUM=5759, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-2--platform:c432000.spmi:pmic@b:phy@fd00: Device is queued (SEQNUM=5760, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-2--spmi:1-0b: Device is queued (SEQNUM=5761, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--spmi:1-0b: Device is queued (SEQNUM=5762, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 1-0b: Device is queued (SEQNUM=5763, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: pmic-spmi: Device is queued (SEQNUM=5764, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: /usr/lib/udev/rules.d/60-persistent-input.rules:35 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: qcom_spmi_pmic: Device is queued (SEQNUM=5765, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-fd5000.phy.1--platform:ae90000.displayport-controller: Device is queued (SEQNUM=5766, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: sd-device: Created database file '/run/udev/data/+input:input0' for '/devices/platform/gpio-keys/input/input0'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: Running built-in command "kmod load"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: Loading module: input:b0019v0001p0001e0100-e0,5,kramlsfw0,
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-fd5000.phy.1--platform:ae90000.displayport-controller: Device is queued (SEQNUM=5767, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: Module 'evdev' is built in
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: sd-device: Created database file '/run/udev/data/+input:input0' for '/devices/platform/gpio-keys/input/input0'.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-fda000.phy.7--platform:ae98000.displayport-controller: Device is queued (SEQNUM=5768, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: Device processed (SEQNUM=5326, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: input0: sd-device-monitor(worker): Passed 463 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-fda000.phy.7--platform:ae98000.displayport-controller: Device is queued (SEQNUM=5769, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: event0: Device ready for processing (SEQNUM=5327, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: event0: sd-device-monitor(manager): Passed 228 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: aux_bridge.aux_bridge.0: Device ready for processing (SEQNUM=5333, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: aux_bridge.aux_bridge.0: sd-device-monitor(manager): Passed 346 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.9--platform:aec5a00.phy: Device ready for processing (SEQNUM=5334, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.9--platform:aec5a00.phy: sd-device-monitor(manager): Passed 207 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.8--platform:aec5a00.phy: Device ready for processing (SEQNUM=5335, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.8--platform:aec5a00.phy: sd-device-monitor(manager): Passed 207 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy-fd5000.phy.0: Device ready for processing (SEQNUM=5336, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy-fd5000.phy.0: sd-device-monitor(manager): Passed 296 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1bf8000.pci: Device ready for processing (SEQNUM=5337, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1bf8000.pci: sd-device-monitor(manager): Passed 207 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy-fd5000.phy.1: Device ready for processing (SEQNUM=5338, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy-fd5000.phy.1: sd-device-monitor(manager): Passed 296 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: event0: Processing device (SEQNUM=5327, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.20--platform:1bf8000.pci: Device ready for processing (SEQNUM=5339, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.20--platform:1bf8000.pci: sd-device-monitor(manager): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator:regulator.9--platform:aec5a00.phy: Processing device (SEQNUM=5334, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator.21: Device ready for processing (SEQNUM=5340, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: phy-fd5000.phy.0: Processing device (SEQNUM=5336, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: regulator:regulator.20--platform:1bf8000.pci: Processing device (SEQNUM=5339, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: regulator:regulator.0--platform:1bf8000.pci: Processing device (SEQNUM=5337, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator:regulator.8--platform:aec5a00.phy: Processing device (SEQNUM=5335, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: phy-fd5000.phy.1: Processing device (SEQNUM=5338, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator:regulator.9--platform:aec5a00.phy: Device processed (SEQNUM=5334, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: remoteproc1: Preserve permissions of /dev/remoteproc1, uid=0, gid=0, mode=0600
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: regulator:regulator.0--platform:1bf8000.pci: Device processed (SEQNUM=5337, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: regulator:regulator.20--platform:1bf8000.pci: Device processed (SEQNUM=5339, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: regulator:regulator.0--platform:1bf8000.pci: sd-device-monitor(worker): Passed 207 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator.21: sd-device-monitor(manager): Passed 306 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: remoteproc1: Successfully created symlink '/dev/char/243:1' to '/dev/remoteproc1'
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: remoteproc1: sd-device: Created database file '/run/udev/data/c243:1' for '/devices/platform/soc@0/32300000.remoteproc/remoteproc/remoteproc1'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator:regulator.8--platform:aec5a00.phy: Device processed (SEQNUM=5335, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: phy-fd5000.phy.0: Device processed (SEQNUM=5336, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: regulator:regulator.9--platform:aec5a00.phy: sd-device-monitor(worker): Passed 207 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: regulator:regulator.20--platform:1bf8000.pci: sd-device-monitor(worker): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy-aec5a00.phy.2: Device ready for processing (SEQNUM=5341, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: remoteproc0: Preserve permissions of /dev/remoteproc0, uid=0, gid=0, mode=0600
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: remoteproc1: sd-device: Created database file '/run/udev/data/c243:1' for '/devices/platform/soc@0/32300000.remoteproc/remoteproc/remoteproc1'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: regulator:regulator.8--platform:aec5a00.phy: sd-device-monitor(worker): Passed 207 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: regulator.21: Processing device (SEQNUM=5340, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: phy-fd5000.phy.0: sd-device-monitor(worker): Passed 296 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: phy-fd5000.phy.1: Device processed (SEQNUM=5338, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: aux_bridge.aux_bridge.0: Processing device (SEQNUM=5333, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy-aec5a00.phy.2: sd-device-monitor(manager): Passed 290 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: remoteproc1: Device processed (SEQNUM=5318, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: remoteproc0: Successfully created symlink '/dev/char/243:0' to '/dev/remoteproc0'
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: remoteproc0: sd-device: Created database file '/run/udev/data/c243:0' for '/devices/platform/soc@0/6800000.remoteproc/remoteproc/remoteproc0'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: remoteproc0: sd-device: Created database file '/run/udev/data/c243:0' for '/devices/platform/soc@0/6800000.remoteproc/remoteproc/remoteproc0'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: phy-fd5000.phy.1: sd-device-monitor(worker): Passed 296 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: aux_bridge.aux_bridge.0: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=auxiliary".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:a600000.usb--platform:fd5000.phy: Device ready for processing (SEQNUM=5342, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: remoteproc1: sd-device-monitor(worker): Passed 270 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: remoteproc0: Device processed (SEQNUM=5303, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: phy-aec5a00.phy.2: Processing device (SEQNUM=5341, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: regulator.21: Device processed (SEQNUM=5340, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: aux_bridge.aux_bridge.0: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=auxiliary": Invalid argument
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:a600000.usb--platform:fd5000.phy: sd-device-monitor(manager): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:a600000.usb--platform:fd5000.phy: Processing device (SEQNUM=5342, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: remoteproc0: sd-device-monitor(worker): Passed 269 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: regulator.21: sd-device-monitor(worker): Passed 306 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: fd5000.phy: SEQNUM=5343 blocked by SEQNUM=5338
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:a600000.usb--platform:fd5000.phy: Device processed (SEQNUM=5342, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: qcom-qmp-combo-phy: Device ready for processing (SEQNUM=5344, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:a600000.usb--platform:fd5000.phy: sd-device-monitor(worker): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: qcom-qmp-combo-phy: sd-device-monitor(manager): Passed 179 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: phy-aec5a00.phy.2: Device processed (SEQNUM=5341, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: qcom-qmp-combo-phy: Processing device (SEQNUM=5344, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: aux_bridge.aux_bridge.0: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy_qcom_qmp_combo: Device ready for processing (SEQNUM=5345, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: phy-aec5a00.phy.2: sd-device-monitor(worker): Passed 290 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: phy_qcom_qmp_combo: Processing device (SEQNUM=5345, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy_qcom_qmp_combo: sd-device-monitor(manager): Passed 164 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: aux_bridge.aux_bridge.0: Running built-in command "kmod load"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1bf8000.pci: SEQNUM=5346 blocked by SEQNUM=5337
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: Loading module: auxiliary:aux_bridge.aux_bridge
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: Module 'aux_bridge' is already loaded
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: phy_qcom_qmp_combo: Device processed (SEQNUM=5345, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: qcom-qmp-combo-phy: Device processed (SEQNUM=5344, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: aec5a00.phy: SEQNUM=5347 blocked by SEQNUM=5341
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: aux_bridge.aux_bridge.0: Device processed (SEQNUM=5333, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: phy_qcom_qmp_combo: sd-device-monitor(worker): Passed 164 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: qcom-qmp-combo-phy: sd-device-monitor(worker): Passed 179 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-wcn-3p3: SEQNUM=5348 blocked by SEQNUM=5340
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: aux_bridge.aux_bridge.0: sd-device-monitor(worker): Passed 346 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.20--platform:1bf8000.pci: SEQNUM=5349 blocked by SEQNUM=5339
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.16--platform:1be0000.phy: Device ready for processing (SEQNUM=5350, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.16--platform:1be0000.phy: sd-device-monitor(manager): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.13--platform:1be0000.phy: Device ready for processing (SEQNUM=5351, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.13--platform:1be0000.phy: sd-device-monitor(manager): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy-1be0000.phy.3: Device ready for processing (SEQNUM=5352, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: regulator:regulator.16--platform:1be0000.phy: Processing device (SEQNUM=5350, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy-1be0000.phy.3: sd-device-monitor(manager): Passed 303 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: regulator:regulator.13--platform:1be0000.phy: Processing device (SEQNUM=5351, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:1be0000.phy: Device ready for processing (SEQNUM=5353, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:1be0000.phy: sd-device-monitor(manager): Passed 221 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: platform:100000.clock-controller--platform:1be0000.phy: Processing device (SEQNUM=5353, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: regulator:regulator.16--platform:1be0000.phy: Device processed (SEQNUM=5350, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: phy-1be0000.phy.3: Processing device (SEQNUM=5352, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: platform:100000.clock-controller--platform:1be0000.phy: Device processed (SEQNUM=5353, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: regulator:regulator.16--platform:1be0000.phy: sd-device-monitor(worker): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: event0: /usr/lib/udev/rules.d/50-udev-default.rules:51 GROUP="input": Set group ID: 994
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: regulator:regulator.13--platform:1be0000.phy: Device processed (SEQNUM=5351, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: platform:100000.clock-controller--platform:1be0000.phy: sd-device-monitor(worker): Passed 221 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 6800000.remoteproc: Device ready for processing (SEQNUM=5311, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: event0: /usr/lib/udev/rules.d/60-evdev.rules:9 IMPORT{builtin}="hwdb --subsystem=input --lookup-prefix=evdev:": Importing properties from results of builtin command "hwdb --subsystem=input --lookup-prefix=evdev:".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: regulator:regulator.13--platform:1be0000.phy: sd-device-monitor(worker): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[466]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 6800000.remoteproc: sd-device-monitor(manager): Passed 372 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: event0: /usr/lib/udev/rules.d/60-evdev.rules:9 IMPORT{builtin}="hwdb --subsystem=input --lookup-prefix=evdev:": Failed to run builtin "hwdb --subsystem=input --lookup-prefix=evdev:": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[427]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 6800000.remoteproc: Processing device (SEQNUM=5311, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 32300000.remoteproc: Device ready for processing (SEQNUM=5322, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 32300000.remoteproc: sd-device-monitor(manager): Passed 374 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: fd5000.phy: Device ready for processing (SEQNUM=5343, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 6800000.remoteproc: sd-device: Created database file '/run/udev/data/+platform:6800000.remoteproc' for '/devices/platform/soc@0/6800000.remoteproc'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: phy-1be0000.phy.3: Device processed (SEQNUM=5352, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 6800000.remoteproc: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: fd5000.phy: sd-device-monitor(manager): Passed 361 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 32300000.remoteproc: Processing device (SEQNUM=5322, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: phy-1be0000.phy.3: sd-device-monitor(worker): Passed 303 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 6800000.remoteproc: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: fd5000.phy: Processing device (SEQNUM=5343, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1bf8000.pci: Device ready for processing (SEQNUM=5346, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[448]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 6800000.remoteproc: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 32300000.remoteproc: sd-device: Created database file '/run/udev/data/+platform:32300000.remoteproc' for '/devices/platform/soc@0/32300000.remoteproc'.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1bf8000.pci: sd-device-monitor(manager): Passed 210 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: fd5000.phy: sd-device: Created database file '/run/udev/data/+platform:fd5000.phy' for '/devices/platform/soc@0/fd5000.phy'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: regulator:regulator.0--platform:1bf8000.pci: Processing device (SEQNUM=5346, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 32300000.remoteproc: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: aec5a00.phy: Device ready for processing (SEQNUM=5347, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: fd5000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: regulator:regulator.0--platform:1bf8000.pci: Device processed (SEQNUM=5346, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 32300000.remoteproc: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: aec5a00.phy: sd-device-monitor(manager): Passed 339 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 6800000.remoteproc: sd-device: Created database file '/run/udev/data/+platform:6800000.remoteproc' for '/devices/platform/soc@0/6800000.remoteproc'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: regulator:regulator.0--platform:1bf8000.pci: sd-device-monitor(worker): Passed 210 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 32300000.remoteproc: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: aec5a00.phy: Processing device (SEQNUM=5347, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-wcn-3p3: Device ready for processing (SEQNUM=5348, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: fd5000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: value '[dmi/id]modalias' is 'dmi:bvnMicrosoftCorporation:bvr175.138.235:bd08/19/2025:svnMicrosoftCorporation:pnMicrosoftSurfaceLaptop,7thEdition:pvr124I00108T000M0000000F0B11C12M08D14U02T2R21S1A0:rvnMicrosoftCorporation:rnMicrosoftSurfaceLaptop,7thEdition:rvr:cvnMicrosoftCorporation:ct9:cvr:skuSurface_Laptop_7th_Edition_2037:pfaSurface:'
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 6800000.remoteproc: sd-device: Created database file '/run/udev/data/+platform:6800000.remoteproc' for '/devices/platform/soc@0/6800000.remoteproc'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator-wcn-3p3: sd-device-monitor(manager): Passed 362 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: fd5000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: aec5a00.phy: sd-device: Created database file '/run/udev/data/+platform:aec5a00.phy' for '/devices/platform/soc@0/aec5a00.phy'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: event0: /usr/lib/udev/rules.d/60-evdev.rules:18 IMPORT{builtin}="hwdb 'evdev:name:$attr{name}:$attr{[dmi/id]modalias}'": Importing properties from results of builtin command "hwdb 'evdev:name:gpio-keys:dmi:bvnMicrosoftCorporation:bvr175.138.235:bd08/19/2025:svnMicrosoftCorporation:pnMicrosoftSurfaceLaptop,7thEdition:pvr124I00108T000M0000000F0B11C12M08D14U02T2R21S1A0:rvnMicrosoftCorporation:rnMicrosoftSurfaceLaptop,7thEdition:rvr:cvnMicrosoftCorporation:ct9:cvr:skuSurface_Laptop_7th_Edition_2037:pfaSurface:'".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 6800000.remoteproc: Device processed (SEQNUM=5311, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: regulator-wcn-3p3: Processing device (SEQNUM=5348, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.20--platform:1bf8000.pci: Device ready for processing (SEQNUM=5349, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: aec5a00.phy: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 32300000.remoteproc: sd-device: Created database file '/run/udev/data/+platform:32300000.remoteproc' for '/devices/platform/soc@0/32300000.remoteproc'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: event0: /usr/lib/udev/rules.d/60-evdev.rules:18 IMPORT{builtin}="hwdb 'evdev:name:$attr{name}:$attr{[dmi/id]modalias}'": Failed to run builtin "hwdb 'evdev:name:gpio-keys:dmi:bvnMicrosoftCorporation:bvr175.138.235:bd08/19/2025:svnMicrosoftCorporation:pnMicrosoftSurfaceLaptop,7thEdition:pvr124I00108T000M0000000F0B11C12M08D14U02T2R21S1A0:rvnMicrosoftCorporation:rnMicrosoftSurfaceLaptop,7thEdition:rvr:cvnMicrosoftCorporation:ct9:cvr:skuSurface_Laptop_7th_Edition_2037:pfaSurface:'": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 6800000.remoteproc: sd-device-monitor(worker): Passed 448 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.20--platform:1bf8000.pci: sd-device-monitor(manager): Passed 211 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: aec5a00.phy: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: regulator-wcn-3p3: sd-device: Created database file '/run/udev/data/+platform:regulator-wcn-3p3' for '/devices/platform/regulator-wcn-3p3'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: regulator:regulator.20--platform:1bf8000.pci: Processing device (SEQNUM=5349, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: regulator:regulator.20--platform:1bf8000.pci: Device processed (SEQNUM=5349, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: fd5000.phy: sd-device: Created database file '/run/udev/data/+platform:fd5000.phy' for '/devices/platform/soc@0/fd5000.phy'.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 1be0000.phy: SEQNUM=5354 blocked by SEQNUM=5352
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: aec5a00.phy: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: regulator-wcn-3p3: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 32300000.remoteproc: sd-device: Created database file '/run/udev/data/+platform:32300000.remoteproc' for '/devices/platform/soc@0/32300000.remoteproc'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: regulator:regulator.20--platform:1bf8000.pci: sd-device-monitor(worker): Passed 211 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: fd5000.phy: sd-device: Created database file '/run/udev/data/+platform:fd5000.phy' for '/devices/platform/soc@0/fd5000.phy'.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 8c0000.geniqup: Device ready for processing (SEQNUM=5355, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: regulator-wcn-3p3: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 32300000.remoteproc: Device processed (SEQNUM=5322, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: fd5000.phy: Device processed (SEQNUM=5343, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 8c0000.geniqup: sd-device-monitor(manager): Passed 344 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: regulator-wcn-3p3: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: value '[dmi/id]modalias' is 'dmi:bvnMicrosoftCorporation:bvr175.138.235:bd08/19/2025:svnMicrosoftCorporation:pnMicrosoftSurfaceLaptop,7thEdition:pvr124I00108T000M0000000F0B11C12M08D14U02T2R21S1A0:rvnMicrosoftCorporation:rnMicrosoftSurfaceLaptop,7thEdition:rvr:cvnMicrosoftCorporation:ct9:cvr:skuSurface_Laptop_7th_Edition_2037:pfaSurface:'
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: 32300000.remoteproc: sd-device-monitor(worker): Passed 452 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: 8c0000.geniqup: Processing device (SEQNUM=5355, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: fd5000.phy: sd-device-monitor(worker): Passed 421 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: a98000.serial: Device ready for processing (SEQNUM=5356, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: 8c0000.geniqup: sd-device: Created database file '/run/udev/data/+platform:8c0000.geniqup' for '/devices/platform/soc@0/8c0000.geniqup'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: event0: /usr/lib/udev/rules.d/60-evdev.rules:23 IMPORT{builtin}="hwdb 'evdev:name:$attr{name}:phys:$attr{phys}:ev:$attr{capabilities/ev}:$attr{[dmi/id]modalias}'": Importing properties from results of builtin command "hwdb 'evdev:name:gpio-keys:phys:gpio-keys/input0:ev:21:dmi:bvnMicrosoftCorporation:bvr175.138.235:bd08/19/2025:svnMicrosoftCorporation:pnMicrosoftSurfaceLaptop,7thEdition:pvr124I00108T000M0000000F0B11C12M08D14U02T2R21S1A0:rvnMicrosoftCorporation:rnMicrosoftSurfaceLaptop,7thEdition:rvr:cvnMicrosoftCorporation:ct9:cvr:skuSurface_Laptop_7th_Edition_2037:pfaSurface:'".
+Apr 15 11:32:55 localhost.localdomain kernel: qcom_pmic_glink pmic-glink: Failed to create device link (0x180) with supplier 3-0008 for /pmic-glink/connector@0
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-journald[250]: Compressed data object 522 -> 329 using ZSTD
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: a98000.serial: Processing device (SEQNUM=5356, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-journald[250]: Compressed data object 593 -> 364 using ZSTD
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: a98000.serial: sd-device-monitor(manager): Passed 346 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: aec5a00.phy: sd-device: Created database file '/run/udev/data/+platform:aec5a00.phy' for '/devices/platform/soc@0/aec5a00.phy'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: regulator-wcn-3p3: sd-device: Created database file '/run/udev/data/+platform:regulator-wcn-3p3' for '/devices/platform/regulator-wcn-3p3'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: 8c0000.geniqup: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: event0: /usr/lib/udev/rules.d/60-evdev.rules:23 IMPORT{builtin}="hwdb 'evdev:name:$attr{name}:phys:$attr{phys}:ev:$attr{capabilities/ev}:$attr{[dmi/id]modalias}'": Failed to run builtin "hwdb 'evdev:name:gpio-keys:phys:gpio-keys/input0:ev:21:dmi:bvnMicrosoftCorporation:bvr175.138.235:bd08/19/2025:svnMicrosoftCorporation:pnMicrosoftSurfaceLaptop,7thEdition:pvr124I00108T000M0000000F0B11C12M08D14U02T2R21S1A0:rvnMicrosoftCorporation:rnMicrosoftSurfaceLaptop,7thEdition:rvr:cvnMicrosoftCorporation:ct9:cvr:skuSurface_Laptop_7th_Edition_2037:pfaSurface:'": Invalid argument
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:a98000.serial: Device ready for processing (SEQNUM=5357, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: a98000.serial: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: aec5a00.phy: sd-device: Created database file '/run/udev/data/+platform:aec5a00.phy' for '/devices/platform/soc@0/aec5a00.phy'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: 8c0000.geniqup: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: regulator-wcn-3p3: sd-device: Created database file '/run/udev/data/+platform:regulator-wcn-3p3' for '/devices/platform/regulator-wcn-3p3'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: event0: /usr/lib/udev/rules.d/60-input-id.rules:5 IMPORT{builtin}="input_id": Importing properties from results of builtin command "input_id".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:a98000.serial: sd-device-monitor(manager): Passed 212 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: a98000.serial: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: aec5a00.phy: Device processed (SEQNUM=5347, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: platform:f100000.pinctrl--platform:a98000.serial: Processing device (SEQNUM=5357, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: 8c0000.geniqup: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: regulator-wcn-3p3: Device processed (SEQNUM=5348, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:a98000.serial: Device ready for processing (SEQNUM=5358, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: a98000.serial: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: aec5a00.phy: sd-device-monitor(worker): Passed 401 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: regulator-wcn-3p3: sd-device-monitor(worker): Passed 436 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: platform:soc@0--platform:a98000.serial: Processing device (SEQNUM=5358, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: platform:f100000.pinctrl--platform:a98000.serial: Device processed (SEQNUM=5357, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: input0: capabilities/ev raw kernel attribute: 21
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:a98000.serial: sd-device-monitor(manager): Passed 202 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: platform:f100000.pinctrl--platform:a98000.serial: sd-device-monitor(worker): Passed 212 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:a98000.serial: Device ready for processing (SEQNUM=5359, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: 8c0000.geniqup: sd-device: Created database file '/run/udev/data/+platform:8c0000.geniqup' for '/devices/platform/soc@0/8c0000.geniqup'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: input0: capabilities/abs raw kernel attribute: 0
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:a98000.serial: sd-device-monitor(manager): Passed 226 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: platform:soc@0--platform:a98000.serial: Device processed (SEQNUM=5358, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: 8c0000.geniqup: sd-device: Created database file '/run/udev/data/+platform:8c0000.geniqup' for '/devices/platform/soc@0/8c0000.geniqup'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:17500000.rsc:power-controller--platform:a98000.serial: Processing device (SEQNUM=5359, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:a98000.serial: Device ready for processing (SEQNUM=5360, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: input0: capabilities/rel raw kernel attribute: 0
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: a98000.serial: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: platform:soc@0--platform:a98000.serial: sd-device-monitor(worker): Passed 202 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: 8c0000.geniqup: Device processed (SEQNUM=5355, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:a98000.serial: sd-device-monitor(manager): Passed 217 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: platform:1600000.interconnect--platform:a98000.serial: Processing device (SEQNUM=5360, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: input0: capabilities/key raw kernel attribute: 0
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: a98000.serial: sd-device: Created database file '/run/udev/data/+platform:a98000.serial' for '/devices/platform/soc@0/ac0000.geniqup/a98000.serial'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: 8c0000.geniqup: sd-device-monitor(worker): Passed 412 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: platform:1600000.interconnect--platform:a98000.serial: Device processed (SEQNUM=5360, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: a98000.serial: Running built-in command "kmod load"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: input0: properties raw kernel attribute: 0
+Apr 15 11:32:55 localhost.localdomain systemd-journald[250]: Compressed data object 579 -> 355 using ZSTD
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:a98000.serial: Device ready for processing (SEQNUM=5361, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:17500000.rsc:power-controller--platform:a98000.serial: Device processed (SEQNUM=5359, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: platform:1600000.interconnect--platform:a98000.serial: sd-device-monitor(worker): Passed 217 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: Loading module: of:NserialT(null)Cqcom,geni-uart
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[456]: event0: test_key: no EV_KEY capability
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:a98000.serial: sd-device-monitor(manager): Passed 218 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:17500000.rsc:power-controller--platform:a98000.serial: sd-device-monitor(worker): Passed 226 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: platform:26400000.interconnect--platform:a98000.serial: Processing device (SEQNUM=5361, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-fd5000.phy.1--platform:ae90000.displayport-controller: Device is queued (SEQNUM=5770, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: platform:26400000.interconnect--platform:a98000.serial: Device processed (SEQNUM=5361, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-fd5000.phy.1--platform:ae90000.displayport-controller: Device is queued (SEQNUM=5771, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: platform:26400000.interconnect--platform:a98000.serial: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-1c0e000.phy.9--platform:1c08000.pci: Device is queued (SEQNUM=5772, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1c08000.pci: Device is queued (SEQNUM=5773, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-fda000.phy.7--platform:ae98000.displayport-controller: Device is queued (SEQNUM=5774, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: phy:phy-fda000.phy.7--platform:ae98000.displayport-controller: Device is queued (SEQNUM=5775, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 1be0000.phy: Device ready for processing (SEQNUM=5354, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: 1be0000.phy: sd-device-monitor(manager): Passed 370 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:a98000.serial: Device ready for processing (SEQNUM=5362, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:a98000.serial: sd-device-monitor(manager): Passed 211 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:a98000.serial: Device ready for processing (SEQNUM=5363, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:a98000.serial: sd-device-monitor(manager): Passed 220 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: a98000.serial:0: SEQNUM=5364 blocked by SEQNUM=5356
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: a98000.serial:0: SEQNUM=5365 blocked by SEQNUM=5364
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: a98000.serial:0.0: SEQNUM=5366 blocked by SEQNUM=5365
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: a98000.serial:0.0: SEQNUM=5367 blocked by SEQNUM=5366
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: serial0: SEQNUM=5368 blocked by SEQNUM=5367
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: serial0-0: SEQNUM=5369 blocked by SEQNUM=5368
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: serial0: SEQNUM=5370 blocked by SEQNUM=5369
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 1be0000.phy: Processing device (SEQNUM=5354, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: platform:interconnect-0--platform:a98000.serial: Processing device (SEQNUM=5362, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 1be0000.phy: sd-device: Created database file '/run/udev/data/+platform:1be0000.phy' for '/devices/platform/soc@0/1be0000.phy'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: platform:100000.clock-controller--platform:a98000.serial: Processing device (SEQNUM=5363, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 1be0000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: a98000.serial: SEQNUM=5371 blocked by SEQNUM=5370
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 1be0000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:ac0000.geniqup: Device ready for processing (SEQNUM=5372, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: platform:interconnect-0--platform:a98000.serial: Device processed (SEQNUM=5362, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 1be0000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:ac0000.geniqup: sd-device-monitor(manager): Passed 215 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: platform:100000.clock-controller--platform:a98000.serial: Device processed (SEQNUM=5363, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: platform:interconnect-0--platform:a98000.serial: sd-device-monitor(worker): Passed 211 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: platform:interconnect-0--platform:ac0000.geniqup: Processing device (SEQNUM=5372, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: platform:interconnect-0--platform:ac0000.geniqup: Device processed (SEQNUM=5372, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: platform:100000.clock-controller--platform:a98000.serial: sd-device-monitor(worker): Passed 220 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:ac0000.geniqup: Device ready for processing (SEQNUM=5373, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: platform:interconnect-0--platform:ac0000.geniqup: sd-device-monitor(worker): Passed 215 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 1be0000.phy: sd-device: Created database file '/run/udev/data/+platform:1be0000.phy' for '/devices/platform/soc@0/1be0000.phy'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 1be0000.phy: sd-device: Created database file '/run/udev/data/+platform:1be0000.phy' for '/devices/platform/soc@0/1be0000.phy'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: platform:1600000.interconnect--platform:ac0000.geniqup: Processing device (SEQNUM=5373, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:ac0000.geniqup: sd-device-monitor(manager): Passed 221 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 1be0000.phy: Device processed (SEQNUM=5354, ACTION=bind)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: Module 'qcom_geni_serial' is built in
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: platform:1600000.interconnect--platform:ac0000.geniqup: Device processed (SEQNUM=5373, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:ac0000.geniqup: Device ready for processing (SEQNUM=5374, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: 1be0000.phy: sd-device-monitor(worker): Passed 432 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: a98000.serial: sd-device: Created database file '/run/udev/data/+platform:a98000.serial' for '/devices/platform/soc@0/ac0000.geniqup/a98000.serial'.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: platform:1600000.interconnect--platform:ac0000.geniqup: sd-device-monitor(worker): Passed 221 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:ac0000.geniqup: sd-device-monitor(manager): Passed 222 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: a98000.serial: Device processed (SEQNUM=5356, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: platform:26400000.interconnect--platform:ac0000.geniqup: Processing device (SEQNUM=5374, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:ac0000.geniqup: Device ready for processing (SEQNUM=5375, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: a98000.serial: sd-device-monitor(worker): Passed 436 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: platform:26400000.interconnect--platform:ac0000.geniqup: Device processed (SEQNUM=5374, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:ac0000.geniqup: sd-device-monitor(manager): Passed 230 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: platform:26400000.interconnect--platform:ac0000.geniqup: sd-device-monitor(worker): Passed 222 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: platform:17500000.rsc:power-controller--platform:ac0000.geniqup: Processing device (SEQNUM=5375, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:ac0000.geniqup: Device ready for processing (SEQNUM=5376, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:ac0000.geniqup: sd-device-monitor(manager): Passed 206 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: platform:soc@0--platform:ac0000.geniqup: Processing device (SEQNUM=5376, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: platform:soc@0--platform:ac0000.geniqup: Device processed (SEQNUM=5376, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: platform:17500000.rsc:power-controller--platform:ac0000.geniqup: Device processed (SEQNUM=5375, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:ac0000.geniqup: Device ready for processing (SEQNUM=5377, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: platform:soc@0--platform:ac0000.geniqup: sd-device-monitor(worker): Passed 206 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: platform:17500000.rsc:power-controller--platform:ac0000.geniqup: sd-device-monitor(worker): Passed 230 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: platform:f100000.pinctrl--platform:ac0000.geniqup: Processing device (SEQNUM=5377, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: platform:f100000.pinctrl--platform:ac0000.geniqup: Device processed (SEQNUM=5377, ACTION=remove)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:ac0000.geniqup: sd-device-monitor(manager): Passed 216 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: platform:f100000.pinctrl--platform:ac0000.geniqup: sd-device-monitor(worker): Passed 216 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: ac0000.geniqup: SEQNUM=5378 blocked by SEQNUM=5371
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: b80000.i2c: Device ready for processing (SEQNUM=5379, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: b80000.i2c: sd-device-monitor(manager): Passed 348 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: b80000.i2c: Processing device (SEQNUM=5379, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:b80000.i2c: Device ready for processing (SEQNUM=5380, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: b80000.i2c: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:b80000.i2c: sd-device-monitor(manager): Passed 209 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: b80000.i2c: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:b80000.i2c: Device ready for processing (SEQNUM=5381, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: b80000.i2c: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:f100000.pinctrl--platform:b80000.i2c: Processing device (SEQNUM=5380, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:b80000.i2c: sd-device-monitor(manager): Passed 199 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:b80000.i2c: Device ready for processing (SEQNUM=5382, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[460]: platform:soc@0--platform:b80000.i2c: Processing device (SEQNUM=5381, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:b80000.i2c: sd-device-monitor(manager): Passed 223 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:interconnect-1--platform:b80000.i2c: Device ready for processing (SEQNUM=5383, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:interconnect-1--platform:b80000.i2c: sd-device-monitor(manager): Passed 208 byte to netlink monitor.
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: platform:17500000.rsc:power-controller--platform:b80000.i2c: Processing device (SEQNUM=5382, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[457]: platform:interconnect-1--platform:b80000.i2c: Processing device (SEQNUM=5383, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[413]: platform:f100000.pinctrl--platform:b80000.i2c: Device processed (SEQNUM=5380, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:1700000.interconnect--platform:b80000.i2c: Device ready for processing (SEQNUM=5384, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[461]: b80000.i2c: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:55 localhost.localdomain (udev-worker)[450]: platform:17500000.rsc:power-controller--platform:b80000.i2c: Device processed (SEQNUM=5382, ACTION=add)
+Apr 15 11:32:55 localhost.localdomain systemd-udevd[406]: platform:1700000.interconnect--platform:b80000.i2c: sd-device-monitor(manager): Passed 214 byte to netlink monitor.

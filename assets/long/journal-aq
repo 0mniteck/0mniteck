@@ -1,0 +1,1000 @@
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: simple-framebuffer.0: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: soc@0: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: simple-framebuffer.0: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-1: SEQNUM=3734 blocked by SEQNUM=3729
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-2: SEQNUM=3735 blocked by SEQNUM=3729
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-3: SEQNUM=3736 blocked by SEQNUM=3729
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-4: SEQNUM=3737 blocked by SEQNUM=3729
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-6: SEQNUM=3738 blocked by SEQNUM=3729
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-7: SEQNUM=3739 blocked by SEQNUM=3729
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1760000.interconnect: SEQNUM=3740 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1770000.interconnect: SEQNUM=3741 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1780000.interconnect: SEQNUM=3742 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17800000.timer: SEQNUM=3743 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 18b4e000.sram: SEQNUM=3744 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bd0000.pcie: SEQNUM=3745 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1be0000.phy: SEQNUM=3746 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bf8000.pci: SEQNUM=3747 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bfc000.phy: SEQNUM=3748 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c08000.pci: SEQNUM=3749 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c0e000.phy: SEQNUM=3750 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c840000.watchdog: SEQNUM=3751 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1dc4000.dma-controller: SEQNUM=3752 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1dfa000.crypto: SEQNUM=3753 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1f40000.hwlock: SEQNUM=3754 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1fc0000.clock-controller: SEQNUM=3755 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 221c8000.efuse: SEQNUM=3756 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 24091000.pmu: SEQNUM=3757 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 240b3400.pmu: SEQNUM=3758 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 240b5400.pmu: SEQNUM=3759 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 240b6400.pmu: SEQNUM=3760 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 25000000.system-cache-controller: SEQNUM=3761 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 26400000.interconnect: SEQNUM=3762 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 320c0000.interconnect: SEQNUM=3763 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 32300000.remoteproc: SEQNUM=3764 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 3d00000.gpu: SEQNUM=3765 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 3d6a000.gmu: SEQNUM=3766 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 3d90000.clock-controller: SEQNUM=3767 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 3da0000.iommu: SEQNUM=3768 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 408000.mailbox: SEQNUM=3769 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6800000.remoteproc: SEQNUM=3770 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6aa0000.codec: SEQNUM=3771 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6ac0000.codec: SEQNUM=3772 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6ad0000.soundwire: SEQNUM=3773 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6ae0000.codec: SEQNUM=3774 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6b00000.codec: SEQNUM=3775 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6b10000.soundwire: SEQNUM=3776 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6b6c000.clock-controller: SEQNUM=3777 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6d30000.soundwire: SEQNUM=3778 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6d44000.codec: SEQNUM=3779 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6e80000.pinctrl: SEQNUM=3780 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 6ea0000.clock-controller: SEQNUM=3781 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 7400000.interconnect: SEQNUM=3782 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 7430000.interconnect: SEQNUM=3783 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 7e40000.interconnect: SEQNUM=3784 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 88e1000.phy: SEQNUM=3785 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 88e2000.phy: SEQNUM=3786 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 88e3000.phy: SEQNUM=3787 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 88e5000.phy: SEQNUM=3788 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 8c0000.geniqup: SEQNUM=3789 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: a4f8800.usb: SEQNUM=3790 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: smccc_trng: Processing device (SEQNUM=3712, ACTION=add, UUID=2e6f1f60-0684-4728-bc2e-6e53dece829e)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: a6f8800.usb: SEQNUM=3791 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: a8f8800.usb: SEQNUM=3792 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: smccc_trng: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: aaf0000.clock-controller: SEQNUM=3793 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: smccc_trng: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: smccc_trng: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ac0000.geniqup: SEQNUM=3794 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ade0000.clock-controller: SEQNUM=3795 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ae00000.display-subsystem: SEQNUM=3796 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: aec5a00.phy: SEQNUM=3797 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: smp2p-adsp: Processing device (SEQNUM=3713, ACTION=add, UUID=07b8e020-4224-4bbd-9750-693196d2c36d)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: af00000.clock-controller: SEQNUM=3798 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b220000.interrupt-controller: SEQNUM=3799 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: smp2p-adsp: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: soc@0: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: smp2p-cdsp: Processing device (SEQNUM=3714, ACTION=add, UUID=d2e1a853-ce1e-4558-8640-235dfe6faf52)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: smp2p-adsp: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: bc0000.geniqup: SEQNUM=3800 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: regulator-wcn-1p9: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: soc@0: sd-device: Created database file '/run/udev/data/+platform:soc@0' for '/devices/platform/soc@0'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: smp2p-cdsp: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: regulator-vph-pwr: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: regulator-rtmr1-3p3: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: smp2p-adsp: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: regulator-rtmr1-3p3: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-3p3' for '/devices/platform/regulator-rtmr1-3p3'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-1p8' for '/devices/platform/regulator-rtmr1-1p8'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: Module 'fixed' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: simple-framebuffer.0: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: regulator-wcn-1p9: sd-device: Created database file '/run/udev/data/+platform:regulator-wcn-1p9' for '/devices/platform/regulator-wcn-1p9'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: smp2p-cdsp: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: smccc_trng: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: regulator-vph-pwr: sd-device: Created database file '/run/udev/data/+platform:regulator-vph-pwr' for '/devices/platform/regulator-vph-pwr'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: regulator-rtmr1-3p3: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: regulator-wcn-0p95: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: regulator-wcn-3p3: Processing device (SEQNUM=3707, ACTION=add, UUID=70eb4039-9793-4145-bf21-6f8e0a313f2d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: regulator-wcn-0p95: sd-device: Created database file '/run/udev/data/+platform:regulator-wcn-0p95' for '/devices/platform/regulator-wcn-0p95'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: regulator-rtmr1-1p15: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-1p15' for '/devices/platform/regulator-rtmr1-1p15'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: regulator-wcn-1p9: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: simple-framebuffer.0: sd-device: Created database file '/run/udev/data/+platform:simple-framebuffer.0' for '/devices/platform/simple-framebuffer.0'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: smp2p-adsp: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: smp2p-cdsp: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: regulator-vph-pwr: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: smccc_trng: sd-device: Created database file '/run/udev/data/+platform:smccc_trng' for '/devices/platform/smccc_trng'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: Loading module: of:Nregulator-rtmr1-3p3T(null)Cregulator-fixed
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Loading module: of:Nregulator-rtmr1-1p8T(null)Cregulator-fixed
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: smp2p-cdsp: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: smp2p-cdsp: sd-device: Created database file '/run/udev/data/+platform:smp2p-cdsp' for '/devices/platform/smp2p-cdsp'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c271000.thermal-sensor: SEQNUM=3801 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: Inserted module 'fixed'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Loading module: of:Nregulator-wcn-1p9T(null)Cregulator-fixed
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: regulator-rtmr0-3p3: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr0-3p3' for '/devices/platform/regulator-rtmr0-3p3'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: smp2p-adsp: sd-device: Created database file '/run/udev/data/+platform:smp2p-adsp' for '/devices/platform/smp2p-adsp'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: Loading module: of:Nregulator-vph-pwrT(null)Cregulator-fixed
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: smp2p-cdsp: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: Loading module: of:Nsmp2p-cdspT(null)Cqcom,smp2p
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: regulator-wcn-0p95: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Inserted module 'fixed'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: Inserted module 'fixed'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: Inserted module 'fixed'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: regulator-rtmr0-1p15: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr0-1p15' for '/devices/platform/regulator-rtmr0-1p15'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: regulator-rtmr0-3p3: Device processed (SEQNUM=3700, ACTION=add, UUID=a6a8f610-6e72-4f0f-bad1-6533b1de4ea2)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: regulator-edp-3p3: sd-device: Created database file '/run/udev/data/+platform:regulator-edp-3p3' for '/devices/platform/regulator-edp-3p3'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: Loading module: of:Nregulator-wcn-0p95T(null)Cregulator-fixed
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: regulator-nvme: sd-device: Created database file '/run/udev/data/+platform:regulator-nvme' for '/devices/platform/regulator-nvme'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: regulator-nvme: Device processed (SEQNUM=3697, ACTION=add, UUID=19661018-92bc-4552-8b8b-f69ba83ddc53)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: regulator-nvme: sd-device-monitor(worker): Passed 440 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: simple-framebuffer.0: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: Loading module: platform:simple-framebuffer
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: regulator-rtmr0-3p3: sd-device-monitor(worker): Passed 470 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: regulator-wcn-3p3: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: regulator-wcn-3p3: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: regulator-wcn-3p3: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: regulator-wcn-3p3: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: regulator-wcn-3p3: sd-device: Created database file '/run/udev/data/+platform:regulator-wcn-3p3' for '/devices/platform/regulator-wcn-3p3'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: regulator-wcn-3p3: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: Loading module: of:Nregulator-wcn-3p3T(null)Cregulator-fixed
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Module 'fixed' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-1p8' for '/devices/platform/regulator-rtmr1-1p8'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: Device processed (SEQNUM=3702, ACTION=add, UUID=04a14388-197f-45d4-b7a1-663baea35212)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: regulator-rtmr1-1p8: sd-device-monitor(worker): Passed 470 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: soc@0: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: Loading module: of:NsocT(null)Csimple-bus
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Module 'fixed' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: regulator-wcn-1p9: sd-device: Created database file '/run/udev/data/+platform:regulator-wcn-1p9' for '/devices/platform/regulator-wcn-1p9'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: regulator-wcn-1p9: Device processed (SEQNUM=3706, ACTION=add, UUID=6c1beea6-1832-4e8a-af70-bf67fce4d406)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: regulator-wcn-1p9: sd-device-monitor(worker): Passed 458 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: Module 'fixed' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: smccc_trng: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: Loading module: platform:smccc_trng
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: regulator-vph-pwr: sd-device: Created database file '/run/udev/data/+platform:regulator-vph-pwr' for '/devices/platform/regulator-vph-pwr'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: regulator-vph-pwr: Device processed (SEQNUM=3704, ACTION=add, UUID=4ec588a2-7202-4b14-a089-f32d360a4a8f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: Failed to find module 'platform:smccc_trng'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: regulator-vph-pwr: sd-device-monitor(worker): Passed 483 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: smccc_trng: sd-device: Created database file '/run/udev/data/+platform:smccc_trng' for '/devices/platform/smccc_trng'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: smccc_trng: Device processed (SEQNUM=3712, ACTION=add, UUID=2e6f1f60-0684-4728-bc2e-6e53dece829e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: regulator-rtmr0-1p15: Device processed (SEQNUM=3698, ACTION=add, UUID=89ed3156-432e-4d7c-9152-ddd7c73b656c)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: regulator-rtmr0-1p15: sd-device-monitor(worker): Passed 476 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: smccc_trng: sd-device-monitor(worker): Passed 305 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: Inserted module 'fixed'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: Module 'fixed' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: regulator-rtmr0-1p8: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr0-1p8' for '/devices/platform/regulator-rtmr0-1p8'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: regulator-rtmr0-1p8: Device processed (SEQNUM=3699, ACTION=add, UUID=31e001eb-3056-414f-ac02-2e39859e218f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: regulator-wcn-0p95: sd-device: Created database file '/run/udev/data/+platform:regulator-wcn-0p95' for '/devices/platform/regulator-wcn-0p95'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: regulator-rtmr0-1p8: sd-device-monitor(worker): Passed 470 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: regulator-wcn-0p95: Device processed (SEQNUM=3705, ACTION=add, UUID=76da110e-cbed-45e8-9550-901403357d6f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: regulator-wcn-0p95: sd-device-monitor(worker): Passed 464 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: regulator-edp-3p3: Device processed (SEQNUM=3696, ACTION=add, UUID=63fb114d-fe52-4774-a1bc-5bd2f63173a4)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: regulator-edp-3p3: sd-device-monitor(worker): Passed 458 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: smp2p-adsp: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: Loading module: of:Nsmp2p-adspT(null)Cqcom,smp2p
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c272000.thermal-sensor: SEQNUM=3802 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c273000.thermal-sensor: SEQNUM=3803 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c274000.thermal-sensor: SEQNUM=3804 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c300000.power-management: SEQNUM=3805 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c3f0000.sram: SEQNUM=3806 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: c400000.arbiter: SEQNUM=3807 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: f100000.pinctrl: SEQNUM=3808 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fd3000.phy: SEQNUM=3809 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fd5000.phy: SEQNUM=3810 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fd9000.phy: SEQNUM=3811 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fda000.phy: SEQNUM=3812 blocked by SEQNUM=3715
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sound: Device ready for processing (SEQNUM=3813, ACTION=add, UUID=fe8dceb4-88dc-4099-bcc2-fb33f7c6d4ad)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sound: sd-device-monitor(manager): Passed 348 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: timer: Device ready for processing (SEQNUM=3814, ACTION=add, UUID=7b048047-28df-4b30-8797-d8057e97164e)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: timer: sd-device-monitor(manager): Passed 336 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: Module 'fixed' is already loaded
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: wcn7850-pmu: Device ready for processing (SEQNUM=3815, ACTION=add, UUID=218475cf-5e04-473c-97d5-bd742a7e06d9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: regulator-rtmr1-1p15: Device processed (SEQNUM=3701, ACTION=add, UUID=795d7a48-7fbe-4e07-a41c-cd8ef3cc7a6d)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: wcn7850-pmu: sd-device-monitor(manager): Passed 362 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: sound: Processing device (SEQNUM=3813, ACTION=add, UUID=fe8dceb4-88dc-4099-bcc2-fb33f7c6d4ad)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: Module 'simple_pm_bus' is built in
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: Failed to find module 'platform:simple-framebuffer'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: regulator-wcn-3p3: sd-device: Created database file '/run/udev/data/+platform:regulator-wcn-3p3' for '/devices/platform/regulator-wcn-3p3'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: simple-framebuffer.0: sd-device: Created database file '/run/udev/data/+platform:simple-framebuffer.0' for '/devices/platform/simple-framebuffer.0'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: wcn7850-pmu: Processing device (SEQNUM=3815, ACTION=add, UUID=218475cf-5e04-473c-97d5-bd742a7e06d9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: sound: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: timer: Processing device (SEQNUM=3814, ACTION=add, UUID=7b048047-28df-4b30-8797-d8057e97164e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: soc@0: sd-device: Created database file '/run/udev/data/+platform:soc@0' for '/devices/platform/soc@0'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: regulator-rtmr1-1p15: sd-device-monitor(worker): Passed 476 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: software: Device ready for processing (SEQNUM=3816, ACTION=add, UUID=b8f80a0a-de1b-4187-90c0-adca11139f73)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: simple-framebuffer.0: Device processed (SEQNUM=3708, ACTION=add, UUID=83746ad1-7b72-4788-a0da-dc13439ffa49)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: sound: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: wcn7850-pmu: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: soc@0: Device processed (SEQNUM=3715, ACTION=add, UUID=5cd8f4fe-c97b-48ef-bef1-c8ac566cffa8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: timer: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: regulator-wcn-3p3: Device processed (SEQNUM=3707, ACTION=add, UUID=70eb4039-9793-4145-bf21-6f8e0a313f2d)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: software: sd-device-monitor(manager): Passed 209 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: broadcast: Device ready for processing (SEQNUM=3817, ACTION=add, UUID=a78adc4f-6354-452f-b309-952238838b98)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: sound: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: software: Processing device (SEQNUM=3816, ACTION=add, UUID=b8f80a0a-de1b-4187-90c0-adca11139f73)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: wcn7850-pmu: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: soc@0: sd-device-monitor(worker): Passed 393 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: timer: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: sound: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: simple-framebuffer.0: sd-device-monitor(worker): Passed 369 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: broadcast: sd-device-monitor(manager): Passed 228 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: Module 'fixed' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: wcn7850-pmu: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: timer: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: software: Device processed (SEQNUM=3816, ACTION=add, UUID=b8f80a0a-de1b-4187-90c0-adca11139f73)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: sound: sd-device: Created database file '/run/udev/data/+platform:sound' for '/devices/platform/sound'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: sound: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: wcn7850-pmu: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: wcn7850-pmu: sd-device: Created database file '/run/udev/data/+platform:wcn7850-pmu' for '/devices/platform/wcn7850-pmu'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: broadcast: Processing device (SEQNUM=3817, ACTION=add, UUID=a78adc4f-6354-452f-b309-952238838b98)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: regulator-rtmr1-3p3: sd-device: Created database file '/run/udev/data/+platform:regulator-rtmr1-3p3' for '/devices/platform/regulator-rtmr1-3p3'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: software: sd-device-monitor(worker): Passed 209 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Loading module: of:NsoundT(null)Cqcom,x1e80100-sndcard
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: broadcast: Device processed (SEQNUM=3817, ACTION=add, UUID=a78adc4f-6354-452f-b309-952238838b98)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: broadcast: sd-device-monitor(worker): Passed 228 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: timer: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent0: Device ready for processing (SEQNUM=3818, ACTION=add, UUID=752e29ad-e486-4037-a94e-99cae88d273a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: regulator-rtmr1-3p3: Device processed (SEQNUM=3703, ACTION=add, UUID=bb701d54-1ccb-4b60-8588-7c56b8a6f054)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: regulator-rtmr1-3p3: sd-device-monitor(worker): Passed 470 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: regulator-wcn-3p3: sd-device-monitor(worker): Passed 458 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: Inserted module 'smp2p'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: Inserted module 'smp2p'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: smp2p-cdsp: sd-device: Created database file '/run/udev/data/+platform:smp2p-cdsp' for '/devices/platform/smp2p-cdsp'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent0: sd-device-monitor(manager): Passed 230 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: clockevent0: Processing device (SEQNUM=3818, ACTION=add, UUID=752e29ad-e486-4037-a94e-99cae88d273a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: wcn7850-pmu: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: timer: sd-device: Created database file '/run/udev/data/+platform:timer' for '/devices/platform/timer'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: smp2p-cdsp: Device processed (SEQNUM=3714, ACTION=add, UUID=d2e1a853-ce1e-4558-8640-235dfe6faf52)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: smp2p-adsp: sd-device: Created database file '/run/udev/data/+platform:smp2p-adsp' for '/devices/platform/smp2p-adsp'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent1: Device ready for processing (SEQNUM=3819, ACTION=add, UUID=cd3cb48a-b8b0-487b-9edc-7ab6cb356f47)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: Loading module: of:Nwcn7850-pmuT(null)Cqcom,wcn7850-pmu
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: timer: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: smp2p-cdsp: sd-device-monitor(worker): Passed 406 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Failed to find module 'of:NsoundT(null)Cqcom,x1e80100-sndcard'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: smp2p-adsp: Device processed (SEQNUM=3713, ACTION=add, UUID=07b8e020-4224-4bbd-9750-693196d2c36d)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent1: sd-device-monitor(manager): Passed 230 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: clockevent0: Device processed (SEQNUM=3818, ACTION=add, UUID=752e29ad-e486-4037-a94e-99cae88d273a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: Loading module: of:NtimerT(null)Carm,armv8-timer
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: clockevent1: Processing device (SEQNUM=3819, ACTION=add, UUID=cd3cb48a-b8b0-487b-9edc-7ab6cb356f47)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: smp2p-adsp: sd-device-monitor(worker): Passed 406 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: sound: sd-device: Created database file '/run/udev/data/+platform:sound' for '/devices/platform/sound'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: clockevent0: sd-device-monitor(worker): Passed 230 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: sound: Device processed (SEQNUM=3813, ACTION=add, UUID=fe8dceb4-88dc-4099-bcc2-fb33f7c6d4ad)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: clockevent1: Device processed (SEQNUM=3819, ACTION=add, UUID=cd3cb48a-b8b0-487b-9edc-7ab6cb356f47)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: sound: sd-device-monitor(worker): Passed 398 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: clockevent1: sd-device-monitor(worker): Passed 230 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent10: Device ready for processing (SEQNUM=3820, ACTION=add, UUID=110d7bd8-43ba-4485-9ae5-e8f02cc9a0d4)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: Error running install command '/sbin/modprobe --ignore-install snd  && { /sbin/modprobe --quiet --use-blacklist snd-ioctl32 ; /sbin/modprobe --quiet --use-blacklist snd-seq ; }' for module snd: retcode 1
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clockevent10: sd-device-monitor(manager): Passed 231 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: Failed to insert module 'snd_soc_wcd938x': Invalid argument
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: audio-codec: sd-device: Created database file '/run/udev/data/+platform:audio-codec' for '/devices/platform/audio-codec'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: audio-codec: Device processed (SEQNUM=3681, ACTION=add, UUID=6839547d-8d82-4de5-9184-12d7a2ae12d5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: clockevent10: Processing device (SEQNUM=3820, ACTION=add, UUID=110d7bd8-43ba-4485-9ae5-e8f02cc9a0d4)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: audio-codec: sd-device-monitor(worker): Passed 428 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sound: Device is queued (SEQNUM=4747, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: soundcore: Device is queued (SEQNUM=4748, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: Module 'pwrseq_qcom_wcn' is deny-listed (by kmod)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: wcn7850-pmu: sd-device: Created database file '/run/udev/data/+platform:wcn7850-pmu' for '/devices/platform/wcn7850-pmu'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: wcn7850-pmu: Device processed (SEQNUM=3815, ACTION=add, UUID=218475cf-5e04-473c-97d5-bd742a7e06d9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: wcn7850-pmu: sd-device-monitor(worker): Passed 424 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: clockevent10: Device processed (SEQNUM=3820, ACTION=add, UUID=110d7bd8-43ba-4485-9ae5-e8f02cc9a0d4)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom-smem: Device is queued (SEQNUM=4749, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: clockevent10: sd-device-monitor(worker): Passed 231 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: smem: Device is queued (SEQNUM=4750, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: pwm-backlight: Device is queued (SEQNUM=4751, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: pwm_bl: Device is queued (SEQNUM=4752, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: Failed to find module 'of:NtimerT(null)Carm,armv8-timer'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: timer: sd-device: Created database file '/run/udev/data/+platform:timer' for '/devices/platform/timer'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: timer: Device processed (SEQNUM=3814, ACTION=add, UUID=7b048047-28df-4b30-8797-d8057e97164e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: timer: sd-device-monitor(worker): Passed 386 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: interconnect-0: Device is queued (SEQNUM=4753, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: rpmsg: Device is queued (SEQNUM=4754, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: rpmsg: Device is queued (SEQNUM=4755, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: rpmsg_core: Device is queued (SEQNUM=4756, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gpio-keys: Device is queued (SEQNUM=4757, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gpio_keys: Device is queued (SEQNUM=4758, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: interconnect-1: Device is queued (SEQNUM=4759, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1500000.interconnect: Device is queued (SEQNUM=4760, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: reg-fixed-voltage: Device is queued (SEQNUM=4761, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fixed: Device is queued (SEQNUM=4762, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qmi_helpers: Device is queued (SEQNUM=4763, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.1: Device is queued (SEQNUM=4764, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-vph-pwr: Device is queued (SEQNUM=4765, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: snd: Device is queued (SEQNUM=4766, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom_pdr_msg: Device is queued (SEQNUM=4767, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1600000.interconnect: Device is queued (SEQNUM=4768, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1680000.interconnect: Device is queued (SEQNUM=4769, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 16c0000.interconnect: Device is queued (SEQNUM=4770, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 16d0000.interconnect: Device is queued (SEQNUM=4771, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 16e0000.interconnect: Device is queued (SEQNUM=4772, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1700000.interconnect: Device is queued (SEQNUM=4773, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1740000.interconnect: Device is queued (SEQNUM=4774, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1750000.interconnect: Device is queued (SEQNUM=4775, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom_smp2p: Device is queued (SEQNUM=4776, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1760000.interconnect: Device is queued (SEQNUM=4777, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: smp2p: Device is queued (SEQNUM=4778, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1770000.interconnect: Device is queued (SEQNUM=4779, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: pdr_interface: Device is queued (SEQNUM=4780, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1780000.interconnect: Device is queued (SEQNUM=4781, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 26400000.interconnect: Device is queued (SEQNUM=4782, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 320c0000.interconnect: Device is queued (SEQNUM=4783, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 7e40000.interconnect: Device is queued (SEQNUM=4784, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 7400000.interconnect: Device is queued (SEQNUM=4785, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 7430000.interconnect: Device is queued (SEQNUM=4786, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qnoc-x1e80100: Device is queued (SEQNUM=4787, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qnoc_x1e80100: Device is queued (SEQNUM=4788, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom_pmic_glink: Device is queued (SEQNUM=4789, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom_pmic_glink_rpmsg: Device is queued (SEQNUM=4790, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: pmic_glink: Device is queued (SEQNUM=4791, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Inserted module 'pmic_glink'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: pmic-glink: sd-device: Created database file '/run/udev/data/+platform:pmic-glink' for '/devices/platform/pmic-glink'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: pmic-glink: Device processed (SEQNUM=3692, ACTION=add, UUID=ea7490d2-05c9-4a4e-ac9d-bb18b02c197c)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: pmic-glink: sd-device-monitor(worker): Passed 544 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: armv8_pmuv3: Device ready for processing (SEQNUM=3694, ACTION=add, UUID=abe1ee39-7f34-4889-aff9-704abe749d80)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: armv8_pmuv3: sd-device-monitor(manager): Passed 225 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: card0: Device ready for processing (SEQNUM=3709, ACTION=add, UUID=e3c09b3c-7e79-45de-9f5c-b18ec6ced6c7)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: card0: sd-device-monitor(manager): Passed 290 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fb0: Device ready for processing (SEQNUM=3711, ACTION=add, UUID=d40a1eef-ca5d-4c4a-87ec-84e7209b01bb)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fb0: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 100000.clock-controller: Device ready for processing (SEQNUM=3716, ACTION=add, UUID=84d15454-f166-4d4e-be29-aa8174783f6d)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 100000.clock-controller: sd-device-monitor(manager): Passed 410 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 10c3000.rng: Device ready for processing (SEQNUM=3717, ACTION=add, UUID=75d7f33d-9339-4e6d-a22d-2beadb8c9ae5)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 10c3000.rng: sd-device-monitor(manager): Passed 398 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1500000.interconnect: Device ready for processing (SEQNUM=3718, ACTION=add, UUID=86128b0a-98e6-4c2e-b60e-860bf1110464)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1500000.interconnect: sd-device-monitor(manager): Passed 408 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: armv8_pmuv3: Processing device (SEQNUM=3694, ACTION=add, UUID=abe1ee39-7f34-4889-aff9-704abe749d80)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 15000000.iommu: Device ready for processing (SEQNUM=3719, ACTION=add, UUID=ecc12910-951e-46c5-81b0-800f05435a6a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 15000000.iommu: sd-device-monitor(manager): Passed 464 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1600000.interconnect: Device ready for processing (SEQNUM=3720, ACTION=add, UUID=01a37681-346f-4d36-86af-e9be9f649bdc)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1600000.interconnect: sd-device-monitor(manager): Passed 406 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1680000.interconnect: Device ready for processing (SEQNUM=3721, ACTION=add, UUID=8bce04eb-e3a9-4a6a-b0bc-de170193dcc6)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1680000.interconnect: sd-device-monitor(manager): Passed 410 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 16c0000.interconnect: Device ready for processing (SEQNUM=3722, ACTION=add, UUID=13f0d3a6-2eda-42f0-b80c-660df0654254)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: card0: Processing device (SEQNUM=3709, ACTION=add, UUID=e3c09b3c-7e79-45de-9f5c-b18ec6ced6c7)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 16c0000.interconnect: sd-device-monitor(manager): Passed 420 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 16d0000.interconnect: Device ready for processing (SEQNUM=3723, ACTION=add, UUID=b19e1103-dfa8-4d31-8de2-68f7bba09748)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: fb0: Processing device (SEQNUM=3711, ACTION=add, UUID=d40a1eef-ca5d-4c4a-87ec-84e7209b01bb)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 16d0000.interconnect: sd-device-monitor(manager): Passed 422 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 16e0000.interconnect: Device ready for processing (SEQNUM=3724, ACTION=add, UUID=25d55744-e100-4d00-9fbb-125959c06e3d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: 1500000.interconnect: Processing device (SEQNUM=3718, ACTION=add, UUID=86128b0a-98e6-4c2e-b60e-860bf1110464)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: 100000.clock-controller: Processing device (SEQNUM=3716, ACTION=add, UUID=84d15454-f166-4d4e-be29-aa8174783f6d)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 16e0000.interconnect: sd-device-monitor(manager): Passed 410 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1700000.interconnect: Device ready for processing (SEQNUM=3725, ACTION=add, UUID=59a0a4ef-7b74-46b0-ab47-83fca6c5c92e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1700000.interconnect: sd-device-monitor(manager): Passed 410 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: 1500000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1740000.interconnect: Device ready for processing (SEQNUM=3726, ACTION=add, UUID=cab2b5a0-3272-4b1e-8a59-15655ae82864)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: 100000.clock-controller: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: 1500000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: 100000.clock-controller: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1740000.interconnect: sd-device-monitor(manager): Passed 420 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: 1500000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: 100000.clock-controller: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17430000.mailbox: Device ready for processing (SEQNUM=3727, ACTION=add, UUID=990bb6eb-b98b-4947-99ea-7e6b5fbc6b3d)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17430000.mailbox: sd-device-monitor(manager): Passed 392 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: 1600000.interconnect: Processing device (SEQNUM=3720, ACTION=add, UUID=01a37681-346f-4d36-86af-e9be9f649bdc)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1750000.interconnect: Device ready for processing (SEQNUM=3728, ACTION=add, UUID=659de7fa-e332-43a6-b101-e4586f09d44d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: 10c3000.rng: Processing device (SEQNUM=3717, ACTION=add, UUID=75d7f33d-9339-4e6d-a22d-2beadb8c9ae5)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1750000.interconnect: sd-device-monitor(manager): Passed 420 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc: Device ready for processing (SEQNUM=3729, ACTION=add, UUID=f941bff3-dee8-460b-add1-e28ccee9bcb8)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc: sd-device-monitor(manager): Passed 366 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: 1600000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: 10c3000.rng: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1760000.interconnect: Device ready for processing (SEQNUM=3740, ACTION=add, UUID=41fc5625-b708-4e1b-92ec-29ac0a16e103)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: 1600000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: 10c3000.rng: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: 16e0000.interconnect: Processing device (SEQNUM=3724, ACTION=add, UUID=25d55744-e100-4d00-9fbb-125959c06e3d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: 10c3000.rng: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: 1600000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1760000.interconnect: sd-device-monitor(manager): Passed 418 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1770000.interconnect: Device ready for processing (SEQNUM=3741, ACTION=add, UUID=5f6d8233-775d-4269-a205-f9df7d72bef8)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1770000.interconnect: sd-device-monitor(manager): Passed 418 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1780000.interconnect: Device ready for processing (SEQNUM=3742, ACTION=add, UUID=d3e684cb-4234-4a1a-bca1-8338ac9113f9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: 16e0000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: 16e0000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1780000.interconnect: sd-device-monitor(manager): Passed 406 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: 16e0000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17800000.timer: Device ready for processing (SEQNUM=3743, ACTION=add, UUID=caddf03d-8778-4feb-b47b-999528dc9080)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: 1740000.interconnect: Processing device (SEQNUM=3726, ACTION=add, UUID=cab2b5a0-3272-4b1e-8a59-15655ae82864)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17800000.timer: sd-device-monitor(manager): Passed 397 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 18b4e000.sram: Device ready for processing (SEQNUM=3744, ACTION=add, UUID=f38a234e-fff3-42f6-b118-0734a5c91ccf)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: armv8_pmuv3: Device processed (SEQNUM=3694, ACTION=add, UUID=abe1ee39-7f34-4889-aff9-704abe749d80)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 18b4e000.sram: sd-device-monitor(manager): Passed 362 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bd0000.pcie: Device ready for processing (SEQNUM=3745, ACTION=add, UUID=42013f9e-49ca-4cd8-91b9-af08c8831561)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: armv8_pmuv3: sd-device-monitor(worker): Passed 225 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bd0000.pcie: sd-device-monitor(manager): Passed 375 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: 1740000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: 17500000.rsc: Processing device (SEQNUM=3729, ACTION=add, UUID=f941bff3-dee8-460b-add1-e28ccee9bcb8)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1be0000.phy: Device ready for processing (SEQNUM=3746, ACTION=add, UUID=86977ee6-3d24-432f-88fc-ef72801b7c06)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: 1740000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: 1740000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1be0000.phy: sd-device-monitor(manager): Passed 392 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bf8000.pci: Device ready for processing (SEQNUM=3747, ACTION=add, UUID=1731b9df-add0-4644-ada4-9271288e8a69)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bf8000.pci: sd-device-monitor(manager): Passed 371 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: 17500000.rsc: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bfc000.phy: Device ready for processing (SEQNUM=3748, ACTION=add, UUID=682cd166-23c1-4a2f-838f-e2cc3111dee9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: 17500000.rsc: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: 17500000.rsc: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bfc000.phy: sd-device-monitor(manager): Passed 392 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c08000.pci: Device ready for processing (SEQNUM=3749, ACTION=add, UUID=a52519cb-08b8-4ce7-bbb3-608ea7bd42cb)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c08000.pci: sd-device-monitor(manager): Passed 371 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: 1780000.interconnect: Processing device (SEQNUM=3742, ACTION=add, UUID=d3e684cb-4234-4a1a-bca1-8338ac9113f9)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c0e000.phy: Device ready for processing (SEQNUM=3750, ACTION=add, UUID=92305bfb-7799-433a-84ae-f3e6b1eac0d9)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c0e000.phy: sd-device-monitor(manager): Passed 392 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c840000.watchdog: Device ready for processing (SEQNUM=3751, ACTION=add, UUID=b2c7a630-545c-441c-b1e4-c83079665e66)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c840000.watchdog: sd-device-monitor(manager): Passed 374 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: 1780000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1dc4000.dma-controller: Device ready for processing (SEQNUM=3752, ACTION=add, UUID=d7f55dd3-7817-4a6a-a794-15a88b2b138a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: 1780000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1dc4000.dma-controller: sd-device-monitor(manager): Passed 448 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: 1500000.interconnect: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: 1780000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: 1680000.interconnect: Processing device (SEQNUM=3721, ACTION=add, UUID=8bce04eb-e3a9-4a6a-b0bc-de170193dcc6)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1dfa000.crypto: Device ready for processing (SEQNUM=3753, ACTION=add, UUID=9c6d8d37-3c29-4708-95db-a67c3958b2b0)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1dfa000.crypto: sd-device-monitor(manager): Passed 454 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1f40000.hwlock: Device ready for processing (SEQNUM=3754, ACTION=add, UUID=a4365d31-4099-4811-9226-87c0f858821f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: 100000.clock-controller: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1f40000.hwlock: sd-device-monitor(manager): Passed 368 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1fc0000.clock-controller: Device ready for processing (SEQNUM=3755, ACTION=add, UUID=a384ab46-6a36-47f3-8264-cb1743ff4550)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1fc0000.clock-controller: sd-device-monitor(manager): Passed 444 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: 16e0000.interconnect: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: 1760000.interconnect: Processing device (SEQNUM=3740, ACTION=add, UUID=41fc5625-b708-4e1b-92ec-29ac0a16e103)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: 1750000.interconnect: Processing device (SEQNUM=3728, ACTION=add, UUID=659de7fa-e332-43a6-b101-e4586f09d44d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: 15000000.iommu: Processing device (SEQNUM=3719, ACTION=add, UUID=ecc12910-951e-46c5-81b0-800f05435a6a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: 16c0000.interconnect: Processing device (SEQNUM=3722, ACTION=add, UUID=13f0d3a6-2eda-42f0-b80c-660df0654254)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: 16c0000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: 17430000.mailbox: Processing device (SEQNUM=3727, ACTION=add, UUID=990bb6eb-b98b-4947-99ea-7e6b5fbc6b3d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: 1bf8000.pci: Processing device (SEQNUM=3747, ACTION=add, UUID=1731b9df-add0-4644-ada4-9271288e8a69)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: 1bd0000.pcie: Processing device (SEQNUM=3745, ACTION=add, UUID=42013f9e-49ca-4cd8-91b9-af08c8831561)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 221c8000.efuse: Device ready for processing (SEQNUM=3756, ACTION=add, UUID=86f3a6a6-61b8-4fc9-b29f-ba4dc9784b39)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: 16c0000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: 1680000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: 1fc0000.clock-controller: Processing device (SEQNUM=3755, ACTION=add, UUID=a384ab46-6a36-47f3-8264-cb1743ff4550)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: 1f40000.hwlock: Processing device (SEQNUM=3754, ACTION=add, UUID=a4365d31-4099-4811-9226-87c0f858821f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: 15000000.iommu: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: 1700000.interconnect: Processing device (SEQNUM=3725, ACTION=add, UUID=59a0a4ef-7b74-46b0-ab47-83fca6c5c92e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: 16d0000.interconnect: Processing device (SEQNUM=3723, ACTION=add, UUID=b19e1103-dfa8-4d31-8de2-68f7bba09748)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: 1dc4000.dma-controller: Processing device (SEQNUM=3752, ACTION=add, UUID=d7f55dd3-7817-4a6a-a794-15a88b2b138a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: 10c3000.rng: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: 1780000.interconnect: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: 1bf8000.pci: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: 18b4e000.sram: Processing device (SEQNUM=3744, ACTION=add, UUID=f38a234e-fff3-42f6-b118-0734a5c91ccf)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: 1770000.interconnect: Processing device (SEQNUM=3741, ACTION=add, UUID=5f6d8233-775d-4269-a205-f9df7d72bef8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: 17500000.rsc: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: 1bd0000.pcie: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: 17800000.timer: Processing device (SEQNUM=3743, ACTION=add, UUID=caddf03d-8778-4feb-b47b-999528dc9080)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 221c8000.efuse: sd-device-monitor(manager): Passed 416 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: 1c08000.pci: Processing device (SEQNUM=3749, ACTION=add, UUID=a52519cb-08b8-4ce7-bbb3-608ea7bd42cb)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: 1500000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1500000.interconnect' for '/devices/platform/soc@0/1500000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: 16c0000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: 1740000.interconnect: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: 1680000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: 1740000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1740000.interconnect' for '/devices/platform/soc@0/1740000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: 1be0000.phy: Processing device (SEQNUM=3746, ACTION=add, UUID=86977ee6-3d24-432f-88fc-ef72801b7c06)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: 100000.clock-controller: sd-device: Created database file '/run/udev/data/+platform:100000.clock-controller' for '/devices/platform/soc@0/100000.clock-controller'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: 1c0e000.phy: Processing device (SEQNUM=3750, ACTION=add, UUID=92305bfb-7799-433a-84ae-f3e6b1eac0d9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: 1dfa000.crypto: Processing device (SEQNUM=3753, ACTION=add, UUID=9c6d8d37-3c29-4708-95db-a67c3958b2b0)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: 1750000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: 16c0000.interconnect: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: 16e0000.interconnect: sd-device: Created database file '/run/udev/data/+platform:16e0000.interconnect' for '/devices/platform/soc@0/16e0000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: 221c8000.efuse: Processing device (SEQNUM=3756, ACTION=add, UUID=86f3a6a6-61b8-4fc9-b29f-ba4dc9784b39)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: 1fc0000.clock-controller: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: 1bfc000.phy: Processing device (SEQNUM=3748, ACTION=add, UUID=682cd166-23c1-4a2f-838f-e2cc3111dee9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: 15000000.iommu: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: 17430000.mailbox: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: 1f40000.hwlock: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: 1700000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: 16d0000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: 16d0000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: 1600000.interconnect: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: 10c3000.rng: sd-device: Created database file '/run/udev/data/+platform:10c3000.rng' for '/devices/platform/soc@0/10c3000.rng'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: 1bf8000.pci: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: 1780000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1780000.interconnect' for '/devices/platform/soc@0/1780000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: 18b4e000.sram: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: 1770000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: 1bd0000.pcie: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: 17500000.rsc: sd-device: Created database file '/run/udev/data/+platform:17500000.rsc' for '/devices/platform/soc@0/17500000.rsc'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: 17800000.timer: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 24091000.pmu: Device ready for processing (SEQNUM=3757, ACTION=add, UUID=40903d19-4312-4aab-b056-7331e468aff5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: 1500000.interconnect: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: 1c08000.pci: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: 1680000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: 1c840000.watchdog: Processing device (SEQNUM=3751, ACTION=add, UUID=b2c7a630-545c-441c-b1e4-c83079665e66)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: 1740000.interconnect: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: 1be0000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: 100000.clock-controller: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: 1c0e000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: 1750000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: 1dfa000.crypto: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: 1760000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: 16c0000.interconnect: sd-device: Created database file '/run/udev/data/+platform:16c0000.interconnect' for '/devices/platform/soc@0/16c0000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: 16e0000.interconnect: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: 221c8000.efuse: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: 1fc0000.clock-controller: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: 1bfc000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: 15000000.iommu: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: 17430000.mailbox: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: 1f40000.hwlock: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: 1700000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: 16d0000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: 1dc4000.dma-controller: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: 1600000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1600000.interconnect' for '/devices/platform/soc@0/1600000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: 10c3000.rng: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: 1bf8000.pci: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: 1780000.interconnect: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: 18b4e000.sram: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: 1770000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: 1bd0000.pcie: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: 17500000.rsc: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: 17800000.timer: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 24091000.pmu: sd-device-monitor(manager): Passed 438 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Loading module: of:NinterconnectT(null)Cqcom,x1e80100-cnoc-main
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: 1c08000.pci: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: 24091000.pmu: Processing device (SEQNUM=3757, ACTION=add, UUID=40903d19-4312-4aab-b056-7331e468aff5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: Loading module: of:NinterconnectT(null)Cqcom,x1e80100-pcie-north-anoc
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: 1c840000.watchdog: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: 1be0000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: Loading module: of:Nclock-controllerT(null)Cqcom,x1e80100-gcc
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: 1c0e000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: 1750000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: 1dfa000.crypto: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: 1760000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: 16c0000.interconnect: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: 1680000.interconnect: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: 1680000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1680000.interconnect' for '/devices/platform/soc@0/1680000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: 221c8000.efuse: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: 1fc0000.clock-controller: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: 1bfc000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: 17430000.mailbox: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: 1f40000.hwlock: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: 1700000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: 1dc4000.dma-controller: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: 1600000.interconnect: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: Loading module: of:NrngT(null)Cqcom,x1e80100-trngCqcom,trng
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: Loading module: of:NinterconnectT(null)Cqcom,x1e80100-mmss-noc
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: 1f40000.hwlock: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: 1f40000.hwlock: sd-device: Created database file '/run/udev/data/+platform:1f40000.hwlock' for '/devices/platform/soc@0/1f40000.hwlock'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: 1770000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: Loading module: of:NrscT(null)Cqcom,rpmh-rsc
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: 16d0000.interconnect: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 240b3400.pmu: Device ready for processing (SEQNUM=3758, ACTION=add, UUID=5e4cc2ba-5408-43a2-bb5e-91f659c81955)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: 16d0000.interconnect: sd-device: Created database file '/run/udev/data/+platform:16d0000.interconnect' for '/devices/platform/soc@0/16d0000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: 18b4e000.sram: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: 1bf8000.pci: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: 1bf8000.pci: sd-device: Created database file '/run/udev/data/+platform:1bf8000.pci' for '/devices/platform/soc@0/1bf8000.pci'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: 1bd0000.pcie: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: 1bd0000.pcie: sd-device: Created database file '/run/udev/data/+platform:1bd0000.pcie' for '/devices/platform/soc@0/1bd0000.pcie'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: 1c840000.watchdog: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: 1dfa000.crypto: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: 240b3400.pmu: Processing device (SEQNUM=3758, ACTION=add, UUID=5e4cc2ba-5408-43a2-bb5e-91f659c81955)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Module 'qnoc_x1e80100' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: 240b3400.pmu: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: 1680000.interconnect: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: 221c8000.efuse: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: 1bfc000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: 1750000.interconnect: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: Loading module: of:NinterconnectT(null)Cqcom,x1e80100-aggre1-noc
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: 1dfa000.crypto: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: Module 'qnoc_x1e80100' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: 17430000.mailbox: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: 1dfa000.crypto: sd-device: Created database file '/run/udev/data/+platform:1dfa000.crypto' for '/devices/platform/soc@0/1dfa000.crypto'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: 1dfa000.crypto: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: 221c8000.efuse: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: Loading module: of:NinterconnectT(null)Cqcom,x1e80100-cnoc-cfg
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 240b3400.pmu: sd-device-monitor(manager): Passed 426 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 240b5400.pmu: Device ready for processing (SEQNUM=3759, ACTION=add, UUID=2fb42b0c-d1b0-4051-968d-17a580101db8)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 240b5400.pmu: sd-device-monitor(manager): Passed 426 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: 1bf8000.pci: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: 1c08000.pci: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: 24091000.pmu: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: 1770000.interconnect: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: 1bd0000.pcie: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: 16d0000.interconnect: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: 1be0000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: 240b5400.pmu: Processing device (SEQNUM=3759, ACTION=add, UUID=2fb42b0c-d1b0-4051-968d-17a580101db8)
+Apr 15 11:32:54 localhost.localdomain kernel: qcom_scm: convention: smc arm 64
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: 1c08000.pci: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: 240b5400.pmu: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: 240b5400.pmu: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: 240b5400.pmu: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: 1c0e000.phy: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: Module 'qnoc_x1e80100' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: 1780000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1780000.interconnect' for '/devices/platform/soc@0/1780000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: 1500000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1500000.interconnect' for '/devices/platform/soc@0/1500000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: 1500000.interconnect: Device processed (SEQNUM=3718, ACTION=add, UUID=86128b0a-98e6-4c2e-b60e-860bf1110464)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: 18b4e000.sram: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Loading module: of:NinterconnectT(null)Cqcom,x1e80100-pcie-south-anoc
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: 18b4e000.sram: sd-device: Created database file '/run/udev/data/+platform:18b4e000.sram' for '/devices/platform/soc@0/18b4e000.sram'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: 1fc0000.clock-controller: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: Loading module: of:NinterconnectT(null)Cqcom,x1e80100-system-noc
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 240b6400.pmu: Device ready for processing (SEQNUM=3760, ACTION=add, UUID=4cb8e9ae-6fd3-4afe-887a-80aeed80e436)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: Loading module: of:NpciTpciCqcom,pcie-x1e80100
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: 240b6400.pmu: Processing device (SEQNUM=3760, ACTION=add, UUID=4cb8e9ae-6fd3-4afe-887a-80aeed80e436)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: 240b6400.pmu: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Importing properties from results of builtin command "hwdb --subsystem=platform".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: 240b6400.pmu: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: 240b6400.pmu: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: Module 'qnoc_x1e80100' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: 16e0000.interconnect: sd-device: Created database file '/run/udev/data/+platform:16e0000.interconnect' for '/devices/platform/soc@0/16e0000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: 16e0000.interconnect: Device processed (SEQNUM=3724, ACTION=add, UUID=25d55744-e100-4d00-9fbb-125959c06e3d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: 16e0000.interconnect: sd-device-monitor(worker): Passed 511 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: 1780000.interconnect: Device processed (SEQNUM=3742, ACTION=add, UUID=d3e684cb-4234-4a1a-bca1-8338ac9113f9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: 1dc4000.dma-controller: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: 1be0000.phy: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: 1be0000.phy: sd-device: Created database file '/run/udev/data/+platform:1be0000.phy' for '/devices/platform/soc@0/1be0000.phy'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: 1be0000.phy: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: 17800000.timer: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: 1500000.interconnect: sd-device-monitor(worker): Passed 509 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: Module 'qcom_rpmh' is built in
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: 221c8000.efuse: sd-device: Created database file '/run/udev/data/+platform:221c8000.efuse' for '/devices/platform/soc@0/221c8000.efuse'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: 18b4e000.sram: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: 1dc4000.dma-controller: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: 240b5400.pmu: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: 240b5400.pmu: sd-device: Created database file '/run/udev/data/+platform:240b5400.pmu' for '/devices/platform/soc@0/240b5400.pmu'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: Loading module: of:NinterconnectT(null)Cqcom,x1e80100-pcie-center-anoc
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: 15000000.iommu: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: 15000000.iommu: sd-device: Created database file '/run/udev/data/+platform:15000000.iommu' for '/devices/platform/soc@0/15000000.iommu'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: 240b3400.pmu: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: 1780000.interconnect: sd-device-monitor(worker): Passed 507 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: 1fc0000.clock-controller: sd-device: Created database file '/run/udev/data/+platform:1fc0000.clock-controller' for '/devices/platform/soc@0/1fc0000.clock-controller'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: 1740000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1740000.interconnect' for '/devices/platform/soc@0/1740000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: 1770000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1770000.interconnect' for '/devices/platform/soc@0/1770000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: Loading module: of:NphyT(null)Cqcom,x1e80100-qmp-gen4x8-pcie-phy
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: 1c840000.watchdog: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: Module 'qnoc_x1e80100' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Module 'qnoc_x1e80100' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: 1600000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1600000.interconnect' for '/devices/platform/soc@0/1600000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: 1bfc000.phy: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: 16c0000.interconnect: sd-device: Created database file '/run/udev/data/+platform:16c0000.interconnect' for '/devices/platform/soc@0/16c0000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: 1bfc000.phy: sd-device: Created database file '/run/udev/data/+platform:1bfc000.phy' for '/devices/platform/soc@0/1bfc000.phy'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 240b6400.pmu: sd-device-monitor(manager): Passed 426 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: 221c8000.efuse: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: 17500000.rsc: sd-device: Created database file '/run/udev/data/+platform:17500000.rsc' for '/devices/platform/soc@0/17500000.rsc'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: Loading module: of:NsramT(null)Cmmio-sram
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: 1760000.interconnect: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: Failed to find module 'of:NpciTpciCqcom,pcie-x1e80100'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: 240b5400.pmu: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: 1bf8000.pci: sd-device: Created database file '/run/udev/data/+platform:1bf8000.pci' for '/devices/platform/soc@0/1bf8000.pci'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: Loading module: of:NpmuT(null)Cqcom,x1e80100-cpu-bwmonCqcom,sdm845-bwmon
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: 17800000.timer: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: 17800000.timer: sd-device: Created database file '/run/udev/data/+platform:17800000.timer' for '/devices/platform/soc@0/17800000.timer'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: 240b3400.pmu: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: 1760000.interconnect: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: 1760000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1760000.interconnect' for '/devices/platform/soc@0/1760000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: 1760000.interconnect: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: Loading module: of:NinterconnectT(null)Cqcom,x1e80100-usb-north-anoc
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: 16c0000.interconnect: Device processed (SEQNUM=3722, ACTION=add, UUID=13f0d3a6-2eda-42f0-b80c-660df0654254)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: 16c0000.interconnect: sd-device-monitor(worker): Passed 521 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: 1bfc000.phy: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain kernel: qcom_scm firmware:scm: qseecom: found qseecom with version 0x1402000
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: 240b3400.pmu: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain kernel: qcom_qseecom qcom_qseecom: setting up client for qcom.tz.uefisecapp
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Loading module: of:NphyT(null)Cqcom,x1e80100-qmp-gen4x4-pcie-phy
+Apr 15 11:32:54 localhost.localdomain kernel: efivars: Registered efivars operations
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: 240b3400.pmu: sd-device: Created database file '/run/udev/data/+platform:240b3400.pmu' for '/devices/platform/soc@0/240b3400.pmu'.
+Apr 15 11:32:54 localhost.localdomain kernel: sbsa-gwdt 1c840000.watchdog: Initialized with 10s timeout @ 19200000 Hz, action=0.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: 1600000.interconnect: Device processed (SEQNUM=3720, ACTION=add, UUID=01a37681-346f-4d36-86af-e9be9f649bdc)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: 1dc4000.dma-controller: sd-device: Created database file '/run/udev/data/+platform:1dc4000.dma-controller' for '/devices/platform/soc@0/1dc4000.dma-controller'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: Loading module: of:NefuseT(null)Cqcom,x1e80100-qfpromCqcom,qfprom
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: 17500000.rsc: Device processed (SEQNUM=3729, ACTION=add, UUID=f941bff3-dee8-460b-add1-e28ccee9bcb8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: 17500000.rsc: sd-device-monitor(worker): Passed 430 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: 1c08000.pci: sd-device: Created database file '/run/udev/data/+platform:1c08000.pci' for '/devices/platform/soc@0/1c08000.pci'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: Loading module: of:NpcieTpciCqcom,pcie-x1e80100
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: 1600000.interconnect: sd-device-monitor(worker): Passed 507 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: 24091000.pmu: /usr/lib/udev/rules.d/50-udev-default.rules:21 IMPORT{builtin}="hwdb --subsystem=$env{SUBSYSTEM}": Failed to run builtin "hwdb --subsystem=platform": Invalid argument
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: 24091000.pmu: /usr/lib/udev/rules.d/50-udev-default.rules:30 IMPORT{builtin}="path_id": Importing properties from results of builtin command "path_id".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: 1750000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1750000.interconnect' for '/devices/platform/soc@0/1750000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: 1750000.interconnect: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: Loading module: of:NinterconnectT(null)Cqcom,x1e80100-usb-center-anoc
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: 24091000.pmu: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: 24091000.pmu: sd-device: Created database file '/run/udev/data/+platform:24091000.pmu' for '/devices/platform/soc@0/24091000.pmu'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: 24091000.pmu: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: Loading module: of:NpmuT(null)Cqcom,x1e80100-llcc-bwmonCqcom,sc7280-llcc-bwmon
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: Failed to find module 'of:NsramT(null)Cmmio-sram'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: 18b4e000.sram: sd-device: Created database file '/run/udev/data/+platform:18b4e000.sram' for '/devices/platform/soc@0/18b4e000.sram'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: 18b4e000.sram: Device processed (SEQNUM=3744, ACTION=add, UUID=f38a234e-fff3-42f6-b118-0734a5c91ccf)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: 18b4e000.sram: sd-device-monitor(worker): Passed 428 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: 1f40000.hwlock: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: Loading module: of:NhwlockT(null)Cqcom,tcsr-mutex
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: 1dc4000.dma-controller: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: Loading module: of:Ndma-controllerT(null)Cqcom,bam-v1.7.4Cqcom,bam-v1.7.0
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: Module 'qnoc_x1e80100' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: 1760000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1760000.interconnect' for '/devices/platform/soc@0/1760000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: 1760000.interconnect: Device processed (SEQNUM=3740, ACTION=add, UUID=41fc5625-b708-4e1b-92ec-29ac0a16e103)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: 1760000.interconnect: sd-device-monitor(worker): Passed 519 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: 1fc0000.clock-controller: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: Loading module: of:Nclock-controllerT(null)Cqcom,x1e80100-tcsrCsyscon
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: Module 'qnoc_x1e80100' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: 1750000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1750000.interconnect' for '/devices/platform/soc@0/1750000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: 1750000.interconnect: Device processed (SEQNUM=3728, ACTION=add, UUID=659de7fa-e332-43a6-b101-e4586f09d44d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: 1750000.interconnect: sd-device-monitor(worker): Passed 521 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: Module 'qnoc_x1e80100' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: 16d0000.interconnect: sd-device: Created database file '/run/udev/data/+platform:16d0000.interconnect' for '/devices/platform/soc@0/16d0000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: 16d0000.interconnect: Device processed (SEQNUM=3723, ACTION=add, UUID=b19e1103-dfa8-4d31-8de2-68f7bba09748)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: 16d0000.interconnect: sd-device-monitor(worker): Passed 523 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: 1c840000.watchdog: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: 1c840000.watchdog: sd-device: Created database file '/run/udev/data/+platform:1c840000.watchdog' for '/devices/platform/soc@0/1c840000.watchdog'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: 1c840000.watchdog: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: Loading module: of:NwatchdogT(null)Carm,sbsa-gwdt
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: 1c08000.pci: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: Loading module: of:NpciTpciCqcom,pcie-x1e80100
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: Failed to find module 'of:NpciTpciCqcom,pcie-x1e80100'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: 1c08000.pci: sd-device: Created database file '/run/udev/data/+platform:1c08000.pci' for '/devices/platform/soc@0/1c08000.pci'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: 1c08000.pci: Device processed (SEQNUM=3749, ACTION=add, UUID=a52519cb-08b8-4ce7-bbb3-608ea7bd42cb)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: 1c08000.pci: sd-device-monitor(worker): Passed 433 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: 1bf8000.pci: Device processed (SEQNUM=3747, ACTION=add, UUID=1731b9df-add0-4644-ada4-9271288e8a69)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: 1bf8000.pci: sd-device-monitor(worker): Passed 433 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: 17800000.timer: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: Loading module: of:NtimerT(null)Carm,armv7-timer-mem
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: Failed to find module 'of:NtimerT(null)Carm,armv7-timer-mem'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: 15000000.iommu: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: 1740000.interconnect: Device processed (SEQNUM=3726, ACTION=add, UUID=cab2b5a0-3272-4b1e-8a59-15655ae82864)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: 1700000.interconnect: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: Loading module: of:NcryptoT(null)Cqcom,x1e80100-qceCqcom,sm8150-qceCqcom,qce
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: Module 'qnoc_x1e80100' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: Loading module: of:NiommuT(null)Cqcom,x1e80100-smmu-500Cqcom,smmu-500Carm,mmu-500
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: 17800000.timer: sd-device: Created database file '/run/udev/data/+platform:17800000.timer' for '/devices/platform/soc@0/17800000.timer'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: 1740000.interconnect: sd-device-monitor(worker): Passed 521 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: 17800000.timer: Device processed (SEQNUM=3743, ACTION=add, UUID=caddf03d-8778-4feb-b47b-999528dc9080)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: 17800000.timer: sd-device-monitor(worker): Passed 465 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: 1700000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1700000.interconnect' for '/devices/platform/soc@0/1700000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: 1680000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1680000.interconnect' for '/devices/platform/soc@0/1680000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: 1700000.interconnect: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: 1680000.interconnect: Device processed (SEQNUM=3721, ACTION=add, UUID=8bce04eb-e3a9-4a6a-b0bc-de170193dcc6)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: Loading module: of:NinterconnectT(null)Cqcom,x1e80100-aggre2-noc
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: 240b3400.pmu: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: 1680000.interconnect: sd-device-monitor(worker): Passed 511 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: Loading module: of:NpmuT(null)Cqcom,x1e80100-cpu-bwmonCqcom,sdm845-bwmon
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: 17430000.mailbox: sd-device: Created database file '/run/udev/data/+platform:17430000.mailbox' for '/devices/platform/soc@0/17430000.mailbox'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: 17430000.mailbox: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Loading module: of:NmailboxT(null)Cqcom,x1e80100-cpucp-mbox
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: 240b6400.pmu: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: Module 'arm_smmu' is built in
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: 15000000.iommu: sd-device: Created database file '/run/udev/data/+platform:15000000.iommu' for '/devices/platform/soc@0/15000000.iommu'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: 15000000.iommu: Device processed (SEQNUM=3719, ACTION=add, UUID=ecc12910-951e-46c5-81b0-800f05435a6a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: 15000000.iommu: sd-device-monitor(worker): Passed 532 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: 240b6400.pmu: sd-device: Created database file '/run/udev/data/+platform:240b6400.pmu' for '/devices/platform/soc@0/240b6400.pmu'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: 1c0e000.phy: /usr/lib/udev/rules.d/80-drivers.rules:5 RUN{builtin}+="kmod load": Set command: kmod load
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: 240b6400.pmu: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: Loading module: of:NpmuT(null)Cqcom,x1e80100-cpu-bwmonCqcom,sdm845-bwmon
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: Inserted module 'qnoc_x1e80100'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: 1c0e000.phy: sd-device: Created database file '/run/udev/data/+platform:1c0e000.phy' for '/devices/platform/soc@0/1c0e000.phy'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: 1c0e000.phy: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: interconnect-0: sd-device: Created database file '/run/udev/data/+platform:interconnect-0' for '/devices/platform/interconnect-0'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: Loading module: of:NphyT(null)Cqcom,x1e80100-qmp-gen3x2-pcie-phy
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: interconnect-0: Device processed (SEQNUM=3688, ACTION=add, UUID=99bb7fc3-6006-408a-90b4-2c3428684728)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: interconnect-0: sd-device-monitor(worker): Passed 454 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: Inserted module 'qnoc_x1e80100'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: interconnect-1: sd-device: Created database file '/run/udev/data/+platform:interconnect-1' for '/devices/platform/interconnect-1'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: interconnect-1: Device processed (SEQNUM=3689, ACTION=add, UUID=6f36b270-2c30-4de7-87e9-85b2c0faac67)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: interconnect-1: sd-device-monitor(worker): Passed 452 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: Module 'qnoc_x1e80100' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: 1700000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1700000.interconnect' for '/devices/platform/soc@0/1700000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: 1700000.interconnect: Device processed (SEQNUM=3725, ACTION=add, UUID=59a0a4ef-7b74-46b0-ab47-83fca6c5c92e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: 1700000.interconnect: sd-device-monitor(worker): Passed 511 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: 1770000.interconnect: Running built-in command "kmod load"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Loading module: of:NinterconnectT(null)Cqcom,x1e80100-usb-south-anoc
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: Failed to find module 'of:NpcieTpciCqcom,pcie-x1e80100'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: 1bd0000.pcie: sd-device: Created database file '/run/udev/data/+platform:1bd0000.pcie' for '/devices/platform/soc@0/1bd0000.pcie'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: 1bd0000.pcie: Device processed (SEQNUM=3745, ACTION=add, UUID=42013f9e-49ca-4cd8-91b9-af08c8831561)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: 1bd0000.pcie: sd-device-monitor(worker): Passed 439 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom_qseecom: Device is queued (SEQNUM=4792, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: Inserted module 'bam_dma'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: 1dc4000.dma-controller: sd-device: Created database file '/run/udev/data/+platform:1dc4000.dma-controller' for '/devices/platform/soc@0/1dc4000.dma-controller'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: Inserted module 'qcom_hwspinlock'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: 1dc4000.dma-controller: Device processed (SEQNUM=3752, ACTION=add, UUID=d7f55dd3-7817-4a6a-a794-15a88b2b138a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: 1dc4000.dma-controller: sd-device-monitor(worker): Passed 532 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: 1f40000.hwlock: sd-device: Created database file '/run/udev/data/+platform:1f40000.hwlock' for '/devices/platform/soc@0/1f40000.hwlock'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: 1f40000.hwlock: Device processed (SEQNUM=3754, ACTION=add, UUID=a4365d31-4099-4811-9226-87c0f858821f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: 1f40000.hwlock: sd-device-monitor(worker): Passed 436 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: Inserted module 'nvmem_qfprom'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: 221c8000.efuse: sd-device: Created database file '/run/udev/data/+platform:221c8000.efuse' for '/devices/platform/soc@0/221c8000.efuse'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: 221c8000.efuse: Device processed (SEQNUM=3756, ACTION=add, UUID=86f3a6a6-61b8-4fc9-b29f-ba4dc9784b39)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: 221c8000.efuse: sd-device-monitor(worker): Passed 484 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: Inserted module 'phy_qcom_qmp_pcie'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Inserted module 'phy_qcom_qmp_pcie'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: Inserted module 'qcom_rng'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: 1bfc000.phy: sd-device: Created database file '/run/udev/data/+platform:1bfc000.phy' for '/devices/platform/soc@0/1bfc000.phy'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: 1bfc000.phy: Device processed (SEQNUM=3748, ACTION=add, UUID=682cd166-23c1-4a2f-838f-e2cc3111dee9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: 1be0000.phy: sd-device: Created database file '/run/udev/data/+platform:1be0000.phy' for '/devices/platform/soc@0/1be0000.phy'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: 1be0000.phy: Device processed (SEQNUM=3746, ACTION=add, UUID=86977ee6-3d24-432f-88fc-ef72801b7c06)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: 1bfc000.phy: sd-device-monitor(worker): Passed 454 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: 10c3000.rng: sd-device: Created database file '/run/udev/data/+platform:10c3000.rng' for '/devices/platform/soc@0/10c3000.rng'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: 1be0000.phy: sd-device-monitor(worker): Passed 454 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: 10c3000.rng: Device processed (SEQNUM=3717, ACTION=add, UUID=75d7f33d-9339-4e6d-a22d-2beadb8c9ae5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain kernel: arm-smmu 15000000.iommu: probing hardware configuration...
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain kernel: arm-smmu 15000000.iommu: SMMUv2 with:
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: 10c3000.rng: sd-device-monitor(worker): Passed 460 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain kernel: arm-smmu 15000000.iommu:         stage 1 translation
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain kernel: arm-smmu 15000000.iommu:         coherent table walk
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: Inserted module 'sbsa_gwdt'
+Apr 15 11:32:54 localhost.localdomain kernel: arm-smmu 15000000.iommu:         stream matching with 117 register groups
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: 1c840000.watchdog: sd-device: Created database file '/run/udev/data/+platform:1c840000.watchdog' for '/devices/platform/soc@0/1c840000.watchdog'.
+Apr 15 11:32:54 localhost.localdomain kernel: arm-smmu 15000000.iommu:         74 context banks (0 stage-2 only)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: 1c840000.watchdog: Device processed (SEQNUM=3751, ACTION=add, UUID=b2c7a630-545c-441c-b1e4-c83079665e66)
+Apr 15 11:32:54 localhost.localdomain kernel: arm-smmu 15000000.iommu:         Supported page sizes: 0x61311000
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: 1c840000.watchdog: sd-device-monitor(worker): Passed 448 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain kernel: arm-smmu 15000000.iommu:         Stage-1: 40-bit VA -> 40-bit IPA
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain kernel: arm-smmu 15000000.iommu:         preserved 0 boot mappings
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: Inserted module 'tcsrcc_x1e80100'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: 1fc0000.clock-controller: sd-device: Created database file '/run/udev/data/+platform:1fc0000.clock-controller' for '/devices/platform/soc@0/1fc0000.clock-controller'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: 1fc0000.clock-controller: Device processed (SEQNUM=3755, ACTION=add, UUID=a384ab46-6a36-47f3-8264-cb1743ff4550)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: 1fc0000.clock-controller: sd-device-monitor(worker): Passed 532 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Module 'qnoc_x1e80100' is already loaded
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: 1770000.interconnect: sd-device: Created database file '/run/udev/data/+platform:1770000.interconnect' for '/devices/platform/soc@0/1770000.interconnect'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: Inserted module 'phy_qcom_qmp_pcie'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: 1770000.interconnect: Device processed (SEQNUM=3741, ACTION=add, UUID=5f6d8233-775d-4269-a205-f9df7d72bef8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: 1770000.interconnect: sd-device-monitor(worker): Passed 519 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: 1c0e000.phy: sd-device: Created database file '/run/udev/data/+platform:1c0e000.phy' for '/devices/platform/soc@0/1c0e000.phy'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: 1c0e000.phy: Device processed (SEQNUM=3750, ACTION=add, UUID=92305bfb-7799-433a-84ae-f3e6b1eac0d9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: 1c0e000.phy: sd-device-monitor(worker): Passed 454 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom_qseecom.uefisecapp.0: Device is queued (SEQNUM=4793, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom_qseecom: Device is queued (SEQNUM=4794, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcomtee: Device is queued (SEQNUM=4795, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: firmware:scm: Device is queued (SEQNUM=4796, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom_qseecom.uefisecapp.0: Device is queued (SEQNUM=4797, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1f40000.hwlock: Device is queued (SEQNUM=4798, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: bam-dma-engine: Device is queued (SEQNUM=4799, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: bam_dma: Device is queued (SEQNUM=4800, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qfprom0: Device is queued (SEQNUM=4801, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom_hwspinlock: Device is queued (SEQNUM=4802, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom_hwspinlock: Device is queued (SEQNUM=4803, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 10c3000.rng: Device is queued (SEQNUM=4804, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:221c8000.efuse--platform:3d00000.gpu: Device is queued (SEQNUM=4805, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 221c8000.efuse: Device is queued (SEQNUM=4806, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom,qfprom: Device is queued (SEQNUM=4807, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: nvmem_qfprom: Device is queued (SEQNUM=4808, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom-qmp-pcie-phy: Device is queued (SEQNUM=4809, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom_rng: Device is queued (SEQNUM=4810, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: phy_qcom_qmp_pcie: Device is queued (SEQNUM=4811, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom_rng: Device is queued (SEQNUM=4812, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: watchdog: Device is queued (SEQNUM=4813, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: watchdog0: Device is queued (SEQNUM=4814, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: platform 8c0000.geniqup: Adding to iommu group 0
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c840000.watchdog: Device is queued (SEQNUM=4815, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain kernel: platform ac0000.geniqup: Adding to iommu group 1
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sbsa-gwdt: Device is queued (SEQNUM=4816, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: platform bc0000.geniqup: Adding to iommu group 2
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: sbsa_gwdt: Device is queued (SEQNUM=4817, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: platform 1dc4000.dma-controller: Adding to iommu group 3
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1fc0000.clock-controller: Device is queued (SEQNUM=4818, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain kernel: platform 1dfa000.crypto: Adding to iommu group 3
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Inserted module 'qcom_cpucp_mbox'
+Apr 15 11:32:54 localhost.localdomain kernel: platform ae00000.display-subsystem: Adding to iommu group 4
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tcsrcc-x1e80100: Device is queued (SEQNUM=4819, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tcsrcc_x1e80100: Device is queued (SEQNUM=4820, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: 17430000.mailbox: sd-device: Created database file '/run/udev/data/+platform:17430000.mailbox' for '/devices/platform/soc@0/17430000.mailbox'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: 17430000.mailbox: Device processed (SEQNUM=3727, ACTION=add, UUID=990bb6eb-b98b-4947-99ea-7e6b5fbc6b3d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: 17430000.mailbox: sd-device-monitor(worker): Passed 464 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_0_tunnel_gdsc: Device is queued (SEQNUM=4821, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_0_tunnel_gdsc: Device is queued (SEQNUM=4822, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_1_tunnel_gdsc: Device is queued (SEQNUM=4823, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: Inserted module 'icc_bwmon'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: Inserted module 'icc_bwmon'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: Inserted module 'icc_bwmon'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: Inserted module 'icc_bwmon'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: 240b5400.pmu: sd-device: Created database file '/run/udev/data/+platform:240b5400.pmu' for '/devices/platform/soc@0/240b5400.pmu'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: 240b6400.pmu: sd-device: Created database file '/run/udev/data/+platform:240b6400.pmu' for '/devices/platform/soc@0/240b6400.pmu'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_1_tunnel_gdsc: Device is queued (SEQNUM=4824, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: 240b5400.pmu: Device processed (SEQNUM=3759, ACTION=add, UUID=2fb42b0c-d1b0-4051-968d-17a580101db8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: 240b3400.pmu: sd-device: Created database file '/run/udev/data/+platform:240b3400.pmu' for '/devices/platform/soc@0/240b3400.pmu'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: 240b6400.pmu: Device processed (SEQNUM=3760, ACTION=add, UUID=4cb8e9ae-6fd3-4afe-887a-80aeed80e436)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: 24091000.pmu: sd-device: Created database file '/run/udev/data/+platform:24091000.pmu' for '/devices/platform/soc@0/24091000.pmu'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: 240b5400.pmu: sd-device-monitor(worker): Passed 490 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: 240b3400.pmu: Device processed (SEQNUM=3758, ACTION=add, UUID=5e4cc2ba-5408-43a2-bb5e-91f659c81955)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: 24091000.pmu: Device processed (SEQNUM=3757, ACTION=add, UUID=40903d19-4312-4aab-b056-7331e468aff5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: 240b6400.pmu: sd-device-monitor(worker): Passed 490 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: 240b3400.pmu: sd-device-monitor(worker): Passed 490 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: 24091000.pmu: sd-device-monitor(worker): Passed 502 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_2_tunnel_gdsc: Device is queued (SEQNUM=4825, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_2_tunnel_gdsc: Device is queued (SEQNUM=4826, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_3_gdsc: Device is queued (SEQNUM=4827, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_3_gdsc: Device is queued (SEQNUM=4828, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_3_phy_gdsc: Device is queued (SEQNUM=4829, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_3_phy_gdsc: Device is queued (SEQNUM=4830, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_4_gdsc: Device is queued (SEQNUM=4831, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_4_gdsc: Device is queued (SEQNUM=4832, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_4_phy_gdsc: Device is queued (SEQNUM=4833, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_4_phy_gdsc: Device is queued (SEQNUM=4834, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_5_gdsc: Device is queued (SEQNUM=4835, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_5_gdsc: Device is queued (SEQNUM=4836, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_5_phy_gdsc: Device is queued (SEQNUM=4837, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_5_phy_gdsc: Device is queued (SEQNUM=4838, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_6_phy_gdsc: Device is queued (SEQNUM=4839, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_6_phy_gdsc: Device is queued (SEQNUM=4840, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_6a_gdsc: Device is queued (SEQNUM=4841, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_6a_gdsc: Device is queued (SEQNUM=4842, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_6b_gdsc: Device is queued (SEQNUM=4843, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_pcie_6b_gdsc: Device is queued (SEQNUM=4844, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_ufs_mem_phy_gdsc: Device is queued (SEQNUM=4845, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_ufs_mem_phy_gdsc: Device is queued (SEQNUM=4846, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_ufs_phy_gdsc: Device is queued (SEQNUM=4847, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_ufs_phy_gdsc: Device is queued (SEQNUM=4848, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb20_prim_gdsc: Device is queued (SEQNUM=4849, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb20_prim_gdsc: Device is queued (SEQNUM=4850, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb30_mp_gdsc: Device is queued (SEQNUM=4851, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb30_mp_gdsc: Device is queued (SEQNUM=4852, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb30_prim_gdsc: Device is queued (SEQNUM=4853, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb30_prim_gdsc: Device is queued (SEQNUM=4854, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb30_sec_gdsc: Device is queued (SEQNUM=4855, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb30_sec_gdsc: Device is queued (SEQNUM=4856, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb30_tert_gdsc: Device is queued (SEQNUM=4857, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb30_tert_gdsc: Device is queued (SEQNUM=4858, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb3_mp_ss0_phy_gdsc: Device is queued (SEQNUM=4859, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: libdes: Device is queued (SEQNUM=4860, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb3_mp_ss0_phy_gdsc: Device is queued (SEQNUM=4861, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb3_mp_ss1_phy_gdsc: Device is queued (SEQNUM=4862, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb3_mp_ss1_phy_gdsc: Device is queued (SEQNUM=4863, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb4_0_gdsc: Device is queued (SEQNUM=4864, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb4_0_gdsc: Device is queued (SEQNUM=4865, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb4_1_gdsc: Device is queued (SEQNUM=4866, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb4_1_gdsc: Device is queued (SEQNUM=4867, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb4_2_gdsc: Device is queued (SEQNUM=4868, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb4_2_gdsc: Device is queued (SEQNUM=4869, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb_0_phy_gdsc: Device is queued (SEQNUM=4870, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb_0_phy_gdsc: Device is queued (SEQNUM=4871, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: gcc_usb_1_phy_gdsc: Device is queued (SEQNUM=4872, ACTION=add)

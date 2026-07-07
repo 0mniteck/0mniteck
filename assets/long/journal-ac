@@ -1,0 +1,1000 @@
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ 0 = 0 ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + return 1
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + source_conf /etc/conf.d
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + local f
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ /etc/conf.d ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ -d //etc/conf.d ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ -e //etc/conf.d/systemd.conf ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + . //etc/conf.d/systemd.conf
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + systemdutildir=/usr/lib/systemd
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + systemdsystemunitdir=/usr/lib/systemd/system
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + systemdsystemconfdir=/etc/systemd/system
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + systemdnetworkconfdir=/etc/systemd/network
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Received SIGCHLD.
+Apr 15 11:32:53 localhost.localdomain dracut-pre-udev[387]: + [ -n  ]
+Apr 15 11:32:53 localhost.localdomain dracut-pre-udev[387]: + unset _do_insmodpost _modprobe_d
+Apr 15 11:32:53 localhost.localdomain dracut-pre-udev[387]: + unset i
+Apr 15 11:32:53 localhost.localdomain dracut-pre-udev[387]: + export -p
+Apr 15 11:32:53 localhost.localdomain dracut-pre-udev[387]: + exit 0
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[313]: + getarg root=
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[313]: + debug_off
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[313]: + set +x
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[313]: + return 0
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-cmdline.service: Control group is empty.
+Apr 15 11:32:53 localhost.localdomain systemd-journald[250]: Successfully sent stream file descriptor to service manager.
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + root=/dev/mapper/ubuntu--vg-ubuntu--lv
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-journald.service: Received EPOLLHUP on stored fd 43 (stored), closing.
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[316]: + getarg rootflags=
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[316]: + debug_off
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[316]: + set +x
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[316]: + return 0
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: ConditionPathExistsGlob=|/etc/cmdline.d/*.conf succeeded.
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + rflags=rw,relatime,stripe=16
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + getargbool 0 ro
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + local _b
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + unset _b
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + local _default
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + _default=0
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + shift
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: ConditionKernelCommandLine=|rd.driver.post failed.
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[319]: + getarg ro
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[319]: + debug_off
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[319]: + set +x
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[319]: + return 1
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: ConditionKernelCommandLine=|rd.driver.pre failed.
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + _b=
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + _b=0
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ -n 0 ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ 0 = 0 ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + return 1
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + getargbool 0 rw
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + local _b
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + unset _b
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + local _default
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + _default=0
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + shift
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: ConditionKernelCommandLine=|rd.driver.blacklist succeeded.
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[322]: + getarg rw
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[322]: + debug_off
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[322]: + set +x
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[322]: + return 1
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: ConditionKernelCommandLine=|rd.break=pre-udev failed.
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + _b=
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + _b=0
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ -n 0 ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ 0 = 0 ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + return 1
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + rflags=rw,relatime,stripe=16
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: ConditionDirectoryNotEmpty=|/usr/lib/dracut/hooks/pre-udev failed.
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[325]: + getarg rootfstype=
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[325]: + debug_off
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[325]: + set +x
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[325]: + return 0
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: ConditionDirectoryNotEmpty=|/etc/dracut/hooks/pre-udev failed.
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + fstype=ext4
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ -z ext4 ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + export root
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + export rflags
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + export fstype
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + make_trace_mem hook cmdline 1+:mem 1+:iomem 3+:slab
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + local log_level prefix msg msg_printed
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + local trace trace_level trace_in_higher_levels insert_trace
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + msg=hook cmdline
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + shift
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + prefix=[debug_mem]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + log_level=0
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ -z 0 ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ 0 -le 0 ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + return
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + getargs rd.break=cmdline
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + debug_off
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + set +x
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + return 1
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + source_hook cmdline
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + local _dir
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + _dir=cmdline
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + shift
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: ConditionDirectoryNotEmpty=|/var/lib/dracut/hooks/pre-udev succeeded.
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + list_hooks cmdline
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + local dir=cmdline
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + local pattern=
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + [ -z  ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + pattern=*.sh
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + local hook
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + [ -f /var/lib/dracut/hooks/cmdline/00-parse-root.sh ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + echo /var/lib/dracut/hooks/cmdline/00-parse-root.sh
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + [ -f /var/lib/dracut/hooks/cmdline/30-parse-crypt.sh ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + echo /var/lib/dracut/hooks/cmdline/30-parse-crypt.sh
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + [ -f /var/lib/dracut/hooks/cmdline/30-parse-lvm.sh ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + echo /var/lib/dracut/hooks/cmdline/30-parse-lvm.sh
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + [ -f /etc/dracut/hooks/cmdline/*.sh ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[330]: + [ -f /usr/lib/dracut/hooks/cmdline/*.sh ]
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: ConditionPathExists=/usr/lib/initrd-release succeeded.
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + . /var/lib/dracut/hooks/cmdline/00-parse-root.sh
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + command -v getarg
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: Will spawn child (service_enter_start): /usr/bin/dracut-pre-udev
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[331]: + getarg root=
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[331]: + debug_off
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[331]: + set +x
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[331]: + return 0
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: Passing 0 fds to service
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + root=/dev/mapper/ubuntu--vg-ubuntu--lv
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + root=block:/dev/mapper/ubuntu--vg-ubuntu--lv
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + rootok=1
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ 1 = 1 ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + root_dev=/dev/mapper/ubuntu--vg-ubuntu--lv
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: About to execute: /usr/bin/dracut-pre-udev
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + str_replace /dev/mapper/ubuntu--vg-ubuntu--lv / \x2f
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + local in=/dev/mapper/ubuntu--vg-ubuntu--lv
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + local s=/
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + local r=\x2f
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + local out=
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + [  != /dev/mapper/ubuntu--vg-ubuntu--lv ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + chop=
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + out=\x2f
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + in=dev/mapper/ubuntu--vg-ubuntu--lv
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + [  != dev/mapper/ubuntu--vg-ubuntu--lv ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + chop=dev
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + out=\x2fdev\x2f
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + in=mapper/ubuntu--vg-ubuntu--lv
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + [  != mapper/ubuntu--vg-ubuntu--lv ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + chop=mapper
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + out=\x2fdev\x2fmapper\x2f
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + in=ubuntu--vg-ubuntu--lv
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + [ ubuntu--vg-ubuntu--lv != ubuntu--vg-ubuntu--lv ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[334]: + printf -- %s \x2fdev\x2fmapper\x2fubuntu--vg-ubuntu--lv
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Serializing sd-executor-state to memfd.
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + root_name=\x2fdev\x2fmapper\x2fubuntu--vg-ubuntu--lv
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + [ -e /var/lib/dracut/hooks/initqueue/finished/devexists-\x2fdev\x2fmapper\x2fubuntu--vg-ubuntu--lv.sh ]
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + cat
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + printf [ -e "%s" ] ||  /dev/mapper/ubuntu--vg-ubuntu--lv
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + printf warn "\"%s\" does not exist"\n /dev/mapper/ubuntu--vg-ubuntu--lv
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + . /var/lib/dracut/hooks/cmdline/30-parse-crypt.sh
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + command -v crypttab_contains
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + . /lib/dracut-crypt-lib.sh
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + command -v getarg
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + getargbool 1 rd.luks
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + local _b
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + unset _b
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + local _default
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + _default=1
+Apr 15 11:32:53 localhost.localdomain dracut-cmdline[289]: + shift
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: Forked /usr/bin/dracut-pre-udev as 387 (via CLONE_INTO_CGROUP)
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[336]: + getarg rd.luks
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[336]: + debug_off
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[336]: + set +x
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[336]: + return 1
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Closing set fd 43 (socket:[11859])
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _b=
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _b=1
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -n 1 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 1 = 0 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 1 = no ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 1 = off ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + return 0
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + echo SUBSYSTEM!="block", GOTO="luks_end"
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + echo ACTION!="add|change", GOTO="luks_end"
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Closing set fd 45 (socket:[11861])
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[339]: + getargs rd.luks.partuuid
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[339]: + debug_off
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[339]: + set +x
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[339]: + return 1
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Closing set fd 48 (socket:[11857])
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + PARTUUID=
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: Changed dead -> start
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[342]: + getargs rd.luks.serial
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[342]: + debug_off
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[342]: + set +x
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[342]: + return 1
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Starting dracut-pre-udev.service - dracut pre-udev hook...
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + SERIAL=
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Received SIGCHLD.
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[345]: + getargs rd.luks.uuid
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[345]: + debug_off
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[345]: + set +x
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[345]: + return 0
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Child 385 ((sd-close)) died (code=exited, status=0/SUCCESS)
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + LUKS=luks-709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:53 localhost.localdomain systemd[1]: init.scope: Child 385 belongs to init.scope.
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[348]: + getarg rd.luks.key.tout
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[348]: + debug_off
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[348]: + set +x
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[348]: + return 1
+Apr 15 11:32:53 localhost.localdomain systemd-executor[387]: Loaded shared library 'libselinux.so.1' via dlopen().
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + tout=
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -n  ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -n  ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -n luks-709a72c7-0893-47f6-a09f-1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + is_keysource=0
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _luksid=luks-709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + luksid=luks-709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ luks-709a72c7-0893-47f6-a09f-1e2190b7c5ed != luks-709a72c7-0893-47f6-a09f-1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + unset _luksid
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + luksid=709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:53 localhost.localdomain (dracut-pre-udev)[387]: dracut-pre-udev.service: Shared library 'libapparmor.so.1' is not available: libapparmor.so.1: cannot open shared object file: No such file or directory
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[351]: + _cryptgetargsname 709a72c7-0893-47f6-a09f-1e2190b7c5ed=
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[351]: + debug_off
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[351]: + set +x
+Apr 15 11:32:53 localhost.localdomain (dracut-pre-udev)[387]: dracut-pre-udev.service: Loaded 'libbpf.so.1' via dlopen()
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[352]: + return 1
+Apr 15 11:32:53 localhost.localdomain (dracut-pre-udev)[387]: dracut-pre-udev.service: Loaded shared library 'libcryptsetup.so.12' via dlopen().
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + luksname=
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + luksname=luks-709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -z 1 ]
+Apr 15 11:32:53 localhost.localdomain (dracut-pre-udev)[387]: dracut-pre-udev.service: Loaded shared library 'libmount.so.1' via dlopen().
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[355]: + dev_unit_name luks-709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[355]: + local dev=luks-709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[355]: + command -v systemd-escape
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[355]: + systemd-escape -- luks-709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[355]: + return 0
+Apr 15 11:32:53 localhost.localdomain (dracut-pre-udev)[387]: dracut-pre-udev.service: Loaded shared library 'libseccomp.so.2' via dlopen().
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + luksname=luks\x2d709a72c7\x2d0893\x2d47f6\x2da09f\x2d1e2190b7c5ed
+Apr 15 11:32:53 localhost.localdomain (dracut-pre-udev)[387]: dracut-pre-udev.service: Executing: /usr/bin/dracut-pre-udev
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + str_replace luks\x2d709a72c7\x2d0893\x2d47f6\x2da09f\x2d1e2190b7c5ed \ \\
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + local in=luks\x2d709a72c7\x2d0893\x2d47f6\x2da09f\x2d1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + local s=\
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + local r=\\
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + local out=
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + [  != luks\x2d709a72c7\x2d0893\x2d47f6\x2da09f\x2d1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + chop=luks
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + out=luks\\
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + in=x2d709a72c7\x2d0893\x2d47f6\x2da09f\x2d1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + [  != x2d709a72c7\x2d0893\x2d47f6\x2da09f\x2d1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + chop=x2d709a72c7
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + out=luks\\x2d709a72c7\\
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + in=x2d0893\x2d47f6\x2da09f\x2d1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + [  != x2d0893\x2d47f6\x2da09f\x2d1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + chop=x2d0893
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + out=luks\\x2d709a72c7\\x2d0893\\
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + in=x2d47f6\x2da09f\x2d1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + [  != x2d47f6\x2da09f\x2d1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + chop=x2d47f6
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + out=luks\\x2d709a72c7\\x2d0893\\x2d47f6\\
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + in=x2da09f\x2d1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + [  != x2da09f\x2d1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + chop=x2da09f
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + out=luks\\x2d709a72c7\\x2d0893\\x2d47f6\\x2da09f\\
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + in=x2d1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + [ x2d1e2190b7c5ed != x2d1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[357]: + printf -- %s luks\\x2d709a72c7\\x2d0893\\x2d47f6\\x2da09f\\x2d1e2190b7c5ed
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Got handoff timestamp event for PID 387.
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + luksname=luks\\x2d709a72c7\\x2d0893\\x2d47f6\\x2da09f\\x2d1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + crypttab_contains 709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local luks=709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local dev=
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local l d rest
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -f /etc/crypttab ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + read -r l d rest
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + strstr dm_crypt-0 709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ dm_crypt-0 != dm_crypt-0 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + strstr /dev/disk/by-uuid/709a72c7-0893-47f6-a09f-1e2190b7c5ed 709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [  != /dev/disk/by-uuid/709a72c7-0893-47f6-a09f-1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + return 0
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 0 -eq 0 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + uuid=709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 709a72c7-0893-47f6-a09f-1e2190b7c5ed != 0893-47f6-a09f-1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + uuid=709a72c70893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 709a72c70893-47f6-a09f-1e2190b7c5ed != 47f6-a09f-1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + uuid=709a72c7089347f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 709a72c7089347f6-a09f-1e2190b7c5ed != a09f-1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + uuid=709a72c7089347f6a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 709a72c7089347f6a09f-1e2190b7c5ed != 1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + uuid=709a72c7089347f6a09f1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 709a72c7089347f6a09f1e2190b7c5ed != 709a72c7089347f6a09f1e2190b7c5ed ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + printf -- [ -e /dev/disk/by-id/dm-uuid-CRYPT-LUKS?-*%s*-* ] || exit 1\n 709a72c7089347f6a09f1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + printf -- [ -e /dev/disk/by-uuid/*%s* ] ||  709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + printf -- warn "crypto LUKS UUID "%s" not found"\n 709a72c7-0893-47f6-a09f-1e2190b7c5ed
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + echo LABEL="luks_end"
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + mv /etc/udev/rules.d/70-luks.rules.new /etc/udev/rules.d/70-luks.rules
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + . /var/lib/dracut/hooks/cmdline/30-parse-lvm.sh
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -e /etc/lvm/lvm.conf ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + getargbool 1 rd.lvm.conf
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local _b
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + unset _b
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local _default
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _default=1
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + shift
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd-kernel.socket: Incoming traffic
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[359]: + getarg rd.lvm.conf
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[359]: + debug_off
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[359]: + set +x
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[359]: + return 1
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd-kernel.socket: Changed listening -> running
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _b=
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _b=1
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -n 1 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 1 = 0 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 1 = no ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 1 = off ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + return 0
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Received SIGCHLD.
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[362]: + getargs rd.lvm.vg
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[362]: + debug_off
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[362]: + set +x
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[362]: + return 1
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Child 387 (dracut-pre-udev) died (code=exited, status=0/SUCCESS)
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[365]: + getargs rd.lvm.lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[365]: + debug_off
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[365]: + set +x
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[365]: + return 0
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: Child 387 belongs to dracut-pre-udev.service.
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + LV_DEVS= ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + getargbool 1 rd.lvm
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local _b
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + unset _b
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local _default
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _default=1
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + shift
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: Main process exited, code=exited, status=0/SUCCESS (success)
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[368]: + getarg rd.lvm
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[368]: + debug_off
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[368]: + set +x
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[368]: + return 1
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: Changed start -> exited
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _b=
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _b=1
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -n 1 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 1 = 0 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 1 = no ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 1 = off ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + return 0
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -z  ubuntu-vg/ubuntu-lv ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + wait_for_dev -n /dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local _name
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local _needreload
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local _noreload
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local _unit
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -n = -n ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _noreload=-n
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + shift
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: Job 41 dracut-pre-udev.service/start finished, result=done
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + str_replace /dev/ubuntu-vg/ubuntu-lv / \x2f
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + local in=/dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + local s=/
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + local r=\x2f
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + local out=
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + [  != /dev/ubuntu-vg/ubuntu-lv ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + chop=
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + out=\x2f
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + in=dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + [  != dev/ubuntu-vg/ubuntu-lv ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + chop=dev
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + out=\x2fdev\x2f
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + in=ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + [  != ubuntu-vg/ubuntu-lv ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + chop=ubuntu-vg
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + out=\x2fdev\x2fubuntu-vg\x2f
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + in=ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + [ ubuntu-lv != ubuntu-lv ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[371]: + printf -- %s \x2fdev\x2fubuntu-vg\x2fubuntu-lv
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Finished dracut-pre-udev.service - dracut pre-udev hook.
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _name=\x2fdev\x2fubuntu-vg\x2fubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + type mark_hostonly
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -e /var/lib/dracut/hooks/initqueue/finished/devexists-\x2fdev\x2fubuntu-vg\x2fubuntu-lv.sh ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + printf [ -e "%s" ]\n /dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + printf [ -e "%s" ] ||  /dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + printf warn "\"%s\" does not exist"\n /dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -n 1 ]
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Failed to communicate with plymouth: Connection refused
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[372]: + dev_unit_name /dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[372]: + local dev=/dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[372]: + command -v systemd-escape
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[372]: + systemd-escape -p -- /dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[372]: + return 0
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-udev.service: Control group is empty.
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _unit=dev-ubuntu\x2dvg-ubuntu\x2dlv.device
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -L /etc/systemd/system/initrd.target.wants/dev-ubuntu\x2dvg-ubuntu\x2dlv.device ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -d /etc/systemd/system/initrd.target.wants ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + ln -s ../dev-ubuntu\x2dvg-ubuntu\x2dlv.device /etc/systemd/system/initrd.target.wants/dev-ubuntu\x2dvg-ubuntu\x2dlv.device
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + type mark_hostonly
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _needreload=1
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -z  ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 1 = 1 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -z -n ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + set_systemd_timeout_for_dev -n /dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local _name
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local _needreload
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local _noreload
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + local _timeout
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -z 1 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -n = -n ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _noreload=1
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + shift
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -n  ]
+Apr 15 11:32:53 localhost.localdomain systemd[1]: dracut-pre-trigger.service: starting held back, waiting for: systemd-udevd.service
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[375]: + getarg rd.timeout
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[375]: + debug_off
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[375]: + set +x
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[375]: + return 1
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: ConditionPathIsReadWrite=/sys succeeded.
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _timeout=
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _timeout=infinity
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: Will spawn child (service_enter_start): /usr/lib/systemd/systemd-udevd
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[378]: + dev_unit_name /dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[378]: + local dev=/dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[378]: + command -v systemd-escape
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[378]: + systemd-escape -p -- /dev/ubuntu-vg/ubuntu-lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[378]: + return 0
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: Passing 2 fds to service
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _name=dev-ubuntu\x2dvg-ubuntu\x2dlv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -f /etc/systemd/system/dev-ubuntu\x2dvg-ubuntu\x2dlv.device.d/timeout.conf ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + mkdir -p /etc/systemd/system/dev-ubuntu\x2dvg-ubuntu\x2dlv.device.d
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + echo [Unit]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + echo JobTimeoutSec=infinity
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + echo JobRunningTimeoutSec=infinity
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + type mark_hostonly
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + _needreload=1
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -z  ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ 1 = 1 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -z 1 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + root=block:/dev/mapper/ubuntu--vg-ubuntu--lv
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + rootok=1
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -z block:/dev/mapper/ubuntu--vg-ubuntu--lv ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + [ -z 1 ]
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + export root rflags fstype netroot NEWROOT
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + export -p
+Apr 15 11:32:54 localhost.localdomain dracut-cmdline[289]: + exit 0
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: About to execute: /usr/lib/systemd/systemd-udevd
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Serializing sd-executor-state to memfd.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: Forked /usr/lib/systemd/systemd-udevd as 406 (via CLONE_INTO_CGROUP)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Closing set fd 52 (socket:[11857])
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Closing set fd 49 (socket:[9862])
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Closing set fd 50 (socket:[11859])
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Closing set fd 51 (socket:[11861])
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Closing set fd 48 (socket:[9861])
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: Changed dead -> start
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+Apr 15 11:32:53 localhost.localdomain systemd-executor[406]: Loaded shared library 'libselinux.so.1' via dlopen().
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-journald.service: Got notification message from PID 250: FDSTORE=1
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-journald.service: Trying to stash fd for dev=0:10/inode=15366
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-journald.service: Added fd 48 (stored) to fd store.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-journald.service: Received EPOLLHUP on stored fd 48 (stored), closing.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Received SIGCHLD.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Child 407 ((sd-close)) died (code=exited, status=0/SUCCESS)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: init.scope: Child 407 belongs to init.scope.
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Shared library 'libapparmor.so.1' is not available: libapparmor.so.1: cannot open shared object file: No such file or directory
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Loaded 'libbpf.so.1' via dlopen()
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Loaded shared library 'libcryptsetup.so.12' via dlopen().
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Loaded shared library 'libmount.so.1' via dlopen().
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Loaded shared library 'libseccomp.so.2' via dlopen().
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Bind-mounting / on /run/systemd/mount-rootfs (MS_BIND|MS_REC "")...
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Applying namespace mount on /run/systemd/mount-rootfs/proc/sys/kernel/domainname
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Bind-mounting /run/systemd/mount-rootfs/proc/sys/kernel/domainname on /run/systemd/mount-rootfs/proc/sys/kernel/domainname (MS_BIND|MS_REC "")...
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Successfully mounted /run/systemd/mount-rootfs/proc/sys/kernel/domainname to /run/systemd/mount-rootfs/proc/sys/kernel/domainname
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Applying namespace mount on /run/systemd/mount-rootfs/proc/sys/kernel/hostname
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Bind-mounting /run/systemd/mount-rootfs/proc/sys/kernel/hostname on /run/systemd/mount-rootfs/proc/sys/kernel/hostname (MS_BIND|MS_REC "")...
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Successfully mounted /run/systemd/mount-rootfs/proc/sys/kernel/hostname to /run/systemd/mount-rootfs/proc/sys/kernel/hostname
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Applying namespace mount on /run/systemd/mount-rootfs/run/credentials
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Bind-mounting /run/systemd/inaccessible/dir on /run/systemd/mount-rootfs/run/credentials (MS_BIND|MS_REC "")...
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Successfully mounted /run/systemd/inaccessible/dir to /run/systemd/mount-rootfs/run/credentials
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Successfully switched root to '/run/systemd/mount-rootfs'.
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Set up mount namespace
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Set up UTS namespace
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Enabled MemoryDenyWriteExecute= with PR_SET_MDWE
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Failed to add filter for chmod: Numerical argument out of domain
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Failed to add filter for mkdir: Numerical argument out of domain
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Failed to add filter for mknod: Numerical argument out of domain
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Failed to add filter for open: Numerical argument out of domain
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Failed to add filter for creat: Numerical argument out of domain
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Failed to add filter for chmod: Numerical argument out of domain
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Failed to add filter for mkdir: Numerical argument out of domain
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Failed to add filter for mknod: Numerical argument out of domain
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Failed to add filter for open: Numerical argument out of domain
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Failed to add filter for creat: Numerical argument out of domain
+Apr 15 11:32:53 localhost.localdomain (systemd-udevd)[406]: systemd-udevd.service: Executing: /usr/lib/systemd/systemd-udevd
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Got handoff timestamp event for PID 406.
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Set children_max to 40
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded shared library 'libselinux.so.1' via dlopen().
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded shared library 'libacl.so.1' via dlopen().
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded shared library 'libblkid.so.1' via dlopen().
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded shared library 'libkmod.so.2' via dlopen().
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded shared library 'libmount.so.1' via dlopen().
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Running in delegated subcgroup '/system.slice/systemd-udevd.service/udev'.
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Notify message sent to '/run/systemd/notify': "WATCHDOG=1"
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: Got notification message from PID 406: WATCHDOG=1
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Initialized new inotify instance, restoring inotify watches of previous invocation.
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Notify message sent to '/run/systemd/notify': "FDSTOREREMOVE=1\x0aFDNAME=inotify"
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: Got notification message from PID 406: FDSTOREREMOVE=1, FDNAME=inotify
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Notify message sent to '/run/systemd/notify': "FDSTORE=1\x0aFDNAME=inotify"
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Pushed inotify fd to service manager.
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to open old watches directory '/run/udev/watch/': No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: Got notification message from PID 406: FDSTORE=1, FDNAME=inotify
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: Trying to stash fd for dev=0:17/inode=2856
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: Added fd 48 (inotify) to fd store.
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Trying to open "/etc/systemd/hwdb/hwdb.bin"...
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Trying to open "/etc/udev/hwdb.bin"...
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Trying to open "/usr/lib/systemd/hwdb/hwdb.bin"...
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Trying to open "/usr/lib/udev/hwdb.bin"...
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: hwdb.bin does not exist, please run 'systemd-hwdb update'.
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded kernel module index.
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Using default interface naming scheme 'v259'.
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded link configuration context.
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/10-console.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/11-dm.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/50-udev-default.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"clock","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"clock","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"tty","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"tty","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"dialout","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"dialout","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"kmem","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"kmem","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"input","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"input","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"video","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"video","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"render","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"render","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"sgx","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"sgx","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"audio","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"audio","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"lp","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"lp","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"disk","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"disk","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"cdrom","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"cdrom","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"tape","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"tape","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Unable to connect to /run/systemd/userdb/io.systemd.Multiplexer: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: varlink: Setting state idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: New incoming connection.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink: Connections of user 0: 0 (of 1024 max)
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Setting state idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Sending message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"kvm","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state idle-client → awaiting-reply
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Received message: {"method":"io.systemd.UserDatabase.GetGroupRecord","parameters":{"groupName":"kvm","service":"io.systemd.DynamicUser"}}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → processing-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Sending message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-method → processed-method
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processed-method → idle-server
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Received message: {"error":"io.systemd.UserDatabase.NoRecordFound"}
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state awaiting-reply → processing-reply
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Got lookup error: io.systemd.UserDatabase.NoRecordFound
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: /run/systemd/userdb/io.systemd.DynamicUser: Changing state processing-reply → idle-client
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Got POLLHUP from socket.
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state idle-server → pending-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state pending-disconnect → processing-disconnect
+Apr 15 11:32:53 localhost.localdomain systemd[1]: varlink-49-49: Changing state processing-disconnect → disconnected
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Loaded '/usr/lib/aarch64-linux-gnu/libnss_systemd.so.2' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/55-dm.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/56-lvm.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/59-persistent-storage.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-autosuspend.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-block.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-cdrom_id.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-drm.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-evdev.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-fido-id.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-input-id.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-persistent-alsa.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-persistent-input.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-persistent-storage-dm.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-persistent-storage-tape.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-persistent-storage.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-persistent-v4l.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-sensor.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/60-serial.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/61-persistent-storage.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/64-btrfs.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/64-lvm.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/70-joystick.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/70-luks.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/70-memory.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/70-mouse.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/70-snap.desktop-security-center.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/70-snap.firefox.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/70-snap.prompting-client.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/70-snap.snap-store.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/70-snap.snapd-desktop-integration.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/70-snap.snapd.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/70-touchpad.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/70-uaccess.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/71-seat.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/73-seat-late.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/75-probe_mtd.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/78-sound-card.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/80-drivers.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/90-image-dissect.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/95-dm-notify.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /usr/lib/udev/rules.d/99-systemd.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Reading rules file: /etc/udev/rules.d/ubuntu--vg-ubuntu--lv.rules
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to open device node '/dev/snd/seq', ignoring: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to open device node '/dev/kvm', ignoring: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to open device node '/dev/vfio/vfio', ignoring: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to open device node '/dev/vhost-vsock', ignoring: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to open device node '/dev/vhost-net', ignoring: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Failed to open device node '/dev/snd/seq', ignoring: No such file or directory
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Notify message sent to '/run/systemd/notify': "READY=1\x0aSTATUS=Processing requests..."
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Notify message sent to '/run/systemd/notify': "FDSTOREREMOVE=1\x0aFDNAME=event-serialization"
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: Got notification message from PID 406: READY=1, STATUS=Processing requests...
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: Changed start -> running
+Apr 15 11:32:53 localhost.localdomain systemd[1]: systemd-udevd.service: Job 8 systemd-udevd.service/start finished, result=done
+Apr 15 11:32:53 localhost.localdomain systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: dm_log: Device is queued (SEQNUM=2637, ACTION=add)
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: dm_region_hash: Device is queued (SEQNUM=2638, ACTION=add)
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: dm_mirror: Device is queued (SEQNUM=2639, ACTION=add)
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: dm_log: Device ready for processing (SEQNUM=2637, ACTION=add)
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Successfully forked off '(udev-worker)' as PID 410.
+Apr 15 11:32:53 localhost.localdomain (udev-worker)[410]: dm_log: Processing device (SEQNUM=2637, ACTION=add)
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: dm_log: Worker [410] is forked for processing SEQNUM=2637.
+Apr 15 11:32:53 localhost.localdomain (udev-worker)[410]: dm_log: Device processed (SEQNUM=2637, ACTION=add)
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: dm_region_hash: Device ready for processing (SEQNUM=2638, ACTION=add)
+Apr 15 11:32:53 localhost.localdomain systemd-executor[412]: Loaded shared library 'libselinux.so.1' via dlopen().
+Apr 15 11:32:53 localhost.localdomain (udev-worker)[410]: dm_log: sd-device-monitor(worker): Passed 152 byte to netlink monitor.
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Successfully forked off '(udev-worker)' as PID 413.
+Apr 15 11:32:53 localhost.localdomain (udev-worker)[413]: dm_region_hash: Processing device (SEQNUM=2638, ACTION=add)
+Apr 15 11:32:53 localhost.localdomain (udevadm)[412]: systemd-udev-trigger.service: Shared library 'libapparmor.so.1' is not available: libapparmor.so.1: cannot open shared object file: No such file or directory
+Apr 15 11:32:53 localhost.localdomain (udev-worker)[410]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: dm_region_hash: Worker [413] is forked for processing SEQNUM=2638.
+Apr 15 11:32:53 localhost.localdomain (udev-worker)[413]: dm_region_hash: Device processed (SEQNUM=2638, ACTION=add)
+Apr 15 11:32:53 localhost.localdomain (udevadm)[412]: systemd-udev-trigger.service: Loaded 'libbpf.so.1' via dlopen()
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: dm_mirror: Device ready for processing (SEQNUM=2639, ACTION=add)
+Apr 15 11:32:53 localhost.localdomain (udev-worker)[413]: dm_region_hash: sd-device-monitor(worker): Passed 160 byte to netlink monitor.
+Apr 15 11:32:53 localhost.localdomain (udevadm)[412]: systemd-udev-trigger.service: Loaded shared library 'libcryptsetup.so.12' via dlopen().
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: Successfully forked off '(udev-worker)' as PID 415.
+Apr 15 11:32:53 localhost.localdomain (udev-worker)[415]: dm_mirror: Processing device (SEQNUM=2639, ACTION=add)
+Apr 15 11:32:53 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:53 localhost.localdomain (udevadm)[412]: systemd-udev-trigger.service: Loaded shared library 'libmount.so.1' via dlopen().
+Apr 15 11:32:53 localhost.localdomain systemd-udevd[406]: dm_mirror: Worker [415] is forked for processing SEQNUM=2639.
+Apr 15 11:32:53 localhost.localdomain (udev-worker)[415]: dm_mirror: Device processed (SEQNUM=2639, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udevadm)[412]: systemd-udev-trigger.service: Loaded shared library 'libseccomp.so.2' via dlopen().
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: dm_mirror: sd-device-monitor(worker): Passed 155 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udevadm)[412]: systemd-udev-trigger.service: Executing: udevadm trigger --type=all --action=add --prioritized-subsystem=module,block,tpmrm,net,tty,input
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: No events are queued, removed /run/udev/queue.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: Loaded shared library 'libselinux.so.1' via dlopen().
+Apr 15 11:32:54 localhost.localdomain systemd[1]: Event source 0xb8e156605060 (mount-monitor-dispatch) left rate limit state.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: sysroot.mount: starting held back, waiting for: systemd-fsck-root.service
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: 8250: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: 8250_base: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: 8250_pci: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: acpi: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: acpiphp: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: aes_ce_blk: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 8250: Device is queued (SEQNUM=2640, ACTION=add, UUID=ace7254b-e74e-4d7c-b981-d9a889998a43)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: aes_neon_blk: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: aes_neon_bs: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 8250_base: Device is queued (SEQNUM=2641, ACTION=add, UUID=cd1c7fa6-43e3-4455-ae20-81bfd4e0b00d)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: ahci_imx: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: apparmor: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 8250_pci: Device is queued (SEQNUM=2642, ACTION=add, UUID=2b15f876-5c74-442a-9aa5-188154f5e105)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: arm_ccn: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: acpi: Device is queued (SEQNUM=2643, ACTION=add, UUID=496f1e5a-e5b2-4670-b754-d4d96cf2fe90)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: arm_smmu: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: acpiphp: Device is queued (SEQNUM=2644, ACTION=add, UUID=948bd057-6174-4b5f-bd8d-aca58e870397)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: arm_smmu_v3: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: aes_ce_blk: Device is queued (SEQNUM=2645, ACTION=add, UUID=dcb1b0dd-7641-472b-9acf-173c7708e93f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: armmmci: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: aes_neon_blk: Device is queued (SEQNUM=2646, ACTION=add, UUID=1279757a-031a-457a-8306-0bd94dc0baf6)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: asiliantfb: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: aes_neon_bs: Device is queued (SEQNUM=2647, ACTION=add, UUID=c400ddee-8c23-4492-a216-2e4d327a450b)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: atkbd: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ahci_imx: Device is queued (SEQNUM=2648, ACTION=add, UUID=3ed82443-748c-4ebf-8a0d-0307f5ce07cc)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: battery: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: apparmor: Device is queued (SEQNUM=2649, ACTION=add, UUID=28e24d1b-c23c-476b-98e5-8e36fffc4364)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: blk_cgroup: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: arm_ccn: Device is queued (SEQNUM=2650, ACTION=add, UUID=dfd4e57b-454c-46e1-86a2-c3fc0aac2964)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: blk_crypto: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: block: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: arm_smmu: Device is queued (SEQNUM=2651, ACTION=add, UUID=fcf0d2a4-e59a-43f3-90cb-4dcc90ae9b6f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: button: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: arm_smmu_v3: Device is queued (SEQNUM=2652, ACTION=add, UUID=bf01317e-0dcc-4842-82e6-1626a48f713c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clk_imx8mm: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clk_imx8mn: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: armmmci: Device is queued (SEQNUM=2653, ACTION=add, UUID=c0d5f2bc-ca33-46db-a950-079ffa69d2ad)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clk_imx8mp: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: asiliantfb: Device is queued (SEQNUM=2654, ACTION=add, UUID=6f6ed729-2f7b-4546-909e-e88146c3519f)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clk_imx8mq: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: clk_scmi: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: atkbd: Device is queued (SEQNUM=2655, ACTION=add, UUID=ba406cc5-d735-46dc-b949-020758eb7462)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: configfs: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: battery: Device is queued (SEQNUM=2656, ACTION=add, UUID=ae89c009-d969-41be-9fbb-97831e0a27b4)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpufreq: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cpuidle: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: blk_cgroup: Device is queued (SEQNUM=2657, ACTION=add, UUID=894cbed5-a9e0-4a0c-ba56-70938a9f2996)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: cryptomgr: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: blk_crypto: Device is queued (SEQNUM=2658, ACTION=add, UUID=10f556ab-8ba6-45b8-bf1a-1a833633216c)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: debug_core: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: block: Device is queued (SEQNUM=2659, ACTION=add, UUID=c218817c-ff61-4198-99f7-41499c3ed913)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: device_hmem: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: button: Device is queued (SEQNUM=2660, ACTION=add, UUID=ea1c7559-7ba7-4b3c-99fc-b219cd8f56bf)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: dm_log: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: dm_mirror: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clk_imx8mm: Device is queued (SEQNUM=2661, ACTION=add, UUID=2ca31cd1-8230-4c4f-b1cf-1a9f644ef294)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: dm_mod: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clk_imx8mn: Device is queued (SEQNUM=2662, ACTION=add, UUID=3853be67-ac6f-4ee8-81c8-e3521cc7f720)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: dm_region_hash: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clk_imx8mp: Device is queued (SEQNUM=2663, ACTION=add, UUID=e115b925-1678-4ed8-8bbf-c096099cadcf)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: dma_heap: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: dmi_sysfs: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clk_imx8mq: Device is queued (SEQNUM=2664, ACTION=add, UUID=429e1d4c-4b85-4e01-bbc8-33289df7ed30)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: dns_resolver: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: clk_scmi: Device is queued (SEQNUM=2665, ACTION=add, UUID=88137ed4-a9c6-4644-9e95-77558d081bf0)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: drm: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: configfs: Device is queued (SEQNUM=2666, ACTION=add, UUID=b9ad1748-c6db-449e-9e37-b893a820e5ba)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: drm_client_lib: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: drm_kms_helper: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpufreq: Device is queued (SEQNUM=2667, ACTION=add, UUID=7af435d6-b9f5-438e-95d0-88a76e5a2140)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: dynamic_debug: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cpuidle: Device is queued (SEQNUM=2668, ACTION=add, UUID=be3956c5-5c44-4d08-a623-6d02b43acdb6)
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: edac_core: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain udevadm[412]: ehci_hcd: Triggered device with action 'add'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: cryptomgr: Device is queued (SEQNUM=2669, ACTION=add, UUID=d92ca7d1-49bb-41ea-bb17-ebb91171143c)

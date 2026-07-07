@@ -1,0 +1,1000 @@
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory436: sd-device-monitor(manager): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4360: Device ready for processing (SEQNUM=4031, ACTION=add, UUID=e5db265e-1005-4294-a294-f54d017a7d5a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4360: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4361: Device ready for processing (SEQNUM=4032, ACTION=add, UUID=03456906-35b5-4627-97e8-44323c439b26)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: memory430: Processing device (SEQNUM=4016, ACTION=add, UUID=777d4c05-9aaf-4a7d-8479-3031229118f1)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4361: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4362: Device ready for processing (SEQNUM=4033, ACTION=add, UUID=48aac617-6db3-4d9f-b26e-35f296476279)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4362: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4363: Device ready for processing (SEQNUM=4034, ACTION=add, UUID=dcb00429-9b49-43c9-8212-121c4afc6b8a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4363: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: memory429: Processing device (SEQNUM=4015, ACTION=add, UUID=d0a8c610-78c5-457b-825d-16bb1452896d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: memory435: Processing device (SEQNUM=4021, ACTION=add, UUID=1105225f-c901-494e-80b5-1de892c70c68)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4364: Device ready for processing (SEQNUM=4035, ACTION=add, UUID=7b5b2fa8-00fe-442a-91d2-185368aa37ac)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: memory4358: Processing device (SEQNUM=4028, ACTION=add, UUID=7edb407b-08b3-497c-9d44-69f1d4f23473)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4364: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4365: Device ready for processing (SEQNUM=4036, ACTION=add, UUID=da6831fd-f701-44e8-aab0-0b27ffb8f758)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4365: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4366: Device ready for processing (SEQNUM=4037, ACTION=add, UUID=36f662a5-685c-4aee-9ce7-ddf315b11b9a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4366: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4367: Device ready for processing (SEQNUM=4038, ACTION=add, UUID=5412bb02-7ea1-4e03-afb5-39e8e99473b1)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4367: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4368: Device ready for processing (SEQNUM=4039, ACTION=add, UUID=548fa8c7-2139-46af-9fb7-939e0e80093f)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4368: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: memory433: Processing device (SEQNUM=4019, ACTION=add, UUID=811a1fcd-4594-4882-9e63-e1273cdd52e0)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4369: Device ready for processing (SEQNUM=4040, ACTION=add, UUID=492bee26-738b-4404-be3e-1f454108d85f)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4369: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory437: Device ready for processing (SEQNUM=4041, ACTION=add, UUID=d5387861-5bdc-4837-905b-4b9996f1f97e)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory437: sd-device-monitor(manager): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4370: Device ready for processing (SEQNUM=4042, ACTION=add, UUID=96e0e37d-7153-48aa-8c9b-30ba7bad4702)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: memory4366: Processing device (SEQNUM=4037, ACTION=add, UUID=36f662a5-685c-4aee-9ce7-ddf315b11b9a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4370: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: memory4367: Processing device (SEQNUM=4038, ACTION=add, UUID=5412bb02-7ea1-4e03-afb5-39e8e99473b1)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4371: Device ready for processing (SEQNUM=4043, ACTION=add, UUID=c4c151fd-6f6f-4ca8-be76-5669cdd23147)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4371: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4372: Device ready for processing (SEQNUM=4044, ACTION=add, UUID=8c2efd1f-b93d-45b9-b171-551120fb70c6)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4372: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4373: Device ready for processing (SEQNUM=4045, ACTION=add, UUID=909a59ef-dfb0-4c32-a177-6c0a823c6aed)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4373: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: memory437: Processing device (SEQNUM=4041, ACTION=add, UUID=d5387861-5bdc-4837-905b-4b9996f1f97e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4356: Processing device (SEQNUM=4026, ACTION=add, UUID=cd63f9cd-3f9f-41c7-a085-574e315ac1bf)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory428: Device processed (SEQNUM=4014, ACTION=add, UUID=561af235-2d70-46f2-99ae-de986fc12033)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory428: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: memory4362: Processing device (SEQNUM=4033, ACTION=add, UUID=48aac617-6db3-4d9f-b26e-35f296476279)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4374: Device ready for processing (SEQNUM=4046, ACTION=add, UUID=b6a6d625-c8ca-4f16-975f-72648be6d600)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4374: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory431: Processing device (SEQNUM=4017, ACTION=add, UUID=3b4a216b-6f05-44d9-8b81-710cef816d67)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: memory4365: Processing device (SEQNUM=4036, ACTION=add, UUID=da6831fd-f701-44e8-aab0-0b27ffb8f758)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: memory4357: Processing device (SEQNUM=4027, ACTION=add, UUID=2e0cd847-1310-4d23-9d98-f80a4fed9994)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: memory432: Processing device (SEQNUM=4018, ACTION=add, UUID=c6ecf0ac-ac98-4a93-9ccf-4af7e1bbfdcf)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: memory436: Processing device (SEQNUM=4030, ACTION=add, UUID=e0a3fa6a-f327-4419-8de0-fc36b49f57ac)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: memory4360: Processing device (SEQNUM=4031, ACTION=add, UUID=e5db265e-1005-4294-a294-f54d017a7d5a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: memory4359: Processing device (SEQNUM=4029, ACTION=add, UUID=f8f94a4b-562a-493e-b929-7e759667902d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: memory4372: Processing device (SEQNUM=4044, ACTION=add, UUID=8c2efd1f-b93d-45b9-b171-551120fb70c6)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: memory427: Processing device (SEQNUM=4013, ACTION=add, UUID=cbb4bb11-d129-4c79-bb63-38098a56e103)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: memory4352: Processing device (SEQNUM=4022, ACTION=add, UUID=01783ef4-a6e4-4f07-bf51-47c837e0ad7d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: memory424: Device processed (SEQNUM=4010, ACTION=add, UUID=08b23c42-4655-4bee-8c73-1b099096cb4b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: memory424: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4375: Device ready for processing (SEQNUM=4047, ACTION=add, UUID=cf23f2d9-56d9-401e-8da4-9e3b2c886518)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4375: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: memory4364: Processing device (SEQNUM=4035, ACTION=add, UUID=7b5b2fa8-00fe-442a-91d2-185368aa37ac)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: memory4353: Processing device (SEQNUM=4023, ACTION=add, UUID=deeba18e-2c0d-459b-bc63-2f078dd363d5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: memory4371: Processing device (SEQNUM=4043, ACTION=add, UUID=c4c151fd-6f6f-4ca8-be76-5669cdd23147)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4356: Device processed (SEQNUM=4026, ACTION=add, UUID=cd63f9cd-3f9f-41c7-a085-574e315ac1bf)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4356: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: memory4367: Device processed (SEQNUM=4038, ACTION=add, UUID=5412bb02-7ea1-4e03-afb5-39e8e99473b1)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4376: Device ready for processing (SEQNUM=4048, ACTION=add, UUID=11f7987c-6051-43b1-aa98-05ad2d4b2a3f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: memory4367: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4376: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4377: Device ready for processing (SEQNUM=4049, ACTION=add, UUID=0a9160da-7a81-4d6f-bc69-fe44661f5fa2)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4377: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: memory4363: Processing device (SEQNUM=4034, ACTION=add, UUID=dcb00429-9b49-43c9-8212-121c4afc6b8a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: memory4373: Processing device (SEQNUM=4045, ACTION=add, UUID=909a59ef-dfb0-4c32-a177-6c0a823c6aed)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4376: Processing device (SEQNUM=4048, ACTION=add, UUID=11f7987c-6051-43b1-aa98-05ad2d4b2a3f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: memory434: Processing device (SEQNUM=4020, ACTION=add, UUID=06b8a1b6-2fb6-44e5-8181-4cd25796f5d5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: memory4362: Device processed (SEQNUM=4033, ACTION=add, UUID=48aac617-6db3-4d9f-b26e-35f296476279)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: memory4362: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4378: Device ready for processing (SEQNUM=4050, ACTION=add, UUID=e490c998-fb80-4639-b8a4-e30221690d6f)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4378: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: memory4369: Processing device (SEQNUM=4040, ACTION=add, UUID=492bee26-738b-4404-be3e-1f454108d85f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: memory4375: Processing device (SEQNUM=4047, ACTION=add, UUID=cf23f2d9-56d9-401e-8da4-9e3b2c886518)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory4374: Processing device (SEQNUM=4046, ACTION=add, UUID=b6a6d625-c8ca-4f16-975f-72648be6d600)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: memory4370: Processing device (SEQNUM=4042, ACTION=add, UUID=96e0e37d-7153-48aa-8c9b-30ba7bad4702)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: memory4355: Processing device (SEQNUM=4025, ACTION=add, UUID=70de9a7a-4f8d-40cc-b384-a22f40253762)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: memory4378: Processing device (SEQNUM=4050, ACTION=add, UUID=e490c998-fb80-4639-b8a4-e30221690d6f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: memory435: Device processed (SEQNUM=4021, ACTION=add, UUID=1105225f-c901-494e-80b5-1de892c70c68)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: memory435: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4379: Device ready for processing (SEQNUM=4051, ACTION=add, UUID=c9bdca3c-eda1-43a1-a815-9c0085627559)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4379: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: memory430: Device processed (SEQNUM=4016, ACTION=add, UUID=777d4c05-9aaf-4a7d-8479-3031229118f1)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: memory430: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: memory4377: Processing device (SEQNUM=4049, ACTION=add, UUID=0a9160da-7a81-4d6f-bc69-fe44661f5fa2)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory438: Device ready for processing (SEQNUM=4052, ACTION=add, UUID=d700a7a2-977f-497b-969e-9551b52b275b)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory438: sd-device-monitor(manager): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: memory436: Device processed (SEQNUM=4030, ACTION=add, UUID=e0a3fa6a-f327-4419-8de0-fc36b49f57ac)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: memory436: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: memory437: Device processed (SEQNUM=4041, ACTION=add, UUID=d5387861-5bdc-4837-905b-4b9996f1f97e)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4380: Device ready for processing (SEQNUM=4053, ACTION=add, UUID=95c404c3-0558-48e9-980e-aadcc650dead)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: memory4360: Device processed (SEQNUM=4031, ACTION=add, UUID=e5db265e-1005-4294-a294-f54d017a7d5a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: memory437: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4380: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: memory4360: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4381: Device ready for processing (SEQNUM=4054, ACTION=add, UUID=77ade457-d5a5-46b2-858e-9b666cdb0ac5)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4381: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4382: Device ready for processing (SEQNUM=4055, ACTION=add, UUID=8dc5c255-7d8e-489d-b435-363479efdb52)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4382: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: memory4379: Processing device (SEQNUM=4051, ACTION=add, UUID=c9bdca3c-eda1-43a1-a815-9c0085627559)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: memory432: Device processed (SEQNUM=4018, ACTION=add, UUID=c6ecf0ac-ac98-4a93-9ccf-4af7e1bbfdcf)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: memory433: Device processed (SEQNUM=4019, ACTION=add, UUID=811a1fcd-4594-4882-9e63-e1273cdd52e0)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: memory432: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: memory4368: Processing device (SEQNUM=4039, ACTION=add, UUID=548fa8c7-2139-46af-9fb7-939e0e80093f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: memory433: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4383: Device ready for processing (SEQNUM=4056, ACTION=add, UUID=a2cc6700-8050-4b2b-8237-14160cab7438)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4383: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: memory4361: Processing device (SEQNUM=4032, ACTION=add, UUID=03456906-35b5-4627-97e8-44323c439b26)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4384: Device ready for processing (SEQNUM=4057, ACTION=add, UUID=fc191967-3350-4be2-b80c-6076610cfa7c)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4384: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory4374: Device processed (SEQNUM=4046, ACTION=add, UUID=b6a6d625-c8ca-4f16-975f-72648be6d600)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory4374: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: memory4383: Processing device (SEQNUM=4056, ACTION=add, UUID=a2cc6700-8050-4b2b-8237-14160cab7438)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: memory4384: Processing device (SEQNUM=4057, ACTION=add, UUID=fc191967-3350-4be2-b80c-6076610cfa7c)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4385: Device ready for processing (SEQNUM=4058, ACTION=add, UUID=77c238ed-95a0-435d-8cfc-3c9ca45605e9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: memory4354: Processing device (SEQNUM=4024, ACTION=add, UUID=dde123c2-1dcf-47c1-8d56-3c38a4d64185)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: memory425: Device processed (SEQNUM=4011, ACTION=add, UUID=f2afaf7a-1798-4760-b35e-6056e3bc9d1b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: memory425: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4385: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4386: Device ready for processing (SEQNUM=4059, ACTION=add, UUID=6c078d43-c68d-41e6-9245-2e4a95e278f3)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4376: Device processed (SEQNUM=4048, ACTION=add, UUID=11f7987c-6051-43b1-aa98-05ad2d4b2a3f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory431: Device processed (SEQNUM=4017, ACTION=add, UUID=3b4a216b-6f05-44d9-8b81-710cef816d67)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4386: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4376: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory431: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4387: Device ready for processing (SEQNUM=4060, ACTION=add, UUID=b53546d4-494d-4ae0-bfce-8538362098e8)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4387: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4388: Device ready for processing (SEQNUM=4061, ACTION=add, UUID=f3f83464-04bc-4cff-a667-e6b05e652b66)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: memory4382: Processing device (SEQNUM=4055, ACTION=add, UUID=8dc5c255-7d8e-489d-b435-363479efdb52)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4388: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: memory4380: Processing device (SEQNUM=4053, ACTION=add, UUID=95c404c3-0558-48e9-980e-aadcc650dead)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: memory438: Processing device (SEQNUM=4052, ACTION=add, UUID=d700a7a2-977f-497b-969e-9551b52b275b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: memory4353: Device processed (SEQNUM=4023, ACTION=add, UUID=deeba18e-2c0d-459b-bc63-2f078dd363d5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: memory4353: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: memory4359: Device processed (SEQNUM=4029, ACTION=add, UUID=f8f94a4b-562a-493e-b929-7e759667902d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: memory4359: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: memory4352: Device processed (SEQNUM=4022, ACTION=add, UUID=01783ef4-a6e4-4f07-bf51-47c837e0ad7d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: memory4352: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory4387: Processing device (SEQNUM=4060, ACTION=add, UUID=b53546d4-494d-4ae0-bfce-8538362098e8)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:a600000.usb--platform:fd5000.phy: Device is queued (SEQNUM=5342, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: memory4375: Device processed (SEQNUM=4047, ACTION=add, UUID=cf23f2d9-56d9-401e-8da4-9e3b2c886518)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: memory4375: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: memory4363: Device processed (SEQNUM=4034, ACTION=add, UUID=dcb00429-9b49-43c9-8212-121c4afc6b8a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4388: Processing device (SEQNUM=4061, ACTION=add, UUID=f3f83464-04bc-4cff-a667-e6b05e652b66)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: memory4363: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: memory4368: Device processed (SEQNUM=4039, ACTION=add, UUID=548fa8c7-2139-46af-9fb7-939e0e80093f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: memory4368: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: memory4378: Device processed (SEQNUM=4050, ACTION=add, UUID=e490c998-fb80-4639-b8a4-e30221690d6f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: memory4378: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: memory4373: Device processed (SEQNUM=4045, ACTION=add, UUID=909a59ef-dfb0-4c32-a177-6c0a823c6aed)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: memory4377: Device processed (SEQNUM=4049, ACTION=add, UUID=0a9160da-7a81-4d6f-bc69-fe44661f5fa2)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fd5000.phy: Device is queued (SEQNUM=5343, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: memory4379: Device processed (SEQNUM=4051, ACTION=add, UUID=c9bdca3c-eda1-43a1-a815-9c0085627559)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: memory4373: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: memory4377: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: memory4379: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory4385: Processing device (SEQNUM=4058, ACTION=add, UUID=77c238ed-95a0-435d-8cfc-3c9ca45605e9)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4389: Device ready for processing (SEQNUM=4062, ACTION=add, UUID=1e012aef-f2f4-4edd-8e8e-5c0404aa75a2)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4389: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory439: Device ready for processing (SEQNUM=4063, ACTION=add, UUID=7b68645c-31bd-4296-aa8b-4bfaa96fe1ff)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory439: sd-device-monitor(manager): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4390: Device ready for processing (SEQNUM=4064, ACTION=add, UUID=4507f955-e00b-4f8b-855f-e179eb1b562f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: memory429: Device processed (SEQNUM=4015, ACTION=add, UUID=d0a8c610-78c5-457b-825d-16bb1452896d)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4390: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: memory429: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4391: Device ready for processing (SEQNUM=4065, ACTION=add, UUID=fd092b13-43e2-47e1-a8aa-4fd5f4ab252a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4391: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4392: Device ready for processing (SEQNUM=4066, ACTION=add, UUID=d3f8db79-8fc5-4a0c-a422-999249bee353)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4392: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4393: Device ready for processing (SEQNUM=4067, ACTION=add, UUID=b2a1341f-d092-45fb-abc3-9530bbb82d05)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4393: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4394: Device ready for processing (SEQNUM=4068, ACTION=add, UUID=1353c102-d393-4782-99af-4dbbb61d90ce)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: memory4365: Device processed (SEQNUM=4036, ACTION=add, UUID=da6831fd-f701-44e8-aab0-0b27ffb8f758)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4394: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: memory4365: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4395: Device ready for processing (SEQNUM=4069, ACTION=add, UUID=a0133252-033b-4c19-836b-29dcdc46c760)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4395: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4396: Device ready for processing (SEQNUM=4070, ACTION=add, UUID=3e5f15f1-a1df-45b7-b899-bff5765a9d1e)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4396: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4397: Device ready for processing (SEQNUM=4071, ACTION=add, UUID=fbaa8e36-b05c-45d2-b288-6cadef866759)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4397: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: memory4366: Device processed (SEQNUM=4037, ACTION=add, UUID=36f662a5-685c-4aee-9ce7-ddf315b11b9a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: memory4366: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4398: Device ready for processing (SEQNUM=4072, ACTION=add, UUID=854dcf10-3e0e-4cd5-9d61-c9ba903300f5)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4398: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4399: Device ready for processing (SEQNUM=4073, ACTION=add, UUID=05a42a99-424f-427d-a8ae-1fb73d607c20)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4399: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory440: Device ready for processing (SEQNUM=4074, ACTION=add, UUID=fe59aad5-218f-4138-bf02-b45953adb9ef)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory440: sd-device-monitor(manager): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: memory4372: Device processed (SEQNUM=4044, ACTION=add, UUID=8c2efd1f-b93d-45b9-b171-551120fb70c6)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: memory4372: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4400: Device ready for processing (SEQNUM=4075, ACTION=add, UUID=570c50ce-ff64-4bc0-b175-744fbe253746)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4400: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: memory4357: Device processed (SEQNUM=4027, ACTION=add, UUID=2e0cd847-1310-4d23-9d98-f80a4fed9994)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: memory4381: Processing device (SEQNUM=4054, ACTION=add, UUID=77ade457-d5a5-46b2-858e-9b666cdb0ac5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: memory4357: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4401: Device ready for processing (SEQNUM=4076, ACTION=add, UUID=b566171a-a6a1-476f-a43e-607ba589e782)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: memory4371: Device processed (SEQNUM=4043, ACTION=add, UUID=c4c151fd-6f6f-4ca8-be76-5669cdd23147)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4401: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: memory4371: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4402: Device ready for processing (SEQNUM=4077, ACTION=add, UUID=1edf7b67-3d2d-4cac-8cdb-d79be001ab98)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4402: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: memory426: Device processed (SEQNUM=4012, ACTION=add, UUID=7bf8dfa3-9d9a-4586-ba41-73a51faed037)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: memory426: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4403: Device ready for processing (SEQNUM=4078, ACTION=add, UUID=89745b4c-e503-4b26-9c9e-cd0b5ae53cf0)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4403: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: memory4383: Device processed (SEQNUM=4056, ACTION=add, UUID=a2cc6700-8050-4b2b-8237-14160cab7438)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: memory4383: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: memory4369: Device processed (SEQNUM=4040, ACTION=add, UUID=492bee26-738b-4404-be3e-1f454108d85f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: memory4369: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4404: Device ready for processing (SEQNUM=4079, ACTION=add, UUID=9c925778-c93b-4aa3-89c8-de339e63e3c6)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4404: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4405: Device ready for processing (SEQNUM=4080, ACTION=add, UUID=be4bef45-c90a-4bd5-b325-c57f8a1485c9)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4405: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: memory4386: Processing device (SEQNUM=4059, ACTION=add, UUID=6c078d43-c68d-41e6-9245-2e4a95e278f3)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: memory4358: Device processed (SEQNUM=4028, ACTION=add, UUID=7edb407b-08b3-497c-9d44-69f1d4f23473)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: memory4358: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: memory4364: Device processed (SEQNUM=4035, ACTION=add, UUID=7b5b2fa8-00fe-442a-91d2-185368aa37ac)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: memory4364: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4406: Device ready for processing (SEQNUM=4081, ACTION=add, UUID=a5b8af04-afbc-4a0a-a9ea-23a33596d4de)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4406: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4407: Device ready for processing (SEQNUM=4082, ACTION=add, UUID=dae55bb0-f071-426d-babd-bc1fa59e14e3)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4407: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: memory4381: Device processed (SEQNUM=4054, ACTION=add, UUID=77ade457-d5a5-46b2-858e-9b666cdb0ac5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: memory4381: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4408: Device ready for processing (SEQNUM=4083, ACTION=add, UUID=488796da-ba59-482f-a46d-21c27ad28b2b)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4408: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: memory427: Device processed (SEQNUM=4013, ACTION=add, UUID=cbb4bb11-d129-4c79-bb63-38098a56e103)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: memory427: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: memory4355: Device processed (SEQNUM=4025, ACTION=add, UUID=70de9a7a-4f8d-40cc-b384-a22f40253762)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: memory4355: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4409: Device ready for processing (SEQNUM=4084, ACTION=add, UUID=826b220f-319c-42a0-8ef2-c324d6b1236a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4409: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory441: Device ready for processing (SEQNUM=4085, ACTION=add, UUID=195b0e04-af12-4640-9a02-93402399ccca)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory441: sd-device-monitor(manager): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory4387: Device processed (SEQNUM=4060, ACTION=add, UUID=b53546d4-494d-4ae0-bfce-8538362098e8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory4387: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4410: Device ready for processing (SEQNUM=4086, ACTION=add, UUID=be21b8b8-329b-465a-9ec0-d033aa168a80)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4410: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: memory4398: Processing device (SEQNUM=4072, ACTION=add, UUID=854dcf10-3e0e-4cd5-9d61-c9ba903300f5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: memory434: Device processed (SEQNUM=4020, ACTION=add, UUID=06b8a1b6-2fb6-44e5-8181-4cd25796f5d5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: memory434: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: memory439: Processing device (SEQNUM=4063, ACTION=add, UUID=7b68645c-31bd-4296-aa8b-4bfaa96fe1ff)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: memory4390: Processing device (SEQNUM=4064, ACTION=add, UUID=4507f955-e00b-4f8b-855f-e179eb1b562f)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4411: Device ready for processing (SEQNUM=4087, ACTION=add, UUID=11958be9-89f2-4379-8a3c-438be7794ad5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: memory4391: Processing device (SEQNUM=4065, ACTION=add, UUID=fd092b13-43e2-47e1-a8aa-4fd5f4ab252a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: memory4392: Processing device (SEQNUM=4066, ACTION=add, UUID=d3f8db79-8fc5-4a0c-a422-999249bee353)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: memory4393: Processing device (SEQNUM=4067, ACTION=add, UUID=b2a1341f-d092-45fb-abc3-9530bbb82d05)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4411: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: memory4394: Processing device (SEQNUM=4068, ACTION=add, UUID=1353c102-d393-4782-99af-4dbbb61d90ce)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: memory4395: Processing device (SEQNUM=4069, ACTION=add, UUID=a0133252-033b-4c19-836b-29dcdc46c760)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: memory4396: Processing device (SEQNUM=4070, ACTION=add, UUID=3e5f15f1-a1df-45b7-b899-bff5765a9d1e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: memory4397: Processing device (SEQNUM=4071, ACTION=add, UUID=fbaa8e36-b05c-45d2-b288-6cadef866759)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: memory4389: Processing device (SEQNUM=4062, ACTION=add, UUID=1e012aef-f2f4-4edd-8e8e-5c0404aa75a2)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: memory4402: Processing device (SEQNUM=4077, ACTION=add, UUID=1edf7b67-3d2d-4cac-8cdb-d79be001ab98)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: memory4399: Processing device (SEQNUM=4073, ACTION=add, UUID=05a42a99-424f-427d-a8ae-1fb73d607c20)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: memory440: Processing device (SEQNUM=4074, ACTION=add, UUID=fe59aad5-218f-4138-bf02-b45953adb9ef)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: memory4370: Device processed (SEQNUM=4042, ACTION=add, UUID=96e0e37d-7153-48aa-8c9b-30ba7bad4702)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: memory4370: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: memory4401: Processing device (SEQNUM=4076, ACTION=add, UUID=b566171a-a6a1-476f-a43e-607ba589e782)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4412: Device ready for processing (SEQNUM=4088, ACTION=add, UUID=5dc7f799-6306-494e-80ed-4e5c07eaba54)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4412: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: memory4400: Processing device (SEQNUM=4075, ACTION=add, UUID=570c50ce-ff64-4bc0-b175-744fbe253746)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory4410: Processing device (SEQNUM=4086, ACTION=add, UUID=be21b8b8-329b-465a-9ec0-d033aa168a80)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory4410: Device processed (SEQNUM=4086, ACTION=add, UUID=be21b8b8-329b-465a-9ec0-d033aa168a80)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory4410: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4413: Device ready for processing (SEQNUM=4089, ACTION=add, UUID=5d20ccea-f1fe-4aa9-882e-4de96d24afb1)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4413: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: memory4403: Processing device (SEQNUM=4078, ACTION=add, UUID=89745b4c-e503-4b26-9c9e-cd0b5ae53cf0)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: memory4404: Processing device (SEQNUM=4079, ACTION=add, UUID=9c925778-c93b-4aa3-89c8-de339e63e3c6)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: memory4384: Device processed (SEQNUM=4057, ACTION=add, UUID=fc191967-3350-4be2-b80c-6076610cfa7c)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: memory4384: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4414: Device ready for processing (SEQNUM=4090, ACTION=add, UUID=81458172-b9fa-43bd-806e-cd911db6a989)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4414: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: memory438: Device processed (SEQNUM=4052, ACTION=add, UUID=d700a7a2-977f-497b-969e-9551b52b275b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: memory438: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4415: Device ready for processing (SEQNUM=4091, ACTION=add, UUID=e6587a53-561d-4e32-8511-00667a970b88)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: memory4406: Processing device (SEQNUM=4081, ACTION=add, UUID=a5b8af04-afbc-4a0a-a9ea-23a33596d4de)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4415: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: memory4380: Device processed (SEQNUM=4053, ACTION=add, UUID=95c404c3-0558-48e9-980e-aadcc650dead)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: memory4380: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4416: Device ready for processing (SEQNUM=4092, ACTION=add, UUID=861d2832-fff4-48a2-acb2-cbcdaa83b701)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4388: Device processed (SEQNUM=4061, ACTION=add, UUID=f3f83464-04bc-4cff-a667-e6b05e652b66)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4416: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: memory4382: Device processed (SEQNUM=4055, ACTION=add, UUID=8dc5c255-7d8e-489d-b435-363479efdb52)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4388: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: memory4382: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4417: Device ready for processing (SEQNUM=4093, ACTION=add, UUID=78309e3a-f6a3-48a6-a235-35cb4a78fbe1)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4417: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4418: Device ready for processing (SEQNUM=4094, ACTION=add, UUID=628abd88-6594-49fe-a2d9-599478d61cf0)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4418: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: memory4409: Processing device (SEQNUM=4084, ACTION=add, UUID=826b220f-319c-42a0-8ef2-c324d6b1236a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: memory441: Processing device (SEQNUM=4085, ACTION=add, UUID=195b0e04-af12-4640-9a02-93402399ccca)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory4385: Device processed (SEQNUM=4058, ACTION=add, UUID=77c238ed-95a0-435d-8cfc-3c9ca45605e9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory4385: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4419: Device ready for processing (SEQNUM=4095, ACTION=add, UUID=66c764a6-e1a9-4877-b8f9-e03987102b72)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4419: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: memory4407: Processing device (SEQNUM=4082, ACTION=add, UUID=dae55bb0-f071-426d-babd-bc1fa59e14e3)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: memory4405: Processing device (SEQNUM=4080, ACTION=add, UUID=be4bef45-c90a-4bd5-b325-c57f8a1485c9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: memory4361: Device processed (SEQNUM=4032, ACTION=add, UUID=03456906-35b5-4627-97e8-44323c439b26)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: memory4361: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory442: Device ready for processing (SEQNUM=4096, ACTION=add, UUID=041e6f07-0450-472d-9580-5c7970ce6f74)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory442: sd-device-monitor(manager): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: memory4354: Device processed (SEQNUM=4024, ACTION=add, UUID=dde123c2-1dcf-47c1-8d56-3c38a4d64185)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: memory4354: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4420: Device ready for processing (SEQNUM=4097, ACTION=add, UUID=709b4304-4232-4bf8-8317-be240c5d8b18)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4420: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: memory4408: Processing device (SEQNUM=4083, ACTION=add, UUID=488796da-ba59-482f-a46d-21c27ad28b2b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: memory4412: Processing device (SEQNUM=4088, ACTION=add, UUID=5dc7f799-6306-494e-80ed-4e5c07eaba54)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: memory4386: Device processed (SEQNUM=4059, ACTION=add, UUID=6c078d43-c68d-41e6-9245-2e4a95e278f3)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: memory4386: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4421: Device ready for processing (SEQNUM=4098, ACTION=add, UUID=f99be760-e4ee-48c7-a2fb-69adac2df309)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4421: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: memory4411: Processing device (SEQNUM=4087, ACTION=add, UUID=11958be9-89f2-4379-8a3c-438be7794ad5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: memory4390: Device processed (SEQNUM=4064, ACTION=add, UUID=4507f955-e00b-4f8b-855f-e179eb1b562f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: memory4390: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: memory4418: Processing device (SEQNUM=4094, ACTION=add, UUID=628abd88-6594-49fe-a2d9-599478d61cf0)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: memory4415: Processing device (SEQNUM=4091, ACTION=add, UUID=e6587a53-561d-4e32-8511-00667a970b88)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory4419: Processing device (SEQNUM=4095, ACTION=add, UUID=66c764a6-e1a9-4877-b8f9-e03987102b72)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: memory4414: Processing device (SEQNUM=4090, ACTION=add, UUID=81458172-b9fa-43bd-806e-cd911db6a989)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: memory4416: Processing device (SEQNUM=4092, ACTION=add, UUID=861d2832-fff4-48a2-acb2-cbcdaa83b701)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: memory4393: Device processed (SEQNUM=4067, ACTION=add, UUID=b2a1341f-d092-45fb-abc3-9530bbb82d05)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: memory4391: Device processed (SEQNUM=4065, ACTION=add, UUID=fd092b13-43e2-47e1-a8aa-4fd5f4ab252a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: memory4393: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: memory4391: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: memory4392: Device processed (SEQNUM=4066, ACTION=add, UUID=d3f8db79-8fc5-4a0c-a422-999249bee353)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: memory4392: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: memory4399: Device processed (SEQNUM=4073, ACTION=add, UUID=05a42a99-424f-427d-a8ae-1fb73d607c20)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: memory439: Device processed (SEQNUM=4063, ACTION=add, UUID=7b68645c-31bd-4296-aa8b-4bfaa96fe1ff)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: memory4399: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: memory439: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: memory441: Device processed (SEQNUM=4085, ACTION=add, UUID=195b0e04-af12-4640-9a02-93402399ccca)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: memory441: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: memory4403: Device processed (SEQNUM=4078, ACTION=add, UUID=89745b4c-e503-4b26-9c9e-cd0b5ae53cf0)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: qcom-qmp-combo-phy: Device is queued (SEQNUM=5344, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: memory4403: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: memory4394: Device processed (SEQNUM=4068, ACTION=add, UUID=1353c102-d393-4782-99af-4dbbb61d90ce)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: memory4394: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: memory4398: Device processed (SEQNUM=4072, ACTION=add, UUID=854dcf10-3e0e-4cd5-9d61-c9ba903300f5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: memory4398: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: memory4421: Processing device (SEQNUM=4098, ACTION=add, UUID=f99be760-e4ee-48c7-a2fb-69adac2df309)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: memory4407: Device processed (SEQNUM=4082, ACTION=add, UUID=dae55bb0-f071-426d-babd-bc1fa59e14e3)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: memory4407: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: memory4395: Device processed (SEQNUM=4069, ACTION=add, UUID=a0133252-033b-4c19-836b-29dcdc46c760)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: memory4415: Device processed (SEQNUM=4091, ACTION=add, UUID=e6587a53-561d-4e32-8511-00667a970b88)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: memory4395: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: memory4415: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: memory440: Device processed (SEQNUM=4074, ACTION=add, UUID=fe59aad5-218f-4138-bf02-b45953adb9ef)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: memory4416: Device processed (SEQNUM=4092, ACTION=add, UUID=861d2832-fff4-48a2-acb2-cbcdaa83b701)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: memory4404: Device processed (SEQNUM=4079, ACTION=add, UUID=9c925778-c93b-4aa3-89c8-de339e63e3c6)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: memory4416: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: memory440: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: memory4404: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: memory4409: Device processed (SEQNUM=4084, ACTION=add, UUID=826b220f-319c-42a0-8ef2-c324d6b1236a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: memory4409: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory4413: Processing device (SEQNUM=4089, ACTION=add, UUID=5d20ccea-f1fe-4aa9-882e-4de96d24afb1)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: memory442: Processing device (SEQNUM=4096, ACTION=add, UUID=041e6f07-0450-472d-9580-5c7970ce6f74)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: memory4389: Device processed (SEQNUM=4062, ACTION=add, UUID=1e012aef-f2f4-4edd-8e8e-5c0404aa75a2)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: memory4389: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: memory4397: Device processed (SEQNUM=4071, ACTION=add, UUID=fbaa8e36-b05c-45d2-b288-6cadef866759)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: memory4397: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: memory4420: Processing device (SEQNUM=4097, ACTION=add, UUID=709b4304-4232-4bf8-8317-be240c5d8b18)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4417: Processing device (SEQNUM=4093, ACTION=add, UUID=78309e3a-f6a3-48a6-a235-35cb4a78fbe1)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: memory4396: Device processed (SEQNUM=4070, ACTION=add, UUID=3e5f15f1-a1df-45b7-b899-bff5765a9d1e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: memory4396: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: memory4400: Device processed (SEQNUM=4075, ACTION=add, UUID=570c50ce-ff64-4bc0-b175-744fbe253746)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: memory4400: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: memory4401: Device processed (SEQNUM=4076, ACTION=add, UUID=b566171a-a6a1-476f-a43e-607ba589e782)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: memory4401: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: memory4406: Device processed (SEQNUM=4081, ACTION=add, UUID=a5b8af04-afbc-4a0a-a9ea-23a33596d4de)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: memory4406: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: phy_qcom_qmp_combo: Device is queued (SEQNUM=5345, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: memory4402: Device processed (SEQNUM=4077, ACTION=add, UUID=1edf7b67-3d2d-4cac-8cdb-d79be001ab98)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: memory4402: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: memory4412: Device processed (SEQNUM=4088, ACTION=add, UUID=5dc7f799-6306-494e-80ed-4e5c07eaba54)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: memory4412: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: memory4418: Device processed (SEQNUM=4094, ACTION=add, UUID=628abd88-6594-49fe-a2d9-599478d61cf0)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: memory4418: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory4419: Device processed (SEQNUM=4095, ACTION=add, UUID=66c764a6-e1a9-4877-b8f9-e03987102b72)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory4419: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: memory4408: Device processed (SEQNUM=4083, ACTION=add, UUID=488796da-ba59-482f-a46d-21c27ad28b2b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: memory4408: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: memory4405: Device processed (SEQNUM=4080, ACTION=add, UUID=be4bef45-c90a-4bd5-b325-c57f8a1485c9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: memory4405: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: memory4411: Device processed (SEQNUM=4087, ACTION=add, UUID=11958be9-89f2-4379-8a3c-438be7794ad5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: memory4411: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: memory4421: Device processed (SEQNUM=4098, ACTION=add, UUID=f99be760-e4ee-48c7-a2fb-69adac2df309)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: memory4421: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: memory4414: Device processed (SEQNUM=4090, ACTION=add, UUID=81458172-b9fa-43bd-806e-cd911db6a989)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: memory4414: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1bf8000.pci: Device is queued (SEQNUM=5346, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory4413: Device processed (SEQNUM=4089, ACTION=add, UUID=5d20ccea-f1fe-4aa9-882e-4de96d24afb1)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory4413: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: memory4420: Device processed (SEQNUM=4097, ACTION=add, UUID=709b4304-4232-4bf8-8317-be240c5d8b18)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: memory4420: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4417: Device processed (SEQNUM=4093, ACTION=add, UUID=78309e3a-f6a3-48a6-a235-35cb4a78fbe1)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4417: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: memory442: Device processed (SEQNUM=4096, ACTION=add, UUID=041e6f07-0450-472d-9580-5c7970ce6f74)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: memory442: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: aec5a00.phy: Device is queued (SEQNUM=5347, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-wcn-3p3: Device is queued (SEQNUM=5348, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.20--platform:1bf8000.pci: Device is queued (SEQNUM=5349, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.16--platform:1be0000.phy: Device is queued (SEQNUM=5350, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.13--platform:1be0000.phy: Device is queued (SEQNUM=5351, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: phy-1be0000.phy.3: Device is queued (SEQNUM=5352, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:1be0000.phy: Device is queued (SEQNUM=5353, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1be0000.phy: Device is queued (SEQNUM=5354, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 8c0000.geniqup: Device is queued (SEQNUM=5355, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: a98000.serial: Device is queued (SEQNUM=5356, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:a98000.serial: Device is queued (SEQNUM=5357, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:a98000.serial: Device is queued (SEQNUM=5358, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:a98000.serial: Device is queued (SEQNUM=5359, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:a98000.serial: Device is queued (SEQNUM=5360, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:a98000.serial: Device is queued (SEQNUM=5361, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:a98000.serial: Device is queued (SEQNUM=5362, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:a98000.serial: Device is queued (SEQNUM=5363, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: a98000.serial:0: Device is queued (SEQNUM=5364, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: a98000.serial:0: Device is queued (SEQNUM=5365, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: a98000.serial:0.0: Device is queued (SEQNUM=5366, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: a98000.serial:0.0: Device is queued (SEQNUM=5367, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial0: Device is queued (SEQNUM=5368, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial0-0: Device is queued (SEQNUM=5369, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial0: Device is queued (SEQNUM=5370, ACTION=change)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: a98000.serial: Device is queued (SEQNUM=5371, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:ac0000.geniqup: Device is queued (SEQNUM=5372, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:ac0000.geniqup: Device is queued (SEQNUM=5373, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:ac0000.geniqup: Device is queued (SEQNUM=5374, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:ac0000.geniqup: Device is queued (SEQNUM=5375, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:ac0000.geniqup: Device is queued (SEQNUM=5376, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:ac0000.geniqup: Device is queued (SEQNUM=5377, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain kernel: a98000.serial: ttyHS1 at MMIO 0xa98000 (irq = 176, base_baud = 0) is a MSM
+Apr 15 11:32:54 localhost.localdomain kernel: serial serial0: tty port ttyHS1 registered
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ac0000.geniqup: Device is queued (SEQNUM=5378, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b80000.i2c: Device is queued (SEQNUM=5379, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:b80000.i2c: Device is queued (SEQNUM=5380, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:b80000.i2c: Device is queued (SEQNUM=5381, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:b80000.i2c: Device is queued (SEQNUM=5382, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-1--platform:b80000.i2c: Device is queued (SEQNUM=5383, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1700000.interconnect--platform:b80000.i2c: Device is queued (SEQNUM=5384, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:b80000.i2c: Device is queued (SEQNUM=5385, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:b80000.i2c: Device is queued (SEQNUM=5386, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:b80000.i2c: Device is queued (SEQNUM=5387, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:b80000.i2c: Device is queued (SEQNUM=5388, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b88000.serial: Device is queued (SEQNUM=5389, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:b88000.serial: Device is queued (SEQNUM=5390, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:b88000.serial: Device is queued (SEQNUM=5391, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:b88000.serial: Device is queued (SEQNUM=5392, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:b88000.serial: Device is queued (SEQNUM=5393, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:b88000.serial: Device is queued (SEQNUM=5394, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:b88000.serial: Device is queued (SEQNUM=5395, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:b88000.serial: Device is queued (SEQNUM=5396, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b88000.serial:0: Device is queued (SEQNUM=5397, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b88000.serial:0: Device is queued (SEQNUM=5398, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain kernel: b88000.serial: ttyHS0 at MMIO 0xb88000 (irq = 177, base_baud = 0) is a MSM
+Apr 15 11:32:54 localhost.localdomain kernel: serial serial1: tty port ttyHS0 registered
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b88000.serial:0.0: Device is queued (SEQNUM=5399, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b88000.serial:0.0: Device is queued (SEQNUM=5400, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial1: Device is queued (SEQNUM=5401, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial1-0: Device is queued (SEQNUM=5402, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--serial:serial1-0: Device is queued (SEQNUM=5403, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial1: Device is queued (SEQNUM=5404, ACTION=change)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b88000.serial: Device is queued (SEQNUM=5405, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b8c000.i2c: Device is queued (SEQNUM=5406, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:b8c000.i2c: Device is queued (SEQNUM=5407, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:b8c000.i2c: Device is queued (SEQNUM=5408, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:b8c000.i2c: Device is queued (SEQNUM=5409, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-1--platform:b8c000.i2c: Device is queued (SEQNUM=5410, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1700000.interconnect--platform:b8c000.i2c: Device is queued (SEQNUM=5411, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:b8c000.i2c: Device is queued (SEQNUM=5412, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:b8c000.i2c: Device is queued (SEQNUM=5413, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:b8c000.i2c: Device is queued (SEQNUM=5414, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:b8c000.i2c: Device is queued (SEQNUM=5415, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: Inserted module 'phy_qcom_qmp_combo'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: Inserted module 'phy_qcom_qmp_combo'
+Apr 15 11:32:54 localhost.localdomain kernel: /soc@0/geniqup@bc0000/i2c@b9c000/typec-mux@8: Fixed dependency cycle(s) with /soc@0/phy@fda000
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: fda000.phy: sd-device: Created database file '/run/udev/data/+platform:fda000.phy' for '/devices/platform/soc@0/fda000.phy'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: fda000.phy: Device processed (SEQNUM=3812, ACTION=add, UUID=203ed5d8-a4d3-4d3f-99c1-f966ef4343df)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: fda000.phy: sd-device-monitor(worker): Passed 442 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: fd5000.phy: sd-device: Created database file '/run/udev/data/+platform:fd5000.phy' for '/devices/platform/soc@0/fd5000.phy'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: fd5000.phy: Device processed (SEQNUM=3810, ACTION=add, UUID=c47fc8ef-6599-44d1-9b32-384c99c966e6)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: fd5000.phy: sd-device-monitor(worker): Passed 442 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:pmic-glink--platform:b8c000.i2c: Device is queued (SEQNUM=5416, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:fd5000.phy--platform:b8c000.i2c: Device is queued (SEQNUM=5417, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:regulator-rtmr0-1p8--platform:b8c000.i2c: Device is queued (SEQNUM=5418, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:regulator-rtmr0-3p3--platform:b8c000.i2c: Device is queued (SEQNUM=5419, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:regulator-rtmr0-1p15--platform:b8c000.i2c: Device is queued (SEQNUM=5420, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:clock-controller--platform:b8c000.i2c: Device is queued (SEQNUM=5421, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b90000.i2c: Device is queued (SEQNUM=5422, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:b90000.i2c: Device is queued (SEQNUM=5423, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:b90000.i2c: Device is queued (SEQNUM=5424, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:b90000.i2c: Device is queued (SEQNUM=5425, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-1--platform:b90000.i2c: Device is queued (SEQNUM=5426, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1700000.interconnect--platform:b90000.i2c: Device is queued (SEQNUM=5427, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:b90000.i2c: Device is queued (SEQNUM=5428, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:b90000.i2c: Device is queued (SEQNUM=5429, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:b90000.i2c: Device is queued (SEQNUM=5430, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:b90000.i2c: Device is queued (SEQNUM=5431, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b94000.i2c: Device is queued (SEQNUM=5432, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:b94000.i2c: Device is queued (SEQNUM=5433, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:b94000.i2c: Device is queued (SEQNUM=5434, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:b94000.i2c: Device is queued (SEQNUM=5435, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-1--platform:b94000.i2c: Device is queued (SEQNUM=5436, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: qcom-pcie 1c08000.pci: supply vdda not found, using dummy regulator
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1700000.interconnect--platform:b94000.i2c: Device is queued (SEQNUM=5437, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: qcom-pcie 1c08000.pci: supply vddpe-3v3 not found, using dummy regulator
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:b94000.i2c: Device is queued (SEQNUM=5438, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_bob1: Setting 3008000-3960000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:b94000.i2c: Device is queued (SEQNUM=5439, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_bob2: Setting 2504000-3008000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:b94000.i2c: Device is queued (SEQNUM=5440, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l1d: Setting 880000-920000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:b94000.i2c: Device is queued (SEQNUM=5441, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l2d: Setting 912000-920000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: b9c000.i2c: Device is queued (SEQNUM=5442, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l1b: Setting 1800000-1800000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:b9c000.i2c: Device is queued (SEQNUM=5443, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l3d: Setting 1800000-1800000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:b9c000.i2c: Device is queued (SEQNUM=5444, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:b9c000.i2c: Device is queued (SEQNUM=5445, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-1--platform:b9c000.i2c: Device is queued (SEQNUM=5446, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1700000.interconnect--platform:b9c000.i2c: Device is queued (SEQNUM=5447, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:b9c000.i2c: Device is queued (SEQNUM=5448, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:b9c000.i2c: Device is queued (SEQNUM=5449, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:b9c000.i2c: Device is queued (SEQNUM=5450, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:b9c000.i2c: Device is queued (SEQNUM=5451, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:pmic-glink--platform:b9c000.i2c: Device is queued (SEQNUM=5452, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:fda000.phy--platform:b9c000.i2c: Device is queued (SEQNUM=5453, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:regulator-rtmr1-1p8--platform:b9c000.i2c: Device is queued (SEQNUM=5454, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:regulator-rtmr1-3p3--platform:b9c000.i2c: Device is queued (SEQNUM=5455, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:regulator-rtmr1-1p15--platform:b9c000.i2c: Device is queued (SEQNUM=5456, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:clock-controller--platform:b9c000.i2c: Device is queued (SEQNUM=5457, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-1--platform:bc0000.geniqup: Device is queued (SEQNUM=5458, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_s1i: Setting 900000-920000uV
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l2b: Setting 3072000-3072000uV
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_s2i: Setting 1000000-1100000uV
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l4b: Setting 1800000-1800000uV
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l5b: Setting 3000000-3000000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:interconnect-0--platform:bc0000.geniqup: Device is queued (SEQNUM=5459, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l1i: Setting 1800000-1800000uV
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l6b: Setting 1800000-2960000uV
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l2i: Setting 1200000-1200000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:fd5000.phy--platform:bc0000.geniqup: Device is queued (SEQNUM=5460, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l7b: Setting 2800000-2800000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:fda000.phy--platform:bc0000.geniqup: Device is queued (SEQNUM=5461, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1600000.interconnect--platform:bc0000.geniqup: Device is queued (SEQNUM=5462, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:1700000.interconnect--platform:bc0000.geniqup: Device is queued (SEQNUM=5463, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:26400000.interconnect--platform:bc0000.geniqup: Device is queued (SEQNUM=5464, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:f100000.pinctrl--platform:bc0000.geniqup: Device is queued (SEQNUM=5465, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:clock-controller--platform:bc0000.geniqup: Device is queued (SEQNUM=5466, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:power-controller--platform:bc0000.geniqup: Device is queued (SEQNUM=5467, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:regulator-rtmr0-1p15--platform:bc0000.geniqup: Device is queued (SEQNUM=5468, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:regulator-rtmr0-1p8--platform:bc0000.geniqup: Device is queued (SEQNUM=5469, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:regulator-rtmr0-3p3--platform:bc0000.geniqup: Device is queued (SEQNUM=5470, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:regulator-rtmr1-1p15--platform:bc0000.geniqup: Device is queued (SEQNUM=5471, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:regulator-rtmr1-1p8--platform:bc0000.geniqup: Device is queued (SEQNUM=5472, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:regulator-rtmr1-3p3--platform:bc0000.geniqup: Device is queued (SEQNUM=5473, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:soc@0--platform:bc0000.geniqup: Device is queued (SEQNUM=5474, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:pmic-glink--platform:bc0000.geniqup: Device is queued (SEQNUM=5475, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: bc0000.geniqup: Device is queued (SEQNUM=5476, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1c08000.pci: Device is queued (SEQNUM=5477, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1c08000.pci: Device is queued (SEQNUM=5478, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.22: Device is queued (SEQNUM=5479, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.24: Device is queued (SEQNUM=5480, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l8b: Setting 3072000-3072000uV
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l3i: Setting 880000-920000uV
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l9b: Setting 2960000-2960000uV
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l10b: Setting 1800000-1800000uV
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l12b: Setting 1200000-1200000uV
+Apr 15 11:32:54 localhost.localdomain kernel: debugfs: 'opp:5000000' already exists in 'soc@0-1bd0000.pcie'
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.23: Device is queued (SEQNUM=5481, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l13b: Setting 3072000-3072000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.25: Device is queued (SEQNUM=5482, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.27: Device is queued (SEQNUM=5483, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-2--spmi:1-07: Device is queued (SEQNUM=5484, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-2--spmi:1-0a: Device is queued (SEQNUM=5485, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-2--spmi:1-0b: Device is queued (SEQNUM=5486, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-2--platform:fda000.phy: Device is queued (SEQNUM=5487, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-2--platform:1bfc000.phy: Device is queued (SEQNUM=5488, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-2: Device is queued (SEQNUM=5489, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.26: Device is queued (SEQNUM=5490, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.28: Device is queued (SEQNUM=5491, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.29: Device is queued (SEQNUM=5492, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.31: Device is queued (SEQNUM=5493, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.13--platform:88e3000.phy: Device is queued (SEQNUM=5494, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.30: Device is queued (SEQNUM=5495, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.16--platform:88e3000.phy: Device is queued (SEQNUM=5496, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.32: Device is queued (SEQNUM=5497, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: phy-88e3000.phy.4: Device is queued (SEQNUM=5498, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 88e3000.phy: Device is queued (SEQNUM=5499, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.33: Device is queued (SEQNUM=5500, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.34: Device is queued (SEQNUM=5501, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.36: Device is queued (SEQNUM=5502, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.35: Device is queued (SEQNUM=5503, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: qcom-pcie 1bf8000.pci: supply vdda not found, using dummy regulator
+Apr 15 11:32:54 localhost.localdomain kernel: debugfs: 'opp:10000000' already exists in 'soc@0-1bd0000.pcie'
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.13--platform:88e5000.phy: Device is queued (SEQNUM=5504, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: qcom-pcie 1bf8000.pci: host bridge /soc@0/pci@1bf8000 ranges:
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.16--platform:88e5000.phy: Device is queued (SEQNUM=5505, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l14b: Setting 3072000-3072000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.37: Device is queued (SEQNUM=5506, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l15b: Setting 1800000-1800000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.38: Device is queued (SEQNUM=5507, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l16b: Setting 2912000-2912000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: phy-88e5000.phy.5: Device is queued (SEQNUM=5508, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 88e5000.phy: Device is queued (SEQNUM=5509, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.39: Device is queued (SEQNUM=5510, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-6--platform:1c0e000.phy: Device is queued (SEQNUM=5511, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-6: Device is queued (SEQNUM=5512, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.40: Device is queued (SEQNUM=5513, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: vreg_l17b: Setting 2504000-2504000uV
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.41: Device is queued (SEQNUM=5514, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.43: Device is queued (SEQNUM=5515, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-wcn-0p95: Device is queued (SEQNUM=5516, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.44: Device is queued (SEQNUM=5517, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator-wcn-1p9: Device is queued (SEQNUM=5518, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.8--platform:fda000.phy: Device is queued (SEQNUM=5519, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.25--platform:fda000.phy: Device is queued (SEQNUM=5520, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fda000.phy-switch: Device is queued (SEQNUM=5521, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fda000.phy-mux: Device is queued (SEQNUM=5522, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: aux_bridge.aux_bridge.1: Device is queued (SEQNUM=5523, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: phy-fda000.phy.6: Device is queued (SEQNUM=5524, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: phy-fda000.phy.7: Device is queued (SEQNUM=5525, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:a800000.usb--platform:fda000.phy: Device is queued (SEQNUM=5526, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: fda000.phy: Device is queued (SEQNUM=5527, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.24--platform:1bfc000.phy: Device is queued (SEQNUM=5528, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.8--platform:1bfc000.phy: Device is queued (SEQNUM=5529, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1bf8000.pci: Device is queued (SEQNUM=5530, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: phy-1bfc000.phy.8: Device is queued (SEQNUM=5531, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.20--platform:1bf8000.pci: Device is queued (SEQNUM=5532, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:1bfc000.phy: Device is queued (SEQNUM=5533, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1bfc000.phy: Device is queued (SEQNUM=5534, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain kernel: qcom-pcie 1c08000.pci: supply vdda not found, using dummy regulator
+Apr 15 11:32:54 localhost.localdomain kernel: qcom-pcie 1c08000.pci: supply vddpe-3v3 not found, using dummy regulator
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: phy:phy-1bfc000.phy.8--platform:1bf8000.pci: Device is queued (SEQNUM=5535, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: qcom-pcie 1c08000.pci: host bridge /soc@0/pci@1c08000 ranges:
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.42: Device is queued (SEQNUM=5536, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: qcom-pcie 1c08000.pci:       IO 0x007c200000..0x007c2fffff -> 0x0000000000
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.38--platform:1c0e000.phy: Device is queued (SEQNUM=5537, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: qcom-pcie 1c08000.pci:      MEM 0x007c300000..0x007dffffff -> 0x007c300000
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.45: Device is queued (SEQNUM=5538, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: debugfs: 'opp:20000000' already exists in 'soc@0-1bd0000.pcie'
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.13--platform:1c0e000.phy: Device is queued (SEQNUM=5539, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain kernel: qcom-pcie 1bf8000.pci:       IO 0x0070200000..0x00702fffff -> 0x0000000000
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: phy-1c0e000.phy.9: Device is queued (SEQNUM=5540, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:100000.clock-controller--platform:1c0e000.phy: Device is queued (SEQNUM=5541, ACTION=remove)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 1c0e000.phy: Device is queued (SEQNUM=5542, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.46: Device is queued (SEQNUM=5543, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.47: Device is queued (SEQNUM=5544, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator.48: Device is queued (SEQNUM=5545, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--platform:wcn7850-pmu: Device is queued (SEQNUM=5546, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--spmi:1-0a: Device is queued (SEQNUM=5547, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--platform:6b10000.soundwire: Device is queued (SEQNUM=5548, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--spmi:1-0b: Device is queued (SEQNUM=5549, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--platform:b94000.i2c: Device is queued (SEQNUM=5550, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--spmi:1-07: Device is queued (SEQNUM=5551, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--platform:6d44000.codec: Device is queued (SEQNUM=5552, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: platform:17500000.rsc:regulators-0--platform:audio-codec: Device is queued (SEQNUM=5553, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: 17500000.rsc:regulators-0: Device is queued (SEQNUM=5554, ACTION=bind)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: regulator:regulator.0--platform:1c08000.pci: Device is queued (SEQNUM=5555, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: phy:phy-1c0e000.phy.9--platform:1c08000.pci: Device is queued (SEQNUM=5556, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: msm_mdp: Device is queued (SEQNUM=5557, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4422: Device ready for processing (SEQNUM=4099, ACTION=add, UUID=9c836dfe-6b5f-4a42-815c-0d5813ac3ef9)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4422: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4423: Device ready for processing (SEQNUM=4100, ACTION=add, UUID=88fcef50-f87c-442c-bc37-683bd1e98279)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4423: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4424: Device ready for processing (SEQNUM=4101, ACTION=add, UUID=71193a26-519c-4f0a-9685-04abbc08143a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4424: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4425: Device ready for processing (SEQNUM=4102, ACTION=add, UUID=6cada91b-1c59-4743-b414-dc14db1f7dbc)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4425: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4426: Device ready for processing (SEQNUM=4103, ACTION=add, UUID=d2c0d803-c71a-4f7b-8c4d-80f94bbbb0f3)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4426: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4427: Device ready for processing (SEQNUM=4104, ACTION=add, UUID=2c61d27e-0c8c-4340-b09e-e591acbf52bf)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4427: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4428: Device ready for processing (SEQNUM=4105, ACTION=add, UUID=dd465d7a-8dd3-4eac-930f-166894f38c48)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: memory4423: Processing device (SEQNUM=4100, ACTION=add, UUID=88fcef50-f87c-442c-bc37-683bd1e98279)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4428: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4429: Device ready for processing (SEQNUM=4106, ACTION=add, UUID=38724101-cfbc-49b3-9dc0-019f838086c3)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4429: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory443: Device ready for processing (SEQNUM=4107, ACTION=add, UUID=34440479-e01e-4fca-a5a4-b38ffab6b636)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory443: sd-device-monitor(manager): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4430: Device ready for processing (SEQNUM=4108, ACTION=add, UUID=029a2b94-1ae0-4dcb-a115-44a8cd78f488)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4430: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4431: Device ready for processing (SEQNUM=4109, ACTION=add, UUID=672ec0fd-1720-422c-ba1a-734fb2f0c965)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: memory4424: Processing device (SEQNUM=4101, ACTION=add, UUID=71193a26-519c-4f0a-9685-04abbc08143a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4431: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4432: Device ready for processing (SEQNUM=4110, ACTION=add, UUID=95607d1d-8cc2-4474-a7a2-ff546d4b4fe5)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4432: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4433: Device ready for processing (SEQNUM=4111, ACTION=add, UUID=c5327250-6511-4bbd-984e-a0c0d9896ae8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: memory4428: Processing device (SEQNUM=4105, ACTION=add, UUID=dd465d7a-8dd3-4eac-930f-166894f38c48)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4433: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4434: Device ready for processing (SEQNUM=4112, ACTION=add, UUID=f42b8f58-368c-4c23-8fb5-9e76891b992d)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4434: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4435: Device ready for processing (SEQNUM=4113, ACTION=add, UUID=ac21b016-b73d-4e5d-bb1b-084ee4a154a5)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4435: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4436: Device ready for processing (SEQNUM=4114, ACTION=add, UUID=4b2647f4-d735-45c1-8e5c-081f01b9cdce)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4436: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4437: Device ready for processing (SEQNUM=4115, ACTION=add, UUID=3278cb78-e17a-41c0-b25a-c7c208fe4221)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4437: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4438: Device ready for processing (SEQNUM=4116, ACTION=add, UUID=41c51275-ee36-437c-a3a7-fd88984ad514)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4438: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4439: Device ready for processing (SEQNUM=4117, ACTION=add, UUID=c255a981-e962-4ce9-b818-754b253be70b)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4439: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory444: Device ready for processing (SEQNUM=4118, ACTION=add, UUID=e94e1532-5002-4f4f-a45d-d4333f7a323f)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory444: sd-device-monitor(manager): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4440: Device ready for processing (SEQNUM=4119, ACTION=add, UUID=ac643813-52a5-4350-90c4-fbb6d3209d7a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4440: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4441: Device ready for processing (SEQNUM=4120, ACTION=add, UUID=31785e7a-a202-48bf-b337-78c6baeb2589)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4441: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4442: Device ready for processing (SEQNUM=4121, ACTION=add, UUID=ee92f528-b5af-42cf-9aa6-bb14d78a85af)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4442: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4443: Device ready for processing (SEQNUM=4122, ACTION=add, UUID=d40cdd33-767e-4c8f-845d-56b6e9d01305)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4443: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4444: Device ready for processing (SEQNUM=4123, ACTION=add, UUID=2173e846-6279-4038-bd52-5944ba217378)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4444: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4445: Device ready for processing (SEQNUM=4124, ACTION=add, UUID=fcc41e15-2435-42ec-8d03-bfb46716255f)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4445: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4446: Device ready for processing (SEQNUM=4125, ACTION=add, UUID=930c2ff7-e8c3-4ee7-b90a-69ff91702f48)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4446: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4447: Device ready for processing (SEQNUM=4126, ACTION=add, UUID=ff4991b7-d859-4888-9ad9-644950740cae)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: memory4422: Processing device (SEQNUM=4099, ACTION=add, UUID=9c836dfe-6b5f-4a42-815c-0d5813ac3ef9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: memory4441: Processing device (SEQNUM=4120, ACTION=add, UUID=31785e7a-a202-48bf-b337-78c6baeb2589)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4447: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4448: Device ready for processing (SEQNUM=4127, ACTION=add, UUID=b67d508d-ef65-4653-985f-ace4d6b73525)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4448: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4449: Device ready for processing (SEQNUM=4128, ACTION=add, UUID=31dcc7fd-d52c-4d1f-80c8-6ac7d084e164)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4449: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory445: Device ready for processing (SEQNUM=4129, ACTION=add, UUID=854ba547-2b12-463c-97d2-a32104b27e55)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory445: sd-device-monitor(manager): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4450: Device ready for processing (SEQNUM=4130, ACTION=add, UUID=f25239ae-1fd7-4207-929e-df5f64ce1994)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4450: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4451: Device ready for processing (SEQNUM=4131, ACTION=add, UUID=250e0a50-0165-4706-80ed-cf38f6483806)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4451: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4452: Device ready for processing (SEQNUM=4132, ACTION=add, UUID=09e72e02-fc01-4f57-8b3d-78d03d3f272c)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4452: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain kernel: qcom-pcie 1bf8000.pci:      MEM 0x0070300000..0x0073ffffff -> 0x0070300000
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4453: Device ready for processing (SEQNUM=4133, ACTION=add, UUID=df918bf8-f0cb-43ab-9d1f-751aecfe9904)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4453: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4454: Device ready for processing (SEQNUM=4134, ACTION=add, UUID=49b32540-db29-4622-b44f-87bc8d9768c5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: memory4449: Processing device (SEQNUM=4128, ACTION=add, UUID=31dcc7fd-d52c-4d1f-80c8-6ac7d084e164)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4454: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4455: Device ready for processing (SEQNUM=4135, ACTION=add, UUID=2984e73f-40eb-461d-9165-26fc68fe8b3a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: memory445: Processing device (SEQNUM=4129, ACTION=add, UUID=854ba547-2b12-463c-97d2-a32104b27e55)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4455: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4456: Device ready for processing (SEQNUM=4136, ACTION=add, UUID=c71ed411-c093-49d5-8c64-fdf246078aa4)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4456: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: memory4445: Processing device (SEQNUM=4124, ACTION=add, UUID=fcc41e15-2435-42ec-8d03-bfb46716255f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: memory4434: Processing device (SEQNUM=4112, ACTION=add, UUID=f42b8f58-368c-4c23-8fb5-9e76891b992d)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: msm_dpu: Device is queued (SEQNUM=5558, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: memory4424: Device processed (SEQNUM=4101, ACTION=add, UUID=71193a26-519c-4f0a-9685-04abbc08143a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: memory4424: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: memory4448: Processing device (SEQNUM=4127, ACTION=add, UUID=b67d508d-ef65-4653-985f-ace4d6b73525)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: memory4428: Device processed (SEQNUM=4105, ACTION=add, UUID=dd465d7a-8dd3-4eac-930f-166894f38c48)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: memory4428: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: memory4422: Device processed (SEQNUM=4099, ACTION=add, UUID=9c836dfe-6b5f-4a42-815c-0d5813ac3ef9)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: memory4422: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory4429: Processing device (SEQNUM=4106, ACTION=add, UUID=38724101-cfbc-49b3-9dc0-019f838086c3)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: memory445: Device processed (SEQNUM=4129, ACTION=add, UUID=854ba547-2b12-463c-97d2-a32104b27e55)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: memory4441: Device processed (SEQNUM=4120, ACTION=add, UUID=31785e7a-a202-48bf-b337-78c6baeb2589)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: memory4441: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: memory445: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: memory4437: Processing device (SEQNUM=4115, ACTION=add, UUID=3278cb78-e17a-41c0-b25a-c7c208fe4221)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: memory4445: Device processed (SEQNUM=4124, ACTION=add, UUID=fcc41e15-2435-42ec-8d03-bfb46716255f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: memory4445: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: memory4454: Processing device (SEQNUM=4134, ACTION=add, UUID=49b32540-db29-4622-b44f-87bc8d9768c5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: memory4453: Processing device (SEQNUM=4133, ACTION=add, UUID=df918bf8-f0cb-43ab-9d1f-751aecfe9904)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: memory4423: Device processed (SEQNUM=4100, ACTION=add, UUID=88fcef50-f87c-442c-bc37-683bd1e98279)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: memory4423: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: memory4433: Processing device (SEQNUM=4111, ACTION=add, UUID=c5327250-6511-4bbd-984e-a0c0d9896ae8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: memory4434: Device processed (SEQNUM=4112, ACTION=add, UUID=f42b8f58-368c-4c23-8fb5-9e76891b992d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: memory4434: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory4426: Processing device (SEQNUM=4103, ACTION=add, UUID=d2c0d803-c71a-4f7b-8c4d-80f94bbbb0f3)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: memory4442: Processing device (SEQNUM=4121, ACTION=add, UUID=ee92f528-b5af-42cf-9aa6-bb14d78a85af)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: memory4456: Processing device (SEQNUM=4136, ACTION=add, UUID=c71ed411-c093-49d5-8c64-fdf246078aa4)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: memory443: Processing device (SEQNUM=4107, ACTION=add, UUID=34440479-e01e-4fca-a5a4-b38ffab6b636)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: memory4452: Processing device (SEQNUM=4132, ACTION=add, UUID=09e72e02-fc01-4f57-8b3d-78d03d3f272c)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: memory4436: Processing device (SEQNUM=4114, ACTION=add, UUID=4b2647f4-d735-45c1-8e5c-081f01b9cdce)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: memory4451: Processing device (SEQNUM=4131, ACTION=add, UUID=250e0a50-0165-4706-80ed-cf38f6483806)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: msm_dsi_phy: Device is queued (SEQNUM=5559, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: memory4432: Processing device (SEQNUM=4110, ACTION=add, UUID=95607d1d-8cc2-4474-a7a2-ff546d4b4fe5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: memory4455: Processing device (SEQNUM=4135, ACTION=add, UUID=2984e73f-40eb-461d-9165-26fc68fe8b3a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: memory4446: Processing device (SEQNUM=4125, ACTION=add, UUID=930c2ff7-e8c3-4ee7-b90a-69ff91702f48)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: memory4449: Device processed (SEQNUM=4128, ACTION=add, UUID=31dcc7fd-d52c-4d1f-80c8-6ac7d084e164)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: memory4449: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: memory4450: Processing device (SEQNUM=4130, ACTION=add, UUID=f25239ae-1fd7-4207-929e-df5f64ce1994)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: memory4431: Processing device (SEQNUM=4109, ACTION=add, UUID=672ec0fd-1720-422c-ba1a-734fb2f0c965)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: memory4435: Processing device (SEQNUM=4113, ACTION=add, UUID=ac21b016-b73d-4e5d-bb1b-084ee4a154a5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: memory4425: Processing device (SEQNUM=4102, ACTION=add, UUID=6cada91b-1c59-4743-b414-dc14db1f7dbc)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: memory444: Processing device (SEQNUM=4118, ACTION=add, UUID=e94e1532-5002-4f4f-a45d-d4333f7a323f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4439: Processing device (SEQNUM=4117, ACTION=add, UUID=c255a981-e962-4ce9-b818-754b253be70b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: memory4430: Processing device (SEQNUM=4108, ACTION=add, UUID=029a2b94-1ae0-4dcb-a115-44a8cd78f488)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: memory4446: Device processed (SEQNUM=4125, ACTION=add, UUID=930c2ff7-e8c3-4ee7-b90a-69ff91702f48)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: memory4446: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: memory4444: Processing device (SEQNUM=4123, ACTION=add, UUID=2173e846-6279-4038-bd52-5944ba217378)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory4426: Device processed (SEQNUM=4103, ACTION=add, UUID=d2c0d803-c71a-4f7b-8c4d-80f94bbbb0f3)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: memory4426: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: memory4427: Processing device (SEQNUM=4104, ACTION=add, UUID=2c61d27e-0c8c-4340-b09e-e591acbf52bf)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: memory4453: Device processed (SEQNUM=4133, ACTION=add, UUID=df918bf8-f0cb-43ab-9d1f-751aecfe9904)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: memory4453: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: memory4433: Device processed (SEQNUM=4111, ACTION=add, UUID=c5327250-6511-4bbd-984e-a0c0d9896ae8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: memory4433: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: memory4438: Processing device (SEQNUM=4116, ACTION=add, UUID=41c51275-ee36-437c-a3a7-fd88984ad514)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: memory4447: Processing device (SEQNUM=4126, ACTION=add, UUID=ff4991b7-d859-4888-9ad9-644950740cae)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: memory4440: Processing device (SEQNUM=4119, ACTION=add, UUID=ac643813-52a5-4350-90c4-fbb6d3209d7a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: memory4443: Processing device (SEQNUM=4122, ACTION=add, UUID=d40cdd33-767e-4c8f-845d-56b6e9d01305)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: memory4437: Device processed (SEQNUM=4115, ACTION=add, UUID=3278cb78-e17a-41c0-b25a-c7c208fe4221)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: memory4442: Device processed (SEQNUM=4121, ACTION=add, UUID=ee92f528-b5af-42cf-9aa6-bb14d78a85af)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: memory4442: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: memory4437: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4439: Device processed (SEQNUM=4117, ACTION=add, UUID=c255a981-e962-4ce9-b818-754b253be70b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: memory4439: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: memory4432: Device processed (SEQNUM=4110, ACTION=add, UUID=95607d1d-8cc2-4474-a7a2-ff546d4b4fe5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: memory4432: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain kernel: debugfs: 'opp:16000000' already exists in 'soc@0-1bd0000.pcie'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain kernel: debugfs: 'opp:32000000' already exists in 'soc@0-1bd0000.pcie'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: memory4456: Device processed (SEQNUM=4136, ACTION=add, UUID=c71ed411-c093-49d5-8c64-fdf246078aa4)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: memory4456: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: memory4452: Device processed (SEQNUM=4132, ACTION=add, UUID=09e72e02-fc01-4f57-8b3d-78d03d3f272c)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory4429: Device processed (SEQNUM=4106, ACTION=add, UUID=38724101-cfbc-49b3-9dc0-019f838086c3)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: memory4452: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: memory4429: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: memory4448: Device processed (SEQNUM=4127, ACTION=add, UUID=b67d508d-ef65-4653-985f-ace4d6b73525)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: memory4448: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: memory443: Device processed (SEQNUM=4107, ACTION=add, UUID=34440479-e01e-4fca-a5a4-b38ffab6b636)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: memory443: sd-device-monitor(worker): Passed 218 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: msm_dsi: Device is queued (SEQNUM=5560, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: memory4430: Device processed (SEQNUM=4108, ACTION=add, UUID=029a2b94-1ae0-4dcb-a115-44a8cd78f488)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: memory4430: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: memory4436: Device processed (SEQNUM=4114, ACTION=add, UUID=4b2647f4-d735-45c1-8e5c-081f01b9cdce)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: memory4436: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: memory4450: Device processed (SEQNUM=4130, ACTION=add, UUID=f25239ae-1fd7-4207-929e-df5f64ce1994)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: memory4450: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: msm_hdmi_phy: Device is queued (SEQNUM=5561, ACTION=add)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: memory4435: Device processed (SEQNUM=4113, ACTION=add, UUID=ac21b016-b73d-4e5d-bb1b-084ee4a154a5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: memory4435: sd-device-monitor(worker): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4457: Device ready for processing (SEQNUM=4137, ACTION=add, UUID=f2d4aa4b-b259-4e9d-a194-58b32bb3cdb4)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4457: sd-device-monitor(manager): Passed 219 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4458: Device ready for processing (SEQNUM=4138, ACTION=add, UUID=35def874-33dc-4964-8ea6-82428bc7f761)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: memory4458: sd-device-monitor(manager): Passed 219 byte to netlink monitor.

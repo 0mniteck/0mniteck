@@ -1,0 +1,1000 @@
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: loop7: Probe /dev/loop7 with raid and offset=0
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: tty19: Successfully created symlink '/dev/char/4:19' to '/dev/tty19'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: tty26: Successfully created symlink '/dev/char/4:26' to '/dev/tty26'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty35: sd-device: Created database file '/run/udev/data/c4:35' for '/devices/virtual/tty/tty35'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: tty3: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: serial8250:0.14: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: tty2: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: serial8250:0.13: Device processed (SEQNUM=2798, ACTION=add, UUID=d614b32c-f3ee-4081-afa3-ff3cf535c4c1)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: tty24: sd-device: Created database file '/run/udev/data/c4:24' for '/devices/virtual/tty/tty24'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: tty33: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: tty22: sd-device: Created database file '/run/udev/data/c4:22' for '/devices/virtual/tty/tty22'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: tty25: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: tty30: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: tty17: Setting permissions /dev/tty17, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: tty18: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: tty28: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: tty25: Setting permissions /dev/tty25, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS0: sd-device-monitor(manager): Passed 285 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: tty30: Setting permissions /dev/tty30, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: serial8250:0.16: Device processed (SEQNUM=2804, ACTION=add, UUID=f8e385e6-77f3-4ee5-9f81-b4adcd4b1762)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: init.scope: Child 478 belongs to init.scope.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: tty32: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: tty29: sd-device: Created database file '/run/udev/data/c4:29' for '/devices/virtual/tty/tty29'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: tty14: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ getargnum 0 0 5 rd.memdebug'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty34: sd-device: Created database file '/run/udev/data/c4:34' for '/devices/virtual/tty/tty34'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: loop7: Failed to read loopback backing inode, ignoring: No such device or address
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: loop7: /usr/lib/udev/rules.d/60-persistent-storage.rules:164 SYMLINK+="disk/by-diskseq/$env{DISKSEQ}$env{.PART_SUFFIX}": Added device node symlink "disk/by-diskseq/8".
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty35: Device processed (SEQNUM=2884, ACTION=add, UUID=565a0182-e0c9-448d-b8ce-cad63f308046)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: tty26: sd-device: Created database file '/run/udev/data/c4:26' for '/devices/virtual/tty/tty26'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: tty3: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: tty23: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: serial8250:0.13: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: tty33: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: tty24: sd-device: Created database file '/run/udev/data/c4:24' for '/devices/virtual/tty/tty24'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: tty2: Setting permissions /dev/tty2, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: tty22: sd-device: Created database file '/run/udev/data/c4:22' for '/devices/virtual/tty/tty22'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: tty17: Successfully created symlink '/dev/char/4:17' to '/dev/tty17'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: tty28: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: serial8250:0.15: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: tty31: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: tty25: Successfully created symlink '/dev/char/4:25' to '/dev/tty25'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: tty30: Successfully created symlink '/dev/char/4:30' to '/dev/tty30'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: serial8250:0.16: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: tty18: Setting permissions /dev/tty18, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: tty31: Setting permissions /dev/tty31, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop0: Processing udev action (SEQNUM=2777, ACTION=add, UUID=4fdb5c79-a46d-4278-8a12-2deb9df82d0a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: tty32: Setting permissions /dev/tty32, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: tty20: Successfully created symlink '/dev/char/4:20' to '/dev/tty20'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: tty32: Successfully created symlink '/dev/char/4:32' to '/dev/tty32'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty34: Device processed (SEQNUM=2883, ACTION=add, UUID=ccb0776e-bf7e-4bcc-ba2c-63e175f835a7)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: tty19: sd-device: Created database file '/run/udev/data/c4:19' for '/devices/virtual/tty/tty19'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty35: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: tty26: sd-device: Created database file '/run/udev/data/c4:26' for '/devices/virtual/tty/tty26'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: tty23: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: tty3: Setting permissions /dev/tty3, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: tty24: Device processed (SEQNUM=2872, ACTION=add, UUID=7c64b282-c9e8-480f-8fff-b0413d01a062)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: tty22: Device processed (SEQNUM=2870, ACTION=add, UUID=2d6e7796-259e-42a8-a336-0598a0d4fe71)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: tty23: Setting permissions /dev/tty23, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: tty33: Setting permissions /dev/tty33, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: tty17: sd-device: Created database file '/run/udev/data/c4:17' for '/devices/virtual/tty/tty17'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS1: Device ready for processing (SEQNUM=2791, ACTION=add, UUID=05dcde1a-e2b2-4220-974d-5e84a96f0395)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: tty17: sd-device: Created database file '/run/udev/data/c4:17' for '/devices/virtual/tty/tty17'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: tty25: sd-device: Created database file '/run/udev/data/c4:25' for '/devices/virtual/tty/tty25'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: tty30: sd-device: Created database file '/run/udev/data/c4:30' for '/devices/virtual/tty/tty30'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: tty29: sd-device: Created database file '/run/udev/data/c4:29' for '/devices/virtual/tty/tty29'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: tty18: Successfully created symlink '/dev/char/4:18' to '/dev/tty18'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop0: Got 'add' action on syspath '/sys/devices/virtual/block/loop0'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: tty31: Successfully created symlink '/dev/char/4:31' to '/dev/tty31'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: tty31: sd-device: Created database file '/run/udev/data/c4:31' for '/devices/virtual/tty/tty31'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: tty31: sd-device: Created database file '/run/udev/data/c4:31' for '/devices/virtual/tty/tty31'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: tty32: sd-device: Created database file '/run/udev/data/c4:32' for '/devices/virtual/tty/tty32'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty34: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: tty19: sd-device: Created database file '/run/udev/data/c4:19' for '/devices/virtual/tty/tty19'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: loop7: Setting permissions /dev/loop7, uid=0, gid=6, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: tty26: Device processed (SEQNUM=2874, ACTION=add, UUID=3e40b9ab-8884-45ac-b707-95dc3f537fea)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: tty24: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: tty3: Successfully created symlink '/dev/char/4:3' to '/dev/tty3'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: tty22: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: tty2: Successfully created symlink '/dev/char/4:2' to '/dev/tty2'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: tty23: Successfully created symlink '/dev/char/4:23' to '/dev/tty23'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: tty23: sd-device: Created database file '/run/udev/data/c4:23' for '/devices/virtual/tty/tty23'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: tty23: sd-device: Created database file '/run/udev/data/c4:23' for '/devices/virtual/tty/tty23'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: tty28: Setting permissions /dev/tty28, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: tty17: Device processed (SEQNUM=2864, ACTION=add, UUID=bf952a68-3c98-4b5f-84c9-3a6287734425)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: tty25: sd-device: Created database file '/run/udev/data/c4:25' for '/devices/virtual/tty/tty25'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: tty30: sd-device: Created database file '/run/udev/data/c4:30' for '/devices/virtual/tty/tty30'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS1: Processing device (SEQNUM=2791, ACTION=add, UUID=05dcde1a-e2b2-4220-974d-5e84a96f0395)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: tty29: Device processed (SEQNUM=2877, ACTION=add, UUID=f96225a4-9993-427e-9f62-c5b47f33868d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: tty18: sd-device: Created database file '/run/udev/data/c4:18' for '/devices/virtual/tty/tty18'.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop0: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ local _b'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: tty20: sd-device: Created database file '/run/udev/data/c4:20' for '/devices/virtual/tty/tty20'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: tty31: Device processed (SEQNUM=2880, ACTION=add, UUID=351566c7-ddd7-4383-9d52-eee08ae81ed2)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: tty32: sd-device: Created database file '/run/udev/data/c4:32' for '/devices/virtual/tty/tty32'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: tty19: Device processed (SEQNUM=2866, ACTION=add, UUID=b237ce8a-7f33-4914-b2ff-4f016bceb888)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: tty26: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: loop7: Successfully created symlink '/dev/disk/by-diskseq/8' to '/dev/loop7'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: tty3: sd-device: Created database file '/run/udev/data/c4:3' for '/devices/virtual/tty/tty3'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: tty2: sd-device: Created database file '/run/udev/data/c4:2' for '/devices/virtual/tty/tty2'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: tty33: Successfully created symlink '/dev/char/4:33' to '/dev/tty33'
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS1: sd-device-monitor(manager): Passed 285 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: tty23: Device processed (SEQNUM=2871, ACTION=add, UUID=2da0c328-2b8b-4466-8650-4c67dabc1aae)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: tty17: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: tty28: Successfully created symlink '/dev/char/4:28' to '/dev/tty28'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: tty25: Device processed (SEQNUM=2873, ACTION=add, UUID=4dd00fd0-a6c2-4984-85ee-d753def20120)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: tty30: Device processed (SEQNUM=2879, ACTION=add, UUID=91f7b9ec-397a-4df3-a129-81bf24ebfc86)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: tty29: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: tty18: sd-device: Created database file '/run/udev/data/c4:18' for '/devices/virtual/tty/tty18'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ unset _b'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: tty31: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: tty20: sd-device: Created database file '/run/udev/data/c4:20' for '/devices/virtual/tty/tty20'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: tty32: Device processed (SEQNUM=2881, ACTION=add, UUID=066bfd5b-f1b4-421f-945c-3f22bb6b11aa)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: tty19: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: loop7: Successfully created symlink '/dev/block/7:7' to '/dev/loop7'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: tty3: sd-device: Created database file '/run/udev/data/c4:3' for '/devices/virtual/tty/tty3'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: tty2: sd-device: Created database file '/run/udev/data/c4:2' for '/devices/virtual/tty/tty2'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: tty33: sd-device: Created database file '/run/udev/data/c4:33' for '/devices/virtual/tty/tty33'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS10: Device ready for processing (SEQNUM=2793, ACTION=add, UUID=59993866-32aa-41f3-95b4-005643523ca7)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: tty23: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: tty28: sd-device: Created database file '/run/udev/data/c4:28' for '/devices/virtual/tty/tty28'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: tty25: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: tty30: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: tty18: Device processed (SEQNUM=2865, ACTION=add, UUID=7fecd0b5-91b6-4293-a792-cc479d21438e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ local _default _min _max'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: tty20: Device processed (SEQNUM=2868, ACTION=add, UUID=89e1ac54-c56c-4bac-8062-a113d79f2280)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: tty32: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: tty3: Device processed (SEQNUM=2878, ACTION=add, UUID=5f858180-e341-45a3-b05b-030dc6fb6fea)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: loop7: sd-device: Created database file '/run/udev/data/b7:7' for '/devices/virtual/block/loop7'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: tty2: Device processed (SEQNUM=2867, ACTION=add, UUID=a1f56679-adf9-4f18-bb09-a6c0602bf83c)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: tty33: sd-device: Created database file '/run/udev/data/c4:33' for '/devices/virtual/tty/tty33'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS10: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: tty28: sd-device: Created database file '/run/udev/data/c4:28' for '/devices/virtual/tty/tty28'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS10: Processing device (SEQNUM=2793, ACTION=add, UUID=59993866-32aa-41f3-95b4-005643523ca7)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: tty18: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ _default=0'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: tty20: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: tty3: sd-device-monitor(worker): Passed 260 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: tty2: sd-device-monitor(worker): Passed 260 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: tty33: Device processed (SEQNUM=2882, ACTION=add, UUID=89cbf7a0-9b2e-43b0-92bc-b72a2d146ea1)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS17: Device ready for processing (SEQNUM=2807, ACTION=add, UUID=17cb8eca-79a7-4484-9a85-d0fc8e1bc6e7)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: tty28: Device processed (SEQNUM=2876, ACTION=add, UUID=29e26ad4-f056-4647-a40b-0040157aa6a4)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop0: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ shift'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_ADD=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: tty33: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop0: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: tty28: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ _min=0'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS17: Processing device (SEQNUM=2807, ACTION=add, UUID=17cb8eca-79a7-4484-9a85-d0fc8e1bc6e7)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS17: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop0: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ shift'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.19: Device ready for processing (SEQNUM=2810, ACTION=add, UUID=a9efc079-ec5f-4d0f-8996-f54efe10d350)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ _max=5'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop1: Processing udev action (SEQNUM=2778, ACTION=add, UUID=9ff015da-4738-48df-a95d-c6d5e1050bff)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.19: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ shift'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop1: Got 'add' action on syspath '/sys/devices/virtual/block/loop1'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: serial8250:0.19: Processing device (SEQNUM=2810, ACTION=add, UUID=a9efc079-ec5f-4d0f-8996-f54efe10d350)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ getarg rd.memdebug'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop1: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ debug_off'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop1: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS0: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ set +x'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ return 1'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ _b='
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ _b=0'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop1: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ -n 0 ]'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop1: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS1: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: loop7: Adding watch on '/dev/loop7'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: serial8250:0.19: Device processed (SEQNUM=2810, ACTION=add, UUID=a9efc079-ec5f-4d0f-8996-f54efe10d350)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ isdigit 0'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS10: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ return 0'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: loop7: sd-device: Created database file '/run/udev/data/b7:7' for '/devices/virtual/block/loop7'.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop2: Processing udev action (SEQNUM=2779, ACTION=add, UUID=241dbd6b-4f51-413e-af72-b9423ce09b5b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ _b=0'
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS11: Device ready for processing (SEQNUM=2795, ACTION=add, UUID=bd597b04-5464-49f9-9f34-a0ec69ec715a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: loop7: Device processed (SEQNUM=2784, ACTION=add, UUID=70288c9b-1484-4a90-8221-3bf19535c159)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop2: Got 'add' action on syspath '/sys/devices/virtual/block/loop2'.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop2: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ 0 -ge 0 ]'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: ttyS11: Processing device (SEQNUM=2795, ACTION=add, UUID=bd597b04-5464-49f9-9f34-a0ec69ec715a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: loop7: sd-device-monitor(worker): Passed 381 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop2: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ 0 -le 5 ]'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS17: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS11: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS0: Setting permissions /dev/ttyS0, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ echo 0'
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS12: Device ready for processing (SEQNUM=2797, ACTION=add, UUID=899ef703-105d-4fe2-abd3-93d9db41c760)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop2: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS1: Setting permissions /dev/ttyS1, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ return'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: serial8250:0.19: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: ttyS12: Processing device (SEQNUM=2797, ACTION=add, UUID=899ef703-105d-4fe2-abd3-93d9db41c760)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop2: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS1: Successfully created symlink '/dev/char/4:65' to '/dev/ttyS1'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ DEBUG_MEM_LEVEL=0'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS10: Setting permissions /dev/ttyS10, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS0: Successfully created symlink '/dev/char/4:64' to '/dev/ttyS0'
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS12: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ export DEBUG_MEM_LEVEL'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS1: sd-device: Created database file '/run/udev/data/c4:65' for '/devices/platform/serial8250/serial8250:0/serial8250:0.1/tty/ttyS1'.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop5: Processing udev action (SEQNUM=2782, ACTION=add, UUID=22cded21-eb61-414e-8371-941ae72ac2a6)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS17: Setting permissions /dev/ttyS17, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS13: Device ready for processing (SEQNUM=2799, ACTION=add, UUID=7a158bf8-8db3-49e5-810a-ab77f62fac93)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS0: sd-device: Created database file '/run/udev/data/c4:64' for '/devices/platform/serial8250/serial8250:0/serial8250:0.0/tty/ttyS0'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ 5 -gt 0 ]'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop5: Got 'add' action on syspath '/sys/devices/virtual/block/loop5'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS1: sd-device: Created database file '/run/udev/data/c4:65' for '/devices/platform/serial8250/serial8250:0/serial8250:0.1/tty/ttyS1'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: ttyS13: Processing device (SEQNUM=2799, ACTION=add, UUID=7a158bf8-8db3-49e5-810a-ab77f62fac93)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS17: Successfully created symlink '/dev/char/4:81' to '/dev/ttyS17'
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS13: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS17: sd-device: Created database file '/run/udev/data/c4:81' for '/devices/platform/serial8250/serial8250:0/serial8250:0.17/tty/ttyS17'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS17: sd-device: Created database file '/run/udev/data/c4:81' for '/devices/platform/serial8250/serial8250:0/serial8250:0.17/tty/ttyS17'.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop5: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS1: Device processed (SEQNUM=2791, ACTION=add, UUID=05dcde1a-e2b2-4220-974d-5e84a96f0395)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS10: Successfully created symlink '/dev/char/4:74' to '/dev/ttyS10'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS14: Device ready for processing (SEQNUM=2801, ACTION=add, UUID=bad1541a-2152-41ae-b42c-e23b2588c9ee)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ onetime=yes'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS0: sd-device: Created database file '/run/udev/data/c4:64' for '/devices/platform/serial8250/serial8250:0/serial8250:0.0/tty/ttyS0'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS17: Device processed (SEQNUM=2807, ACTION=add, UUID=17cb8eca-79a7-4484-9a85-d0fc8e1bc6e7)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS17: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS1: sd-device-monitor(worker): Passed 357 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS10: sd-device: Created database file '/run/udev/data/c4:74' for '/devices/platform/serial8250/serial8250:0/serial8250:0.10/tty/ttyS10'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS14: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ shift'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS0: Device processed (SEQNUM=2789, ACTION=add, UUID=4ceb3eec-a494-457b-aae1-7c6d5aa92d41)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop5: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: ttyS14: Processing device (SEQNUM=2801, ACTION=add, UUID=bad1541a-2152-41ae-b42c-e23b2588c9ee)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS10: sd-device: Created database file '/run/udev/data/c4:74' for '/devices/platform/serial8250/serial8250:0/serial8250:0.10/tty/ttyS10'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS15: Device ready for processing (SEQNUM=2803, ACTION=add, UUID=98e5665f-5591-436d-9c3b-9e4b7b41aaa4)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ 4 -gt 0 ]'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS0: sd-device-monitor(worker): Passed 357 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS10: Device processed (SEQNUM=2793, ACTION=add, UUID=59993866-32aa-41f3-95b4-005643523ca7)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS15: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop5: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ unique=yes'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS10: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: ttyS15: Processing device (SEQNUM=2803, ACTION=add, UUID=98e5665f-5591-436d-9c3b-9e4b7b41aaa4)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop5: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ shift'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS16: Device ready for processing (SEQNUM=2805, ACTION=add, UUID=6d01d4f1-1858-4f29-bf88-f7d9a79ace25)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ 3 -gt 0 ]'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop6: Processing udev action (SEQNUM=2783, ACTION=add, UUID=a78dbe2c-ed69-49f9-be6d-1d92532211b6)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS16: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ name=console-setup'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: ttyS16: Processing device (SEQNUM=2805, ACTION=add, UUID=6d01d4f1-1858-4f29-bf88-f7d9a79ace25)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ shift'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop6: Got 'add' action on syspath '/sys/devices/virtual/block/loop6'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS18: Device ready for processing (SEQNUM=2809, ACTION=add, UUID=f11d5ecc-f719-4fd6-aad4-c2ebe6d032be)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ shift'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop6: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS18: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ 1 -gt 0 ]'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop6: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.2: Device ready for processing (SEQNUM=2812, ACTION=add, UUID=591a3199-aa01-4ab2-87da-c74347b428e3)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ break'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: ttyS18: Processing device (SEQNUM=2809, ACTION=add, UUID=f11d5ecc-f719-4fd6-aad4-c2ebe6d032be)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.2: sd-device-monitor(manager): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ -z yes ]'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: serial8250:0.2: Processing device (SEQNUM=2812, ACTION=add, UUID=591a3199-aa01-4ab2-87da-c74347b428e3)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.20: Device ready for processing (SEQNUM=2814, ACTION=add, UUID=fcec960e-8962-4062-b3d5-50db62148426)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ job=console-setup'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop6: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: serial8250:0.20: Processing device (SEQNUM=2814, ACTION=add, UUID=fcec960e-8962-4062-b3d5-50db62148426)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ job=console-setup'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop6: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.20: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ exe=/lib/udev/console-setup'
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.21: Device ready for processing (SEQNUM=2816, ACTION=add, UUID=3eb46770-c7f5-4425-ba53-60a51dca3ef1)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ shift'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop4: Processing udev action (SEQNUM=2781, ACTION=add, UUID=78197439-b82d-4cba-b11d-a357897d0347)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.21: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ -x /lib/udev/console-setup ]'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop4: Got 'add' action on syspath '/sys/devices/virtual/block/loop4'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: serial8250:0.2: Device processed (SEQNUM=2812, ACTION=add, UUID=591a3199-aa01-4ab2-87da-c74347b428e3)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.22: Device ready for processing (SEQNUM=2818, ACTION=add, UUID=1a7795ce-7bbe-42d1-bf01-bbcfda02e18d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ -z /lib/udev/console-setup ]'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: serial8250:0.21: Processing device (SEQNUM=2816, ACTION=add, UUID=3eb46770-c7f5-4425-ba53-60a51dca3ef1)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop4: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: serial8250:0.2: sd-device-monitor(worker): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.22: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: serial8250:0.20: Device processed (SEQNUM=2814, ACTION=add, UUID=fcec960e-8962-4062-b3d5-50db62148426)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ -n yes ]'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop4: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: serial8250:0.22: Processing device (SEQNUM=2818, ACTION=add, UUID=1a7795ce-7bbe-42d1-bf01-bbcfda02e18d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.23: Device ready for processing (SEQNUM=2820, ACTION=add, UUID=748c81ad-999a-4b23-b38e-3a960225543a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ echo [ -e "$job" ] && rm -f -- "$job"'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ -n  ]'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop4: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop4: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: serial8250:0.20: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: serial8250:0.23: Processing device (SEQNUM=2820, ACTION=add, UUID=748c81ad-999a-4b23-b38e-3a960225543a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ echo /lib/udev/console-setup'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.23: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ mv -f /tmp/479-console-setup.sh /var/lib/dracut/hooks/initqueue/console-setup.sh'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop3: Processing udev action (SEQNUM=2780, ACTION=add, UUID=533a8634-a322-4362-99ee-ed2d1211ef57)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: serial8250:0.21: Device processed (SEQNUM=2816, ACTION=add, UUID=3eb46770-c7f5-4425-ba53-60a51dca3ef1)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.24: Device ready for processing (SEQNUM=2822, ACTION=add, UUID=7981232e-5560-43bb-927e-22d1bf351ff2)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ [ -z  ]'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop3: Got 'add' action on syspath '/sys/devices/virtual/block/loop3'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: serial8250:0.21: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: serial8250:0.22: Device processed (SEQNUM=2818, ACTION=add, UUID=1a7795ce-7bbe-42d1-bf01-bbcfda02e18d)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.24: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ :'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop3: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: serial8250:0.22: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: serial8250:0.24: Processing device (SEQNUM=2822, ACTION=add, UUID=7981232e-5560-43bb-927e-22d1bf351ff2)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.25: Device ready for processing (SEQNUM=2824, ACTION=add, UUID=16da2259-a723-4158-82a4-da8b57a24fc8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup'(err) '+ exit 0'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: Process '/sbin/initqueue --onetime --unique --name console-setup /lib/udev/console-setup' succeeded.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: serial8250:0.23: Device processed (SEQNUM=2820, ACTION=add, UUID=748c81ad-999a-4b23-b38e-3a960225543a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.25: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop3: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: serial8250:0.23: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.26: Device ready for processing (SEQNUM=2826, ACTION=add, UUID=4d20d08c-8f89-45ac-b239-ef371683a2fd)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: sd-device: Created database file '/run/udev/data/c4:0' for '/devices/virtual/tty/tty0'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: serial8250:0.25: Processing device (SEQNUM=2824, ACTION=add, UUID=16da2259-a723-4158-82a4-da8b57a24fc8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: serial8250:0.24: Device processed (SEQNUM=2822, ACTION=add, UUID=7981232e-5560-43bb-927e-22d1bf351ff2)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: Device processed (SEQNUM=2855, ACTION=add, UUID=cd51f3d5-c0a4-4f22-8f71-248c8211f1b4)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty0: sd-device-monitor(worker): Passed 260 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: serial8250:0.26: Processing device (SEQNUM=2826, ACTION=add, UUID=4d20d08c-8f89-45ac-b239-ef371683a2fd)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.26: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: serial8250:0.24: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop3: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.27: Device ready for processing (SEQNUM=2828, ACTION=add, UUID=d9b917ae-0514-4c28-bad8-2261980aef9a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop3: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.27: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: serial8250:0.25: Device processed (SEQNUM=2824, ACTION=add, UUID=16da2259-a723-4158-82a4-da8b57a24fc8)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop7: Processing udev action (SEQNUM=2784, ACTION=add, UUID=70288c9b-1484-4a90-8221-3bf19535c159)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: serial8250:0.27: Processing device (SEQNUM=2828, ACTION=add, UUID=d9b917ae-0514-4c28-bad8-2261980aef9a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: serial8250:0.25: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop7: Got 'add' action on syspath '/sys/devices/virtual/block/loop7'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.28: Device ready for processing (SEQNUM=2830, ACTION=add, UUID=558ae616-776d-4876-be62-6b224f6e2087)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: serial8250:0.26: Device processed (SEQNUM=2826, ACTION=add, UUID=4d20d08c-8f89-45ac-b239-ef371683a2fd)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop7: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.28: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: serial8250:0.26: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop7: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: serial8250:0.28: Processing device (SEQNUM=2830, ACTION=add, UUID=558ae616-776d-4876-be62-6b224f6e2087)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.29: Device ready for processing (SEQNUM=2832, ACTION=add, UUID=9a8ec9e9-b49e-468e-9b07-738dedbd072f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: serial8250:0.27: Device processed (SEQNUM=2828, ACTION=add, UUID=d9b917ae-0514-4c28-bad8-2261980aef9a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.29: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: serial8250:0.27: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop7: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.3: Device ready for processing (SEQNUM=2834, ACTION=add, UUID=907522e1-32d6-4975-b97c-57f9a5da5fce)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: serial8250:0.29: Processing device (SEQNUM=2832, ACTION=add, UUID=9a8ec9e9-b49e-468e-9b07-738dedbd072f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: loop7: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: serial8250:0.3: Processing device (SEQNUM=2834, ACTION=add, UUID=907522e1-32d6-4975-b97c-57f9a5da5fce)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.3: sd-device-monitor(manager): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: serial8250:0.28: Device processed (SEQNUM=2830, ACTION=add, UUID=558ae616-776d-4876-be62-6b224f6e2087)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.30: Device ready for processing (SEQNUM=2836, ACTION=add, UUID=83e05813-c2a4-4fb7-9766-5efdcf178677)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS1: Processing udev action (SEQNUM=2791, ACTION=add, UUID=05dcde1a-e2b2-4220-974d-5e84a96f0395)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: serial8250:0.28: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.30: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS1: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.1/tty/ttyS1'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.31: Device ready for processing (SEQNUM=2838, ACTION=add, UUID=40886a69-45f4-4aa5-a251-d30444aa3a8e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: serial8250:0.30: Processing device (SEQNUM=2836, ACTION=add, UUID=83e05813-c2a4-4fb7-9766-5efdcf178677)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS1: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: serial8250:0.29: Device processed (SEQNUM=2832, ACTION=add, UUID=9a8ec9e9-b49e-468e-9b07-738dedbd072f)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: serial8250:0.31: Processing device (SEQNUM=2838, ACTION=add, UUID=40886a69-45f4-4aa5-a251-d30444aa3a8e)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS1: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: serial8250:0.29: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: serial8250:0.3: Device processed (SEQNUM=2834, ACTION=add, UUID=907522e1-32d6-4975-b97c-57f9a5da5fce)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.31: sd-device-monitor(manager): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS1: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: serial8250:0.3: sd-device-monitor(worker): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.4: Device ready for processing (SEQNUM=2840, ACTION=add, UUID=be46a1a3-2505-4155-b8d3-1cf6b7081c22)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS17: Processing udev action (SEQNUM=2807, ACTION=add, UUID=17cb8eca-79a7-4484-9a85-d0fc8e1bc6e7)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: serial8250:0.30: Device processed (SEQNUM=2836, ACTION=add, UUID=83e05813-c2a4-4fb7-9766-5efdcf178677)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.4: sd-device-monitor(manager): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS17: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.17/tty/ttyS17'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: serial8250:0.31: Device processed (SEQNUM=2838, ACTION=add, UUID=40886a69-45f4-4aa5-a251-d30444aa3a8e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: serial8250:0.4: Processing device (SEQNUM=2840, ACTION=add, UUID=be46a1a3-2505-4155-b8d3-1cf6b7081c22)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: serial8250:0.30: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.5: Device ready for processing (SEQNUM=2842, ACTION=add, UUID=0921af92-c671-40e9-b5ed-299d954954e3)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS17: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: serial8250:0.31: sd-device-monitor(worker): Passed 273 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: serial8250:0.5: Processing device (SEQNUM=2842, ACTION=add, UUID=0921af92-c671-40e9-b5ed-299d954954e3)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS17: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.5: sd-device-monitor(manager): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS17: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.6: Device ready for processing (SEQNUM=2844, ACTION=add, UUID=b2a5658c-04f4-4cbf-b233-91fcf1010aed)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.6: sd-device-monitor(manager): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: serial8250:0.4: Device processed (SEQNUM=2840, ACTION=add, UUID=be46a1a3-2505-4155-b8d3-1cf6b7081c22)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.7: Device ready for processing (SEQNUM=2846, ACTION=add, UUID=199d5872-16c3-4398-8c0a-9d3d2659e4af)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS0: Processing udev action (SEQNUM=2789, ACTION=add, UUID=4ceb3eec-a494-457b-aae1-7c6d5aa92d41)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: serial8250:0.4: sd-device-monitor(worker): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.7: sd-device-monitor(manager): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: serial8250:0.6: Processing device (SEQNUM=2844, ACTION=add, UUID=b2a5658c-04f4-4cbf-b233-91fcf1010aed)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS0: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.0/tty/ttyS0'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.8: Device ready for processing (SEQNUM=2848, ACTION=add, UUID=51c5593f-76ae-444a-9b17-4ff591b50a47)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: serial8250:0.7: Processing device (SEQNUM=2846, ACTION=add, UUID=199d5872-16c3-4398-8c0a-9d3d2659e4af)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: serial8250:0.5: Device processed (SEQNUM=2842, ACTION=add, UUID=0921af92-c671-40e9-b5ed-299d954954e3)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS0: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.8: sd-device-monitor(manager): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: serial8250:0.5: sd-device-monitor(worker): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS0: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: serial8250:0.8: Processing device (SEQNUM=2848, ACTION=add, UUID=51c5593f-76ae-444a-9b17-4ff591b50a47)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.9: Device ready for processing (SEQNUM=2850, ACTION=add, UUID=c1d4dffe-07b9-41e8-b3b7-dbecb40da5ea)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS0: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: serial8250:0.9: sd-device-monitor(manager): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: serial8250:0.6: Device processed (SEQNUM=2844, ACTION=add, UUID=b2a5658c-04f4-4cbf-b233-91fcf1010aed)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty36: Device ready for processing (SEQNUM=2885, ACTION=add, UUID=779742ec-6703-43ba-9752-6f5774c19c7c)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: serial8250:0.7: Device processed (SEQNUM=2846, ACTION=add, UUID=199d5872-16c3-4398-8c0a-9d3d2659e4af)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty36: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS10: Processing udev action (SEQNUM=2793, ACTION=add, UUID=59993866-32aa-41f3-95b4-005643523ca7)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: serial8250:0.6: sd-device-monitor(worker): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: serial8250:0.9: Processing device (SEQNUM=2850, ACTION=add, UUID=c1d4dffe-07b9-41e8-b3b7-dbecb40da5ea)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty37: Device ready for processing (SEQNUM=2886, ACTION=add, UUID=72c45ce7-3609-4aa6-9b56-27319bf05517)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS10: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.10/tty/ttyS10'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: serial8250:0.8: Device processed (SEQNUM=2848, ACTION=add, UUID=51c5593f-76ae-444a-9b17-4ff591b50a47)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: serial8250:0.7: sd-device-monitor(worker): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty37: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS10: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: tty36: Processing device (SEQNUM=2885, ACTION=add, UUID=779742ec-6703-43ba-9752-6f5774c19c7c)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: tty37: Processing device (SEQNUM=2886, ACTION=add, UUID=72c45ce7-3609-4aa6-9b56-27319bf05517)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty38: Device ready for processing (SEQNUM=2887, ACTION=add, UUID=7afebb36-510e-4c45-b693-85399f439255)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS10: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: serial8250:0.8: sd-device-monitor(worker): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty38: Processing device (SEQNUM=2887, ACTION=add, UUID=7afebb36-510e-4c45-b693-85399f439255)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty38: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS10: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: serial8250:0.9: Device processed (SEQNUM=2850, ACTION=add, UUID=c1d4dffe-07b9-41e8-b3b7-dbecb40da5ea)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty39: Device ready for processing (SEQNUM=2888, ACTION=add, UUID=99c3bd95-1550-4e4e-9581-547a5e3c2903)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: serial8250:0.9: sd-device-monitor(worker): Passed 272 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty39: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty4: Device ready for processing (SEQNUM=2889, ACTION=add, UUID=45cb9aef-ac78-4278-9fe9-7cc2b6ce07bb)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty4: sd-device-monitor(manager): Passed 242 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: tty39: Processing device (SEQNUM=2888, ACTION=add, UUID=99c3bd95-1550-4e4e-9581-547a5e3c2903)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty40: Device ready for processing (SEQNUM=2890, ACTION=add, UUID=b970e002-254c-4719-847f-a47c3b1125ac)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty4: Processing device (SEQNUM=2889, ACTION=add, UUID=45cb9aef-ac78-4278-9fe9-7cc2b6ce07bb)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty40: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: tty40: Processing device (SEQNUM=2890, ACTION=add, UUID=b970e002-254c-4719-847f-a47c3b1125ac)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: ttyS11: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: ttyS12: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: tty37: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: tty37: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS19: Device ready for processing (SEQNUM=2811, ACTION=add, UUID=207f86fb-36fd-4b60-8e6d-3b016db7ad5c)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS19: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty4: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty4: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS2: Device ready for processing (SEQNUM=2813, ACTION=add, UUID=223b1f30-1ed5-4c20-80b8-5312cf36c796)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS2: sd-device-monitor(manager): Passed 285 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: tty40: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS20: Device ready for processing (SEQNUM=2815, ACTION=add, UUID=a0d09a4f-938c-4d2c-9d07-d0cceaaabb23)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: tty40: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS20: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS21: Device ready for processing (SEQNUM=2817, ACTION=add, UUID=6a7ec0c9-d40b-4584-9170-3c2e8d8b82a1)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS21: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS22: Device ready for processing (SEQNUM=2819, ACTION=add, UUID=7be87e40-bd28-4001-a2aa-cd4d112a18ac)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS22: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS23: Device ready for processing (SEQNUM=2821, ACTION=add, UUID=4a48f95b-f895-41d3-a160-7386b7c898ce)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS23: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: tty37: Setting permissions /dev/tty37, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: tty37: Successfully created symlink '/dev/char/4:37' to '/dev/tty37'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: tty37: sd-device: Created database file '/run/udev/data/c4:37' for '/devices/virtual/tty/tty37'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: ttyS18: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: tty40: Setting permissions /dev/tty40, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty4: Setting permissions /dev/tty4, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: tty37: sd-device: Created database file '/run/udev/data/c4:37' for '/devices/virtual/tty/tty37'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: ttyS14: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: tty36: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty38: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: ttyS21: Processing device (SEQNUM=2817, ACTION=add, UUID=6a7ec0c9-d40b-4584-9170-3c2e8d8b82a1)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty4: Successfully created symlink '/dev/char/4:4' to '/dev/tty4'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty4: sd-device: Created database file '/run/udev/data/c4:4' for '/devices/virtual/tty/tty4'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty4: sd-device: Created database file '/run/udev/data/c4:4' for '/devices/virtual/tty/tty4'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS19: Processing device (SEQNUM=2811, ACTION=add, UUID=207f86fb-36fd-4b60-8e6d-3b016db7ad5c)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: ttyS15: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: ttyS2: Processing device (SEQNUM=2813, ACTION=add, UUID=223b1f30-1ed5-4c20-80b8-5312cf36c796)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty38: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: tty37: Device processed (SEQNUM=2886, ACTION=add, UUID=72c45ce7-3609-4aa6-9b56-27319bf05517)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: tty39: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: tty40: Successfully created symlink '/dev/char/4:40' to '/dev/tty40'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty38: Setting permissions /dev/tty38, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty38: Successfully created symlink '/dev/char/4:38' to '/dev/tty38'
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS24: Device ready for processing (SEQNUM=2823, ACTION=add, UUID=b9eb7a54-ce91-4e8c-8d99-b0954ec91b5a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: ttyS22: Processing device (SEQNUM=2819, ACTION=add, UUID=7be87e40-bd28-4001-a2aa-cd4d112a18ac)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: tty36: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: ttyS24: Processing device (SEQNUM=2823, ACTION=add, UUID=b9eb7a54-ce91-4e8c-8d99-b0954ec91b5a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: ttyS14: Setting permissions /dev/ttyS14, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: ttyS20: Processing device (SEQNUM=2815, ACTION=add, UUID=a0d09a4f-938c-4d2c-9d07-d0cceaaabb23)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: tty36: Setting permissions /dev/tty36, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: ttyS23: Processing device (SEQNUM=2821, ACTION=add, UUID=4a48f95b-f895-41d3-a160-7386b7c898ce)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty4: Device processed (SEQNUM=2889, ACTION=add, UUID=45cb9aef-ac78-4278-9fe9-7cc2b6ce07bb)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: ttyS11: Setting permissions /dev/ttyS11, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty38: sd-device: Created database file '/run/udev/data/c4:38' for '/devices/virtual/tty/tty38'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: ttyS16: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: ttyS18: Setting permissions /dev/ttyS18, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: ttyS14: Successfully created symlink '/dev/char/4:78' to '/dev/ttyS14'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: tty40: sd-device: Created database file '/run/udev/data/c4:40' for '/devices/virtual/tty/tty40'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: tty36: Successfully created symlink '/dev/char/4:36' to '/dev/tty36'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: ttyS12: Setting permissions /dev/ttyS12, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: tty39: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: ttyS13: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty4: sd-device-monitor(worker): Passed 260 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS24: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: ttyS11: Successfully created symlink '/dev/char/4:75' to '/dev/ttyS11'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty38: sd-device: Created database file '/run/udev/data/c4:38' for '/devices/virtual/tty/tty38'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: tty37: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: ttyS18: Successfully created symlink '/dev/char/4:82' to '/dev/ttyS18'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: ttyS14: sd-device: Created database file '/run/udev/data/c4:78' for '/devices/platform/serial8250/serial8250:0/serial8250:0.14/tty/ttyS14'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: tty40: sd-device: Created database file '/run/udev/data/c4:40' for '/devices/virtual/tty/tty40'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: tty36: sd-device: Created database file '/run/udev/data/c4:36' for '/devices/virtual/tty/tty36'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: ttyS12: Successfully created symlink '/dev/char/4:76' to '/dev/ttyS12'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: ttyS12: sd-device: Created database file '/run/udev/data/c4:76' for '/devices/platform/serial8250/serial8250:0/serial8250:0.12/tty/ttyS12'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS25: Device ready for processing (SEQNUM=2825, ACTION=add, UUID=98980fe7-bbdb-4dfa-bfa4-8b349e40862d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty38: Device processed (SEQNUM=2887, ACTION=add, UUID=7afebb36-510e-4c45-b693-85399f439255)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty38: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: ttyS11: sd-device: Created database file '/run/udev/data/c4:75' for '/devices/platform/serial8250/serial8250:0/serial8250:0.11/tty/ttyS11'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: ttyS15: Setting permissions /dev/ttyS15, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: tty40: Device processed (SEQNUM=2890, ACTION=add, UUID=b970e002-254c-4719-847f-a47c3b1125ac)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: ttyS18: sd-device: Created database file '/run/udev/data/c4:82' for '/devices/platform/serial8250/serial8250:0/serial8250:0.18/tty/ttyS18'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: ttyS14: sd-device: Created database file '/run/udev/data/c4:78' for '/devices/platform/serial8250/serial8250:0/serial8250:0.14/tty/ttyS14'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: ttyS13: Setting permissions /dev/ttyS13, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: ttyS12: sd-device: Created database file '/run/udev/data/c4:76' for '/devices/platform/serial8250/serial8250:0/serial8250:0.12/tty/ttyS12'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: ttyS16: Setting permissions /dev/ttyS16, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS25: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: ttyS25: Processing device (SEQNUM=2825, ACTION=add, UUID=98980fe7-bbdb-4dfa-bfa4-8b349e40862d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: tty39: Setting permissions /dev/tty39, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: ttyS15: Successfully created symlink '/dev/char/4:79' to '/dev/ttyS15'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: tty40: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: ttyS18: sd-device: Created database file '/run/udev/data/c4:82' for '/devices/platform/serial8250/serial8250:0/serial8250:0.18/tty/ttyS18'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: ttyS14: Device processed (SEQNUM=2801, ACTION=add, UUID=bad1541a-2152-41ae-b42c-e23b2588c9ee)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: tty36: sd-device: Created database file '/run/udev/data/c4:36' for '/devices/virtual/tty/tty36'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: ttyS13: Successfully created symlink '/dev/char/4:77' to '/dev/ttyS13'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: ttyS12: Device processed (SEQNUM=2797, ACTION=add, UUID=899ef703-105d-4fe2-abd3-93d9db41c760)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: ttyS12: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS26: Device ready for processing (SEQNUM=2827, ACTION=add, UUID=db6899cd-844f-40a3-9bc5-5cbe41f623e8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: ttyS11: sd-device: Created database file '/run/udev/data/c4:75' for '/devices/platform/serial8250/serial8250:0/serial8250:0.11/tty/ttyS11'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: tty39: Successfully created symlink '/dev/char/4:39' to '/dev/tty39'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: ttyS15: sd-device: Created database file '/run/udev/data/c4:79' for '/devices/platform/serial8250/serial8250:0/serial8250:0.15/tty/ttyS15'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[428]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: ttyS18: Device processed (SEQNUM=2809, ACTION=add, UUID=f11d5ecc-f719-4fd6-aad4-c2ebe6d032be)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: ttyS14: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: tty36: Device processed (SEQNUM=2885, ACTION=add, UUID=779742ec-6703-43ba-9752-6f5774c19c7c)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: ttyS13: sd-device: Created database file '/run/udev/data/c4:77' for '/devices/platform/serial8250/serial8250:0/serial8250:0.13/tty/ttyS13'.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS14: Processing udev action (SEQNUM=2801, ACTION=add, UUID=bad1541a-2152-41ae-b42c-e23b2588c9ee)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: ttyS16: Successfully created symlink '/dev/char/4:80' to '/dev/ttyS16'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS26: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: ttyS11: Device processed (SEQNUM=2795, ACTION=add, UUID=bd597b04-5464-49f9-9f34-a0ec69ec715a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: tty39: sd-device: Created database file '/run/udev/data/c4:39' for '/devices/virtual/tty/tty39'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: ttyS15: sd-device: Created database file '/run/udev/data/c4:79' for '/devices/platform/serial8250/serial8250:0/serial8250:0.15/tty/ttyS15'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: ttyS26: Processing device (SEQNUM=2827, ACTION=add, UUID=db6899cd-844f-40a3-9bc5-5cbe41f623e8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: tty36: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS14: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.14/tty/ttyS14'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: ttyS13: sd-device: Created database file '/run/udev/data/c4:77' for '/devices/platform/serial8250/serial8250:0/serial8250:0.13/tty/ttyS13'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: ttyS16: sd-device: Created database file '/run/udev/data/c4:80' for '/devices/platform/serial8250/serial8250:0/serial8250:0.16/tty/ttyS16'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS27: Device ready for processing (SEQNUM=2829, ACTION=add, UUID=cf04a44e-01c7-42f9-88c9-c898a820046b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: ttyS11: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: ttyS15: Device processed (SEQNUM=2803, ACTION=add, UUID=98e5665f-5591-436d-9c3b-9e4b7b41aaa4)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: tty39: sd-device: Created database file '/run/udev/data/c4:39' for '/devices/virtual/tty/tty39'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: ttyS18: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS14: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: ttyS13: Device processed (SEQNUM=2799, ACTION=add, UUID=7a158bf8-8db3-49e5-810a-ab77f62fac93)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: ttyS16: sd-device: Created database file '/run/udev/data/c4:80' for '/devices/platform/serial8250/serial8250:0/serial8250:0.16/tty/ttyS16'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS27: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: ttyS15: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: tty39: Device processed (SEQNUM=2888, ACTION=add, UUID=99c3bd95-1550-4e4e-9581-547a5e3c2903)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: ttyS27: Processing device (SEQNUM=2829, ACTION=add, UUID=cf04a44e-01c7-42f9-88c9-c898a820046b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS14: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: ttyS13: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: ttyS16: Device processed (SEQNUM=2805, ACTION=add, UUID=6d01d4f1-1858-4f29-bf88-f7d9a79ace25)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS28: Device ready for processing (SEQNUM=2831, ACTION=add, UUID=dbc0313a-59f2-4f68-8b4c-a92af008a313)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: tty39: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS14: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: ttyS16: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS28: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: ttyS28: Processing device (SEQNUM=2831, ACTION=add, UUID=dbc0313a-59f2-4f68-8b4c-a92af008a313)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS12: Processing udev action (SEQNUM=2797, ACTION=add, UUID=899ef703-105d-4fe2-abd3-93d9db41c760)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS29: Device ready for processing (SEQNUM=2833, ACTION=add, UUID=284a4311-c77b-43f8-badb-e1febc784cb0)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS12: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.12/tty/ttyS12'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS29: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS12: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS3: Device ready for processing (SEQNUM=2835, ACTION=add, UUID=c263776d-3d63-48fb-abab-8fcc8690d03d)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS12: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS29: Processing device (SEQNUM=2833, ACTION=add, UUID=284a4311-c77b-43f8-badb-e1febc784cb0)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS12: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS3: sd-device-monitor(manager): Passed 285 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS3: Processing device (SEQNUM=2835, ACTION=add, UUID=c263776d-3d63-48fb-abab-8fcc8690d03d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS30: Device ready for processing (SEQNUM=2837, ACTION=add, UUID=c04b219f-0fa7-4378-81c7-eb99a2cd4b51)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS18: Processing udev action (SEQNUM=2809, ACTION=add, UUID=f11d5ecc-f719-4fd6-aad4-c2ebe6d032be)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS30: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS18: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.18/tty/ttyS18'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS31: Device ready for processing (SEQNUM=2839, ACTION=add, UUID=9688a594-f589-45f1-a5ec-80e6955f8d50)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS18: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS31: sd-device-monitor(manager): Passed 288 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS30: Processing device (SEQNUM=2837, ACTION=add, UUID=c04b219f-0fa7-4378-81c7-eb99a2cd4b51)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS4: Device ready for processing (SEQNUM=2841, ACTION=add, UUID=a514db33-2e4a-4410-b3dd-963eb84570f2)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS18: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: ttyS31: Processing device (SEQNUM=2839, ACTION=add, UUID=9688a594-f589-45f1-a5ec-80e6955f8d50)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS18: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS4: sd-device-monitor(manager): Passed 285 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: ttyS4: Processing device (SEQNUM=2841, ACTION=add, UUID=a514db33-2e4a-4410-b3dd-963eb84570f2)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS5: Device ready for processing (SEQNUM=2843, ACTION=add, UUID=311a7763-f1e5-4b39-8312-7a59f2f20f6b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS11: Processing udev action (SEQNUM=2795, ACTION=add, UUID=bd597b04-5464-49f9-9f34-a0ec69ec715a)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS5: sd-device-monitor(manager): Passed 285 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS11: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.11/tty/ttyS11'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS6: Device ready for processing (SEQNUM=2845, ACTION=add, UUID=9a386a5f-649d-4aff-8709-bb22249d3493)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS11: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: ttyS5: Processing device (SEQNUM=2843, ACTION=add, UUID=311a7763-f1e5-4b39-8312-7a59f2f20f6b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: ttyS6: Processing device (SEQNUM=2845, ACTION=add, UUID=9a386a5f-649d-4aff-8709-bb22249d3493)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS6: sd-device-monitor(manager): Passed 285 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS11: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS7: Device ready for processing (SEQNUM=2847, ACTION=add, UUID=cfbb4257-2783-433b-8f01-6dccdbfd2e28)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS11: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS7: sd-device-monitor(manager): Passed 285 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS8: Device ready for processing (SEQNUM=2849, ACTION=add, UUID=55829acb-3697-4083-aa61-432f409e0ae6)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS8: sd-device-monitor(manager): Passed 285 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS15: Processing udev action (SEQNUM=2803, ACTION=add, UUID=98e5665f-5591-436d-9c3b-9e4b7b41aaa4)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: ttyS7: Processing device (SEQNUM=2847, ACTION=add, UUID=cfbb4257-2783-433b-8f01-6dccdbfd2e28)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS15: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.15/tty/ttyS15'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS9: Device ready for processing (SEQNUM=2851, ACTION=add, UUID=34889a4f-da57-4a65-b685-e5522ffda42e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: ttyS8: Processing device (SEQNUM=2849, ACTION=add, UUID=55829acb-3697-4083-aa61-432f409e0ae6)
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS15: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: ttyS9: sd-device-monitor(manager): Passed 285 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS15: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty41: Device ready for processing (SEQNUM=2891, ACTION=add, UUID=e86152f7-1b57-4c05-bd3f-9e0257163c89)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: ttyS9: Processing device (SEQNUM=2851, ACTION=add, UUID=34889a4f-da57-4a65-b685-e5522ffda42e)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty41: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS15: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty42: Device ready for processing (SEQNUM=2892, ACTION=add, UUID=c515700e-7fc2-4344-a278-4e060e187736)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: tty41: Processing device (SEQNUM=2891, ACTION=add, UUID=e86152f7-1b57-4c05-bd3f-9e0257163c89)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty42: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS13: Processing udev action (SEQNUM=2799, ACTION=add, UUID=7a158bf8-8db3-49e5-810a-ab77f62fac93)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty43: Device ready for processing (SEQNUM=2893, ACTION=add, UUID=55598321-a387-4a45-8c37-674af77834bb)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: tty42: Processing device (SEQNUM=2892, ACTION=add, UUID=c515700e-7fc2-4344-a278-4e060e187736)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty43: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS13: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.13/tty/ttyS13'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty44: Device ready for processing (SEQNUM=2894, ACTION=add, UUID=41f0ed68-394a-4538-abd0-79635c9ad5b3)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: tty43: Processing device (SEQNUM=2893, ACTION=add, UUID=55598321-a387-4a45-8c37-674af77834bb)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty44: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS13: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty45: Device ready for processing (SEQNUM=2895, ACTION=add, UUID=e237a315-3fbd-480f-9f93-be1481765c69)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty44: Processing device (SEQNUM=2894, ACTION=add, UUID=41f0ed68-394a-4538-abd0-79635c9ad5b3)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty45: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS13: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty46: Device ready for processing (SEQNUM=2896, ACTION=add, UUID=f17215a3-82a4-4d55-a8a0-a944dc4c567b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: tty45: Processing device (SEQNUM=2895, ACTION=add, UUID=e237a315-3fbd-480f-9f93-be1481765c69)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty46: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS13: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: Maximum number (40) of children reached.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: tty46: Processing device (SEQNUM=2896, ACTION=add, UUID=f17215a3-82a4-4d55-a8a0-a944dc4c567b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS16: Processing udev action (SEQNUM=2805, ACTION=add, UUID=6d01d4f1-1858-4f29-bf88-f7d9a79ace25)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: ttyS2: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS16: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.16/tty/ttyS16'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS19: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: ttyS21: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: ttyS20: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS16: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: ttyS26: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: ttyS23: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: ttyS27: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: ttyS22: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: ttyS24: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: ttyS4: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty47: Device ready for processing (SEQNUM=2897, ACTION=add, UUID=f4600f17-d632-4a48-8351-a60e0f7a93a6)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty47: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty48: Device ready for processing (SEQNUM=2898, ACTION=add, UUID=b839592f-ad71-49aa-a5aa-87a1dcf6b899)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty48: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty49: Device ready for processing (SEQNUM=2899, ACTION=add, UUID=143fb567-a225-4eb9-9a89-f5970c06a916)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty49: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty5: Device ready for processing (SEQNUM=2900, ACTION=add, UUID=b10cd139-4fc8-4ed4-a89f-13da88cdbf52)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty5: sd-device-monitor(manager): Passed 242 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty50: Device ready for processing (SEQNUM=2901, ACTION=add, UUID=0a807892-5b8b-4dc8-96e5-f4a9145fecc1)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty50: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty51: Device ready for processing (SEQNUM=2902, ACTION=add, UUID=0989c70f-752a-4fec-b745-ecde51a7ea30)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty51: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty52: Device ready for processing (SEQNUM=2903, ACTION=add, UUID=c194a55a-8242-4f9d-b21f-1ceb58873128)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty52: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty53: Device ready for processing (SEQNUM=2904, ACTION=add, UUID=33c7a8f6-937b-479c-9709-aa3c3e08d264)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: tty41: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: tty41: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS19: Setting permissions /dev/ttyS19, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS19: Successfully created symlink '/dev/char/4:83' to '/dev/ttyS19'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS3: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: ttyS20: Setting permissions /dev/ttyS20, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: ttyS9: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: ttyS25: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: ttyS27: Setting permissions /dev/ttyS27, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: ttyS27: Successfully created symlink '/dev/char/4:91' to '/dev/ttyS27'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: ttyS26: Setting permissions /dev/ttyS26, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: tty48: Processing device (SEQNUM=2898, ACTION=add, UUID=b839592f-ad71-49aa-a5aa-87a1dcf6b899)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[465]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: tty50: Processing device (SEQNUM=2901, ACTION=add, UUID=0a807892-5b8b-4dc8-96e5-f4a9145fecc1)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[451]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: ttyS26: Successfully created symlink '/dev/char/4:90' to '/dev/ttyS26'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS16: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: tty5: Processing device (SEQNUM=2900, ACTION=add, UUID=b10cd139-4fc8-4ed4-a89f-13da88cdbf52)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[469]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: ttyS21: Setting permissions /dev/ttyS21, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: tty41: Setting permissions /dev/tty41, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: tty41: Successfully created symlink '/dev/char/4:41' to '/dev/tty41'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: tty51: Processing device (SEQNUM=2902, ACTION=add, UUID=0989c70f-752a-4fec-b745-ecde51a7ea30)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: tty47: Processing device (SEQNUM=2897, ACTION=add, UUID=f4600f17-d632-4a48-8351-a60e0f7a93a6)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: ttyS2: Setting permissions /dev/ttyS2, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: ttyS2: Successfully created symlink '/dev/char/4:66' to '/dev/ttyS2'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS16: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: tty53: Processing device (SEQNUM=2904, ACTION=add, UUID=33c7a8f6-937b-479c-9709-aa3c3e08d264)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: ttyS23: Setting permissions /dev/ttyS23, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: ttyS21: Successfully created symlink '/dev/char/4:85' to '/dev/ttyS21'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS29: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS30: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: ttyS5: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: ttyS20: Successfully created symlink '/dev/char/4:84' to '/dev/ttyS20'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: tty52: Processing device (SEQNUM=2903, ACTION=add, UUID=c194a55a-8242-4f9d-b21f-1ceb58873128)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS19: sd-device: Created database file '/run/udev/data/c4:83' for '/devices/platform/serial8250/serial8250:0/serial8250:0.19/tty/ttyS19'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[450]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: ttyS27: sd-device: Created database file '/run/udev/data/c4:91' for '/devices/platform/serial8250/serial8250:0/serial8250:0.27/tty/ttyS27'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: tty49: Processing device (SEQNUM=2899, ACTION=add, UUID=143fb567-a225-4eb9-9a89-f5970c06a916)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[443]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: ttyS23: Successfully created symlink '/dev/char/4:87' to '/dev/ttyS23'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: ttyS28: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: ttyS6: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: ttyS31: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: tty45: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: ttyS8: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: ttyS7: /usr/lib/udev/rules.d/50-udev-default.rules:47 GROUP="dialout": Set group ID: 20
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: tty42: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[442]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: tty43: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty53: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[455]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: ttyS26: sd-device: Created database file '/run/udev/data/c4:90' for '/devices/platform/serial8250/serial8250:0/serial8250:0.26/tty/ttyS26'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: tty45: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: tty46: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[437]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: tty42: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: tty43: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: tty45: Setting permissions /dev/tty45, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: tty45: Successfully created symlink '/dev/char/4:45' to '/dev/tty45'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: tty46: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: ttyS24: Setting permissions /dev/ttyS24, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: tty42: Setting permissions /dev/tty42, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: tty43: Setting permissions /dev/tty43, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty44: /usr/lib/udev/rules.d/50-udev-default.rules:45 GROUP="tty": Set group ID: 5
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: tty41: sd-device: Created database file '/run/udev/data/c4:41' for '/devices/virtual/tty/tty41'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: tty41: sd-device: Created database file '/run/udev/data/c4:41' for '/devices/virtual/tty/tty41'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty54: Device ready for processing (SEQNUM=2905, ACTION=add, UUID=53706cb2-1ce3-4d7a-a937-c3cf26e014b5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: tty43: Successfully created symlink '/dev/char/4:43' to '/dev/tty43'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: ttyS27: sd-device: Created database file '/run/udev/data/c4:91' for '/devices/platform/serial8250/serial8250:0/serial8250:0.27/tty/ttyS27'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: ttyS21: sd-device: Created database file '/run/udev/data/c4:85' for '/devices/platform/serial8250/serial8250:0/serial8250:0.21/tty/ttyS21'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: ttyS24: Successfully created symlink '/dev/char/4:88' to '/dev/ttyS24'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: tty46: Setting permissions /dev/tty46, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: tty41: Device processed (SEQNUM=2891, ACTION=add, UUID=e86152f7-1b57-4c05-bd3f-9e0257163c89)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: ttyS20: sd-device: Created database file '/run/udev/data/c4:84' for '/devices/platform/serial8250/serial8250:0/serial8250:0.20/tty/ttyS20'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: tty42: Successfully created symlink '/dev/char/4:42' to '/dev/tty42'
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty54: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS19: sd-device: Created database file '/run/udev/data/c4:83' for '/devices/platform/serial8250/serial8250:0/serial8250:0.19/tty/ttyS19'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: ttyS4: Setting permissions /dev/ttyS4, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: ttyS9: Setting permissions /dev/ttyS9, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS3: Setting permissions /dev/ttyS3, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: ttyS23: sd-device: Created database file '/run/udev/data/c4:87' for '/devices/platform/serial8250/serial8250:0/serial8250:0.23/tty/ttyS23'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: tty54: Processing device (SEQNUM=2905, ACTION=add, UUID=53706cb2-1ce3-4d7a-a937-c3cf26e014b5)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: tty46: Successfully created symlink '/dev/char/4:46' to '/dev/tty46'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: tty41: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty55: Device ready for processing (SEQNUM=2906, ACTION=add, UUID=505a2833-8750-4f95-9f98-aea1a917907a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: ttyS22: Setting permissions /dev/ttyS22, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: ttyS22: Successfully created symlink '/dev/char/4:86' to '/dev/ttyS22'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: ttyS27: Device processed (SEQNUM=2829, ACTION=add, UUID=cf04a44e-01c7-42f9-88c9-c898a820046b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: ttyS27: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: ttyS2: sd-device: Created database file '/run/udev/data/c4:66' for '/devices/platform/serial8250/serial8250:0/serial8250:0.2/tty/ttyS2'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS3: Successfully created symlink '/dev/char/4:67' to '/dev/ttyS3'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS29: Setting permissions /dev/ttyS29, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS29: Successfully created symlink '/dev/char/4:93' to '/dev/ttyS29'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS27: Processing udev action (SEQNUM=2829, ACTION=add, UUID=cf04a44e-01c7-42f9-88c9-c898a820046b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: ttyS26: sd-device: Created database file '/run/udev/data/c4:90' for '/devices/platform/serial8250/serial8250:0/serial8250:0.26/tty/ttyS26'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: ttyS24: sd-device: Created database file '/run/udev/data/c4:88' for '/devices/platform/serial8250/serial8250:0/serial8250:0.24/tty/ttyS24'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: ttyS23: sd-device: Created database file '/run/udev/data/c4:87' for '/devices/platform/serial8250/serial8250:0/serial8250:0.23/tty/ttyS23'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: tty45: sd-device: Created database file '/run/udev/data/c4:45' for '/devices/virtual/tty/tty45'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: tty46: sd-device: Created database file '/run/udev/data/c4:46' for '/devices/virtual/tty/tty46'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty55: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS19: Device processed (SEQNUM=2811, ACTION=add, UUID=207f86fb-36fd-4b60-8e6d-3b016db7ad5c)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty44: /usr/lib/udev/rules.d/50-udev-default.rules:45 MODE="0600": Set mode: 0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: ttyS25: Setting permissions /dev/ttyS25, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: tty55: Processing device (SEQNUM=2906, ACTION=add, UUID=505a2833-8750-4f95-9f98-aea1a917907a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: tty43: sd-device: Created database file '/run/udev/data/c4:43' for '/devices/virtual/tty/tty43'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: ttyS4: Successfully created symlink '/dev/char/4:68' to '/dev/ttyS4'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[431]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: ttyS5: Setting permissions /dev/ttyS5, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS27: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.27/tty/ttyS27'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS30: Setting permissions /dev/ttyS30, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS30: Successfully created symlink '/dev/char/4:94' to '/dev/ttyS30'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: ttyS26: Device processed (SEQNUM=2827, ACTION=add, UUID=db6899cd-844f-40a3-9bc5-5cbe41f623e8)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: ttyS20: sd-device: Created database file '/run/udev/data/c4:84' for '/devices/platform/serial8250/serial8250:0/serial8250:0.20/tty/ttyS20'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: ttyS6: Setting permissions /dev/ttyS6, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: ttyS28: Setting permissions /dev/ttyS28, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: tty42: sd-device: Created database file '/run/udev/data/c4:42' for '/devices/virtual/tty/tty42'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: ttyS21: sd-device: Created database file '/run/udev/data/c4:85' for '/devices/platform/serial8250/serial8250:0/serial8250:0.21/tty/ttyS21'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: ttyS22: sd-device: Created database file '/run/udev/data/c4:86' for '/devices/platform/serial8250/serial8250:0/serial8250:0.22/tty/ttyS22'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: ttyS31: Setting permissions /dev/ttyS31, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: ttyS8: Setting permissions /dev/ttyS8, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: ttyS23: Device processed (SEQNUM=2821, ACTION=add, UUID=4a48f95b-f895-41d3-a160-7386b7c898ce)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: ttyS24: sd-device: Created database file '/run/udev/data/c4:88' for '/devices/platform/serial8250/serial8250:0/serial8250:0.24/tty/ttyS24'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: ttyS2: sd-device: Created database file '/run/udev/data/c4:66' for '/devices/platform/serial8250/serial8250:0/serial8250:0.2/tty/ttyS2'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS3: sd-device: Created database file '/run/udev/data/c4:67' for '/devices/platform/serial8250/serial8250:0/serial8250:0.3/tty/ttyS3'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[413]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: ttyS7: Setting permissions /dev/ttyS7, uid=0, gid=20, mode=0660
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: ttyS9: Successfully created symlink '/dev/char/4:73' to '/dev/ttyS9'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: tty45: sd-device: Created database file '/run/udev/data/c4:45' for '/devices/virtual/tty/tty45'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS29: sd-device: Created database file '/run/udev/data/c4:93' for '/devices/platform/serial8250/serial8250:0/serial8250:0.29/tty/ttyS29'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty56: Device ready for processing (SEQNUM=2907, ACTION=add, UUID=857f186b-3ef3-4d76-b43f-491b3375a6a7)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: tty46: sd-device: Created database file '/run/udev/data/c4:46' for '/devices/virtual/tty/tty46'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: ttyS19: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: ttyS25: Successfully created symlink '/dev/char/4:89' to '/dev/ttyS25'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[457]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: tty43: sd-device: Created database file '/run/udev/data/c4:43' for '/devices/virtual/tty/tty43'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty44: Setting permissions /dev/tty44, uid=0, gid=5, mode=0600
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: ttyS4: sd-device: Created database file '/run/udev/data/c4:68' for '/devices/platform/serial8250/serial8250:0/serial8250:0.4/tty/ttyS4'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: ttyS5: Successfully created symlink '/dev/char/4:69' to '/dev/ttyS5'
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS27: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: ttyS5: sd-device: Created database file '/run/udev/data/c4:69' for '/devices/platform/serial8250/serial8250:0/serial8250:0.5/tty/ttyS5'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: ttyS5: sd-device: Created database file '/run/udev/data/c4:69' for '/devices/platform/serial8250/serial8250:0/serial8250:0.5/tty/ttyS5'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: ttyS26: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: ttyS20: Device processed (SEQNUM=2815, ACTION=add, UUID=a0d09a4f-938c-4d2c-9d07-d0cceaaabb23)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: ttyS6: Successfully created symlink '/dev/char/4:70' to '/dev/ttyS6'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: ttyS28: Successfully created symlink '/dev/char/4:92' to '/dev/ttyS28'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: ttyS21: Device processed (SEQNUM=2817, ACTION=add, UUID=6a7ec0c9-d40b-4584-9170-3c2e8d8b82a1)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: ttyS21: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: ttyS22: sd-device: Created database file '/run/udev/data/c4:86' for '/devices/platform/serial8250/serial8250:0/serial8250:0.22/tty/ttyS22'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: ttyS31: Successfully created symlink '/dev/char/4:95' to '/dev/ttyS31'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: ttyS8: Successfully created symlink '/dev/char/4:72' to '/dev/ttyS8'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: ttyS23: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: ttyS8: sd-device: Created database file '/run/udev/data/c4:72' for '/devices/platform/serial8250/serial8250:0/serial8250:0.8/tty/ttyS8'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: ttyS8: sd-device: Created database file '/run/udev/data/c4:72' for '/devices/platform/serial8250/serial8250:0/serial8250:0.8/tty/ttyS8'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS3: sd-device: Created database file '/run/udev/data/c4:67' for '/devices/platform/serial8250/serial8250:0/serial8250:0.3/tty/ttyS3'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: ttyS7: Successfully created symlink '/dev/char/4:71' to '/dev/ttyS7'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: tty45: Device processed (SEQNUM=2895, ACTION=add, UUID=e237a315-3fbd-480f-9f93-be1481765c69)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: ttyS9: sd-device: Created database file '/run/udev/data/c4:73' for '/devices/platform/serial8250/serial8250:0/serial8250:0.9/tty/ttyS9'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS29: sd-device: Created database file '/run/udev/data/c4:93' for '/devices/platform/serial8250/serial8250:0/serial8250:0.29/tty/ttyS29'.
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty56: sd-device-monitor(manager): Passed 245 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: tty46: Device processed (SEQNUM=2896, ACTION=add, UUID=f17215a3-82a4-4d55-a8a0-a944dc4c567b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[456]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[448]: tty56: Processing device (SEQNUM=2907, ACTION=add, UUID=857f186b-3ef3-4d76-b43f-491b3375a6a7)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: ttyS25: sd-device: Created database file '/run/udev/data/c4:89' for '/devices/platform/serial8250/serial8250:0/serial8250:0.25/tty/ttyS25'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[452]: tty43: Device processed (SEQNUM=2893, ACTION=add, UUID=55598321-a387-4a45-8c37-674af77834bb)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty44: Successfully created symlink '/dev/char/4:44' to '/dev/tty44'
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[458]: ttyS4: sd-device: Created database file '/run/udev/data/c4:68' for '/devices/platform/serial8250/serial8250:0/serial8250:0.4/tty/ttyS4'.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS27: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS27: Device busy: SYSTEMD_READY property from device is false
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS30: sd-device: Created database file '/run/udev/data/c4:94' for '/devices/platform/serial8250/serial8250:0/serial8250:0.30/tty/ttyS30'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: ttyS5: Device processed (SEQNUM=2843, ACTION=add, UUID=311a7763-f1e5-4b39-8312-7a59f2f20f6b)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[444]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS19: Processing udev action (SEQNUM=2811, ACTION=add, UUID=207f86fb-36fd-4b60-8e6d-3b016db7ad5c)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: ttyS6: sd-device: Created database file '/run/udev/data/c4:70' for '/devices/platform/serial8250/serial8250:0/serial8250:0.6/tty/ttyS6'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: ttyS28: sd-device: Created database file '/run/udev/data/c4:92' for '/devices/platform/serial8250/serial8250:0/serial8250:0.28/tty/ttyS28'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: tty42: sd-device: Created database file '/run/udev/data/c4:42' for '/devices/virtual/tty/tty42'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[454]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: ttyS22: Device processed (SEQNUM=2819, ACTION=add, UUID=7be87e40-bd28-4001-a2aa-cd4d112a18ac)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: ttyS31: sd-device: Created database file '/run/udev/data/c4:95' for '/devices/platform/serial8250/serial8250:0/serial8250:0.31/tty/ttyS31'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[464]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: ttyS24: Device processed (SEQNUM=2823, ACTION=add, UUID=b9eb7a54-ce91-4e8c-8d99-b0954ec91b5a)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[453]: ttyS24: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: ttyS8: Device processed (SEQNUM=2849, ACTION=add, UUID=55829acb-3697-4083-aa61-432f409e0ae6)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS3: Device processed (SEQNUM=2835, ACTION=add, UUID=c263776d-3d63-48fb-abab-8fcc8690d03d)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[433]: tty45: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[459]: ttyS7: sd-device: Created database file '/run/udev/data/c4:71' for '/devices/platform/serial8250/serial8250:0/serial8250:0.7/tty/ttyS7'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[461]: ttyS9: sd-device: Created database file '/run/udev/data/c4:73' for '/devices/platform/serial8250/serial8250:0/serial8250:0.9/tty/ttyS9'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[446]: ttyS29: Device processed (SEQNUM=2833, ACTION=add, UUID=284a4311-c77b-43f8-badb-e1febc784cb0)
+Apr 15 11:32:54 localhost.localdomain systemd-udevd[406]: tty57: Device ready for processing (SEQNUM=2908, ACTION=add, UUID=d9c7c7fc-ee60-4da8-a4e7-d8a5f0397862)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: tty46: sd-device-monitor(worker): Passed 263 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[427]: Notify message sent to '@17435893313109740217': "PROCESSED=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[441]: ttyS25: sd-device: Created database file '/run/udev/data/c4:89' for '/devices/platform/serial8250/serial8250:0/serial8250:0.25/tty/ttyS25'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: tty57: Processing device (SEQNUM=2908, ACTION=add, UUID=d9c7c7fc-ee60-4da8-a4e7-d8a5f0397862)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[466]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[467]: tty44: sd-device: Created database file '/run/udev/data/c4:44' for '/devices/virtual/tty/tty44'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[426]: Notify message sent to '@17435893313109740217': "INOTIFY_WATCH_REMOVE=1"
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[439]: ttyS30: sd-device: Created database file '/run/udev/data/c4:94' for '/devices/platform/serial8250/serial8250:0/serial8250:0.30/tty/ttyS30'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[463]: ttyS5: sd-device-monitor(worker): Passed 357 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[410]: ttyS20: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain systemd[1]: ttyS19: Got 'add' action on syspath '/sys/devices/platform/serial8250/serial8250:0/serial8250:0.19/tty/ttyS19'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[449]: ttyS6: sd-device: Created database file '/run/udev/data/c4:70' for '/devices/platform/serial8250/serial8250:0/serial8250:0.6/tty/ttyS6'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[460]: tty42: Device processed (SEQNUM=2892, ACTION=add, UUID=c515700e-7fc2-4344-a278-4e060e187736)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[471]: ttyS28: sd-device: Created database file '/run/udev/data/c4:92' for '/devices/platform/serial8250/serial8250:0/serial8250:0.28/tty/ttyS28'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[415]: ttyS22: sd-device-monitor(worker): Passed 360 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[435]: ttyS31: sd-device: Created database file '/run/udev/data/c4:95' for '/devices/platform/serial8250/serial8250:0/serial8250:0.31/tty/ttyS31'.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: ttyS2: Device processed (SEQNUM=2813, ACTION=add, UUID=223b1f30-1ed5-4c20-80b8-5312cf36c796)
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[462]: ttyS2: sd-device-monitor(worker): Passed 357 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[470]: ttyS8: sd-device-monitor(worker): Passed 357 byte to netlink monitor.
+Apr 15 11:32:54 localhost.localdomain (udev-worker)[430]: ttyS3: sd-device-monitor(worker): Passed 357 byte to netlink monitor.
