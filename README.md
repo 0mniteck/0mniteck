@@ -1,6 +1,6 @@
-# Hello 👋 Welcome To:
+<h1>Hello 👋 Welcome To:</h1>
 
-```
+<pre>
 /**
  *
  *     ░▒▓████████▓▒░▒▓██████████████▓▒░░▒▓███████▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓████████▓▒░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
@@ -20,47 +20,50 @@
                                              | - Technologist✨         |
                                              | - Problem Solver✨       |
                                              ----------------------------
-```
-<div align="center">
+</pre>
 
-<h1><img src="https://raw.githubusercontent.com/corning-croak-cable/yubiOS/main/assets/logo.png" alt="yubiOS logo" width="50" style="border-radius:16px;"/> <sup><sup>yubiOS</sup></h1>
+<div align="center" class="center">
 
-<h3>**FIDO2-first immutable OS — YubiKey is the root of trust**</h3>
-<h3> 🦾 🚧 Work In Progress 🚧 Work In Progress 🚧 Work In Progress 🚧</h3>
+<h1><img src="https://raw.githubusercontent.com/yubi-OS/yubiOS/main/assets/logo.png" alt="yubiOS logo" width="50" style="border-radius:16px;vertical-align:middle;"> <sup><sup>yubiOS</sup></sup></h1>
 
-[![License: LGPL-2.1](https://img.shields.io/badge/license-LGPL--2.1-magenta?style=flat-square)](LICENSE)
-[![Status: Groundwork](https://img.shields.io/badge/status-groundwork-blueviolet?style=flat-square)](TODO.md)
-[![YubiKey 5](https://img.shields.io/badge/YubiKey-5%20series-ff1493?style=flat-square)](https://www.yubico.com)
-[![FIDO2](https://img.shields.io/badge/FIDO2-hidraw-purple?style=flat-square)](https://fidoalliance.org)
+<h3><strong>FIDO2-first immutable OS — YubiKey is the root of trust</strong></h3>
+<h3>🦾 🚧 Work In Progress 🚧 Work In Progress 🚧 Work In Progress 🚧</h3>
 
-<p>*No TPM. No OEM. No trust anchors you don't control.*</p>
+<p class="badges">
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-LGPL--2.1-magenta?style=flat-square" alt="License: LGPL-2.1"></a>
+<a href="TODO.md"><img src="https://img.shields.io/badge/status-groundwork-blueviolet?style=flat-square" alt="Status: Groundwork"></a>
+<a href="https://www.yubico.com"><img src="https://img.shields.io/badge/YubiKey-5%20series-ff1493?style=flat-square" alt="YubiKey 5"></a>
+<a href="https://fidoalliance.org"><img src="https://img.shields.io/badge/FIDO2-hidraw-purple?style=flat-square" alt="FIDO2"></a>
+</p>
+
+<p><em>No TPM. No OEM. No trust anchors you don't control.</em></p>
 
 </div>
 
-## ⚠️ WIP
+<h2>⚠️ WIP</h2>
 
-### 🔭 Securing the software supply chain - Full Chain/("Full Scope") SBOMs and Attestations
+<h3>🔭 Securing the software supply chain - Full Chain/("Full Scope") SBOMs and Attestations</h3>
 
-### 🔭 I’m currently working on compiling the [U-Boot](https://github.com/0mniteck/U-Boot) bootloader on Arm64 in order to integrate a reference vTPM as an OP-TEE TA, to enable feature support in Trusted-Firmware-A chipsets, on fully open sourced SBC platforms to [secure](https://tee.fail/) the boot chain.
+<h3>🔭 I'm currently working on compiling the <a href="https://github.com/0mniteck/U-Boot">U-Boot</a> bootloader on Arm64 in order to integrate a reference vTPM as an OP-TEE TA, to enable feature support in Trusted-Firmware-A chipsets, on fully open sourced SBC platforms to <a href="https://tee.fail/">secure</a> the boot chain.</h3>
 
-### 🔭 As well as compiling [Signal Desktop](https://github.com/0mniteck/Signal-Desktop-Reproducible) for Arm64 Debian based environments (RPI 4, Mobian, etc.)
+<h3>🔭 As well as compiling <a href="https://github.com/0mniteck/Signal-Desktop-Reproducible">Signal Desktop</a> for Arm64 Debian based environments (RPI 4, Mobian, etc.)</h3>
 
-## 💥 Achievements
+<h2>💥 Achievements</h2>
 
-I have experience developing crafted XSS and CORS requests to test web application security and audit DLP enforcement.
+<p>I have experience developing crafted XSS and CORS requests to test web application security and audit DLP enforcement.</p>
 
-I can also create prompt injections & cause hallucinations to test [AI safety.](https://STOPAI.INFO)
+<p>I can also create prompt injections &amp; cause hallucinations to test <a href="https://STOPAI.INFO">AI safety.</a></p>
 
-[I submitted a Chromium bug report](https://issues.chromium.org/issues/328765306) that is [related](https://www.thecybersyrup.com/p/malicious-chrome-extensions-campaign-discovered-what-you-need-to-know-ddca) to attack vectors exploited in the wild regarding CSP (Content Security Policy)
+<p><a href="https://issues.chromium.org/issues/328765306">I submitted a Chromium bug report</a> that is <a href="https://www.thecybersyrup.com/p/malicious-chrome-extensions-campaign-discovered-what-you-need-to-know-ddca">related</a> to attack vectors exploited in the wild regarding CSP (Content Security Policy)</p>
 
-I submitted a responsible disclosure of a vulnerability on Dec 3, 2024 to [Securitas.com](https://www.securitas.com/en/about-us/responsible-disclosure/) and to [Avigilon](https://avigilon.com)
+<p>I submitted a responsible disclosure of a vulnerability on Dec 3, 2024 to <a href="https://www.securitas.com/en/about-us/responsible-disclosure/">Securitas.com</a> and to <a href="https://avigilon.com">Avigilon</a></p>
 
-I completed the [Google Cloud Cybersecurity Certificate](https://www.credly.com/badges/2686c0a9-9d5a-4a6b-ac08-4edf2d85db01/public_url)
+<p>I completed the <a href="https://www.credly.com/badges/2686c0a9-9d5a-4a6b-ac08-4edf2d85db01/public_url">Google Cloud Cybersecurity Certificate</a></p>
 
-![google-cloud-cybersecurity-certificate-small](https://github.com/user-attachments/assets/3db01ae6-3fac-4948-a5e4-c5626050ea75)
+<p><img src="https://github.com/user-attachments/assets/3db01ae6-3fac-4948-a5e4-c5626050ea75" alt="google-cloud-cybersecurity-certificate-small"></p>
 
-🗯️ Ask me about anything
+<p>🗯️ Ask me about anything</p>
 
-[📫](shant@omniteck.com) You can reach me at [shant@omniteck.com](shant@omniteck.com)
+<p>📫 You can reach me at <a href="mailto:shant@omniteck.com">shant@omniteck.com</a></p>
 
-# If you also see the dangers of a jobless 🧑‍🏭 economy and in the rise of a techno-authoritarian state help at [STOPAI.INFO](https://stopai.info)
+<h1>If you also see the dangers of a jobless 🧑‍🏭 economy and in the rise of a techno-authoritarian state help at <a href="https://stopai.info">STOPAI.INFO</a></h1>
