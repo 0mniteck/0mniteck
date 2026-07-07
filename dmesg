@@ -1,0 +1,1782 @@
+[   65.821738] kernel: Linux version 7.0.0-14-generic (buildd@lcy02-amd64-043) (x86_64-linux-gnu-gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, GNU ld (GNU Binutils for Ubuntu) 2.46) #14-Ubuntu SMP PREEMPT_DYNAMIC Mon Apr 13 11:09:53 UTC 2026 (Ubuntu 7.0.0-14.14-generic 7.0.0)
+[   65.821807] kernel: Command line: BOOT_IMAGE=/casper/vmlinuz rd.driver.blacklist=i815 firmware_class.blacklist=i915/ modprobe.blacklist=autofs,i915,iwlwifi,intel_pmc_core intel_dmc_core.disable=1 intel_iommu=off console=tty0 console=ttyS4
+[   65.821827] kernel: KERNEL supported cpus:
+[   65.821840] kernel:   Intel GenuineIntel
+[   65.821855] kernel:   AMD AuthenticAMD
+[   65.821869] kernel:   Hygon HygonGenuine
+[   65.821888] kernel:   Centaur CentaurHauls
+[   65.821904] kernel:   zhaoxin   Shanghai  
+[   65.821918] kernel: x86/split lock detection: #AC: crashing the kernel on kernel split_locks and warning on user-space split_locks
+[   65.821931] kernel: BIOS-provided physical RAM map:
+[   65.821946] kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff]  System RAM
+[   65.821962] kernel: BIOS-e820: [mem 0x00000000000a0000-0x00000000000fffff]  device reserved
+[   65.821972] kernel: BIOS-e820: [mem 0x0000000000100000-0x0000000078efbfff]  System RAM
+[   65.821988] kernel: BIOS-e820: [mem 0x0000000078efc000-0x0000000078f07fff]  ACPI data
+[   65.822011] kernel: BIOS-e820: [mem 0x0000000078f08000-0x000000007bcaefff]  System RAM
+[   65.822028] kernel: BIOS-e820: [mem 0x000000007bcaf000-0x000000007bcaffff]  ACPI NVS
+[   65.822040] kernel: BIOS-e820: [mem 0x000000007bcb0000-0x000000007bcb0fff]  System RAM
+[   65.822055] kernel: BIOS-e820: [mem 0x000000007bcb1000-0x000000007bcb1fff]  device reserved
+[   65.822068] kernel: BIOS-e820: [mem 0x000000007bcb2000-0x000000007d66dfff]  System RAM
+[   65.822084] kernel: BIOS-e820: [mem 0x000000007d66e000-0x000000007da6dfff]  device reserved
+[   65.822100] kernel: BIOS-e820: [mem 0x000000007da6e000-0x000000007da87fff]  System RAM
+[   65.822114] kernel: BIOS-e820: [mem 0x000000007da88000-0x000000007db89fff]  device reserved
+[   65.822129] kernel: BIOS-e820: [mem 0x000000007db8a000-0x000000007dbb3fff]  ACPI NVS
+[   65.822146] kernel: BIOS-e820: [mem 0x000000007dbb4000-0x000000007dbfefff]  ACPI data
+[   65.822163] kernel: BIOS-e820: [mem 0x000000007dbff000-0x000000007dbfffff]  System RAM
+[   65.822179] kernel: BIOS-e820: [mem 0x000000007dc00000-0x00000000953fffff]  device reserved
+[   65.822192] kernel: BIOS-e820: [gap 0x0000000095400000-0x00000000fe00ffff]
+[   65.822207] kernel: BIOS-e820: [mem 0x00000000fe010000-0x00000000fe010fff]  device reserved
+[   65.822219] kernel: BIOS-e820: [gap 0x00000000fe011000-0x00000000fed1ffff]
+[   65.822229] kernel: BIOS-e820: [mem 0x00000000fed20000-0x00000000fed7ffff]  device reserved
+[   65.822241] kernel: BIOS-e820: [gap 0x00000000fed80000-0x00000000ffffffff]
+[   65.822252] kernel: BIOS-e820: [mem 0x0000000100000000-0x000000026abfffff]  System RAM
+[   65.822271] kernel: NX (Execute Disable) protection: active
+[   65.822284] kernel: APIC: Static calls initialized
+[   65.822296] kernel: efi: EFI v2.7 by MSFT
+[   65.822314] kernel: efi: ACPI=0x7dbfe000 ACPI 2.0=0x7dbfe014 TPMFinalLog=0x7dbac000 SMBIOS=0x7daff000 SMBIOS 3.0=0x7dafd000 MEMATTR=0x79051018 ESRT=0x7ad6d418 MOKvar=0x7dafb000 INITRD=0x78b6e598 RNG=0x7dbb7018 TPMEventLog=0x78efc018 
+[   65.822328] kernel: random: crng init done
+[   65.822341] kernel: efi: Not removing mem206: MMIO range=[0xfe010000-0xfe010fff] (4KB) from e820 map
+[   65.822357] kernel: SMBIOS 3.3.0 present.
+[   65.822372] kernel: DMI: Microsoft Corporation Surface Pro 7/Surface Pro 7, BIOS 20.103.140 08/16/2024
+[   65.822403] kernel: DMI: Memory slots populated: 2/2
+[   65.822425] kernel: secureboot: Secure boot enabled
+[   65.822437] kernel: Kernel is locked down from EFI Secure Boot mode; see man kernel_lockdown.7
+[   65.822450] kernel: tsc: Detected 1500.000 MHz processor
+[   65.822472] kernel: tsc: Detected 1497.600 MHz TSC
+[   65.822485] kernel: e820: update [mem 0x00000000-0x00000fff] System RAM ==> device reserved
+[   65.822504] kernel: e820: remove [mem 0x000a0000-0x000fffff] System RAM
+[   65.822521] kernel: last_pfn = 0x26ac00 max_arch_pfn = 0x400000000
+[   65.822542] kernel: MTRR map: 5 entries (3 fixed + 2 variable; max 23), built from 10 variable MTRRs
+[   65.822555] kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[   65.822571] kernel: last_pfn = 0x7dc00 max_arch_pfn = 0x400000000
+[   65.822587] kernel: esrt: Reserving ESRT space from 0x000000007ad6d418 to 0x000000007ad6d4f0.
+[   65.822605] kernel: e820: update [mem 0x7ad6d000-0x7ad6dfff] System RAM ==> device reserved
+[   65.822621] kernel: Using GB pages for direct mapping
+[   65.822636] kernel: secureboot: Secure boot enabled
+[   65.822649] kernel: RAMDISK: [mem 0x67331000-0x6ce48fff]
+[   65.822669] kernel: ACPI: Early table checksum verification disabled
+[   65.822683] kernel: ACPI: RSDP 0x000000007DBFE014 000024 (v02 MSFT  )
+[   65.822703] kernel: ACPI: XSDT 0x000000007DBFD0E8 0000BC (v01 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.822716] kernel: ACPI: FACP 0x000000007DBE1000 000114 (v06 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.822733] kernel: ACPI: DSDT 0x000000007DBC0000 01C074 (v02 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.822748] kernel: ACPI: FACS 0x000000007DB92000 000040
+[   65.822761] kernel: ACPI: WSMT 0x000000007DBFC000 000028 (v01 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.822779] kernel: ACPI: SSDT 0x000000007DBFA000 001B61 (v02 CpuRef CpuSsdt  00003000 INTL 20181003)
+[   65.822793] kernel: ACPI: MSDM 0x000000007DBF9000 000055 (v01 MSFT            00000001 MSFT 00000001)
+[   65.822806] kernel: ACPI: SSDT 0x000000007DBF2000 006230 (v02 MSFT   DptfTabl 00001000 INTL 20181003)
+[   65.822831] kernel: ACPI: SSDT 0x000000007DBEE000 0033E3 (v02 SaSsdt SaSsdt   00003000 INTL 20181003)
+[   65.822848] kernel: ACPI: SSDT 0x000000007DBE2000 00B27A (v02 INTEL  TcssSsdt 00001000 INTL 20181003)
+[   65.822864] kernel: ACPI: HPET 0x000000007DBE0000 000038 (v01 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.822877] kernel: ACPI: LPIT 0x000000007DBDF000 000094 (v01 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.822887] kernel: ACPI: APIC 0x000000007DBDE000 00012C (v04 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.822897] kernel: ACPI: MCFG 0x000000007DBDD000 00003C (v01 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.822911] kernel: ACPI: SSDT 0x000000007DBBF000 000DB4 (v02 MSFT   RTD3_JL  00001000 INTL 20181003)
+[   65.822927] kernel: ACPI: SSDT 0x000000007DBBE000 0009E3 (v02 MSFT   xh_jl000 00000000 INTL 20181003)
+[   65.822942] kernel: ACPI: NHLT 0x000000007DBBD000 00002D (v00 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.822959] kernel: ACPI: SSDT 0x000000007DBBC000 000574 (v02 MSFT   Tpm2Tabl 00001000 INTL 20181003)
+[   65.822983] kernel: ACPI: TPM2 0x000000007DBBB000 000034 (v03 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.823009] kernel: ACPI: DMAR 0x000000007DBBA000 000088 (v02 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.823028] kernel: ACPI: FPDT 0x000000007DBB9000 000034 (v01 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.823046] kernel: ACPI: BGRT 0x000000007DBB8000 000038 (v01 MSFT   MSFT     00000002 MSFT 20160422)
+[   65.823060] kernel: ACPI: Reserving FACP table memory at [mem 0x7dbe1000-0x7dbe1113]
+[   65.823076] kernel: ACPI: Reserving DSDT table memory at [mem 0x7dbc0000-0x7dbdc073]
+[   65.823088] kernel: ACPI: Reserving FACS table memory at [mem 0x7db92000-0x7db9203f]
+[   65.823106] kernel: ACPI: Reserving WSMT table memory at [mem 0x7dbfc000-0x7dbfc027]
+[   65.823123] kernel: ACPI: Reserving SSDT table memory at [mem 0x7dbfa000-0x7dbfbb60]
+[   65.823138] kernel: ACPI: Reserving MSDM table memory at [mem 0x7dbf9000-0x7dbf9054]
+[   65.823150] kernel: ACPI: Reserving SSDT table memory at [mem 0x7dbf2000-0x7dbf822f]
+[   65.823162] kernel: ACPI: Reserving SSDT table memory at [mem 0x7dbee000-0x7dbf13e2]
+[   65.823176] kernel: ACPI: Reserving SSDT table memory at [mem 0x7dbe2000-0x7dbed279]
+[   65.823191] kernel: ACPI: Reserving HPET table memory at [mem 0x7dbe0000-0x7dbe0037]
+[   65.823208] kernel: ACPI: Reserving LPIT table memory at [mem 0x7dbdf000-0x7dbdf093]
+[   65.823221] kernel: ACPI: Reserving APIC table memory at [mem 0x7dbde000-0x7dbde12b]
+[   65.823234] kernel: ACPI: Reserving MCFG table memory at [mem 0x7dbdd000-0x7dbdd03b]
+[   65.823246] kernel: ACPI: Reserving SSDT table memory at [mem 0x7dbbf000-0x7dbbfdb3]
+[   65.823261] kernel: ACPI: Reserving SSDT table memory at [mem 0x7dbbe000-0x7dbbe9e2]
+[   65.823276] kernel: ACPI: Reserving NHLT table memory at [mem 0x7dbbd000-0x7dbbd02c]
+[   65.823288] kernel: ACPI: Reserving SSDT table memory at [mem 0x7dbbc000-0x7dbbc573]
+[   65.823308] kernel: ACPI: Reserving TPM2 table memory at [mem 0x7dbbb000-0x7dbbb033]
+[   65.823320] kernel: ACPI: Reserving DMAR table memory at [mem 0x7dbba000-0x7dbba087]
+[   65.823337] kernel: ACPI: Reserving FPDT table memory at [mem 0x7dbb9000-0x7dbb9033]
+[   65.823351] kernel: ACPI: Reserving BGRT table memory at [mem 0x7dbb8000-0x7dbb8037]
+[   65.823362] kernel: No NUMA configuration found
+[   65.823377] kernel: Faking a node at [mem 0x0000000000000000-0x000000026abfffff]
+[   65.823390] kernel: NODE_DATA(0) allocated [mem 0x26abd3280-0x26abfdfff]
+[   65.823402] kernel: Reserving Intel graphics memory at [mem 0x91800000-0x953fffff]
+[   65.823417] kernel: ACPI: PM-Timer IO Port: 0x1808
+[   65.823429] kernel: ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[   65.823442] kernel: ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+[   65.823454] kernel: ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+[   65.823466] kernel: ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+[   65.823478] kernel: ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+[   65.823496] kernel: ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+[   65.823510] kernel: ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+[   65.823521] kernel: ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+[   65.823533] kernel: ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+[   65.823545] kernel: ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+[   65.823557] kernel: ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+[   65.823571] kernel: ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+[   65.823597] kernel: ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+[   65.823610] kernel: ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+[   65.823622] kernel: ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+[   65.823638] kernel: ACPI: LAPIC_NMI (acpi_id[0x10] high edge lint[0x1])
+[   65.823651] kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119
+[   65.823663] kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[   65.823676] kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[   65.823693] kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+[   65.823712] kernel: ACPI: HPET id: 0x8086a201 base: 0xfed00000
+[   65.823725] kernel: e820: update [mem 0x79663000-0x796a0fff] System RAM ==> device reserved
+[   65.823737] kernel: TSC deadline timer available
+[   65.823751] kernel: CPU topo: Max. logical packages:   1
+[   65.823764] kernel: CPU topo: Max. logical nodes:      1
+[   65.823776] kernel: CPU topo: Num. nodes per package:  1
+[   65.823797] kernel: CPU topo: Max. logical dies:       1
+[   65.823810] kernel: CPU topo: Max. dies per package:   1
+[   65.823823] kernel: CPU topo: Max. threads per core:   2
+[   65.823837] kernel: CPU topo: Num. cores per package:     4
+[   65.823851] kernel: CPU topo: Num. threads per package:   8
+[   65.823866] kernel: CPU topo: Allowing 8 present CPUs plus 0 hotplug CPUs
+[   65.823878] kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[   65.823891] kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000fffff]
+[   65.823910] kernel: PM: hibernation: Registered nosave memory: [mem 0x78efc000-0x78f07fff]
+[   65.823923] kernel: PM: hibernation: Registered nosave memory: [mem 0x79663000-0x796a0fff]
+[   65.823936] kernel: PM: hibernation: Registered nosave memory: [mem 0x7ad6d000-0x7ad6dfff]
+[   65.823949] kernel: PM: hibernation: Registered nosave memory: [mem 0x7bcaf000-0x7bcaffff]
+[   65.823962] kernel: PM: hibernation: Registered nosave memory: [mem 0x7bcb1000-0x7bcb1fff]
+[   65.823976] kernel: PM: hibernation: Registered nosave memory: [mem 0x7d66e000-0x7da6dfff]
+[   65.823989] kernel: PM: hibernation: Registered nosave memory: [mem 0x7da88000-0x7dbfefff]
+[   65.824013] kernel: PM: hibernation: Registered nosave memory: [mem 0x7dc00000-0xffffffff]
+[   65.824027] kernel: [gap 0x95400000-0xfe00ffff] available for PCI devices
+[   65.824045] kernel: Booting paravirtualized kernel on bare hardware
+[   65.824059] kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+[   65.824074] kernel: Zone ranges:
+[   65.824089] kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[   65.824102] kernel:   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[   65.824119] kernel:   Normal   [mem 0x0000000100000000-0x000000026abfffff]
+[   65.824132] kernel:   Device   empty
+[   65.824146] kernel: Movable zone start for each node
+[   65.824161] kernel: Early memory node ranges
+[   65.824174] kernel:   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+[   65.824189] kernel:   node   0: [mem 0x0000000000100000-0x0000000078efbfff]
+[   65.824204] kernel:   node   0: [mem 0x0000000078f08000-0x000000007bcaefff]
+[   65.824222] kernel:   node   0: [mem 0x000000007bcb0000-0x000000007bcb0fff]
+[   65.824235] kernel:   node   0: [mem 0x000000007bcb2000-0x000000007d66dfff]
+[   65.824249] kernel:   node   0: [mem 0x000000007da6e000-0x000000007da87fff]
+[   65.824263] kernel:   node   0: [mem 0x000000007dbff000-0x000000007dbfffff]
+[   65.824280] kernel:   node   0: [mem 0x0000000100000000-0x000000026abfffff]
+[   65.824294] kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000026abfffff]
+[   65.824307] kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+[   65.824323] kernel: On node 0, zone DMA: 96 pages in unavailable ranges
+[   65.824338] kernel: On node 0, zone DMA32: 12 pages in unavailable ranges
+[   65.824355] kernel: On node 0, zone DMA32: 1 pages in unavailable ranges
+[   65.824371] kernel: On node 0, zone DMA32: 1 pages in unavailable ranges
+[   65.824386] kernel: On node 0, zone DMA32: 1024 pages in unavailable ranges
+[   65.824403] kernel: On node 0, zone DMA32: 375 pages in unavailable ranges
+[   65.824417] kernel: On node 0, zone Normal: 9216 pages in unavailable ranges
+[   65.824435] kernel: On node 0, zone Normal: 21504 pages in unavailable ranges
+[   65.824459] kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:8 nr_cpu_ids:8 nr_node_ids:1
+[   65.824473] kernel: percpu: Embedded 85 pages/cpu s225280 r8192 d114688 u524288
+[   65.824489] kernel: pcpu-alloc: s225280 r8192 d114688 u524288 alloc=1*2097152
+[   65.824505] kernel: pcpu-alloc: [0] 0 1 2 3 [0] 4 5 6 7 
+[   65.824520] kernel: Kernel command line: BOOT_IMAGE=/casper/vmlinuz rd.driver.blacklist=i815 firmware_class.blacklist=i915/ modprobe.blacklist=autofs,i915,iwlwifi,intel_pmc_core intel_dmc_core.disable=1 intel_iommu=off console=tty0 console=ttyS4
+[   65.824536] kernel: DMAR: IOMMU disabled
+[   65.824550] kernel: printk: log buffer data + meta data: 262144 + 1114112 = 1376256 bytes
+[   65.824570] kernel: Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[   65.824587] kernel: Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[   65.824601] kernel: software IO TLB: area num 8.
+[   65.824622] kernel: Fallback order for Node 0: 0 
+[   65.824637] kernel: Built 1 zonelists, mobility grouping on.  Total pages: 1999386
+[   65.824650] kernel: Policy zone: Normal
+[   65.824665] kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+[   65.824687] kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+[   65.824704] kernel: ftrace: allocating 63887 entries in 252 pages
+[   65.824719] kernel: ftrace: allocated 252 pages with 6 groups
+[   65.824736] kernel: Dynamic Preempt: lazy
+[   65.824752] kernel: rcu: Preemptible hierarchical RCU implementation.
+[   65.824767] kernel: rcu:         RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=8.
+[   65.824783] kernel:         Trampoline variant of Tasks RCU enabled.
+[   65.824803] kernel:         Rude variant of Tasks RCU enabled.
+[   65.824819] kernel:         Tracing variant of Tasks RCU enabled.
+[   65.824833] kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+[   65.824847] kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=8
+[   65.824860] kernel: RCU Tasks: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+[   65.824874] kernel: RCU Tasks Rude: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+[   65.824888] kernel: NR_IRQS: 524544, nr_irqs: 2048, preallocated irqs: 16
+[   65.824905] kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[   65.824919] kernel: Console: colour dummy device 80x25
+[   65.824934] kernel: printk: legacy console [tty0] enabled
+[   65.824947] kernel: ACPI: Core revision 20251212
+[   65.824961] kernel: hpet: HPET dysfunctional in PC10. Force disabled.
+[   65.824976] kernel: APIC: Switch to symmetric I/O mode setup
+[   65.824992] kernel: DMAR: Host address width 39
+[   65.825026] kernel: DMAR: DRHD base: 0x000000fed90000 flags: 0x0
+[   65.825045] kernel: DMAR: dmar0: reg_base_addr fed90000 ver 4:0 cap 1c0000c40660462 ecap 49e2ff0505e
+[   65.825061] kernel: DMAR: DRHD base: 0x000000fed91000 flags: 0x1
+[   65.825076] kernel: DMAR: dmar1: reg_base_addr fed91000 ver 1:0 cap d2008c40660462 ecap f050da
+[   65.825092] kernel: DMAR: RMRR base: 0x00000091000000 end: 0x000000953fffff
+[   65.825106] kernel: DMAR-IR: IOAPIC id 2 under DRHD base  0xfed91000 IOMMU 1
+[   65.825119] kernel: DMAR-IR: HPET id 0 under DRHD base 0xfed91000
+[   65.825138] kernel: DMAR-IR: x2apic is disabled because BIOS sets x2apic opt out bit.
+[   65.825153] kernel: DMAR-IR: Use 'intremap=no_x2apic_optout' to override the BIOS setting.
+[   65.825167] kernel: DMAR-IR: Enabled IRQ remapping in xapic mode
+[   65.825182] kernel: x2apic: IRQ remapping doesn't support X2APIC mode
+[   65.825200] kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x159647815e3, max_idle_ns: 440795269835 ns
+[   65.825217] kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 2995.20 BogoMIPS (lpj=1497600)
+[   65.825233] kernel: x86/cpu: SGX disabled or unsupported by BIOS.
+[   65.825255] kernel: CPU0: Thermal monitoring enabled (TM1)
+[   65.825269] kernel: x86/cpu: User Mode Instruction Prevention (UMIP) activated
+[   65.825284] kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+[   65.825299] kernel: Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+[   65.825321] kernel: process: using mwait in idle threads
+[   65.825341] kernel: mitigations: Enabled attack vectors: user_kernel, user_user, guest_host, guest_guest, SMT mitigations: auto
+[   65.825356] kernel: Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+[   65.825378] kernel: SRBDS: Mitigation: Microcode
+[   65.825394] kernel: Spectre V2 : Mitigation: Enhanced / Automatic IBRS
+[   65.825408] kernel: RETBleed: Mitigation: Enhanced IBRS
+[   65.825425] kernel: ITS: Mitigation: Aligned branch/return thunks
+[   65.825443] kernel: MMIO Stale Data: Mitigation: Clear CPU buffers
+[   65.825459] kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[   65.825471] kernel: Spectre V2 : Spectre v2 / PBRSB-eIBRS: Retire a single CALL on VMEXIT
+[   65.825485] kernel: Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[   65.825502] kernel: GDS: Vulnerable
+[   65.825518] kernel: active return thunk: its_return_thunk
+[   65.825533] kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on syscall and VM exit
+[   65.825551] kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[   65.825568] kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[   65.825583] kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[   65.825612] kernel: x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+[   65.825638] kernel: x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+[   65.825662] kernel: x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+[   65.825678] kernel: x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+[   65.825694] kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[   65.825709] kernel: x86/fpu: xstate_offset[5]:  832, xstate_sizes[5]:   64
+[   65.825726] kernel: x86/fpu: xstate_offset[6]:  896, xstate_sizes[6]:  512
+[   65.825748] kernel: x86/fpu: xstate_offset[7]: 1408, xstate_sizes[7]: 1024
+[   65.825764] kernel: x86/fpu: xstate_offset[9]: 2432, xstate_sizes[9]:    8
+[   65.825781] kernel: x86/fpu: Enabled xstate features 0x2e7, context size is 2440 bytes, using 'compacted' format.
+[   65.825797] kernel: Freeing SMP alternatives memory: 56K
+[   65.825811] kernel: pid_max: default: 32768 minimum: 301
+[   65.825825] kernel: landlock: Up and running.
+[   65.825839] kernel: Yama: becoming mindful.
+[   65.825853] kernel: AppArmor: AppArmor initialized
+[   65.825866] kernel: AppArmor: AppArmor secmark mediation reserved: ready to be enabled
+[   65.825882] kernel: Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[   65.825896] kernel: Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[   65.825909] kernel: VFS: Finished mounting rootfs on nullfs
+[   65.825924] kernel: smpboot: CPU0: Intel(R) Core(TM) i5-1035G4 CPU @ 1.10GHz (family: 0x6, model: 0x7e, stepping: 0x5)
+[   65.825939] kernel: Performance Events: PEBS fmt4+-baseline,  AnyThread deprecated, Icelake events, 32-deep LBR, full-width counters, Intel PMU driver.
+[   65.825953] kernel: ... version:                   5
+[   65.825965] kernel: ... bit width:                 48
+[   65.825977] kernel: ... generic counters:          8
+[   65.825989] kernel: ... generic bitmap:            00000000000000ff
+[   65.826015] kernel: ... fixed-purpose counters:    4
+[   65.826031] kernel: ... fixed-purpose bitmap:      000000000000000f
+[   65.826044] kernel: ... value mask:                0000ffffffffffff
+[   65.826058] kernel: ... max period:                00007fffffffffff
+[   65.826073] kernel: ... global_ctrl mask:          0001000f000000ff
+[   65.826086] kernel: signal: max sigframe size: 3632
+[   65.826101] kernel: Estimated ratio of average max frequency by base frequency (times 1024): 2252
+[   65.826114] kernel: rcu: Hierarchical SRCU implementation.
+[   65.826129] kernel: rcu:         Max phase no-delay instances is 400.
+[   65.826143] kernel: Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+[   65.826165] kernel: NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[   65.826184] kernel: smp: Bringing up secondary CPUs ...
+[   65.826204] kernel: smpboot: x86: Booting SMP configuration:
+[   65.826224] kernel: .... node  #0, CPUs:      #1 #2 #3 #4 #5 #6 #7
+[   65.826240] kernel: MMIO Stale Data CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/processor_mmio_stale_data.html for more details.
+[   65.826256] kernel: smp: Brought up 1 node, 8 CPUs
+[   65.826271] kernel: smpboot: Total of 8 processors activated (23961.60 BogoMIPS)
+[   65.826292] kernel: Memory: 6238856K/7997544K available (23771K kernel code, 4949K rwdata, 16748K rodata, 5292K init, 5860K bss, 1733608K reserved, 0K cma-reserved)
+[   65.826309] kernel: devtmpfs: initialized
+[   65.826325] kernel: x86/mm: Memory block size: 128MB
+[   65.826340] kernel: ACPI: PM: Registering ACPI NVS region [mem 0x7bcaf000-0x7bcaffff] (4096 bytes)
+[   65.826356] kernel: ACPI: PM: Registering ACPI NVS region [mem 0x7db8a000-0x7dbb3fff] (172032 bytes)
+[   65.826369] kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[   65.826384] kernel: posixtimers hash table entries: 4096 (order: 4, 65536 bytes, linear)
+[   65.826402] kernel: futex hash table entries: 2048 (131072 bytes on 1 NUMA nodes, total 128 KiB, linear).
+[   65.826417] kernel: PM: RTC time: 20:26:47, date: 2026-05-17
+[   65.826431] kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[   65.826446] kernel: DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations
+[   65.826465] kernel: DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[   65.826481] kernel: DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[   65.826503] kernel: audit: initializing netlink subsys (disabled)
+[   65.826522] kernel: audit: type=2000 audit(1779049607.022:1): state=initialized audit_enabled=0 res=1
+[   65.826542] kernel: thermal_sys: Registered thermal governor 'fair_share'
+[   65.826559] kernel: thermal_sys: Registered thermal governor 'bang_bang'
+[   65.826573] kernel: thermal_sys: Registered thermal governor 'step_wise'
+[   65.826598] kernel: thermal_sys: Registered thermal governor 'user_space'
+[   65.826614] kernel: thermal_sys: Registered thermal governor 'power_allocator'
+[   65.826631] kernel: cpuidle: using governor ladder
+[   65.826647] kernel: cpuidle: using governor menu
+[   65.826662] kernel: efi: Freeing EFI boot services memory: 81192K
+[   65.826678] kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[   65.826697] kernel: PCI: ECAM [mem 0xe0000000-0xefffffff] (base 0xe0000000) for domain 0000 [bus 00-ff]
+[   65.826712] kernel: PCI: Using configuration type 1 for base access
+[   65.826727] kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[   65.826742] kernel: HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[   65.826759] kernel: HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+[   65.826772] kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[   65.826785] kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+[   65.826799] kernel: fbcon: Taking over console
+[   65.826819] kernel: ACPI: Added _OSI(Module Device)
+[   65.826836] kernel: ACPI: Added _OSI(Processor Device)
+[   65.826850] kernel: ACPI: Added _OSI(Processor Aggregator Device)
+[   65.826864] kernel: ACPI: 8 ACPI AML tables successfully acquired and loaded
+[   65.826880] kernel: ACPI: \_SB_: platform _OSC: OS support mask [006e7eff]
+[   65.826895] kernel: ACPI: \_SB_: platform _OSC: OS control mask [006e7eff]
+[   65.826911] kernel: ACPI: Dynamic OEM Table Load:
+[   65.826927] kernel: ACPI: SSDT 0xFFFF8D67C1FCCC00 000394 (v02 PmRef  Cpu0Cst  00003001 INTL 20181003)
+[   65.826943] kernel: ACPI: Dynamic OEM Table Load:
+[   65.826958] kernel: ACPI: SSDT 0xFFFF8D67C17AC800 000437 (v02 PmRef  Cpu0Ist  00003000 INTL 20181003)
+[   65.826972] kernel: ACPI: Dynamic OEM Table Load:
+[   65.826986] kernel: ACPI: SSDT 0xFFFF8D67C1CD9B00 0000F4 (v02 PmRef  Cpu0Psd  00003000 INTL 20181003)
+[   65.826998] kernel: ACPI: Dynamic OEM Table Load:
+[   65.827020] kernel: ACPI: SSDT 0xFFFF8D67C17E3400 00012C (v02 PmRef  Cpu0Hwp  00003000 INTL 20181003)
+[   65.827042] kernel: ACPI: Dynamic OEM Table Load:
+[   65.827065] kernel: ACPI: SSDT 0xFFFF8D67C17A9800 000724 (v02 PmRef  HwpLvt   00003000 INTL 20181003)
+[   65.827082] kernel: ACPI: Dynamic OEM Table Load:
+[   65.827101] kernel: ACPI: SSDT 0xFFFF8D67C17AA000 0005FC (v02 PmRef  ApIst    00003000 INTL 20181003)
+[   65.827116] kernel: ACPI: Dynamic OEM Table Load:
+[   65.827130] kernel: ACPI: SSDT 0xFFFF8D67C1FC9400 000317 (v02 PmRef  ApHwp    00003000 INTL 20181003)
+[   65.827147] kernel: ACPI: Dynamic OEM Table Load:
+[   65.827162] kernel: ACPI: SSDT 0xFFFF8D67C1FD1000 000AB0 (v02 PmRef  ApPsd    00003000 INTL 20181003)
+[   65.827181] kernel: ACPI: Dynamic OEM Table Load:
+[   65.827196] kernel: ACPI: SSDT 0xFFFF8D67C1FC8C00 00030A (v02 PmRef  ApCst    00003000 INTL 20181003)
+[   65.827210] kernel: ACPI: Interpreter enabled
+[   65.827225] kernel: ACPI: PM: (supports S0 S4 S5)
+[   65.827239] kernel: ACPI: Using IOAPIC for interrupt routing
+[   65.827255] kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[   65.827269] kernel: PCI: Ignoring E820 reservations for host bridge windows
+[   65.827288] kernel: ACPI: Enabled 8 GPEs in block 00 to 7F
+[   65.827309] kernel: ACPI: \_SB_.PCI0.SAT0.VOL0.V0PR: New power resource
+[   65.827324] kernel: ACPI: \_SB_.PCI0.SAT0.VOL1.V1PR: New power resource
+[   65.827358] kernel: ACPI: \_SB_.PCI0.SAT0.VOL2.V2PR: New power resource
+[   65.827380] kernel: ACPI: \_SB_.PCI0.CNVW.WRST: New power resource
+[   65.827400] kernel: ACPI: \_SB_.PCI0.TBT0: New power resource
+[   65.827417] kernel: ACPI: \_SB_.PCI0.TBT1: New power resource
+[   65.827432] kernel: ACPI: \_SB_.PCI0.D3C_: New power resource
+[   65.827450] kernel: ACPI: \PIN_: New power resource
+[   65.827464] kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+[   65.827859] kernel: acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[   65.828144] kernel: acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[   65.828164] kernel: PCI host bridge to bus 0000:00
+[   65.828398] kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[   65.828605] kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[   65.828808] kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000fffff window]
+[   65.829021] kernel: pci_bus 0000:00: root bus resource [mem 0x95400000-0xdfffffff window]
+[   65.829234] kernel: pci_bus 0000:00: root bus resource [mem 0x4000000000-0x7fffffffff window]
+[   65.829429] kernel: pci_bus 0000:00: root bus resource [bus 00-fe]
+[   65.829703] kernel: pci 0000:00:00.0: [8086:8a12] type 00 class 0x060000 conventional PCI endpoint
+[   65.829977] kernel: pci 0000:00:02.0: [8086:8a5a] type 00 class 0x030000 PCIe Root Complex Integrated Endpoint
+[   65.830246] kernel: pci 0000:00:02.0: BAR 0 [mem 0x6000000000-0x6000ffffff 64bit]
+[   65.830537] kernel: pci 0000:00:02.0: BAR 2 [mem 0x4000000000-0x400fffffff 64bit pref]
+[   65.830801] kernel: pci 0000:00:02.0: BAR 4 [io  0x3000-0x303f]
+[   65.831070] kernel: pci 0000:00:02.0: DMAR: Skip IOMMU disabling for graphics
+[   65.831343] kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[   65.831597] kernel: pci 0000:00:04.0: [8086:8a03] type 00 class 0x118000 conventional PCI endpoint
+[   65.831883] kernel: pci 0000:00:04.0: BAR 0 [mem 0x6001020000-0x600102ffff 64bit]
+[   65.832157] kernel: pci 0000:00:0d.0: [8086:8a13] type 00 class 0x0c0330 conventional PCI endpoint
+[   65.832413] kernel: pci 0000:00:0d.0: BAR 0 [mem 0x6001010000-0x600101ffff 64bit]
+[   65.832669] kernel: pci 0000:00:0d.0: PME# supported from D3hot D3cold
+[   65.832936] kernel: pci 0000:00:12.0: [8086:34fc] type 00 class 0x070000 conventional PCI endpoint
+[   65.833214] kernel: pci 0000:00:12.0: BAR 0 [mem 0x6001036000-0x6001037fff 64bit]
+[   65.833462] kernel: pci 0000:00:12.0: PME# supported from D0 D3hot
+[   65.833717] kernel: pci 0000:00:14.0: [8086:34ed] type 00 class 0x0c0330 conventional PCI endpoint
+[   65.833986] kernel: pci 0000:00:14.0: BAR 0 [mem 0x6001000000-0x600100ffff 64bit]
+[   65.834267] kernel: pci 0000:00:14.0: PME# supported from D3hot D3cold
+[   65.834515] kernel: pci 0000:00:14.2: [8086:34ef] type 00 class 0x050000 conventional PCI endpoint
+[   65.834777] kernel: pci 0000:00:14.2: BAR 0 [mem 0x6001034000-0x6001035fff 64bit]
+[   65.835049] kernel: pci 0000:00:14.2: BAR 2 [mem 0x600103d000-0x600103dfff 64bit]
+[   65.835312] kernel: pci 0000:00:14.3: [8086:34f0] type 00 class 0x028000 PCIe Root Complex Integrated Endpoint
+[   65.835558] kernel: pci 0000:00:14.3: BAR 0 [mem 0x6001030000-0x6001033fff 64bit]
+[   65.835794] kernel: pci 0000:00:14.3: PME# supported from D0 D3hot D3cold
+[   65.836071] kernel: pci 0000:00:15.0: [8086:34e8] type 00 class 0x0c8000 conventional PCI endpoint
+[   65.836361] kernel: pci 0000:00:15.0: BAR 0 [mem 0x00000000-0x00000fff 64bit]
+[   65.836608] kernel: pci 0000:00:16.0: [8086:34e0] type 00 class 0x078000 conventional PCI endpoint
+[   65.836850] kernel: pci 0000:00:16.0: BAR 0 [mem 0x600103b000-0x600103bfff 64bit]
+[   65.837165] kernel: pci 0000:00:16.0: PME# supported from D3hot
+[   65.837412] kernel: pci 0000:00:16.4: [8086:34e4] type 00 class 0x078000 conventional PCI endpoint
+[   65.837677] kernel: pci 0000:00:16.4: BAR 0 [mem 0x600103a000-0x600103afff 64bit]
+[   65.837913] kernel: pci 0000:00:16.4: PME# supported from D3hot
+[   65.838184] kernel: pci 0000:00:19.0: [8086:34c5] type 00 class 0x0c8000 conventional PCI endpoint
+[   65.838446] kernel: pci 0000:00:19.0: BAR 0 [mem 0x00000000-0x00000fff 64bit]
+[   65.838691] kernel: pci 0000:00:1d.0: [8086:34b0] type 01 class 0x060400 PCIe Root Port
+[   65.838949] kernel: pci 0000:00:1d.0: PCI bridge to [bus 01]
+[   65.839202] kernel: pci 0000:00:1d.0:   bridge window [mem 0x95400000-0x954fffff]
+[   65.839446] kernel: pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+[   65.839693] kernel: pci 0000:00:1d.0: PTM enabled (root), 4ns granularity
+[   65.839944] kernel: pci 0000:00:1e.0: [8086:34a8] type 00 class 0x078000 conventional PCI endpoint
+[   65.840218] kernel: pci 0000:00:1e.0: BAR 0 [mem 0x00000000-0x00000fff 64bit]
+[   65.840477] kernel: pci 0000:00:1f.0: [8086:3482] type 00 class 0x060100 conventional PCI endpoint
+[   65.840735] kernel: pci 0000:00:1f.5: [8086:34a4] type 00 class 0x0c8000 conventional PCI endpoint
+[   65.840983] kernel: pci 0000:00:1f.5: BAR 0 [mem 0xfe010000-0xfe010fff]
+[   65.841250] kernel: pci 0000:01:00.0: [1e0f:0001] type 00 class 0x010802 PCIe Endpoint
+[   65.841511] kernel: pci 0000:01:00.0: BAR 0 [mem 0x95400000-0x95403fff 64bit]
+[   65.841776] kernel: pci 0000:01:00.0: PME# supported from D0 D3hot
+[   65.842034] kernel: pci 0000:00:1d.0: PCI bridge to [bus 01]
+[   65.842059] kernel: Low-power S0 idle used by default for system suspend
+[   65.842074] kernel: iommu: Default domain type: Translated
+[   65.842088] kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+[   65.842103] kernel: SCSI subsystem initialized
+[   65.842125] kernel: libata version 3.00 loaded.
+[   65.842141] kernel: ACPI: bus type USB registered
+[   65.842155] kernel: usbcore: registered new interface driver usbfs
+[   65.842169] kernel: usbcore: registered new interface driver hub
+[   65.842181] kernel: usbcore: registered new device driver usb
+[   65.842194] kernel: pps_core: LinuxPPS API ver. 1 registered
+[   65.842207] kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[   65.842226] kernel: PTP clock support registered
+[   65.842240] kernel: EDAC MC: Ver: 3.0.0
+[   65.842252] kernel: efivars: Registered efivars operations
+[   65.842266] kernel: NetLabel: Initializing
+[   65.842280] kernel: NetLabel:  domain hash size = 128
+[   65.842296] kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[   65.842310] kernel: NetLabel:  unlabeled traffic allowed by default
+[   65.842323] kernel: mctp: management component transport protocol core
+[   65.842342] kernel: NET: Registered PF_MCTP protocol family
+[   65.842357] kernel: PCI: Using ACPI for IRQ routing
+[   65.842371] kernel: PCI: pci_cache_line_size set to 64 bytes
+[   65.842634] kernel: pci 0000:00:1f.5: BAR 0 [mem 0xfe010000-0xfe010fff]: can't claim; no compatible bridge window
+[   65.842662] kernel: e820: register RAM buffer resource [mem 0x78efc000-0x7bffffff]
+[   65.842679] kernel: e820: register RAM buffer resource [mem 0x79663000-0x7bffffff]
+[   65.842693] kernel: e820: register RAM buffer resource [mem 0x7ad6d000-0x7bffffff]
+[   65.842712] kernel: e820: register RAM buffer resource [mem 0x7bcaf000-0x7bffffff]
+[   65.842725] kernel: e820: register RAM buffer resource [mem 0x7bcb1000-0x7bffffff]
+[   65.842740] kernel: e820: register RAM buffer resource [mem 0x7d66e000-0x7fffffff]
+[   65.842752] kernel: e820: register RAM buffer resource [mem 0x7da88000-0x7fffffff]
+[   65.842765] kernel: e820: register RAM buffer resource [mem 0x7dc00000-0x7fffffff]
+[   65.842780] kernel: e820: register RAM buffer resource [mem 0x26ac00000-0x26bffffff]
+[   65.843040] kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+[   65.843315] kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+[   65.843585] kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[   65.843609] kernel: vgaarb: loaded
+[   65.843624] kernel: Monitor-Mwait will be used to enter C-1 state
+[   65.843639] kernel: Monitor-Mwait will be used to enter C-2 state
+[   65.843652] kernel: Monitor-Mwait will be used to enter C-3 state
+[   65.843666] kernel: clocksource: Switched to clocksource tsc-early
+[   65.843679] kernel: VFS: Disk quotas dquot_6.6.0
+[   65.843693] kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[   65.843711] kernel: AppArmor: AppArmor Filesystem Enabled
+[   65.843982] kernel: acpi PNP0C02:00: Skipped [io  0x002e-0x002f]
+[   65.844258] kernel: acpi PNP0C02:00: Skipped [io  0x004e-0x004f]
+[   65.844526] kernel: acpi PNP0C02:00: Skipped [io  0x0061]
+[   65.844772] kernel: acpi PNP0C02:00: Skipped [io  0x0063]
+[   65.845023] kernel: acpi PNP0C02:00: Skipped [io  0x0065]
+[   65.845288] kernel: acpi PNP0C02:00: Skipped [io  0x0067]
+[   65.845550] kernel: acpi PNP0C02:00: Skipped [io  0x0070]
+[   65.845814] kernel: acpi PNP0C02:00: Skipped [io  0x0080]
+[   65.846064] kernel: acpi PNP0C02:00: Skipped [io  0x0092]
+[   65.846301] kernel: acpi PNP0C02:00: Skipped [io  0x00b2-0x00b3]
+[   65.846570] kernel: acpi PNP0C02:00: Reserved [io  0x0680-0x069f]
+[   65.846835] kernel: acpi PNP0C02:00: Reserved [io  0x164e-0x164f]
+[   65.847093] kernel: acpi PNP0C02:01: Reserved [mem 0xfed10000-0xfed17fff]
+[   65.847336] kernel: acpi PNP0C02:01: Reserved [mem 0xfeda0000-0xfeda0fff]
+[   65.847590] kernel: acpi PNP0C02:01: Reserved [mem 0xfeda1000-0xfeda1fff]
+[   65.847831] kernel: acpi PNP0C02:01: Reserved [mem 0xe0000000-0xefffffff]
+[   65.848075] kernel: acpi PNP0C02:01: Could not reserve [mem 0xfed20000-0xfed7ffff]
+[   65.848323] kernel: acpi PNP0C02:01: Could not reserve [mem 0xfed90000-0xfed93fff]
+[   65.848573] kernel: acpi PNP0C02:01: Reserved [mem 0xfee00000-0xfeefffff]
+[   65.848812] kernel: acpi PNP0C02:02: Reserved [mem 0xfd000000-0xfd68ffff]
+[   65.849048] kernel: acpi PNP0C02:02: Reserved [mem 0xfd6b0000-0xfd6cffff]
+[   65.849277] kernel: acpi PNP0C02:02: Reserved [mem 0xfd6f0000-0xfdffffff]
+[   65.849508] kernel: acpi PNP0C02:02: Could not reserve [mem 0xfe000000-0xfe01ffff]
+[   65.849761] kernel: acpi PNP0C02:02: Reserved [mem 0xfe200000-0xfe7fffff]
+[   65.849995] kernel: acpi PNP0C02:02: Reserved [mem 0xff000000-0xffffffff]
+[   65.850230] kernel: acpi PNP0C02:02: Could not reserve [io  0x1800-0x18fe]
+[   65.850477] kernel: acpi PNP0C02:03: Reserved [io  0x2000-0x20fe]
+[   65.850720] kernel: acpi PNP0C02:04: Reserved [mem 0xfe038000-0xfe038fff]
+[   65.850750] kernel: pnp: PnP ACPI init
+[   65.850765] kernel: pnp: PnP ACPI: found 1 devices
+[   65.850779] kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[   65.850793] kernel: NET: Registered PF_INET protocol family
+[   65.850808] kernel: IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[   65.850822] kernel: tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)
+[   65.850837] kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[   65.850855] kernel: TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[   65.850869] kernel: TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[   65.850883] kernel: TCP: Hash tables configured (established 65536 bind 65536)
+[   65.850897] kernel: MPTCP token hash table entries: 8192 (order: 6, 196608 bytes, linear)
+[   65.850910] kernel: UDP hash table entries: 4096 (order: 6, 262144 bytes, linear)
+[   65.850923] kernel: UDP-Lite hash table entries: 4096 (order: 6, 262144 bytes, linear)
+[   65.850936] kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+[   65.850955] kernel: NET: Registered PF_XDP protocol family
+[   65.851217] kernel: pci 0000:00:15.0: BAR 0 [mem 0x4010000000-0x4010000fff 64bit]: assigned
+[   65.851464] kernel: pci 0000:00:19.0: BAR 0 [mem 0x4010001000-0x4010001fff 64bit]: assigned
+[   65.851717] kernel: pci 0000:00:1e.0: BAR 0 [mem 0x4010002000-0x4010002fff 64bit]: assigned
+[   65.851971] kernel: pci 0000:00:1f.5: BAR 0 [mem 0x95500000-0x95500fff]: assigned
+[   65.852260] kernel: pci 0000:00:1d.0: PCI bridge to [bus 01]
+[   65.852523] kernel: pci 0000:00:1d.0:   bridge window [mem 0x95400000-0x954fffff]
+[   65.852738] kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[   65.852939] kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[   65.853158] kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000fffff window]
+[   65.853372] kernel: pci_bus 0000:00: resource 7 [mem 0x95400000-0xdfffffff window]
+[   65.853583] kernel: pci_bus 0000:00: resource 8 [mem 0x4000000000-0x7fffffffff window]
+[   65.853802] kernel: pci_bus 0000:01: resource 1 [mem 0x95400000-0x954fffff]
+[   65.853823] kernel: PCI: CLS 0 bytes, default 64
+[   65.853840] kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[   65.853852] kernel: software IO TLB: mapped [mem 0x00000000734c0000-0x00000000774c0000] (64MB)
+[   65.853866] kernel: Trying to unpack rootfs image as initramfs...
+[   65.853879] kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x159647815e3, max_idle_ns: 440795269835 ns
+[   65.853894] kernel: clocksource: Switched to clocksource tsc
+[   65.853906] kernel: Initialise system trusted keyrings
+[   65.853920] kernel: Key type blacklist registered
+[   65.853939] kernel: workingset: timestamp_bits=36 max_order=21 bucket_order=0
+[   65.853955] kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[   65.853970] kernel: fuse: init (API version 7.45)
+[   65.853984] kernel: integrity: Platform Keyring initialized
+[   65.853998] kernel: integrity: Machine keyring initialized
+[   65.854020] kernel: Key type asymmetric registered
+[   65.854039] kernel: Asymmetric key parser 'x509' registered
+[   65.854058] kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+[   65.854071] kernel: io scheduler mq-deadline registered
+[   65.854086] kernel: ledtrig-cpu: registered to indicate activity on CPUs
+[   65.854378] kernel: pcieport 0000:00:1d.0: PME: Signaling with IRQ 120
+[   65.854407] kernel: input: Lid Switch as /devices/platform/PNP0C0D:00/input/input0
+[   65.854425] kernel: ACPI: button: Lid Switch [LID0]
+[   65.854440] kernel: ACPI: thermal: [Firmware Bug]: No valid trip points!
+[   65.854711] kernel: acpi LNXTHERM:00: registered as thermal_zone0
+[   65.854734] kernel: ACPI: thermal: Thermal Zone [TZ01] (27 C)
+[   65.854750] kernel: ACPI: thermal: [Firmware Bug]: No valid trip points!
+[   65.854993] kernel: acpi LNXTHERM:01: registered as thermal_zone1
+[   65.855024] kernel: ACPI: thermal: Thermal Zone [TZ02] (27 C)
+[   65.855039] kernel: ACPI: thermal: [Firmware Bug]: No valid trip points!
+[   65.855280] kernel: acpi LNXTHERM:02: registered as thermal_zone2
+[   65.855308] kernel: ACPI: thermal: Thermal Zone [TZ03] (27 C)
+[   65.855323] kernel: ACPI: thermal: [Firmware Bug]: No valid trip points!
+[   65.855565] kernel: acpi LNXTHERM:03: registered as thermal_zone3
+[   65.855586] kernel: ACPI: thermal: Thermal Zone [TZ04] (27 C)
+[   65.855600] kernel: ACPI: thermal: [Firmware Bug]: No valid trip points!
+[   65.855843] kernel: acpi LNXTHERM:04: registered as thermal_zone4
+[   65.855870] kernel: ACPI: thermal: Thermal Zone [TZ05] (27 C)
+[   65.855887] kernel: ACPI: thermal: [Firmware Bug]: No valid trip points!
+[   65.856143] kernel: acpi LNXTHERM:05: registered as thermal_zone5
+[   65.856166] kernel: ACPI: thermal: Thermal Zone [TZ06] (27 C)
+[   65.856181] kernel: ACPI: thermal: [Firmware Bug]: No valid trip points!
+[   65.856417] kernel: acpi LNXTHERM:06: registered as thermal_zone6
+[   65.856445] kernel: ACPI: thermal: Thermal Zone [TZ07] (27 C)
+[   65.856460] kernel: ACPI: thermal: [Firmware Bug]: No valid trip points!
+[   65.856698] kernel: acpi LNXTHERM:07: registered as thermal_zone7
+[   65.856720] kernel: ACPI: thermal: Thermal Zone [TZ08] (27 C)
+[   65.856734] kernel: ACPI: thermal: [Firmware Bug]: No valid trip points!
+[   65.856983] kernel: acpi LNXTHERM:08: registered as thermal_zone8
+[   65.857016] kernel: ACPI: thermal: Thermal Zone [TZ09] (27 C)
+[   65.857038] kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[   65.857296] kernel: serial 0000:00:12.0: enabling device (0000 -> 0002)
+[   65.857318] kernel: hpet_acpi_add: no address or irqs in _CRS
+[   65.857334] kernel: Linux agpgart interface v0.103
+[   65.857348] kernel: loop: module loaded
+[   65.857363] kernel: ACPI: bus type drm_connector registered
+[   65.857377] kernel: tun: Universal TUN/TAP device driver, 1.6
+[   65.857396] kernel: PPP generic driver version 2.4.2
+[   65.857649] kernel: xhci_hcd 0000:00:0d.0: xHCI Host Controller
+[   65.857902] kernel: xhci_hcd 0000:00:0d.0: new USB bus registered, assigned bus number 1
+[   65.858163] kernel: xhci_hcd 0000:00:0d.0: hcc params 0x20007fc1 hci version 0x110 quirks 0x0000000200009810
+[   65.858416] kernel: xhci_hcd 0000:00:0d.0: xHCI Host Controller
+[   65.858655] kernel: xhci_hcd 0000:00:0d.0: new USB bus registered, assigned bus number 2
+[   65.858896] kernel: xhci_hcd 0000:00:0d.0: Host supports USB 3.1 Enhanced SuperSpeed
+[   65.859195] kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 7.00
+[   65.859472] kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[   65.859746] kernel: usb usb1: Product: xHCI Host Controller
+[   65.860045] kernel: usb usb1: Manufacturer: Linux 7.0.0-14-generic xhci-hcd
+[   65.860310] kernel: usb usb1: SerialNumber: 0000:00:0d.0
+[   65.860624] kernel: hub 1-0:1.0: USB hub found
+[   65.860894] kernel: hub 1-0:1.0: 1 port detected
+[   65.861179] kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 7.00
+[   65.861447] kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[   65.861701] kernel: usb usb2: Product: xHCI Host Controller
+[   65.861962] kernel: usb usb2: Manufacturer: Linux 7.0.0-14-generic xhci-hcd
+[   65.862216] kernel: usb usb2: SerialNumber: 0000:00:0d.0
+[   65.862491] kernel: hub 2-0:1.0: USB hub found
+[   65.862767] kernel: hub 2-0:1.0: 4 ports detected
+[   65.863033] kernel: xhci_hcd 0000:00:14.0: xHCI Host Controller
+[   65.863284] kernel: xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 3
+[   65.863529] kernel: xhci_hcd 0000:00:14.0: hcc params 0x20007fc1 hci version 0x110 quirks 0x0000000000009810
+[   65.863771] kernel: xhci_hcd 0000:00:14.0: xHCI Host Controller
+[   65.864011] kernel: xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 4
+[   65.864255] kernel: xhci_hcd 0000:00:14.0: Host supports USB 3.1 Enhanced SuperSpeed
+[   65.864528] kernel: usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 7.00
+[   65.864792] kernel: usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[   65.865067] kernel: usb usb3: Product: xHCI Host Controller
+[   65.865321] kernel: usb usb3: Manufacturer: Linux 7.0.0-14-generic xhci-hcd
+[   65.865579] kernel: usb usb3: SerialNumber: 0000:00:14.0
+[   65.865869] kernel: hub 3-0:1.0: USB hub found
+[   65.866150] kernel: hub 3-0:1.0: 12 ports detected
+[   65.866431] kernel: usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 7.00
+[   65.866691] kernel: usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[   65.866948] kernel: usb usb4: Product: xHCI Host Controller
+[   65.867316] kernel: usb usb4: Manufacturer: Linux 7.0.0-14-generic xhci-hcd
+[   65.867636] kernel: usb usb4: SerialNumber: 0000:00:14.0
+[   65.867968] kernel: hub 4-0:1.0: USB hub found
+[   65.868320] kernel: hub 4-0:1.0: 6 ports detected
+[   65.868381] kernel: i8042: PNP: No PS/2 controller found.
+[   65.868432] kernel: mousedev: PS/2 mouse device common for all mice
+[   65.868635] kernel: rtc_cmos 00:00: RTC can wake from S4
+[   65.868825] kernel: rtc_cmos 00:00: registered as rtc0
+[   65.869016] kernel: rtc_cmos 00:00: setting system clock to 2026-05-17T20:26:48 UTC (1779049608)
+[   65.869293] kernel: rtc_cmos 00:00: alarms up to one month, y3k, 242 bytes nvram
+[   65.869311] kernel: i2c_dev: i2c /dev entries driver
+[   65.869326] kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+[   65.869338] kernel: device-mapper: uevent: version 1.0.3
+[   65.869351] kernel: device-mapper: ioctl: 4.50.0-ioctl (2025-04-28) initialised: dm-devel@lists.linux.dev
+[   65.869362] kernel: intel_pstate: Intel P-state driver initializing
+[   65.869375] kernel: intel_pstate: HWP enabled
+[   65.869599] kernel: simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+[   65.869619] kernel: [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+[   65.869634] kernel: Console: switching to colour frame buffer device 171x57
+[   65.869842] kernel: simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+[   65.869863] kernel: drop_monitor: Initializing network drop monitor service
+[   65.869878] kernel: NET: Registered PF_INET6 protocol family
+[   65.869896] kernel: Segment Routing with IPv6
+[   65.869909] kernel: In-situ OAM (IOAM) with IPv6
+[   65.869922] kernel: NET: Registered PF_PACKET protocol family
+[   65.869935] kernel: Key type dns_resolver registered
+[   65.869947] kernel: ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+[   65.869960] kernel: microcode: Current revision: 0x000000cc
+[   65.869974] kernel: microcode: Updated early from: 0x000000c6
+[   65.869989] kernel: IPI shorthand broadcast: enabled
+[   65.870005] kernel: sched_clock: Marking stable (621001636, 8040552)->(716226771, -87184583)
+[   65.870054] kernel: registered taskstats version 1
+[   65.870068] kernel: Loading compiled-in X.509 certificates
+[   65.870082] kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 9f2447cfa7c28d59d120e61c9760dd35ebc0ec03'
+[   65.870096] kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing 2025 Kmod: d541cef61dc7e793b7eb7e899970a2eef0b5dc8c'
+[   65.870144] kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+[   65.870160] kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing 2025 Kmod: 4627603d2357a2a3f81006370894c221175893e9'
+[   65.870173] kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+[   65.870185] kernel: blacklist: Loading compiled-in revocation X.509 certificates
+[   65.870198] kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+[   65.870212] kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+[   65.870224] kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+[   65.870236] kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+[   65.870254] kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+[   65.870267] kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+[   65.870280] kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+[   65.870293] kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+[   65.870307] kernel: Demotion targets for Node 0: null
+[   65.870318] kernel: Key type .fscrypt registered
+[   65.870336] kernel: Key type fscrypt-provisioning registered
+[   65.870349] kernel: Key type big_key registered
+[   65.870363] kernel: Key type trusted registered
+[   65.870375] kernel: Freeing initrd memory: 93280K
+[   65.870387] kernel: Key type encrypted registered
+[   65.870401] kernel: AppArmor: AppArmor sha256 policy hashing enabled
+[   65.870414] kernel: Loading compiled-in module X.509 certificates
+[   65.870427] kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 9f2447cfa7c28d59d120e61c9760dd35ebc0ec03'
+[   65.870442] kernel: ima: Allocated hash algorithm: sha256
+[   65.870456] kernel: evm: Initialising EVM extended attributes:
+[   65.870470] kernel: audit: type=1807 audit(1779049608.648:2): action=measure func=KEXEC_KERNEL_CHECK res=1
+[   65.870482] kernel: evm: security.selinux
+[   65.870494] kernel: audit: type=1807 audit(1779049608.648:3): action=measure func=MODULE_CHECK res=1
+[   65.870506] kernel: evm: security.SMACK64
+[   65.870519] kernel: evm: security.SMACK64EXEC
+[   65.870535] kernel: evm: security.SMACK64TRANSMUTE
+[   65.870548] kernel: evm: security.SMACK64MMAP
+[   65.870562] kernel: evm: security.apparmor
+[   65.870574] kernel: evm: security.ima
+[   65.870586] kernel: evm: security.capability
+[   65.870598] kernel: evm: HMAC attrs: 0x1
+[   65.870611] kernel: integrity: Revoking X.509 certificate: UEFI:dbx
+[   65.870632] kernel: blacklist: Revoked X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+[   65.870646] kernel: integrity: Revoking X.509 certificate: UEFI:dbx
+[   65.870660] kernel: blacklist: Revoked X.509 cert 'Debian Secure Boot Signer: 00a7468def'
+[   65.870673] kernel: blacklist: Duplicate blacklisted hash bin:47ff1b63b140b6fc04ed79131331e651da5b2e2f170f5daef4153dc2fbc532b1
+[   65.870686] kernel: blacklist: Duplicate blacklisted hash bin:992d359aa7a5f789d268b94c11b9485a6b1ce64362b0edb4441ccc187c39647b
+[   65.870698] kernel: blacklist: Duplicate blacklisted hash bin:c452ab846073df5ace25cca64d6b7a09d906308a1a65eb5240e3c4ebcaa9cc0c
+[   65.870714] kernel: blacklist: Duplicate blacklisted hash bin:e051b788ecbaeda53046c70e6af6058f95222c046157b8c4c1b9c2cfc65f46e5
+[   65.870728] kernel: integrity: Loading X.509 certificate: UEFI:MokListRT (MOKvar table)
+[   65.870742] kernel: integrity: Loaded X.509 cert 'Canonical Ltd. Master Certificate Authority: ad91990bc22ab1f517048c23b6655a268e345a63'
+[   65.870755] kernel: PM:   Magic number: 10:767:447
+[   65.870768] kernel: RAS: Correctable Errors collector initialized.
+[   65.870783] kernel: Lockdown: swapper/0: hibernation is restricted; see man kernel_lockdown.7
+[   65.870795] kernel: clk: Disabling unused clocks
+[   65.870811] kernel: PM: genpd: Disabling unused power domains
+[   65.870824] kernel: Freeing unused decrypted memory: 2028K
+[   65.870836] kernel: Freeing unused kernel image (initmem) memory: 5292K
+[   65.870849] kernel: Write protecting the kernel read-only data: 43008k
+[   65.870861] kernel: Freeing unused kernel image (text/rodata gap) memory: 804K
+[   65.870874] kernel: Freeing unused kernel image (rodata/data gap) memory: 1684K
+[   65.870887] kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[   65.870903] kernel: Run /init as init process
+[   65.870915] kernel:   with arguments:
+[   65.870931] kernel:     /init
+[   65.870944] kernel:   with environment:
+[   65.870957] kernel:     HOME=/
+[   65.870969] kernel:     TERM=linux
+[   65.871506] kernel: usb 3-2: new high-speed USB device number 2 using xhci_hcd
+[   65.871901] kernel: usb 3-2: New USB device found, idVendor=14cd, idProduct=1212, bcdDevice= 1.00
+[   65.872157] kernel: usb 3-2: New USB device strings: Mfr=1, Product=3, SerialNumber=2
+[   65.872454] kernel: usb 3-2: Product: Mass Storage Device
+[   65.872719] kernel: usb 3-2: Manufacturer: Generic
+[   65.872981] kernel: usb 3-2: SerialNumber: 121220160204
+[   65.873019] kernel: Key type psk registered
+[   65.873274] kernel: intel-lpss 0000:00:15.0: enabling device (0000 -> 0002)
+[   65.873520] kernel: idma64 idma64.0: Found Intel integrated DMA 64-bit
+[   65.873775] kernel: intel-lpss 0000:00:19.0: enabling device (0000 -> 0002)
+[   65.874027] kernel: intel-lpss 0000:00:1e.0: enabling device (0000 -> 0002)
+[   65.874266] kernel: idma64 idma64.2: Found Intel integrated DMA 64-bit
+[   65.874490] kernel: nvme nvme0: pci function 0000:01:00.0
+[   65.874819] kernel: usb 3-8: new full-speed USB device number 3 using xhci_hcd
+[   65.875016] kernel: nvme nvme0: allocated 61 MiB host memory buffer (16 segments).
+[   65.875039] kernel: printk: legacy console [ttyS4] disabled
+[   65.875054] kernel: dw-apb-uart.2: ttyS4 at MMIO 0x4010002000 (irq = 20, base_baud = 7500000) is a 16550A
+[   65.875078] kernel: printk: legacy console [ttyS4] enabled
+[   65.875263] kernel: nvme nvme0: 8/0/0 default/read/poll queues
+[   65.875542] kernel: serial serial0: tty port ttyS4 registered
+[   65.875564] kernel:  nvme0n1: p1 p2 p3
+[   65.875801] kernel: dw-apb-uart dw-apb-uart.2: forbid DMA for kernel console
+[   65.875860] kernel: usb 3-8: New USB device found, idVendor=045e, idProduct=09c0, bcdDevice= 0.07
+[   65.876147] kernel: surface_serial_hub serial0-0: SAM firmware version: 14.800.139
+[   65.876201] kernel: usb 3-8: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[   65.876254] kernel: usb 3-8: Product: Surface Type Cover
+[   65.876299] kernel: usb 3-8: Manufacturer: Microsoft
+[   65.876345] kernel: usb 3-8: can't set config #1, error -71
+[   65.876392] kernel: usb 3-8: USB disconnect, device number 3
+[   65.876735] kernel: usb 3-8: new full-speed USB device number 4 using xhci_hcd
+[   65.877022] kernel: usb 3-8: New USB device found, idVendor=045e, idProduct=09c0, bcdDevice= 0.07
+[   65.877286] kernel: usb 3-8: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[   65.877550] kernel: usb 3-8: Product: Surface Type Cover
+[   65.877816] kernel: usb 3-8: Manufacturer: Microsoft
+[   65.878121] kernel: usb-storage 3-2:1.0: USB Mass Storage device detected
+[   65.878397] kernel: scsi host0: usb-storage 3-2:1.0
+[   65.878419] kernel: usbcore: registered new interface driver usb-storage
+[   65.878434] kernel: usbcore: registered new interface driver uas
+[   65.878448] kernel: hid: raw HID events driver (C) Jiri Kosina
+[   65.878696] kernel: ish-hid {33AECD58-B679-4E54-9BD9-A04D34F0C226}: [hid-ish]: enum_devices_done OK, num_hid_devices=1
+[   65.878726] kernel: usbcore: registered new interface driver usbhid
+[   65.878740] kernel: usbhid: USB HID core driver
+[   65.878755] kernel: input: Microsoft Surface Type Cover Keyboard as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input1
+[   65.878771] kernel: input: Microsoft Surface Type Cover Mouse as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input2
+[   65.878786] kernel: input: Microsoft Surface Type Cover as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input3
+[   65.878799] kernel: input: Microsoft Surface Type Cover Touchpad as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input4
+[   65.878813] kernel: input: Microsoft Surface Type Cover as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input5
+[   65.878831] kernel: input: Microsoft Surface Type Cover as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input6
+[   65.878847] kernel: input: Microsoft Surface Type Cover as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input7
+[   65.879132] kernel: hid-generic 0003:045E:09C0.0001: input,hiddev0,hidraw0: USB HID v1.11 Keyboard [Microsoft Surface Type Cover] on usb-0000:00:14.0-8/input0
+[   65.879390] kernel: hid-generic 001F:8087:0AC2.0002: hidraw1: SENSOR HUB HID v2.00 Device [hid-ishtp 8087:0AC2] on 
+[   65.879633] kernel: hid-sensor-hub 001F:8087:0AC2.0002: hidraw1: SENSOR HUB HID v2.00 Device [hid-ishtp 8087:0AC2] on 
+[   65.879660] kernel: input: Microsoft Surface Type Cover Keyboard as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input9
+[   65.879674] kernel: input: Microsoft Surface Type Cover Mouse as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input10
+[   65.879687] kernel: input: Microsoft Surface Type Cover UNKNOWN as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input11
+[   65.879702] kernel: input: Microsoft Surface Type Cover Touchpad as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input12
+[   65.879716] kernel: input: Microsoft Surface Type Cover UNKNOWN as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input13
+[   65.879730] kernel: input: Microsoft Surface Type Cover UNKNOWN as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input14
+[   65.879749] kernel: input: Microsoft Surface Type Cover UNKNOWN as /devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:045E:09C0.0001/input/input15
+[   65.879996] kernel: hid-multitouch 0003:045E:09C0.0001: input,hiddev0,hidraw0: USB HID v1.11 Keyboard [Microsoft Surface Type Cover] on usb-0000:00:14.0-8/input0
+[   65.880022] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.880040] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.880053] kernel: raid6: avx512x4 gen() 53774 MB/s
+[   65.880066] kernel: raid6: avx512x2 gen() 59371 MB/s
+[   65.880085] kernel: raid6: avx512x1 gen() 52848 MB/s
+[   65.880099] kernel: raid6: avx2x4   gen() 42911 MB/s
+[   65.880114] kernel: raid6: avx2x2   gen() 45943 MB/s
+[   65.880128] kernel: raid6: avx2x1   gen() 30575 MB/s
+[   65.880141] kernel: raid6: using algorithm avx512x2 gen() 59371 MB/s
+[   65.880155] kernel: raid6: .... xor() 35062 MB/s, rmw enabled
+[   65.880168] kernel: raid6: using avx512x2 recovery algorithm
+[   65.880182] kernel: xor: automatically using best checksumming function   avx       
+[   65.880199] kernel: async_tx: api initialized (async)
+[   65.880213] kernel: EXT4-fs (nvme0n1p2): orphan cleanup on readonly fs
+[   65.880227] kernel: EXT4-fs (nvme0n1p2): mounted filesystem 52b8d709-0e83-4893-814c-a855afa32e85 ro with ordered data mode. Quota mode: none.
+[   65.880241] kernel: EXT4-fs (nvme0n1p2): unmounting filesystem 52b8d709-0e83-4893-814c-a855afa32e85.
+[   65.880534] kernel: scsi 0:0:0:0: Direct-Access     Mass     Storage Device   1.00 PQ: 0 ANSI: 0 CCS
+[   65.880807] kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+[   65.881075] kernel: sd 0:0:0:0: [sda] 249737216 512-byte logical blocks: (128 GB/119 GiB)
+[   65.881339] kernel: sd 0:0:0:0: [sda] Write Protect is off
+[   65.881608] kernel: sd 0:0:0:0: [sda] Mode Sense: 03 00 00 00
+[   65.881864] kernel: sd 0:0:0:0: [sda] No Caching mode page found
+[   65.882133] kernel: sd 0:0:0:0: [sda] Assuming drive cache: write through
+[   65.882153] kernel: GPT:Primary header thinks Alt. header is not at the end of the disk.
+[   65.882175] kernel: GPT:12732371 != 249737215
+[   65.882190] kernel: GPT:Alternate GPT header not at the end of the disk.
+[   65.882203] kernel: GPT:12732371 != 249737215
+[   65.882217] kernel: GPT: Use GNU Parted to correct GPT errors.
+[   65.882232] kernel:  sda: sda1 sda2 sda3
+[   65.882487] kernel: sd 0:0:0:0: [sda] Attached SCSI removable disk
+[   65.882508] kernel: ISO 9660 Extensions: Microsoft Joliet Level 3
+[   65.882526] kernel: ISO 9660 Extensions: RRIP_1991A
+[   65.882541] kernel:  sda: sda1 sda2 sda3 sda4
+[   65.882556] kernel: ISO 9660 Extensions: Microsoft Joliet Level 3
+[   65.882570] kernel: ISO 9660 Extensions: RRIP_1991A
+[   65.882584] kernel: loop0: detected capacity change from 0 to 6684880
+[   65.882599] kernel: loop1: detected capacity change from 0 to 1157752
+[   65.882612] kernel: loop2: detected capacity change from 0 to 1577296
+[   65.882628] kernel: overlayfs: null uuid in non-single lower fs '/', falling back to xino=off,index=off,nfs_export=off.
+[   65.882646] kernel: EXT4-fs (sda4): mounted filesystem b996efc3-0073-439b-9b51-d33d5fac3e12 r/w with ordered data mode. Quota mode: none.
+[   65.882660] kernel: evm: overlay not supported
+[   65.882673] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.882687] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.882700] kernel: ttyS ttyS4: tty_open: tty->count(4) != (#fd's(3) + #kopen's(0))
+[   65.882713] kernel: ttyS ttyS4: tty_release: tty->count(4) != (#fd's(3) + #kopen's(0))
+[   65.882727] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.882745] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.882760] systemd[1]: Inserted module 'autofs4'
+[   65.882776] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.882789] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.882803] kernel: ttyS ttyS4: tty_open: tty->count(4) != (#fd's(3) + #kopen's(0))
+[   65.882816] kernel: ttyS ttyS4: tty_release: tty->count(4) != (#fd's(3) + #kopen's(0))
+[   65.882829] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.882846] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.882862] systemd[1]: systemd 259.5-0ubuntu3 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +IPE +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF -XKBCOMMON -UTMP +SYSVINIT +LIBARCHIVE)
+[   65.882879] systemd[1]: Detected architecture x86-64.
+[   65.882893] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.882908] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.882923] systemd[1]: Initializing machine ID from random generator.
+[   65.882940] systemd[1]: Hostname set to <ubuntu>.
+[   65.882954] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.882967] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.882981] systemd[1]: bpf-restrict-fs: BPF LSM hook not enabled in the kernel, BPF LSM not supported.
+[   65.882995] systemd[1]: /usr/lib/systemd/system/xfs_scrub_all.service:26: Support for option CPUAccounting= has been removed and it is ignored
+[   65.883025] systemd[1]: /usr/lib/systemd/system/system-xfs_scrub.slice:15: Support for option CPUAccounting= has been removed and it is ignored
+[   65.883041] systemd[1]: Queued start job for default target graphical.target.
+[   65.883059] systemd[1]: Created slice system-cups.slice - CUPS Slice.
+[   65.883072] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883086] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883101] systemd[1]: Created slice system-modprobe.slice - Slice /system/modprobe.
+[   65.883114] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883128] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883142] systemd[1]: Created slice system-xfs_scrub.slice - xfs_scrub background service slice.
+[   65.883161] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883175] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883192] systemd[1]: Created slice user.slice - User and Session Slice.
+[   65.883208] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883225] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883240] systemd[1]: Started systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+[   65.883254] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883271] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883286] systemd[1]: Set up automount proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point.
+[   65.883299] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883312] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883326] systemd[1]: Reached target imports.target - Image Downloads.
+[   65.883341] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883354] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883368] systemd[1]: Reached target integritysetup.target - Local Integrity Protected Volumes.
+[   65.883386] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883400] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883421] systemd[1]: Reached target remote-fs.target - Remote File Systems.
+[   65.883434] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883448] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883461] systemd[1]: Reached target slices.target - Slice Units.
+[   65.883474] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883488] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883505] systemd[1]: Reached target swap.target - Swaps.
+[   65.883520] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883535] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883548] systemd[1]: Reached target time-set.target - System Time Set.
+[   65.883562] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883575] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883592] systemd[1]: Reached target veritysetup.target - Local Verity Protected Volumes.
+[   65.883608] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883627] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883643] systemd[1]: Listening on dm-event.socket - Device-mapper event daemon FIFOs.
+[   65.883659] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883673] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883688] systemd[1]: Listening on lvm2-lvmpolld.socket - LVM2 poll daemon socket.
+[   65.883702] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883715] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883730] systemd[1]: Listening on syslog.socket - Syslog Socket.
+[   65.883748] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883763] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883778] systemd[1]: Listening on systemd-ask-password.socket - Query the User Interactively for a Password.
+[   65.883794] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883808] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883823] systemd[1]: Listening on systemd-creds.socket - Credential Encryption/Decryption.
+[   65.883837] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883852] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883866] systemd[1]: Listening on systemd-factory-reset.socket - Factory Reset Management.
+[   65.883882] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883895] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883911] systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+[   65.883925] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883939] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883955] systemd[1]: Listening on systemd-journald.socket - Journal Sockets.
+[   65.883970] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.883983] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884007] systemd[1]: Listening on systemd-mute-console.socket - Console Output Muting Service Socket.
+[   65.884021] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884042] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884055] systemd[1]: Listening on systemd-oomd.socket - Userspace Out-Of-Memory (OOM) Killer Socket.
+[   65.884072] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884087] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884102] systemd[1]: systemd-pcrextend.socket - TPM PCR Measurements skipped, unmet condition check ConditionSecurity=measured-uki
+[   65.884118] systemd[1]: systemd-pcrlock.socket - Make TPM PCR Policy skipped, unmet condition check ConditionSecurity=measured-uki
+[   65.884136] systemd[1]: Listening on systemd-resolved-monitor.socket - Resolve Monitor Varlink Socket.
+[   65.884151] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884166] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884182] systemd[1]: Listening on systemd-resolved-varlink.socket - Resolve Service Varlink Socket.
+[   65.884197] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884210] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884224] systemd[1]: Listening on systemd-udevd-control.socket - udev Control Socket.
+[   65.884242] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884257] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884272] systemd[1]: Listening on systemd-udevd-kernel.socket - udev Kernel Socket.
+[   65.884286] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884299] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884312] systemd[1]: Listening on systemd-udevd-varlink.socket - udev Varlink Socket.
+[   65.884327] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884339] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884354] systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+[   65.884376] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884389] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884401] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884415] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884433] systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+[   65.884447] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884461] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884474] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884488] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884503] systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+[   65.884517] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884530] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884544] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884561] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884576] systemd[1]: Mounting sys-kernel-tracing.mount - Kernel Trace File System...
+[   65.884590] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884604] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884618] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884630] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884644] systemd[1]: Starting systemd-journald.service - Journal Service...
+[   65.884659] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884680] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884693] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884707] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884721] systemd[1]: Starting blk-availability.service - Availability of block devices...
+[   65.884738] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884753] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884766] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884781] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884797] systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+[   65.884810] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884826] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884841] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884849] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884856] systemd[1]: Starting kmod-static-nodes.service - Create List of Static Device Nodes...
+[   65.884864] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884872] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884880] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884887] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884895] systemd[1]: Starting lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[   65.884906] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884913] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884920] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884927] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884935] systemd[1]: modprobe@configfs.service - Load Kernel Module configfs skipped, unmet condition check ConditionKernelModuleLoaded=!configfs
+[   65.884943] systemd[1]: Mounting sys-kernel-config.mount - Kernel Configuration File System...
+[   65.884950] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884958] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884972] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.884983] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.884996] systemd[1]: modprobe@drm.service - Load Kernel Module drm skipped, unmet condition check ConditionKernelModuleLoaded=!drm
+[   65.885013] systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+[   65.885023] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885032] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.885042] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.885052] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885065] systemd[1]: modprobe@fuse.service - Load Kernel Module fuse skipped, unmet condition check ConditionKernelModuleLoaded=!fuse
+[   65.885075] systemd[1]: Mounting sys-fs-fuse-connections.mount - FUSE Control File System...
+[   65.885085] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885095] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.885104] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.885113] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885124] systemd[1]: systemd-hibernate-clear.service - Clear Stale Hibernate Storage Info skipped, unmet condition check ConditionPathExists=/sys/firmware/efi/efivars/HibernateLocation-8cf2644b-4b0b-428f-9387-6d876050dc67
+[   65.885135] systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+[   65.885146] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885155] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885165] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885175] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885185] systemd[1]: systemd-pcrmachine.service - TPM PCR Machine ID Measurement skipped, unmet condition check ConditionSecurity=measured-uki
+[   65.885196] systemd[1]: systemd-pcrproduct.service - TPM NvPCR Product ID Measurement skipped, unmet condition check ConditionSecurity=measured-uki
+[   65.885206] kernel: pstore: Using crash dump compression: deflate
+[   65.885265] systemd-journald[1101]: Collecting audit messages is disabled.
+[   65.885290] systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+[   65.885300] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885311] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.885323] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.885332] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885343] systemd[1]: systemd-tpm2-setup-early.service - Early TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-uki
+[   65.885353] kernel: pstore: Registered efi_pstore as persistent store backend
+[   65.885363] systemd[1]: Starting systemd-udev-load-credentials.service - Load udev Rules from Credentials...
+[   65.885372] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885383] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.885393] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.885403] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885414] systemd[1]: Starting systemd-udev-trigger.service - Coldplug All udev Devices...
+[   65.885424] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885434] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885443] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885452] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885463] systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+[   65.885472] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885484] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885495] systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+[   65.885505] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885515] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885525] systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+[   65.885535] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885545] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885555] systemd[1]: Mounted sys-kernel-tracing.mount - Kernel Trace File System.
+[   65.885566] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885577] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885586] systemd[1]: Finished blk-availability.service - Availability of block devices.
+[   65.885596] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885605] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885615] systemd[1]: Finished kmod-static-nodes.service - Create List of Static Device Nodes.
+[   65.885626] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885636] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885647] systemd[1]: Mounted sys-kernel-config.mount - Kernel Configuration File System.
+[   65.885658] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885667] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885676] systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+[   65.885687] systemd[1]: Finished modprobe@efi_pstore.service - Load Kernel Module efi_pstore.
+[   65.885697] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885707] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885716] systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+[   65.885728] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885738] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885748] systemd[1]: Finished systemd-remount-fs.service - Remount Root and Kernel File Systems.
+[   65.885758] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885768] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885778] systemd[1]: Starting cloud-init-main.service - Cloud-init: Single Process...
+[   65.885788] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885797] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885809] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.885819] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.896658] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database skipped, no trigger condition checks were met.
+[   65.896825] systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival skipped, unmet condition check ConditionDirectoryNotEmpty=/sys/fs/pstore
+[   65.900296] systemd[1]: Starting systemd-random-seed.service - Load/Save OS Random Seed...
+[   65.900377] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.900396] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.902048] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.903025] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.904019] systemd[1]: Starting systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully...
+[   65.906551] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.906608] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.908034] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.909040] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.909065] systemd[1]: systemd-tpm2-setup.service - TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-uki
+[   65.912710] systemd[1]: systemd-pcrnvdone.service - TPM PCR NvPCR Initialization Separator skipped, unmet condition check ConditionSecurity=measured-uki
+[   65.916896] systemd[1]: Started systemd-journald.service - Journal Service.
+[   65.916949] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.916963] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.958451] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.958579] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.958599] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.958616] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.958632] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   65.958652] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.981131] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   65.981165] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.026675] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.026750] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.719152] systemd-journald[1101]: Received client request to flush runtime journal.
+[   66.719493] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.719795] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.720099] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.720467] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.720784] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.721079] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.721333] kernel: ppdev: user-space parallel port driver
+[   66.721470] kernel: lp: driver loaded but no devices found
+[   66.722164] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.722305] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.722430] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.722546] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   66.722792] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   66.722892] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.723021] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.723153] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.723268] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.723491] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   66.723635] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   66.723762] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.723875] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.723982] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724037] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724078] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724114] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724152] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724186] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724223] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724262] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724300] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724336] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724365] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724397] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724435] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724467] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724501] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724535] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724598] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724637] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724673] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724707] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724743] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724776] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.724824] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.763009] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.763043] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.784047] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.784064] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.784073] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.784085] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.839136] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.839173] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.841055] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.841102] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.861008] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.861038] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.880024] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.880045] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.880056] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.880068] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.880079] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   66.880090] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   67.159080] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   67.159135] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   67.203015] kernel: acpi-tad ACPI000E:00: Missing _PRW
+[   67.206015] kernel: mei_me 0000:00:16.0: enabling device (0000 -> 0002)
+[   67.542019] kernel: proc_thermal 0000:00:04.0: enabling device (0000 -> 0002)
+[   67.546015] kernel: intel_rapl_common: Found RAPL domain package
+[   67.590041] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   67.590068] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   67.623810] kernel: dptf_power INT3407:00: Unsupported event [0x82]
+[   67.682066] kernel: intel_rapl_msr: PL4 support detected.
+[   67.682131] kernel: intel_rapl_common: Found RAPL domain package
+[   67.682149] kernel: intel_rapl_common: Found RAPL domain core
+[   67.682159] kernel: intel_rapl_common: Found RAPL domain uncore
+[   67.682170] kernel: intel_rapl_common: Found RAPL domain psys
+[   67.699023] kernel: input: gpio-keys as /devices/platform/MSHW0040:00/gpio-keys.7.auto/input/input17
+[   67.699094] kernel: input: gpio-keys as /devices/platform/MSHW0040:00/gpio-keys.8.auto/input/input18
+[   67.782034] kernel: spi-nor spi0.0: supply vcc not found, using dummy regulator
+[   67.824091] kernel: Creating 1 MTD partitions on "0000:00:1f.5":
+[   67.824162] kernel: 0x000000000000-0x000001000000 : "BIOS"
+[   67.963016] kernel: RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
+[   67.963085] kernel: RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   67.963115] kernel: RAPL PMU: hw unit of domain package 2^-14 Joules
+[   67.963135] kernel: RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   67.963159] kernel: RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   68.206045] kernel: intel_tcc_cooling: Programmable TCC Offset detected
+[   68.500013] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   68.500055] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   68.501008] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   68.501028] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   68.503045] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   68.503077] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   68.546071] kernel: spl: loading out-of-tree module taints kernel.
+[   68.773107] kernel: zfs: module license 'CDDL' taints kernel.
+[   68.773161] kernel: Disabling lock debugging due to kernel taint
+[   68.773176] kernel: zfs: module license taints kernel.
+[   69.160013] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.160063] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.161033] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.161064] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.162029] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.162054] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.413048] kernel: ZFS: Loaded module v2.4.1-1ubuntu4, ZFS pool version 5000, ZFS filesystem version 5
+[   69.413086] kernel: ZFS: Using ZFS with kernel 7.0.0-14-generic is EXPERIMENTAL and SERIOUS DATA LOSS may occur!
+[   69.413106] kernel: ZFS: Please report your results at: https://github.com/openzfs/zfs/issues/new
+[   69.414039] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.414063] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.414075] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.414087] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.415048] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.415105] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.416016] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.416054] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.417035] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.417062] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.417074] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.417085] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.440042] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.440070] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.440092] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.440113] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.442014] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.442055] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.443017] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.443068] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.444016] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.444057] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.444080] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.444099] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.446089] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.446141] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   69.446164] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   69.446184] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.446200] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.446215] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.447035] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.447130] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.448040] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.448093] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.448113] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.448130] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.449124] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.449154] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.449172] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.449188] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.450576] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.450616] kernel: loop3: detected capacity change from 0 to 40240
+[   69.450653] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.450698] kernel: loop4: detected capacity change from 0 to 136904
+[   69.450799] kernel: loop5: detected capacity change from 0 to 8
+[   69.452422] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.452497] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.452615] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.452654] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.452671] kernel: loop6: detected capacity change from 0 to 560536
+[   69.453073] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.453120] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.455133] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.455163] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.456015] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.456065] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.457030] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.457065] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.458068] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.458108] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.486029] kernel: loop7: detected capacity change from 0 to 33792
+[   69.486081] kernel: loop8: detected capacity change from 0 to 1241248
+[   69.486111] kernel: loop9: detected capacity change from 0 to 808920
+[   69.486124] kernel: loop10: detected capacity change from 0 to 38552
+[   69.486138] kernel: loop11: detected capacity change from 0 to 187776
+[   69.540021] kernel: loop12: detected capacity change from 0 to 32128
+[   69.599307] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.599341] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.602090] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   69.602162] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.113067] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.113153] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.117080] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.117160] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.193043] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.193131] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.196033] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.196138] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.198033] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.198102] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.200057] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.200133] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215013] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215034] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215071] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215082] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215091] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215100] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215109] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215118] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215130] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215166] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215177] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215187] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215210] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.215220] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.216021] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.216082] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.216104] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.216122] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.216144] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.216160] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.216178] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.216193] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.222071] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.222096] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.256008] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.256045] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.261011] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.261045] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.348009] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.348054] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.844011] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   70.844031] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.222010] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.222033] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.225009] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.225049] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.225061] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.225071] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.309156] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.309188] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.631023] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.631082] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.633030] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.633108] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.636034] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.636130] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.636183] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.636233] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.637034] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.637104] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.638028] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.638096] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.639080] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.639156] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.642074] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.642145] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.645041] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.645107] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.648082] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.648111] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.883043] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.917397] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.917517] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   71.917774] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.285036] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.285061] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.286048] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.286082] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.287018] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.287051] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.287084] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.287103] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.288021] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.288062] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.289031] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.289055] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.298020] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.298058] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.300021] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.300073] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.302032] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.302063] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.540103] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.540153] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.594025] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.594067] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.616046] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.616066] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.849117] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.849152] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.856018] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.856055] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.859074] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.859101] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.859117] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.859132] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.861012] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.861043] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.900011] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.900033] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.906034] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.906067] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.922041] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.922071] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.926028] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.926064] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.928013] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.928061] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.938010] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.938039] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.940042] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   72.940110] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   73.102023] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   73.102110] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   73.709013] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   73.709048] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   73.745036] kernel: audit: type=1400 audit(1779049681.646:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.mesa-2404" pid=1804 comm="apparmor_parser"
+[   73.946045] kernel: audit: type=1400 audit(1779049681.848:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/26865/usr/lib/snapd/snap-confine" pid=1798 comm="apparmor_parser"
+[   73.962210] kernel: audit: type=1400 audit(1779049681.864:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.ubuntu-desktop-bootstrap" pid=1809 comm="apparmor_parser"
+[   74.689035] kernel: audit: type=1400 audit(1779049682.590:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.snap-store" pid=1806 comm="apparmor_parser"
+[   74.771050] kernel: audit: type=1400 audit(1779049682.673:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.prompting-client" pid=1805 comm="apparmor_parser"
+[   74.820044] kernel: audit: type=1400 audit(1779049682.722:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.firmware-updater" pid=1801 comm="apparmor_parser"
+[   74.867030] kernel: audit: type=1400 audit(1779049682.768:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.firefox" pid=1800 comm="apparmor_parser"
+[   74.919034] kernel: audit: type=1400 audit(1779049682.821:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.desktop-security-center" pid=1799 comm="apparmor_parser"
+[   75.038076] kernel: audit: type=1400 audit(1779049682.938:12): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.snapd-desktop-integration" pid=1807 comm="apparmor_parser"
+[   75.102595] kernel: audit: type=1400 audit(1779049683.003:13): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.desktop-security-center.desktop-security-center" pid=1810 comm="apparmor_parser"
+[   75.930029] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   75.930113] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   76.429034] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   76.429131] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   76.929023] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   76.944092] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.429061] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.429120] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.647009] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.647028] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.695691] kernel: SQUASHFS error: xz decompression failed, data probably corrupt
+[   77.695774] kernel: SQUASHFS error: Failed to read block 0x4cffe541: -5
+[   77.695786] kernel: SQUASHFS error: xz decompression failed, data probably corrupt
+[   77.697596] kernel: SQUASHFS error: Failed to read block 0x4d0093e9: -5
+[   77.700748] kernel: SQUASHFS error: xz decompression failed, data probably corrupt
+[   77.700836] kernel: SQUASHFS error: Failed to read block 0x4cffe541: -5
+[   77.703723] kernel: SQUASHFS error: xz decompression failed, data probably corrupt
+[   77.703822] kernel: SQUASHFS error: Failed to read block 0x4cffe541: -5
+[   77.706065] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.706113] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.706125] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.706136] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.707032] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.707062] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.709047] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.709070] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.728069] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.728108] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.729041] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.729060] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.731016] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.731044] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.731059] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.731073] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732035] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732055] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732070] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732135] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732151] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732164] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732178] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732192] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732206] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732285] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732300] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732317] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732335] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732390] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732411] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.732427] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.733014] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.733077] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.733187] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.733252] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.733275] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.733295] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.733314] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.733335] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.733378] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.733395] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.733415] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.733431] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.735012] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.735044] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.735066] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.735082] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.735169] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.735177] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.735188] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.735196] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.735204] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.735216] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.735233] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.735242] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.738007] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.738028] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.739017] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.739029] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.739038] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.739047] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.739062] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.739071] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.739082] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.739090] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.749108] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.749179] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.749229] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.749250] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.749269] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.749289] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.759099] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.759157] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.760027] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.760065] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.762070] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.762166] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.763066] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.763106] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.771041] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.771077] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.772013] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.772053] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.773078] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.773105] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.774031] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.774087] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.775019] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.775049] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.775072] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.775083] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.777116] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.777144] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.781232] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.781273] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.782012] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.782038] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.784023] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.784059] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.784074] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.784088] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.785027] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.785077] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.807011] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.807049] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.808016] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.808056] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.809069] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.809109] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.809126] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.809145] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.811019] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.811088] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.820040] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.820067] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.821017] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.821071] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.822018] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.822061] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.822077] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.822124] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.823053] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.823086] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.824012] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.824062] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.827021] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.827098] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855076] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855137] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855191] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855242] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855299] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855354] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855411] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855451] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855493] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855537] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855579] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855625] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855664] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.855676] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.857728] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.857752] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.883016] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.883067] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.884012] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.884045] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.885575] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.885602] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.885619] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.885634] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.886019] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.886060] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.887015] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.887054] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.893021] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.893070] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.894015] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.894049] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.894067] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.894083] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.895037] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.895069] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.896053] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.896228] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.896252] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.896270] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.898016] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.898056] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.898073] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.898087] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.899089] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.899116] kernel: ttyS ttyS4: tty_open: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   77.899131] kernel: ttyS ttyS4: tty_release: tty->count(3) != (#fd's(2) + #kopen's(0))
+[   77.899146] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.900021] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.900067] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.907383] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.907604] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.907695] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.907770] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.909250] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.909304] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.909322] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.909336] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.916247] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.916294] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.920021] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.920063] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.921014] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.921049] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.922232] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   77.922280] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.496011] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.496045] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.628581] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.629078] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.673019] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.673071] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.685125] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.685151] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.698013] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.698046] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.700027] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.700076] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.701035] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.701070] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.703086] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   78.703105] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   79.313959] kernel: SQUASHFS error: xz decompression failed, data probably corrupt
+[   79.314060] kernel: SQUASHFS error: Failed to read block 0x4cffe541: -5
+[   79.814058] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   79.814084] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   79.899023] kernel: kauditd_printk_skb: 39 callbacks suppressed
+[   79.899073] kernel: audit: type=1400 audit(1779049687.801:53): apparmor="STATUS" operation="profile_load" profile="unconfined" name="rsyslogd" pid=1933 comm="apparmor_parser"
+[   79.903042] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   79.903082] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.372009] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.372031] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.642010] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.642033] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.794014] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.794060] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.800031] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.800057] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.800085] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.800101] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.808406] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.808428] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.810024] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.810068] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.810084] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.811110] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.811129] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.811138] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.812035] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.812053] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.813046] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   80.813065] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   81.920515] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   81.920549] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   81.936216] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   81.936238] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   81.938013] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   81.938040] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   81.943040] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   81.943105] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   81.943119] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   81.943132] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   81.943144] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   81.943156] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.016024] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.016063] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.025017] kernel: hid-sensor-hub 001F:8087:0AC2.0002: hid_field_extract() called with n (192) > 32! (kworker/u32:12)
+[   82.039019] kernel: nvme nvme0: using unchecked data buffer
+[   82.068107] kernel: block nvme0n1: No UUID available providing old NGUID
+[   82.074090] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.074161] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.089032] kernel: Consider using thermal netlink events interface
+[   82.109059] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.109096] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.149019] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.149049] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.243067] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.243121] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.775141] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.775203] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.780167] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   82.780236] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.132043] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.132078] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.132095] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.132108] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.133016] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.133048] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.135018] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.135057] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.135082] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.135096] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.137017] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.137061] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.142806] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.142999] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.148168] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.148301] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.148345] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.148362] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.149016] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.149049] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.150019] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.150050] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.151017] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.151046] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.194097] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.194138] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.197032] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.197164] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.198017] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.198055] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.962119] kernel: SQUASHFS error: xz decompression failed, data probably corrupt
+[   83.962172] kernel: SQUASHFS error: Failed to read block 0x4cffe541: -5
+[   83.987021] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.987078] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.988010] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   83.988033] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.212522] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.212553] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.283432] kernel: NET: Registered PF_QIPCRTR protocol family
+[   84.283455] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.283474] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.294015] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.294064] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.294082] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.294097] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.294113] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.294128] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.294203] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.294220] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.295011] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.295033] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.295050] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.295066] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.295082] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.295099] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.297019] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.297120] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.299022] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.299079] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.300021] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.300066] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.301236] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.301341] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.301364] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.301395] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.305049] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.305142] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.324020] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.324071] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.326067] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.326118] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.328210] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.328253] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.331057] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.331091] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.379016] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.379044] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.381077] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.381125] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.410021] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.410058] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.431012] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   84.431049] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   85.535022] kernel: set_capacity_and_notify: 4 callbacks suppressed
+[   85.535078] kernel: loop17: detected capacity change from 0 to 8
+[   86.153058] kernel: audit: type=1400 audit(1779049694.055:54): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/26865/usr/lib/snapd/snap-confine" pid=2261 comm="apparmor_parser"
+[   86.405095] kernel: audit: type=1400 audit(1779049694.307:55): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.thunderbird.hook.install" pid=2268 comm="apparmor_parser"
+[   86.519182] kernel: audit: type=1400 audit(1779049694.421:56): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.thunderbird.hook.configure" pid=2267 comm="apparmor_parser"
+[   86.583070] kernel: audit: type=1400 audit(1779049694.485:57): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snapd-desktop-integration.hook.configure" pid=2264 comm="apparmor_parser"
+[   86.642074] kernel: audit: type=1400 audit(1779049694.544:58): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.thunderbird.hook.post-refresh" pid=2269 comm="apparmor_parser"
+[   86.679086] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   86.679160] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   86.824070] kernel: audit: type=1400 audit(1779049694.726:59): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snapd-desktop-integration.snapd-desktop-integration" pid=2265 comm="apparmor_parser"
+[   86.993142] kernel: audit: type=1400 audit(1779049694.895:60): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.hook.configure" pid=2272 comm="apparmor_parser"
+[   87.092100] kernel: audit: type=1400 audit(1779049694.994:61): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.thunderbird" pid=2266 comm="apparmor_parser"
+[   87.179077] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   87.179151] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   87.279127] kernel: audit: type=1400 audit(1779049695.181:62): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.snapd-desktop-integration" pid=2263 comm="apparmor_parser"
+[   87.442087] kernel: audit: type=1400 audit(1779049695.343:63): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.packagekit-session-installer" pid=2273 comm="apparmor_parser"
+[   87.679037] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   87.679147] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   88.179102] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   88.179176] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   88.679116] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   88.679236] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   89.179090] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   89.179177] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   89.679102] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   89.679200] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   90.013110] kernel: ttyS ttyS4: tty_open: tty->count(2) != (#fd's(1) + #kopen's(0))
+[   90.013163] kernel: ttyS ttyS4: tty_release: tty->count(2) != (#fd's(1) + #kopen's(0))
