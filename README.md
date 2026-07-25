@@ -12,19 +12,19 @@
  *     ░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓████████▓▒░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
  *
  */
-                                             ----------------------------
-                                             | ### 🌱 Im a ...          |
-                                             | - Developer✨            |
-                                             | - Organizer✨            |
-                                             | - Security Researcher✨  |
-                                             | - Technologist✨         |
-                                             | - Problem Solver✨       |
-                                             ----------------------------
+                                         ----------------------------
+                                         | ### 🌱 Im a ...          |
+                                         | - Developer✨            |
+                                         | - Organizer✨            |
+                                         | - Security Researcher✨  |
+                                         | - Technologist✨         |
+                                         | - Problem Solver✨       |
+                                         ----------------------------
 </pre>
 
 <div align="center" class="center">
 
-<h1><img src="https://raw.githubusercontent.com/yubi-OS/yubiOS/main/assets/logo.png" alt="yubiOS logo" width="50" style="border-radius:16px;vertical-align:middle;"> <sup><sup>yubiOS</sup></sup></h1>
+<h1><img src="https://raw.githubusercontent.com/yubi-OS/assets/main/logo.png" alt="yubiOS logo" width="50" style="border-radius:16px;vertical-align:middle;"> <sup><sup>yubiOS</sup></sup></h1>
 
 <h3><strong>FIDO2-first immutable OS — YubiKey is the root of trust</strong></h3>
 <h3>🦾 🚧 Work In Progress 🚧 Work In Progress 🚧 Work In Progress 🚧</h3>
