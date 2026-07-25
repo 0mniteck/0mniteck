@@ -12,14 +12,14 @@
  *     ░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓████████▓▒░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
  *
  */
-                                        ----------------------------
-                                        | ### 🌱 Im a ...          |
-                                        | - Developer✨            |
-                                        | - Organizer✨            |
-                                        | - Security Researcher✨  |
-                                        | - Technologist✨         |
-                                        | - Problem Solver✨       |
-                                        ----------------------------
+                                         ----------------------------
+                                         | ### 🌱 Im a ...          |
+                                         | - Developer✨            |
+                                         | - Organizer✨            |
+                                         | - Security Researcher✨  |
+                                         | - Technologist✨         |
+                                         | - Problem Solver✨       |
+                                         ----------------------------
 </pre>
 
 <div align="center" class="center">
