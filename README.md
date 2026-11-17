@@ -65,4 +65,4 @@
 
 <p>📫 You can reach me at <a href="mailto:shant@omniteck.com">shant@omniteck.com</a></p>
 
-<h1>If you also see the dangers of a jobless 🧑‍🏭 economy and in the rise of a techno-authoritarian state help at <a href="https://stopai.live">STOPAI.LIVE</a></h1>
+<h1>If you also see the dangers of a jobless 🧑‍🏭 economy and in the rise of a techno-authoritarian ⚖️ state help at <a href="https://stopai.live">STOPAI.LIVE</a></h1>
